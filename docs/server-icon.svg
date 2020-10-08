@@ -17,9 +17,9 @@
    viewBox="0 0 400 400"
    sodipodi:docname="server-icon.svg"
    inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
-   inkscape:export-filename="/home/helaman/.local/share/multimc/instances/Paradise_in_Chaos/docs/pic_logo.png"
-   inkscape:export-xdpi="96"
-   inkscape:export-ydpi="96">
+   inkscape:export-filename="/home/helaman/.local/share/multimc/instances/Survival_in_Chaos_1.16/docs/server-icon.png"
+   inkscape:export-xdpi="15.36"
+   inkscape:export-ydpi="15.36">
   <metadata
      id="metadata926">
     <rdf:RDF>
@@ -28,7 +28,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -82,13 +82,13 @@
      inkscape:window-height="1052"
      id="namedview922"
      showgrid="false"
-     inkscape:zoom="2.1275"
-     inkscape:cx="158.40188"
-     inkscape:cy="200.94007"
+     inkscape:zoom="2.13"
+     inkscape:cx="200"
+     inkscape:cy="200"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1" />
+     inkscape:current-layer="g1456" />
   <g
      inkscape:groupmode="layer"
      id="layer8"
@@ -128,13 +128,13 @@
      inkscape:groupmode="layer"
      transform="translate(0,-1040)">
     <g
-       transform="matrix(0.89568099,0,0,0.90108206,-1159.8622,323.64796)"
+       transform="matrix(0.89568099,0,0,0.90108206,-1151.8622,323.64796)"
        id="g1454">
       <flowRoot
          xml:space="preserve"
          id="flowRoot1432"
          style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:0.57727885;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         transform="matrix(3.6566307,0,0,1.8640765,1900.6819,808.85831)"><flowRegion
+         transform="matrix(3.6566307,0,0,1.8640765,1924.0304,808.85831)"><flowRegion
            id="flowRegion1428"
            style="fill:#ffff00;stroke:#000000;stroke-width:0.57727885;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"><rect
              id="rect1426"
@@ -144,7 +144,7 @@
              y="-8.1016283"
              style="fill:#ffff00;stroke:#000000;stroke-width:0.57727885;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" /></flowRegion><flowPara
            id="flowPara1430"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:64.00087738px;font-family:'Stranger back in the Night';-inkscape-font-specification:'Stranger back in the Night, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffff00;stroke:#000000;stroke-width:0.57727885;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">Paradise in</flowPara></flowRoot>      <flowRoot
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:64.00087738px;font-family:'Stranger back in the Night';-inkscape-font-specification:'Stranger back in the Night, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffff00;stroke:#000000;stroke-width:0.57727885;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">Survial in</flowPara></flowRoot>      <flowRoot
          xml:space="preserve"
          id="flowRoot867"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.63221455px;line-height:1.25;font-family:'Blood Thirst';-inkscape-font-specification:'Blood Thirst, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#666666;fill-opacity:1;stroke:none;filter:url(#filter893)"
@@ -159,7 +159,7 @@
              y="-8.1016283" /></flowRegion><flowPara
            id="flowPara865"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.63221455px;font-family:'Blood Thirst';-inkscape-font-specification:'Blood Thirst, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#666666">Chaos!</flowPara></flowRoot>      <flowRoot
-         transform="matrix(10.3233,0,0,22.311032,3006.2166,1038.9625)"
+         transform="matrix(10.3233,0,0,22.311032,2990.5222,1038.9625)"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.63221455px;line-height:1.25;font-family:'Blood Thirst';-inkscape-font-specification:'Blood Thirst, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.04559229;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="flowRoot1448"
          xml:space="preserve"><flowRegion
