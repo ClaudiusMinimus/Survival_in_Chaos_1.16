@@ -1,0 +1,25 @@
+{
+    "name": "Day 4",
+    "icon": "minecraft:writable_book",
+    "category": "journal",
+    "sortnum": 4,
+    "pages": [
+        {
+            "type": "text",
+            "text": "Getting around in this world is almost impossible! I found a simple ceramic water bucket to be a safe way to go up and down - provided I am already on an upper plateau. I made a waterfall, which made it a breeze to travel up and down the different levels.$(br2)"
+        },
+        {
+            "type": "crafting",
+            "title": "Scaffolding",
+            "recipe": "minecraft:scaffolding",
+            "text": "For those times I could not use a water ladder, scaffolding came to the rescue. Bamboo can be hard to find, but I found it was not hard to make (check JEI)."
+        },
+        {
+            "type": "crafting",
+            "title": "Crafting Station",
+            "recipe": "craftingstation:crafting_station_slab",
+            "text": "Something cool. I found I could attach five inventories to a Crafting Station. I also discovered I could effectively split a crafting station in two!"
+        }
+
+    ]
+}

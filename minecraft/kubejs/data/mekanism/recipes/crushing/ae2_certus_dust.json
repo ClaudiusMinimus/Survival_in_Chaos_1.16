@@ -1,0 +1,11 @@
+{
+    "type": "mekanism:crushing",
+    "input": {
+        "ingredient": {
+            "tag": "forge:gems/certus_quartz"
+        }
+    },
+    "output": {
+        "item": "appliedenergistics2:certus_quartz_dust"
+    }
+}

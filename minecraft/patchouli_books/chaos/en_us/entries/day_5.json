@@ -1,0 +1,23 @@
+{
+    "name": "Day 5",
+    "icon": "minecraft:writable_book",
+    "category": "journal",
+    "sortnum": 5,
+    "pages": [
+        {
+            "type": "text",
+            "text": "I discovered some really nice gems while mining underground. I thought I would try to see if I could make some better tools with them, and I could! Not all gems are equal, so look them over well to find the best gems."
+        },
+        {
+            "type":"spotlight",
+            "item":"gobber2:gobber2_ore",
+            "text":"If you see one of these Gobber Ores, be sure to mine them as soon as possible. On the next page I' ll show you how you can take one of these and be able to quickly grow them."
+        },
+        {
+            "type":"crafting",
+            "title": "Gobber Seed",
+            "recipe": "gobber2:gobber2_seed",
+            "text":"After smelting your Gobber Ore, take your Gobber Glob and craft a Gobber Seed as shown above. I also found there are some specialized farmland soils that can help growing your Gobber Seeds. The plant drops seeds, so you can have a Gobber garden in no time!"
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "type": "mekanism:enriching",
+    "input": {
+        "ingredient": {
+            "item": "appliedenergistics2:nether_quartz_seed"
+        }
+    },
+    "output": {
+        "item": "appliedenergistics2:purified_nether_quartz_crystal"
+    }
+}

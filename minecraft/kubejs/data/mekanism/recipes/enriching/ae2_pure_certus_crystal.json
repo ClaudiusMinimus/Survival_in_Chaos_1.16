@@ -1,0 +1,11 @@
+{
+    "type": "mekanism:enriching",
+    "input": {
+        "ingredient": {
+            "item": "appliedenergistics2:certus_crystal_seed"
+        }
+    },
+    "output": {
+        "item": "appliedenergistics2:purified_certus_quartz_crystal"
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "name": "Day 3",
+    "icon": "minecraft:writable_book",
+    "category": "journal",
+    "sortnum": 3,
+    "pages": [
+        {
+            "type": "text",
+            "text": "I discovered not to use my metal tools until they break. An alloy furnace will let me recover most metals from worn out tools."
+        },
+        {
+            "type": "crafting",
+            "title": "Alloy Furnace",
+            "recipe": "bluepower:alloyfurnace",
+            "text": "Can use most burnable items as fuel (except tiny coal)."
+        }
+
+    ]
+}

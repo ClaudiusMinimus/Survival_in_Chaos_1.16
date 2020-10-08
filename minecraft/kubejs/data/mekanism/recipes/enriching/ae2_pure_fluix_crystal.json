@@ -1,0 +1,11 @@
+{
+    "type": "mekanism:enriching",
+    "input": {
+        "ingredient": {
+            "item": "appliedenergistics2:fluix_crystal_seed"
+        }
+    },
+    "output": {
+        "item": "appliedenergistics2:purified_fluix_crystal"
+    }
+}
