@@ -1,0 +1,17 @@
+Survival in Chaos!
+
+Survive in a dark foul, and totally bizzare world
+
+<p>The last I remember is I was at home with my family. My dog, Blizzard, jumped onto my lap, then I must have blinked because I found myself in an inhospitable land full of dark foul creatures. The land was indefinable, unlike anything I imagined possible. All I can say was I found myself in a never-ending land of caverns, floating islands, shelves, and plateaus - Chaos is everywhere! I sure hope you too have not found yourself trapped in Chaos!</p>
+<p>&nbsp;</p>
+<p>This pack is a work in progress, though it is mostly in place. Many quests have been fleshed out, though more details are coming. A few recipes have been tweaked, but only as needed.</p>
+<p>&nbsp;</p>
+<h3>IMPORTANT:</h3>
+<ol>
+<li>Set your RAM to 8-10 GB (10 is better)</li>
+<li>To get the best experience, set your world type to "Ultra Amplified Dimension".</li>
+<li>T<span style="font-size: 12px;">urn on Heavy Fog config and turn down your render distance to like 6 for super thick and spooky fog! It's really cool and feels like a horror game now!</span></li>
+</ol>
+<p>&nbsp;</p>
+<p><span style="font-size: 12px;"><a title="Visit our discord server" href="https://discord.gg/jXrx4Tu"><img src="https://discordapp.com/assets/fc0b01fe10a0b8c602fb0106d8189d9b.png" width="200" height="68" /></a></span></p>
+
