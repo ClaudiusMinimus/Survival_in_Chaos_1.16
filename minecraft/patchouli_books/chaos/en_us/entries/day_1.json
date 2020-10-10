@@ -10,7 +10,7 @@
         },
         {
             "type":"text",
-            "text": "In an effort to prevent insanity, I thought I should document my successes and failures. Maybe, this journal will help get through this living nightmare.$(p)I noticed some valuable gifts was given by some unknown entity. The first thing I did was put on my armor and grabbed my sword and shield. I also found some other very nice tools, some food, a $(#f00)$(t:Turn the page to learn more)Blueprint Package$(/t)$(), a $(#f00)$(t:Shift-right click to activate - only if not already activated.)magnet$(/t)$(), a few precious torches, a backpack, my journal, and a $(#f00)$(t:Many very useful rewards are given upon completing task within the device.)Quest Book$(/t)$()."
+            "text": "In an effort to prevent insanity, I thought I should document my successes and failures. Maybe, this journal will help get through this living nightmare.$(p)I noticed some valuable gifts was given by some unknown entity. The first thing I did was put on my armor and grabbed my sword and shield. I also found some other very nice tools, some food, a $(#f00)$(t:Turn the page to learn more)Blueprint Package$(/t)$(), a $(#f00)$(t:Shift-right click to activate - only if not already activated.)magnet$(/t)$(), a few precious torches, a backpack, and this journal."
         },
         {
             "type":"spotlight",
@@ -20,7 +20,7 @@
         {
             "type":"spotlight",
             "text":"Using this example: Place the blueprint, one stick, and three cobblestones in your crafting table - one cobblestone per slot. You will now have an easily repairable and upgradable pickaxe. To repair: You will need a Repair Kit. I'll show you one on the next page.",
-            "item":"silentgear:blueprint_pickaxe"
+            "item":"silentgear:pickaxe_blueprint"
         },
         {
             "type": "crafting",
