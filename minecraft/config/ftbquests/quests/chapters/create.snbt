@@ -1,0 +1,53 @@
+{
+	id: 1571,
+	filename: "create",
+	order_index: 3,
+	title: "Create",
+	icon: "create:mechanical_arm",
+	subtitle: ["Build amazing things"],
+	quests: [
+		{
+			x: 0.0d,
+			y: 0.5d,
+			id: 1572,
+			tasks: [{
+				id: 1573,
+				type: "item",
+				item: "create:andesite_alloy"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -1.0d,
+			dependencies: [I;1572],
+			id: 1574,
+			tasks: [{
+				id: 1575,
+				type: "item",
+				item: "create:shaft"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -2.5d,
+			dependencies: [I;1574],
+			id: 1576,
+			tasks: [{
+				id: 1577,
+				type: "item",
+				item: "create:cogwheel"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -4.0d,
+			dependencies: [I;1576],
+			id: 1578,
+			tasks: [{
+				id: 1579,
+				type: "item",
+				item: "create:large_cogwheel"
+			}]
+		}
+	]
+}

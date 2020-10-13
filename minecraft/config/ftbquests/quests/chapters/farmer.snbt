@@ -1,0 +1,645 @@
+{
+	id: 175,
+	filename: "farmer",
+	order_index: 5,
+	title: "Let's Get Farming",
+	icon: "simplefarming:scarecrow",
+	quests: [
+		{
+			x: 4.0d,
+			y: -1.5d,
+			shape: "diamond",
+			description: ["Breaking grass is always fun. Now get to it! Break some grass. Get some seeds. Grow some wheat!"],
+			size: 1.5d,
+			id: 176,
+			tasks: [{
+				id: 177,
+				type: "item",
+				item: "minecraft:wheat",
+				count: 12
+			}],
+			rewards: [{
+				id: 1512,
+				type: "item",
+				item: "xreliquary:fertile_lily_pad"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: 0.0d,
+			description: ["Fluffy Puff seeds are a wonderful resource"],
+			dependencies: [I;176],
+			id: 179,
+			tasks: [
+				{
+					id: 180,
+					type: "item",
+					item: "silentgems:fluffy_puff",
+					count: 20
+				},
+				{
+					id: 181,
+					type: "item",
+					item: "silentgems:fluffy_puff_seeds"
+				}
+			],
+			rewards: [{
+				id: 190,
+				type: "item",
+				item: "comforts:sleeping_bag_blue"
+			}]
+		},
+		{
+			x: 5.5d,
+			y: 0.0d,
+			dependencies: [I;179],
+			id: 182,
+			tasks: [{
+				id: 183,
+				type: "item",
+				item: "minecraft:string",
+				count: 24
+			}],
+			rewards: [{
+				id: 191,
+				type: "xp",
+				xp: 25
+			}]
+		},
+		{
+			x: 7.0d,
+			y: 0.0d,
+			dependencies: [I;182],
+			id: 184,
+			tasks: [{
+				id: 185,
+				type: "item",
+				item: "minecraft:white_wool",
+				count: 12
+			}],
+			rewards: [
+				{
+					id: 192,
+					type: "xp",
+					xp: 25
+				},
+				{
+					id: 1305,
+					type: "item",
+					item: "minecraft:villager_spawn_egg"
+				}
+			]
+		},
+		{
+			x: 5.5d,
+			y: -1.5d,
+			dependencies: [I;179],
+			id: 186,
+			tasks: [{
+				id: 187,
+				type: "item",
+				item: "minecraft:feather",
+				count: 10
+			}],
+			rewards: [
+				{
+					id: 188,
+					type: "item",
+					item: {
+						id: "minecraft:flint",
+						Count: 10
+					}
+				},
+				{
+					id: 189,
+					type: "xp",
+					xp: 25
+				}
+			]
+		},
+		{
+			x: 0.0d,
+			y: 1.5d,
+			id: 789,
+			tasks: [{
+				id: 790,
+				type: "item",
+				item: "simplefarming:pear"
+			}]
+		},
+		{
+			x: 1.0d,
+			y: 1.5d,
+			id: 791,
+			tasks: [{
+				id: 792,
+				type: "item",
+				item: "simplefarming:orange"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 1.5d,
+			id: 793,
+			tasks: [{
+				id: 794,
+				type: "item",
+				item: "simplefarming:mango"
+			}]
+		},
+		{
+			x: 3.0d,
+			y: 1.5d,
+			id: 795,
+			tasks: [{
+				id: 796,
+				type: "item",
+				item: "simplefarming:grapes"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: 1.5d,
+			id: 797,
+			tasks: [{
+				id: 798,
+				type: "item",
+				item: "simplefarming:cherries"
+			}]
+		},
+		{
+			x: 5.0d,
+			y: 1.5d,
+			id: 799,
+			tasks: [{
+				id: 800,
+				type: "item",
+				item: "simplefarming:banana"
+			}]
+		},
+		{
+			x: 6.0d,
+			y: 1.5d,
+			id: 801,
+			tasks: [{
+				id: 802,
+				type: "item",
+				item: "simplefarming:apricot"
+			}]
+		},
+		{
+			x: 7.0d,
+			y: 1.5d,
+			id: 803,
+			tasks: [{
+				id: 804,
+				type: "item",
+				item: "simplefarming:sorghum"
+			}]
+		},
+		{
+			x: 8.0d,
+			y: 1.5d,
+			id: 805,
+			tasks: [{
+				id: 806,
+				type: "item",
+				item: "simplefarming:corn"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 2.5d,
+			id: 807,
+			tasks: [{
+				id: 808,
+				type: "item",
+				item: "simplefarming:radish"
+			}]
+		},
+		{
+			x: 1.0d,
+			y: 2.5d,
+			id: 809,
+			tasks: [{
+				id: 810,
+				type: "item",
+				item: "simplefarming:strawberries"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 2.5d,
+			id: 811,
+			tasks: [{
+				id: 812,
+				type: "item",
+				item: "simplefarming:raspberries"
+			}],
+			rewards: [{
+				id: 1301,
+				type: "item",
+				item: "minecraft:zombie_horse_spawn_egg"
+			}]
+		},
+		{
+			x: 3.0d,
+			y: 2.5d,
+			id: 813,
+			tasks: [{
+				id: 814,
+				type: "item",
+				item: "simplefarming:cactus_fruit"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: 2.5d,
+			id: 815,
+			tasks: [{
+				id: 816,
+				type: "item",
+				item: "simplefarming:blueberries"
+			}]
+		},
+		{
+			x: 5.0d,
+			y: 2.5d,
+			id: 817,
+			tasks: [{
+				id: 818,
+				type: "item",
+				item: "simplefarming:blackberries"
+			}]
+		},
+		{
+			x: 6.0d,
+			y: 2.5d,
+			id: 819,
+			tasks: [{
+				id: 820,
+				type: "item",
+				item: "simplefarming:squash"
+			}]
+		},
+		{
+			x: 7.0d,
+			y: 2.5d,
+			id: 821,
+			tasks: [{
+				id: 822,
+				type: "item",
+				item: "simplefarming:soybean"
+			}]
+		},
+		{
+			x: 8.0d,
+			y: 2.5d,
+			id: 823,
+			tasks: [{
+				id: 824,
+				type: "item",
+				item: "simplefarming:pepper"
+			}],
+			rewards: [{
+				id: 1302,
+				type: "item",
+				item: "spawnermod:iron_golem_spawn_egg"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 3.5d,
+			id: 825,
+			tasks: [{
+				id: 826,
+				type: "item",
+				item: "simplefarming:ginger"
+			}]
+		},
+		{
+			x: 1.0d,
+			y: 3.5d,
+			id: 827,
+			tasks: [{
+				id: 828,
+				type: "item",
+				item: "simplefarming:habanero"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 3.5d,
+			id: 829,
+			tasks: [{
+				id: 830,
+				type: "item",
+				item: "simplefarming:olives"
+			}]
+		},
+		{
+			x: 3.0d,
+			y: 3.5d,
+			id: 831,
+			tasks: [{
+				id: 832,
+				type: "item",
+				item: "simplefarming:honeydew"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: 3.5d,
+			id: 833,
+			tasks: [{
+				id: 834,
+				type: "item",
+				item: "simplefarming:cantaloupe"
+			}]
+		},
+		{
+			x: 5.0d,
+			y: 3.5d,
+			id: 835,
+			tasks: [{
+				id: 836,
+				type: "item",
+				item: "simplefarming:turnip"
+			}],
+			rewards: [{
+				id: 1292,
+				type: "item",
+				item: {
+					id: "farmingforblockheads:red_fertilizer",
+					Count: 4
+				}
+			}]
+		},
+		{
+			x: 6.0d,
+			y: 3.5d,
+			id: 837,
+			tasks: [{
+				id: 838,
+				type: "item",
+				item: "simplefarming:sweet_potato"
+			}]
+		},
+		{
+			x: 7.0d,
+			y: 3.5d,
+			id: 839,
+			tasks: [{
+				id: 840,
+				type: "item",
+				item: "simplefarming:spinach"
+			}]
+		},
+		{
+			x: 8.0d,
+			y: 3.5d,
+			id: 841,
+			tasks: [{
+				id: 842,
+				type: "item",
+				item: "simplefarming:pea_pod"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 4.5d,
+			id: 843,
+			tasks: [{
+				id: 844,
+				type: "item",
+				item: "simplefarming:lettuce"
+			}]
+		},
+		{
+			x: 1.0d,
+			y: 4.5d,
+			id: 845,
+			tasks: [{
+				id: 846,
+				type: "item",
+				item: "simplefarming:onion"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 4.5d,
+			id: 847,
+			tasks: [{
+				id: 848,
+				type: "item",
+				item: "simplefarming:cassava"
+			}],
+			rewards: [{
+				id: 1293,
+				type: "item",
+				item: {
+					id: "farmingforblockheads:yellow_fertilizer",
+					Count: 4
+				}
+			}]
+		},
+		{
+			x: 3.0d,
+			y: 4.5d,
+			id: 849,
+			tasks: [{
+				id: 850,
+				type: "item",
+				item: "simplefarming:broccoli"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: 4.5d,
+			id: 851,
+			tasks: [{
+				id: 852,
+				type: "item",
+				item: "simplefarming:zucchini"
+			}]
+		},
+		{
+			x: 5.0d,
+			y: 4.5d,
+			id: 853,
+			tasks: [{
+				id: 854,
+				type: "item",
+				item: "simplefarming:tomato"
+			}]
+		},
+		{
+			x: 6.0d,
+			y: 4.5d,
+			id: 855,
+			tasks: [{
+				id: 856,
+				type: "item",
+				item: "simplefarming:eggplant"
+			}]
+		},
+		{
+			x: 7.0d,
+			y: 4.5d,
+			id: 857,
+			tasks: [{
+				id: 858,
+				type: "item",
+				item: "simplefarming:cucumber"
+			}]
+		},
+		{
+			x: 8.0d,
+			y: 4.5d,
+			id: 859,
+			tasks: [{
+				id: 860,
+				type: "item",
+				item: "simplefarming:plum"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 5.5d,
+			id: 861,
+			tasks: [{
+				id: 862,
+				type: "item",
+				item: "simplefarming:rice"
+			}]
+		},
+		{
+			x: 1.0d,
+			y: 5.5d,
+			id: 863,
+			tasks: [{
+				id: 864,
+				type: "item",
+				item: "simplefarming:rye"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 5.5d,
+			id: 865,
+			tasks: [{
+				id: 866,
+				type: "item",
+				item: "simplefarming:oat"
+			}]
+		},
+		{
+			x: 3.0d,
+			y: 5.5d,
+			id: 867,
+			tasks: [{
+				id: 868,
+				type: "item",
+				item: "simplefarming:barley"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: 5.5d,
+			id: 869,
+			tasks: [{
+				id: 870,
+				type: "item",
+				item: "simplefarming:kenaf_fiber"
+			}]
+		},
+		{
+			x: 5.0d,
+			y: 5.5d,
+			id: 871,
+			tasks: [{
+				id: 872,
+				type: "item",
+				item: "simplefarming:cotton"
+			}]
+		},
+		{
+			x: 6.0d,
+			y: 5.5d,
+			id: 873,
+			tasks: [{
+				id: 874,
+				type: "item",
+				item: "simplefarming:yam"
+			}]
+		},
+		{
+			x: 7.0d,
+			y: 5.5d,
+			id: 875,
+			tasks: [{
+				id: 876,
+				type: "item",
+				item: "simplefarming:peanut"
+			}]
+		},
+		{
+			x: 8.0d,
+			y: 5.5d,
+			id: 877,
+			tasks: [{
+				id: 878,
+				type: "item",
+				item: "simplefarming:scarecrow"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: -3.0d,
+			dependencies: [I;176],
+			id: 879,
+			tasks: [{
+				id: 880,
+				type: "item",
+				item: "farmingforblockheads:market"
+			}],
+			rewards: [{
+				id: 1304,
+				type: "item",
+				item: "minecraft:brewing_stand"
+			}]
+		},
+		{
+			x: 5.0d,
+			y: -2.5d,
+			dependencies: [I;176],
+			id: 881,
+			tasks: [{
+				id: 882,
+				type: "item",
+				item: "farmingforblockheads:chicken_nest",
+				count: 4
+			}]
+		},
+		{
+			x: 3.0d,
+			y: -2.5d,
+			dependencies: [I;176],
+			id: 883,
+			tasks: [{
+				id: 884,
+				type: "item",
+				item: "farmingforblockheads:feeding_trough",
+				count: 3
+			}],
+			rewards: [{
+				id: 1291,
+				type: "item",
+				item: {
+					id: "farmingforblockheads:green_fertilizer",
+					Count: 4
+				}
+			}]
+		}
+	]
+}

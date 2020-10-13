@@ -1,0 +1,282 @@
+{
+	id: 1404,
+	filename: "magic",
+	order_index: 10,
+	title: "Magic",
+	quests: [
+		{
+			x: 0.0d,
+			y: 0.0d,
+			shape: "diamond",
+			size: 1.5d,
+			id: 1412,
+			tasks: [{
+				id: 1413,
+				type: "item",
+				item: "botania:lexicon"
+			}],
+			rewards: [{
+				id: 1546,
+				type: "item",
+				item: {
+					id: "botania:fertilizer",
+					Count: 16
+				}
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -2.0d,
+			dependencies: [I;1412],
+			id: 1414,
+			tasks: [{
+				id: 1415,
+				type: "item",
+				item: "botania:apothecary_default"
+			}],
+			rewards: [{
+				id: 1536,
+				type: "item",
+				item: "minecraft:bucket"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -3.5d,
+			dependencies: [I;1414],
+			id: 1416,
+			tasks: [{
+				id: 1417,
+				type: "item",
+				item: "botania:pure_daisy",
+				count: 2
+			}],
+			rewards: [{
+				id: 1537,
+				type: "item",
+				item: {
+					id: "botania:floating_pure_daisy",
+					Count: 2
+				}
+			}]
+		},
+		{
+			x: -1.0d,
+			y: -5.0d,
+			dependencies: [I;1416],
+			id: 1418,
+			tasks: [{
+				id: 1419,
+				type: "item",
+				item: "botania:livingwood",
+				count: 16
+			}],
+			rewards: [
+				{
+					id: 1542,
+					type: "item",
+					item: "botania:incense_plate"
+				},
+				{
+					id: 1543,
+					type: "item",
+					item: {
+						id: "botania:incense_stick",
+						Count: 1,
+						tag: {
+							brewKey: "botania:night_vision"
+						}
+					}
+				},
+				{
+					id: 1544,
+					type: "item",
+					item: {
+						id: "minecraft:flint_and_steel",
+						Count: 1,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		},
+		{
+			x: 1.0d,
+			y: -5.0d,
+			dependencies: [I;1416],
+			id: 1420,
+			tasks: [{
+				id: 1421,
+				type: "item",
+				item: "botania:livingrock",
+				count: 16
+			}],
+			rewards: [{
+				id: 1538,
+				type: "item",
+				item: {
+					id: "apotheosis:obsidian_arrow",
+					Count: 4
+				}
+			}]
+		},
+		{
+			x: -2.5d,
+			y: -5.0d,
+			dependencies: [I;1418],
+			id: 1422,
+			tasks: [{
+				id: 1423,
+				type: "item",
+				item: "botania:mana_spreader"
+			}],
+			rewards: [{
+				id: 1547,
+				type: "item",
+				item: "botania:mana_spreader"
+			}]
+		},
+		{
+			x: 1.0d,
+			y: -8.0d,
+			dependencies: [I;1426],
+			id: 1424,
+			tasks: [{
+				id: 1425,
+				type: "item",
+				item: "botania:mana_distributor"
+			}],
+			rewards: [{
+				id: 1540,
+				type: "item",
+				item: {
+					id: "botania:thorn_chakram",
+					Count: 6
+				}
+			}]
+		},
+		{
+			x: 1.0d,
+			y: -6.5d,
+			dependencies: [I;1420],
+			id: 1426,
+			tasks: [{
+				id: 1427,
+				type: "item",
+				item: "botania:mana_pool"
+			}],
+			rewards: [
+				{
+					id: 1539,
+					type: "item",
+					item: {
+						id: "botania:mana_pool",
+						Count: 3
+					}
+				},
+				{
+					id: 1545,
+					type: "item",
+					item: {
+						id: "botania:black_lotus",
+						Count: 16
+					}
+				}
+			]
+		},
+		{
+			x: -2.0d,
+			y: -1.5d,
+			dependencies: [I;1412],
+			id: 1430,
+			tasks: [{
+				id: 1431,
+				type: "item",
+				item: "botania:flower_bag"
+			}],
+			rewards: [{
+				id: 1535,
+				type: "item"
+			}]
+		},
+		{
+			x: -1.0d,
+			y: -6.5d,
+			dependencies: [I;1418],
+			id: 1432,
+			tasks: [{
+				id: 1433,
+				type: "item",
+				item: {
+					id: "botania:twig_wand",
+					Count: 1,
+					tag: {
+						color1: 6,
+						color2: 2,
+						boundTileZ: 0,
+						boundTileX: 0,
+						boundTileY: -1,
+						bindMode: 1
+					}
+				}
+			}],
+			rewards: [{
+				id: 1548,
+				type: "item",
+				item: "botania:hopperhock"
+			}]
+		},
+		{
+			x: 1.5d,
+			y: -2.0d,
+			dependencies: [I;1414],
+			id: 1436,
+			tasks: [{
+				id: 1437,
+				type: "item",
+				item: "botania:endoflame",
+				count: 4
+			}],
+			rewards: [{
+				id: 1438,
+				type: "item",
+				item: {
+					id: "botania:endoflame",
+					Count: 4
+				}
+			}]
+		},
+		{
+			x: 2.5d,
+			y: -7.5d,
+			dependencies: [I;1426],
+			id: 1549,
+			tasks: [{
+				id: 1550,
+				type: "item",
+				item: "botania:manasteel_ingot"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: -8.5d,
+			dependencies: [I;1549],
+			id: 1552,
+			tasks: [{
+				id: 1553,
+				type: "item",
+				item: {
+					id: "botania:magnet_ring",
+					Count: 1,
+					tag: {}
+				}
+			}],
+			rewards: [{
+				id: 1554,
+				type: "item",
+				item: "botania:floating_solegnolia"
+			}]
+		}
+	]
+}

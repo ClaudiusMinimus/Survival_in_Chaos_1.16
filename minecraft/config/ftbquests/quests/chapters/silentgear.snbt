@@ -1,0 +1,1321 @@
+{
+	id: 53,
+	filename: "silentgear",
+	order_index: 2,
+	title: "Armor, Tools and Weapons",
+	icon: {
+		id: "gobber2:gobber2_paxel_end",
+		Count: 1,
+		tag: {
+			Damage: 0
+		}
+	},
+	quests: [
+		{
+			title: "We Three Tools",
+			x: -1.5d,
+			y: -3.0d,
+			shape: "diamond",
+			description: [
+				"If you have not already done so, right-click on the Blueprint Package you received upon first joining the game. ",
+				"",
+				"Now place one of the blueprints in your crafting grid with the required pieces of cobblestone and a single stick to craft a pickaxe (3 x cobble), an axe (3 x cobble), and a shovel (1 x cobble)."
+			],
+			size: 1.5d,
+			id: 123,
+			tasks: [
+				{
+					id: 124,
+					type: "item",
+					item: {
+						id: "silentgear:pickaxe",
+						Count: 1,
+						tag: {
+							SGear_UUIDLeast: -6631817239804172588L,
+							SGear_UUIDMost: 7887410827524589490L,
+							Damage: 0,
+							SGear_Data: {
+								Construction: {
+									Parts: [
+										{
+											Item: {
+												id: "silentgear:pickaxe_head",
+												Count: 1,
+												tag: {
+													Materials: [
+														{
+															Item: {
+																id: "minecraft:cobblestone",
+																Count: 1
+															},
+															ID: "silentgear:stone"
+														},
+														{
+															Item: {
+																id: "minecraft:cobblestone",
+																Count: 1
+															},
+															ID: "silentgear:stone"
+														},
+														{
+															Item: {
+																id: "minecraft:cobblestone",
+																Count: 1
+															},
+															ID: "silentgear:stone"
+														}
+													]
+												}
+											},
+											ID: "silentgear:pickaxe_head"
+										},
+										{
+											Item: {
+												id: "minecraft:stick",
+												Count: 1
+											},
+											ID: "silentgear:rod/wood"
+										}
+									]
+								},
+								Properties: {
+									ModVersion: "1.11.3+160",
+									Stats: {
+										"silentgear:harvest_speed": 4.0f,
+										"silentgems:chargeability": 0.5f,
+										"silentgear:harvest_level": 1.0f,
+										"silentgear:melee_damage": 2.0f,
+										"silentgear:rarity": 2.3431456f,
+										"silentgear:attack_speed": -2.8f,
+										"silentgear:repair_efficiency": 1.0f,
+										"silentgear:ranged_speed": -0.22000001f,
+										"silentgear:enchantability": 5.5f,
+										"silentgear:durability": 131.0f,
+										"silentgear:ranged_damage": 0.0f,
+										"silentgear:magic_damage": 0.0f
+									},
+									synergy: 1.0f,
+									LockStats: 0,
+									Traits: [{
+										Level: 1,
+										Name: "silentgear:ancient"
+									}]
+								},
+								Rendering: {
+									ModelKey: "pickaxe:pickaxe_head{stone,stone,stone},rod/wood,"
+								}
+							}
+						}
+					}
+				},
+				{
+					id: 127,
+					type: "item",
+					item: {
+						id: "silentgear:axe",
+						Count: 1,
+						tag: {
+							SGear_UUIDLeast: -8652852363619514407L,
+							SGear_UUIDMost: 589152430948499963L,
+							Damage: 0,
+							SGear_Data: {
+								Construction: {
+									Parts: [
+										{
+											Item: {
+												id: "minecraft:cobblestone",
+												Count: 1
+											},
+											ID: "silentgear:main/stone"
+										},
+										{
+											Item: {
+												id: "minecraft:cobblestone",
+												Count: 1
+											},
+											ID: "silentgear:main/stone"
+										},
+										{
+											Item: {
+												id: "minecraft:cobblestone",
+												Count: 1
+											},
+											ID: "silentgear:main/stone"
+										},
+										{
+											Item: {
+												id: "minecraft:stick",
+												Count: 1
+											},
+											ID: "silentgear:rod/wood"
+										}
+									]
+								},
+								ModelKeys: {
+									0: "axe|0|0"
+								},
+								Properties: {
+									repair_efficiency: 1.0f,
+									synergy: 1.0f,
+									magic_armor: 0.0f,
+									durability: 131.0f,
+									armor_durability: 5.0f,
+									attack_speed: -3.0f,
+									ranged_damage: 0.0f,
+									ranged_speed: -0.22000001f,
+									harvest_speed: 4.0f,
+									armor_toughness: 0.0f,
+									LockStats: 0,
+									Traits: [
+										{
+											Level: 1,
+											Name: "silentgear:brittle"
+										},
+										{
+											Level: 1,
+											Name: "silentgear:ancient"
+										}
+									],
+									enchantability: 5.5f,
+									armor: 5.0f,
+									melee_damage: 6.0f,
+									chargeability: 0.5f,
+									harvest_level: 1.0f,
+									magic_damage: 0.0f,
+									rarity: 5.0f
+								},
+								Rendering: {
+									BlendedHeadColor: 10132122
+								}
+							}
+						}
+					}
+				},
+				{
+					id: 128,
+					type: "item",
+					item: {
+						id: "silentgear:shovel",
+						Count: 1,
+						tag: {
+							SGear_UUIDLeast: -5072068232901769395L,
+							SGear_UUIDMost: -3553687309222785610L,
+							Damage: 0,
+							SGear_Data: {
+								Construction: {
+									Parts: [
+										{
+											Item: {
+												id: "minecraft:cobblestone",
+												Count: 1
+											},
+											ID: "silentgear:main/stone"
+										},
+										{
+											Item: {
+												id: "minecraft:stick",
+												Count: 1
+											},
+											ID: "silentgear:rod/wood"
+										}
+									]
+								},
+								ModelKeys: {
+									0: "shovel|0|0"
+								},
+								Properties: {
+									repair_efficiency: 2.0f,
+									synergy: 1.0f,
+									magic_armor: 0.0f,
+									durability: 131.0f,
+									armor_durability: 5.0f,
+									attack_speed: -3.0f,
+									ranged_damage: 0.0f,
+									ranged_speed: -0.22000001f,
+									harvest_speed: 4.0f,
+									armor_toughness: 0.0f,
+									LockStats: 0,
+									Traits: [
+										{
+											Level: 1,
+											Name: "silentgear:brittle"
+										},
+										{
+											Level: 1,
+											Name: "silentgear:ancient"
+										}
+									],
+									enchantability: 5.5f,
+									armor: 5.0f,
+									melee_damage: 2.5f,
+									chargeability: 0.5f,
+									harvest_level: 1.0f,
+									magic_damage: 0.0f,
+									rarity: 5.0f
+								},
+								Rendering: {
+									BlendedHeadColor: 10132122
+								}
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			title: "Flaming Bow",
+			x: 1.5d,
+			y: 0.0d,
+			description: ["Make a Bow blueprint and a Bow using three Garnets, a stick, and a Bow String. Your reward will be a Blaze Rod and Sinew Bow String. Place your Bow, the Blaze Rod and Sinew Bow String in a crafting grid to upgrade your new Bow."],
+			dependencies: [I;1366],
+			id: 134,
+			tasks: [
+				{
+					id: 135,
+					type: "item"
+				},
+				{
+					id: 136,
+					type: "item",
+					item: {
+						id: "silentgear:bow",
+						Count: 1,
+						tag: {
+							SGear_UUIDLeast: -5563247832881530632L,
+							SGear_UUIDMost: -5455345606039484255L,
+							Damage: 0,
+							SGear_Data: {
+								Construction: {
+									Parts: [
+										{
+											Item: {
+												id: "silentgems:garnet",
+												Count: 1
+											},
+											ID: "silentgems:main/garnet"
+										},
+										{
+											Item: {
+												id: "silentgems:garnet",
+												Count: 1
+											},
+											ID: "silentgems:main/garnet"
+										},
+										{
+											Item: {
+												id: "silentgems:garnet",
+												Count: 1
+											},
+											ID: "silentgems:main/garnet"
+										},
+										{
+											Item: {
+												id: "minecraft:bone",
+												Count: 1
+											},
+											ID: "silentgear:rod/bone"
+										},
+										{
+											Item: {
+												id: "silentgear:sinew_bowstring",
+												Count: 1
+											},
+											ID: "silentgear:bowstring/sinew"
+										},
+										{
+											Item: {
+												id: "minecraft:air",
+												Count: 1
+											},
+											ID: "silentgear:highlight/highlight"
+										}
+									]
+								},
+								ModelKeys: {
+									0: "bow|0|0|0_0|0",
+									1: "bow|0|0|0_1|0",
+									2: "bow|0|0|0_2|0",
+									3: "bow|0_3|0_3|0_3|0_3"
+								},
+								Properties: {
+									repair_efficiency: 1.0f,
+									synergy: 1.0f,
+									magic_armor: 6.0f,
+									durability: 704.0f,
+									armor_durability: 12.0f,
+									attack_speed: -0.1f,
+									ranged_damage: 3.6f,
+									ranged_speed: 0.9f,
+									harvest_speed: 6.299999f,
+									armor_toughness: 2.0f,
+									LockStats: 0,
+									Traits: [
+										{
+											Level: 2,
+											Name: "silentgear:fiery"
+										},
+										{
+											Level: 1,
+											Name: "silentgear:brittle"
+										},
+										{
+											Level: 2,
+											Name: "silentgear:flexible"
+										}
+									],
+									enchantability: 5.9400005f,
+									armor: 16.0f,
+									melee_damage: 4.8f,
+									chargeability: 1.1999999f,
+									harvest_level: 2.0f,
+									magic_damage: 2.4f,
+									rarity: 38.0f
+								},
+								Rendering: {
+									BlendedHeadColor: 15093533
+								}
+							},
+							Enchantments: [{
+								lvl: 1,
+								id: "minecraft:flame"
+							}]
+						}
+					}
+				}
+			],
+			rewards: [
+				{
+					id: 165,
+					type: "item",
+					item: "minecraft:blaze_rod"
+				},
+				{
+					id: 166,
+					type: "item"
+				},
+				{
+					id: 167,
+					type: "item",
+					item: {
+						id: "minecraft:arrow",
+						Count: 64
+					}
+				}
+			]
+		},
+		{
+			title: "Hammer! Hammer!",
+			x: -1.5d,
+			y: 1.5d,
+			dependencies: [I;143],
+			id: 137,
+			tasks: [
+				{
+					id: 138,
+					type: "item"
+				},
+				{
+					id: 139,
+					type: "item",
+					item: {
+						id: "silentgear:hammer",
+						Count: 1,
+						tag: {
+							SGear_UUIDLeast: -5351401922948732107L,
+							SGear_UUIDMost: 5920001763286270018L,
+							Damage: 0,
+							SGear_Data: {
+								Construction: {
+									Parts: [
+										{
+											Item: {
+												id: "minecraft:cobblestone",
+												Count: 1
+											},
+											ID: "silentgear:main/stone"
+										},
+										{
+											Item: {
+												id: "minecraft:cobblestone",
+												Count: 1
+											},
+											ID: "silentgear:main/stone"
+										},
+										{
+											Item: {
+												id: "minecraft:cobblestone",
+												Count: 1
+											},
+											ID: "silentgear:main/stone"
+										},
+										{
+											Item: {
+												id: "minecraft:cobblestone",
+												Count: 1
+											},
+											ID: "silentgear:main/stone"
+										},
+										{
+											Item: {
+												id: "minecraft:cobblestone",
+												Count: 1
+											},
+											ID: "silentgear:main/stone"
+										},
+										{
+											Item: {
+												id: "minecraft:cobblestone",
+												Count: 1
+											},
+											ID: "silentgear:main/stone"
+										},
+										{
+											Item: {
+												id: "minecraft:stick",
+												Count: 1
+											},
+											ID: "silentgear:rod/wood"
+										}
+									]
+								},
+								ModelKeys: {
+									0: "hammer|0|0"
+								},
+								Properties: {
+									repair_efficiency: 0.5f,
+									synergy: 1.0f,
+									magic_armor: 0.0f,
+									durability: 262.0f,
+									armor_durability: 5.0f,
+									attack_speed: -3.2f,
+									ranged_damage: 0.0f,
+									ranged_speed: -0.22000003f,
+									harvest_speed: 2.0f,
+									armor_toughness: 0.0f,
+									LockStats: 0,
+									Traits: [
+										{
+											Level: 1,
+											Name: "silentgear:brittle"
+										},
+										{
+											Level: 1,
+											Name: "silentgear:ancient"
+										}
+									],
+									enchantability: 2.75f,
+									armor: 5.0f,
+									melee_damage: 5.0f,
+									chargeability: 0.5f,
+									harvest_level: 1.0f,
+									magic_damage: 0.0f,
+									rarity: 5.0f
+								},
+								Rendering: {
+									BlendedHeadColor: 10132122
+								}
+							}
+						}
+					}
+				}
+			],
+			rewards: [
+				{
+					id: 168,
+					type: "item",
+					item: {
+						id: "cyclic:glove_climb",
+						Count: 1,
+						tag: {}
+					}
+				},
+				{
+					id: 169,
+					type: "item",
+					auto: "disabled",
+					item: {
+						id: "simplefarming:pizza",
+						Count: 8
+					}
+				}
+			]
+		},
+		{
+			title: "The Mighty",
+			x: -3.0d,
+			y: 1.5d,
+			description: ["Make an Excavator blueprint and an Excavator using five cobblestones and a stick."],
+			dependencies: [I;143],
+			id: 140,
+			tasks: [
+				{
+					id: 141,
+					type: "item",
+					item: {
+						id: "silentgear:excavator",
+						Count: 1,
+						tag: {
+							SGear_UUIDLeast: -4996174450197350427L,
+							SGear_UUIDMost: -7705711396036522720L,
+							Damage: 0,
+							SGear_Data: {
+								Construction: {
+									Parts: [
+										{
+											Item: {
+												id: "minecraft:cobblestone",
+												Count: 1
+											},
+											ID: "silentgear:main/stone"
+										},
+										{
+											Item: {
+												id: "minecraft:cobblestone",
+												Count: 1
+											},
+											ID: "silentgear:main/stone"
+										},
+										{
+											Item: {
+												id: "minecraft:cobblestone",
+												Count: 1
+											},
+											ID: "silentgear:main/stone"
+										},
+										{
+											Item: {
+												id: "minecraft:cobblestone",
+												Count: 1
+											},
+											ID: "silentgear:main/stone"
+										},
+										{
+											Item: {
+												id: "minecraft:cobblestone",
+												Count: 1
+											},
+											ID: "silentgear:main/stone"
+										},
+										{
+											Item: {
+												id: "minecraft:stick",
+												Count: 1
+											},
+											ID: "silentgear:rod/wood"
+										}
+									]
+								},
+								ModelKeys: {
+									0: "excavator|0|0"
+								},
+								Properties: {
+									repair_efficiency: 1.5f,
+									synergy: 1.0f,
+									magic_armor: 0.0f,
+									durability: 262.0f,
+									armor_durability: 5.0f,
+									attack_speed: -3.0f,
+									ranged_damage: 0.0f,
+									ranged_speed: -0.22000003f,
+									harvest_speed: 2.0f,
+									armor_toughness: 0.0f,
+									LockStats: 0,
+									Traits: [
+										{
+											Level: 1,
+											Name: "silentgear:brittle"
+										},
+										{
+											Level: 1,
+											Name: "silentgear:ancient"
+										}
+									],
+									enchantability: 2.75f,
+									armor: 5.0f,
+									melee_damage: 3.0f,
+									chargeability: 0.5f,
+									harvest_level: 1.0f,
+									magic_damage: 0.0f,
+									rarity: 5.0f
+								},
+								Rendering: {
+									BlendedHeadColor: 10132122
+								}
+							}
+						}
+					}
+				},
+				{
+					id: 142,
+					type: "item"
+				}
+			],
+			rewards: [{
+				id: 170,
+				type: "item",
+				item: "dankstorage:1_to_2"
+			}]
+		},
+		{
+			title: "My My Mattock",
+			x: -1.5d,
+			y: 0.0d,
+			description: [
+				"A mattock is a great all around tool. It is both an axe and a satisfactory shovel. ",
+				"",
+				"Make a wooden Mattock pattern and then a stone mattock with a stick tool rod",
+				"",
+				"Wooden patterns are a one-time use item."
+			],
+			dependencies: [I;1495],
+			id: 143,
+			tasks: [
+				{
+					id: 144,
+					type: "item",
+					item: {
+						id: "silentgear:mattock",
+						Count: 1,
+						tag: {
+							SGear_UUIDLeast: -8698449167601423917L,
+							SGear_UUIDMost: 2387926651415644752L,
+							Damage: 0,
+							SGear_Data: {
+								Construction: {
+									Parts: [
+										{
+											Item: {
+												id: "minecraft:cobblestone",
+												Count: 1
+											},
+											ID: "silentgear:main/stone"
+										},
+										{
+											Item: {
+												id: "minecraft:cobblestone",
+												Count: 1
+											},
+											ID: "silentgear:main/stone"
+										},
+										{
+											Item: {
+												id: "minecraft:cobblestone",
+												Count: 1
+											},
+											ID: "silentgear:main/stone"
+										},
+										{
+											Item: {
+												id: "minecraft:cobblestone",
+												Count: 1
+											},
+											ID: "silentgear:main/stone"
+										},
+										{
+											Item: {
+												id: "minecraft:stick",
+												Count: 1
+											},
+											ID: "silentgear:rod/wood"
+										}
+									]
+								},
+								ModelKeys: {
+									0: "mattock|0|0"
+								},
+								Properties: {
+									repair_efficiency: 0.75f,
+									synergy: 1.0f,
+									magic_armor: 0.0f,
+									durability: 163.75f,
+									armor_durability: 5.0f,
+									attack_speed: -3.0f,
+									ranged_damage: 0.0f,
+									ranged_speed: -0.22000001f,
+									harvest_speed: 3.0f,
+									armor_toughness: 0.0f,
+									LockStats: 0,
+									Traits: [
+										{
+											Level: 1,
+											Name: "silentgear:brittle"
+										},
+										{
+											Level: 1,
+											Name: "silentgear:ancient"
+										}
+									],
+									enchantability: 4.125f,
+									armor: 5.0f,
+									melee_damage: 2.0f,
+									chargeability: 0.5f,
+									harvest_level: 1.0f,
+									magic_damage: 0.0f,
+									rarity: 5.0f
+								},
+								Rendering: {
+									BlendedHeadColor: 10132122
+								}
+							}
+						}
+					}
+				},
+				{
+					id: 145,
+					type: "item"
+				}
+			],
+			rewards: [{
+				id: 160,
+				type: "item",
+				item: {
+					id: "simplefarming:egg_sandwich",
+					Count: 8
+				}
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 1.5d,
+			description: [
+				"Make a pickaxe head using three Hardened Netherrack and a Blaze rod for the handle",
+				"",
+				"Your reward will be six enchantment tokens and a piece of red wool. Apply these items to the pickaxe in your crafting grid one-at-time to greatly increase your pick's efficiency and provide mending."
+			],
+			dependencies: [I;1366],
+			id: 146,
+			tasks: [{
+				id: 147,
+				type: "item",
+				item: {
+					id: "silentgear:pickaxe",
+					Count: 1,
+					tag: {
+						SGear_UUIDLeast: -6210470762283730909L,
+						SGear_UUIDMost: -7226822192001236102L,
+						Damage: 0,
+						SGear_Data: {
+							Construction: {
+								Parts: [
+									{
+										Item: {
+											id: "silentgems:hardened_netherrack",
+											Count: 1
+										},
+										ID: "silentgems:main/hardened_netherrack"
+									},
+									{
+										Item: {
+											id: "silentgems:hardened_netherrack",
+											Count: 1
+										},
+										ID: "silentgems:main/hardened_netherrack"
+									},
+									{
+										Item: {
+											id: "silentgems:hardened_netherrack",
+											Count: 1
+										},
+										ID: "silentgems:main/hardened_netherrack"
+									},
+									{
+										Item: {
+											id: "minecraft:blaze_rod",
+											Count: 1
+										},
+										ID: "silentgear:rod/blaze"
+									}
+								]
+							},
+							ModelKeys: {
+								0: "pickaxe|0|0"
+							},
+							Properties: {
+								repair_efficiency: 1.0f,
+								synergy: 1.0f,
+								magic_armor: 8.0f,
+								durability: 4300.8f,
+								armor_durability: 31.0f,
+								ranged_speed: -0.26999998f,
+								harvest_speed: 6.6000004f,
+								attack_speed: -3.3f,
+								ranged_damage: 0.0f,
+								armor_toughness: 4.0f,
+								LockStats: 0,
+								Traits: [
+									{
+										Level: 4,
+										Name: "silentgear:chipping"
+									},
+									{
+										Level: 2,
+										Name: "silentgear:synergistic"
+									}
+								],
+								enchantability: 14.399999f,
+								armor: 20.0f,
+								melee_damage: 3.8999999f,
+								chargeability: 0.8f,
+								magic_damage: 3.8999999f,
+								harvest_level: 3.0f,
+								rarity: 63.999996f
+							},
+							Rendering: {
+								BlendedHeadColor: 5641750,
+								ArmorColor: -11135466
+							}
+						}
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: 162,
+					type: "item",
+					item: {
+						id: "silentgems:enchantment_token",
+						Count: 5,
+						tag: {
+							TokenEnchantments: [{
+								lvl: 1,
+								id: "minecraft:efficiency"
+							}]
+						}
+					}
+				},
+				{
+					id: 163,
+					type: "item",
+					item: {
+						id: "silentgems:enchantment_token",
+						Count: 1,
+						tag: {
+							TokenEnchantments: [{
+								lvl: 1,
+								id: "minecraft:mending"
+							}]
+						}
+					}
+				},
+				{
+					id: 174,
+					type: "item",
+					item: "minecraft:red_wool"
+				}
+			]
+		},
+		{
+			x: 1.5d,
+			y: 1.5d,
+			description: ["The Token Enchanter can replace Enchantment books, though it does come with a price of creating Chaos."],
+			dependencies: [I;1366],
+			id: 171,
+			tasks: [{
+				id: 172,
+				type: "item",
+				item: "silentgems:token_enchanter"
+			}],
+			rewards: [
+				{
+					id: 173,
+					type: "item",
+					item: {
+						id: "silentgems:blank_token",
+						Count: 12
+					}
+				},
+				{
+					id: 786,
+					type: "item",
+					item: "xreliquary:emperor_chalice"
+				}
+			]
+		},
+		{
+			x: 0.0d,
+			y: -1.5d,
+			dependencies: [I;1366],
+			id: 1273,
+			tasks: [{
+				id: 1274,
+				type: "item",
+				item: "silentgear:salvager"
+			}],
+			rewards: [
+				{
+					id: 1281,
+					type: "item",
+					item: {
+						id: "simplefarming:lasagna",
+						Count: 8
+					}
+				},
+				{
+					id: 1298,
+					type: "item",
+					item: {
+						id: "mysticalagriculture:soulium_dagger",
+						Count: 1,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		},
+		{
+			x: 1.5d,
+			y: -1.5d,
+			dependencies: [I;1366],
+			id: 1275,
+			tasks: [
+				{
+					id: 1276,
+					type: "item"
+				},
+				{
+					id: 1277,
+					type: "item"
+				},
+				{
+					id: 1278,
+					type: "item"
+				},
+				{
+					id: 1279,
+					type: "item"
+				}
+			],
+			rewards: [
+				{
+					id: 1280,
+					type: "item",
+					item: {
+						id: "silentgems:enchantment_token",
+						Count: 4,
+						tag: {
+							TokenEnchantments: [{
+								lvl: 1,
+								id: "minecraft:unbreaking"
+							}]
+						}
+					}
+				},
+				{
+					id: 1299,
+					type: "item",
+					item: {
+						id: "silentgems:enchantment_token",
+						Count: 4,
+						tag: {
+							TokenEnchantments: [{
+								lvl: 1,
+								id: "minecraft:protection"
+							}]
+						}
+					}
+				}
+			]
+		},
+		{
+			x: 0.0d,
+			y: 3.0d,
+			dependencies: [I;146],
+			id: 1314,
+			tasks: [{
+				id: 1315,
+				type: "item"
+			}],
+			rewards: [
+				{
+					id: 1339,
+					type: "item"
+				},
+				{
+					id: 1340,
+					type: "item",
+					item: {
+						id: "solarflux:efficiency_upgrade",
+						Count: 8
+					}
+				}
+			]
+		},
+		{
+			x: 0.0d,
+			y: 0.0d,
+			dependencies: [I;143],
+			id: 1366,
+			tasks: [{
+				id: 1367,
+				type: "item"
+			}],
+			rewards: [
+				{
+					id: 1368,
+					type: "item",
+					item: {
+						id: "silentgear:blueprint_paper",
+						Count: 32
+					}
+				},
+				{
+					id: 1369,
+					type: "item",
+					item: {
+						id: "xreliquary:glowing_bread",
+						Count: 8
+					}
+				}
+			]
+		},
+		{
+			title: "Any Crude Dagger",
+			x: -1.5d,
+			y: -1.5d,
+			description: [
+				"Not all recipes in JEI work for this dagger, but if you craft a Rough Rod and place it in a crafting grid with an ingot, gem, plank, or various stone blocks it will craft a Crude Dagger.",
+				"",
+				"The Dagger will let you craft Template Boards, which will allow you to craft one time use tool templates."
+			],
+			dependencies: [I;123],
+			dependency_requirement: "one_completed",
+			id: 1495,
+			tasks: [
+				{
+					id: 1496,
+					type: "item",
+					item: {
+						id: "silentgear:dagger",
+						Count: 1,
+						tag: {
+							SGear_UUIDLeast: -6445736362882874778L,
+							SGear_UUIDMost: 5791057238796487566L,
+							Damage: 0,
+							SGear_Data: {
+								Construction: {
+									Parts: [
+										{
+											Item: {
+												id: "silentgear:dagger_blade",
+												Count: 1,
+												tag: {
+													Materials: [{
+														Item: {
+															id: "minecraft:granite",
+															Count: 1
+														},
+														ID: "silentgear:stone/granite"
+													}]
+												}
+											},
+											ID: "silentgear:dagger_blade"
+										},
+										{
+											Item: {
+												id: "silentgear:rough_rod",
+												Count: 1
+											},
+											ID: "silentgear:rod/rough"
+										}
+									]
+								},
+								Properties: {
+									ModVersion: "1.11.3+160",
+									Stats: {
+										"silentgear:harvest_speed": 3.52f,
+										"silentgems:chargeability": 0.5f,
+										"silentgear:harvest_level": 1.0f,
+										"silentgear:reach_distance": -1.0f,
+										"silentgear:melee_damage": 2.44f,
+										"silentgear:attack_speed": -1.2f,
+										"silentgear:rarity": 0.27207792f,
+										"silentgear:repair_efficiency": 2.0f,
+										"silentgear:enchantability": 4.4f,
+										"silentgear:ranged_speed": -0.2f,
+										"silentgear:ranged_damage": 0.0f,
+										"silentgear:durability": 86.46f,
+										"silentgear:magic_damage": 0.0f
+									},
+									synergy: 0.88f,
+									LockStats: 0,
+									Traits: [
+										{
+											Level: 1,
+											Name: "silentgear:ancient"
+										},
+										{
+											Level: 3,
+											Name: "silentgear:crude"
+										}
+									]
+								},
+								Rendering: {
+									ModelKey: "dagger:dagger_blade{stone/granite},rod/rough,"
+								}
+							}
+						}
+					}
+				},
+				{
+					id: 1497,
+					type: "item",
+					item: {
+						id: "silentgear:dagger",
+						Count: 1,
+						tag: {
+							SGear_UUIDLeast: -6113640670222005085L,
+							SGear_UUIDMost: -993454010487976867L,
+							Damage: 0,
+							SGear_Data: {
+								Construction: {
+									Parts: [
+										{
+											Item: {
+												id: "silentgear:dagger_blade",
+												Count: 1,
+												tag: {
+													Materials: [{
+														Item: {
+															id: "minecraft:diorite",
+															Count: 1
+														},
+														ID: "silentgear:stone/diorite"
+													}]
+												}
+											},
+											ID: "silentgear:dagger_blade"
+										},
+										{
+											Item: {
+												id: "silentgear:rough_rod",
+												Count: 1
+											},
+											ID: "silentgear:rod/rough"
+										}
+									]
+								},
+								Properties: {
+									ModVersion: "1.11.3+160",
+									Stats: {
+										"silentgear:harvest_speed": 3.52f,
+										"silentgems:chargeability": 0.5f,
+										"silentgear:harvest_level": 1.0f,
+										"silentgear:reach_distance": -1.0f,
+										"silentgear:melee_damage": 2.44f,
+										"silentgear:attack_speed": -1.2f,
+										"silentgear:rarity": 0.27207792f,
+										"silentgear:repair_efficiency": 2.0f,
+										"silentgear:enchantability": 4.4f,
+										"silentgear:ranged_speed": -0.2f,
+										"silentgear:ranged_damage": 0.0f,
+										"silentgear:durability": 86.46f,
+										"silentgear:magic_damage": 0.0f
+									},
+									synergy: 0.88f,
+									LockStats: 0,
+									Traits: [
+										{
+											Level: 1,
+											Name: "silentgear:ancient"
+										},
+										{
+											Level: 3,
+											Name: "silentgear:crude"
+										}
+									]
+								},
+								Rendering: {
+									ModelKey: "dagger:dagger_blade{stone/diorite},rod/rough,"
+								}
+							}
+						}
+					}
+				},
+				{
+					id: 1498,
+					type: "item",
+					item: {
+						id: "silentgear:dagger",
+						Count: 1,
+						tag: {
+							SGear_UUIDLeast: -5212427410715455299L,
+							SGear_UUIDMost: 2831194394131579261L,
+							Damage: 0,
+							SGear_Data: {
+								Construction: {
+									Parts: [
+										{
+											Item: {
+												id: "silentgear:dagger_blade",
+												Count: 1,
+												tag: {
+													Materials: [{
+														Item: {
+															id: "minecraft:andesite",
+															Count: 1
+														},
+														ID: "silentgear:stone/andesite"
+													}]
+												}
+											},
+											ID: "silentgear:dagger_blade"
+										},
+										{
+											Item: {
+												id: "silentgear:rough_rod",
+												Count: 1
+											},
+											ID: "silentgear:rod/rough"
+										}
+									]
+								},
+								Properties: {
+									ModVersion: "1.11.3+160",
+									Stats: {
+										"silentgear:harvest_speed": 3.52f,
+										"silentgems:chargeability": 0.5f,
+										"silentgear:harvest_level": 1.0f,
+										"silentgear:reach_distance": -1.0f,
+										"silentgear:melee_damage": 2.44f,
+										"silentgear:attack_speed": -1.2f,
+										"silentgear:rarity": 0.27207792f,
+										"silentgear:repair_efficiency": 2.0f,
+										"silentgear:enchantability": 4.4f,
+										"silentgear:ranged_speed": -0.2f,
+										"silentgear:ranged_damage": 0.0f,
+										"silentgear:durability": 86.46f,
+										"silentgear:magic_damage": 0.0f
+									},
+									synergy: 0.88f,
+									LockStats: 0,
+									Traits: [
+										{
+											Level: 1,
+											Name: "silentgear:ancient"
+										},
+										{
+											Level: 3,
+											Name: "silentgear:crude"
+										}
+									]
+								},
+								Rendering: {
+									ModelKey: "dagger:dagger_blade{stone/andesite},rod/rough,"
+								}
+							}
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: 1499,
+				type: "item",
+				item: {
+					id: "silentgear:template_board",
+					Count: 18
+				}
+			}]
+		}
+	]
+}

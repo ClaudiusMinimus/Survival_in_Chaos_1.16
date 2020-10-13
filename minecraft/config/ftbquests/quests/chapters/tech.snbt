@@ -1,0 +1,1758 @@
+{
+	id: 228,
+	filename: "tech",
+	order_index: 8,
+	title: "Tech",
+	icon: "titanium:iron_gear",
+	quests: [
+		{
+			x: 0.5d,
+			y: -1.0d,
+			dependencies: [I;299],
+			id: 229,
+			tasks: [{
+				id: 230,
+				type: "item",
+				item: "powah:furnator_starter"
+			}],
+			rewards: [{
+				id: 1284,
+				type: "item",
+				item: {
+					id: "engineerstools:redia_tool",
+					Count: 1,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: -1.0d,
+			y: -1.0d,
+			dependencies: [I;299],
+			id: 231,
+			tasks: [{
+				id: 232,
+				type: "item",
+				item: "powah:thermo_generator_starter"
+			}],
+			rewards: [{
+				id: 1148,
+				type: "item",
+				item: "xreliquary:infernal_chalice"
+			}]
+		},
+		{
+			x: -1.0d,
+			y: 3.0d,
+			dependencies: [I;299],
+			id: 233,
+			tasks: [{
+				id: 234,
+				type: "item",
+				item: "powah:energy_cable_starter",
+				count: 8
+			}],
+			rewards: [{
+				id: 1455,
+				type: "xp",
+				xp: 20
+			}]
+		},
+		{
+			x: -9.5d,
+			y: -1.0d,
+			dependencies: [I;243],
+			id: 235,
+			tasks: [{
+				id: 236,
+				type: "item",
+				item: "silents_mechanisms:basic_alloy_smelter"
+			}]
+		},
+		{
+			x: -9.5d,
+			y: -2.5d,
+			dependencies: [I;235],
+			id: 237,
+			tasks: [{
+				id: 238,
+				type: "item",
+				item: "silents_mechanisms:alloy_smelter"
+			}]
+		},
+		{
+			x: -1.0d,
+			y: -2.5d,
+			dependencies: [I;231],
+			id: 239,
+			tasks: [{
+				id: 240,
+				type: "item",
+				item: "powah:thermo_generator_basic"
+			}],
+			rewards: [{
+				id: 1307,
+				type: "item",
+				item: {
+					id: "forbidden_arcanus:slimec_pickaxe",
+					Count: 1,
+					tag: {
+						Damage: 0,
+						Enchantments: [{
+							lvl: 1,
+							id: "minecraft:silk_touch"
+						}]
+					}
+				}
+			}]
+		},
+		{
+			x: -1.0d,
+			y: -4.0d,
+			dependencies: [I;239],
+			id: 241,
+			tasks: [{
+				id: 242,
+				type: "item",
+				item: "powah:thermo_generator_hardened"
+			}],
+			rewards: [{
+				id: 1308,
+				type: "item"
+			}]
+		},
+		{
+			title: "Silent's Mechanisms",
+			x: -8.0d,
+			y: 1.0d,
+			shape: "diamond",
+			size: 1.5d,
+			id: 243,
+			tasks: [{
+				id: 244,
+				type: "item",
+				item: "silents_mechanisms:stone_machine_frame"
+			}],
+			rewards: [{
+				id: 528,
+				type: "item",
+				item: {
+					id: "cyclic:charm_fire",
+					Count: 1,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: -6.5d,
+			y: -1.0d,
+			dependencies: [I;243],
+			id: 247,
+			tasks: [{
+				id: 248,
+				type: "item",
+				item: "silents_mechanisms:basic_crusher"
+			}]
+		},
+		{
+			x: -6.5d,
+			y: -2.5d,
+			dependencies: [I;247],
+			id: 249,
+			tasks: [{
+				id: 250,
+				type: "item",
+				item: "silents_mechanisms:crusher"
+			}]
+		},
+		{
+			x: -8.0d,
+			y: -1.0d,
+			dependencies: [I;243],
+			id: 251,
+			tasks: [{
+				id: 252,
+				type: "item",
+				item: "silents_mechanisms:electric_furnace"
+			}]
+		},
+		{
+			x: 0.5d,
+			y: 6.0d,
+			dependencies: [I;320],
+			id: 253,
+			tasks: [{
+				id: 254,
+				type: "item",
+				item: {
+					id: "powah:energy_cell_hardened",
+					Count: 1,
+					tag: {
+						lollipopTileStorableNBT: {
+							StoredEnergy: 4000000
+						}
+					}
+				}
+			}],
+			rewards: [{
+				id: 1462,
+				type: "xp",
+				xp: 100
+			}]
+		},
+		{
+			x: -6.5d,
+			y: 3.0d,
+			dependencies: [I;243],
+			id: 255,
+			tasks: [{
+				id: 256,
+				type: "item",
+				item: "silents_mechanisms:processing_speed_upgrade"
+			}]
+		},
+		{
+			x: -8.0d,
+			y: 3.0d,
+			dependencies: [I;243],
+			id: 257,
+			tasks: [{
+				id: 258,
+				type: "item",
+				item: "silents_mechanisms:output_chance_upgrade"
+			}]
+		},
+		{
+			x: -9.5d,
+			y: 3.0d,
+			dependencies: [I;243],
+			id: 259,
+			tasks: [{
+				id: 260,
+				type: "item",
+				item: "silents_mechanisms:energy_efficiency_upgrade"
+			}]
+		},
+		{
+			x: 0.5d,
+			y: -2.5d,
+			dependencies: [I;229],
+			id: 265,
+			tasks: [{
+				id: 266,
+				type: "item",
+				item: "powah:furnator_basic"
+			}],
+			rewards: [{
+				id: 1310,
+				type: "item",
+				item: {
+					id: "forbidden_arcanus:draco_arcanus_helmet",
+					Count: 1,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 0.5d,
+			y: -4.0d,
+			dependencies: [I;265],
+			id: 267,
+			tasks: [{
+				id: 268,
+				type: "item",
+				item: "powah:furnator_hardened"
+			}],
+			rewards: [{
+				id: 1323,
+				type: "item",
+				item: "mysticalagradditions:insanium_coal_block"
+			}]
+		},
+		{
+			x: 0.5d,
+			y: -5.5d,
+			dependencies: [I;267],
+			id: 269,
+			tasks: [{
+				id: 270,
+				type: "item",
+				item: "powah:furnator_blazing"
+			}],
+			rewards: [{
+				id: 1319,
+				type: "item",
+				item: {
+					id: "gobber2:gobber2_chestplate",
+					Count: 1,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 0.5d,
+			y: -7.0d,
+			dependencies: [I;269],
+			id: 271,
+			tasks: [{
+				id: 272,
+				type: "item",
+				item: "powah:furnator_niotic"
+			}],
+			rewards: [{
+				id: 1320,
+				type: "item",
+				item: "mysticalagradditions:insanium_coal_block"
+			}]
+		},
+		{
+			x: 0.5d,
+			y: -8.5d,
+			dependencies: [I;271],
+			id: 273,
+			tasks: [{
+				id: 274,
+				type: "item",
+				item: "powah:furnator_spirited"
+			}],
+			rewards: [{
+				id: 1321,
+				type: "item",
+				item: {
+					id: "xreliquary:mob_charm",
+					Count: 1,
+					tag: {
+						Damage: 0,
+						entity: "minecraft:ghast"
+					}
+				}
+			}]
+		},
+		{
+			x: 0.5d,
+			y: -10.0d,
+			dependencies: [I;273],
+			id: 275,
+			tasks: [{
+				id: 276,
+				type: "item",
+				item: "powah:furnator_nitro"
+			}],
+			rewards: [{
+				id: 1322,
+				type: "item",
+				item: {
+					id: "mekanism:flamethrower",
+					Count: 1,
+					tag: {
+						mekData: {
+							GasTanks: [{
+								Tank: 0,
+								stored: {
+									gasName: "mekanism:hydrogen",
+									amount: 24000
+								}
+							}]
+						}
+					}
+				}
+			}]
+		},
+		{
+			x: -1.0d,
+			y: -5.5d,
+			dependencies: [I;241],
+			id: 277,
+			tasks: [{
+				id: 278,
+				type: "item",
+				item: "powah:thermo_generator_blazing"
+			}],
+			rewards: [{
+				id: 1317,
+				type: "item",
+				item: "xreliquary:alkahestry_altar"
+			}]
+		},
+		{
+			x: -1.0d,
+			y: -7.0d,
+			dependencies: [I;277],
+			id: 279,
+			tasks: [{
+				id: 280,
+				type: "item",
+				item: "powah:thermo_generator_niotic"
+			}],
+			rewards: [{
+				id: 1309,
+				type: "item"
+			}]
+		},
+		{
+			x: -1.0d,
+			y: -10.0d,
+			dependencies: [I;283],
+			id: 281,
+			tasks: [{
+				id: 282,
+				type: "item",
+				item: "powah:thermo_generator_nitro"
+			}],
+			rewards: [{
+				id: 1306,
+				type: "item",
+				item: {
+					id: "forbidden_arcanus:mundabitur_dust",
+					Count: 24
+				}
+			}]
+		},
+		{
+			x: -1.0d,
+			y: -8.5d,
+			dependencies: [I;279],
+			id: 283,
+			tasks: [{
+				id: 284,
+				type: "item",
+				item: "powah:thermo_generator_spirited"
+			}],
+			rewards: [{
+				id: 1318,
+				type: "item",
+				item: "gobber2:gobber2_medallion_exp"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: -1.0d,
+			dependencies: [I;299],
+			id: 285,
+			tasks: [{
+				id: 286,
+				type: "item",
+				item: "powah:magmator_starter"
+			}],
+			rewards: [
+				{
+					id: 1285,
+					type: "item",
+					item: "engineerstools:musli_bar_press"
+				},
+				{
+					id: 1286,
+					type: "item",
+					item: {
+						id: "engineerstools:musli_bar",
+						Count: 8
+					}
+				}
+			]
+		},
+		{
+			x: 2.0d,
+			y: -2.5d,
+			dependencies: [I;285],
+			id: 287,
+			tasks: [{
+				id: 288,
+				type: "item",
+				item: "powah:magmator_basic"
+			}],
+			rewards: [{
+				id: 1324,
+				type: "item"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: -4.0d,
+			dependencies: [I;287],
+			id: 289,
+			tasks: [{
+				id: 290,
+				type: "item",
+				item: "powah:magmator_hardened"
+			}],
+			rewards: [{
+				id: 1326,
+				type: "item",
+				item: {
+					id: "silentgear:crimson_steel_ingot",
+					Count: 8
+				}
+			}]
+		},
+		{
+			x: 2.0d,
+			y: -5.5d,
+			dependencies: [I;289],
+			id: 291,
+			tasks: [{
+				id: 292,
+				type: "item",
+				item: "powah:magmator_blazing"
+			}],
+			rewards: [{
+				id: 1325,
+				type: "item",
+				item: {
+					id: "minecraft:redstone_block",
+					Count: 8
+				}
+			}]
+		},
+		{
+			x: 2.0d,
+			y: -8.5d,
+			dependencies: [I;297],
+			id: 293,
+			tasks: [{
+				id: 294,
+				type: "item",
+				item: "powah:magmator_spirited"
+			}],
+			rewards: [
+				{
+					id: 1328,
+					type: "item",
+					item: {
+						id: "simplefarming:cheese_block",
+						Count: 8
+					}
+				},
+				{
+					id: 1330,
+					type: "item",
+					item: "darkutils:anchor_plate"
+				}
+			]
+		},
+		{
+			x: 2.0d,
+			y: -10.0d,
+			dependencies: [I;293],
+			id: 295,
+			tasks: [{
+				id: 296,
+				type: "item",
+				item: "powah:magmator_nitro"
+			}],
+			rewards: [{
+				id: 1329,
+				type: "item",
+				item: "xreliquary:apothecary_mortar"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: -7.0d,
+			dependencies: [I;291],
+			id: 297,
+			tasks: [{
+				id: 298,
+				type: "item",
+				item: "powah:magmator_niotic"
+			}],
+			rewards: [{
+				id: 1327,
+				type: "item",
+				item: {
+					id: "simplefarming:lasagna",
+					Count: 8
+				}
+			}]
+		},
+		{
+			title: "Powah - Getting Started",
+			x: 0.5d,
+			y: 1.0d,
+			shape: "diamond",
+			size: 1.5d,
+			id: 299,
+			tasks: [
+				{
+					id: 300,
+					type: "item",
+					item: "powah:dielectric_paste",
+					count: 24
+				},
+				{
+					id: 301,
+					type: "item",
+					item: "powah:dielectric_rod",
+					count: 8
+				},
+				{
+					id: 302,
+					type: "item",
+					item: "powah:dielectric_casing"
+				},
+				{
+					id: 303,
+					type: "item",
+					item: "powah:capacitor_basic",
+					count: 4
+				}
+			],
+			rewards: [
+				{
+					id: 304,
+					type: "item",
+					item: "powah:book"
+				},
+				{
+					id: 305,
+					type: "item",
+					item: {
+						id: "powah:wrench",
+						Count: 1,
+						tag: {
+							PowahWrenchNBT: {}
+						}
+					}
+				}
+			]
+		},
+		{
+			x: -1.0d,
+			y: 4.5d,
+			dependencies: [I;233],
+			id: 306,
+			tasks: [{
+				id: 307,
+				type: "item",
+				item: "powah:energy_cable_basic"
+			}],
+			rewards: [{
+				id: 1456,
+				type: "xp",
+				xp: 40
+			}]
+		},
+		{
+			x: -1.0d,
+			y: 6.0d,
+			dependencies: [I;306],
+			id: 308,
+			tasks: [{
+				id: 309,
+				type: "item",
+				item: "powah:energy_cable_hardened"
+			}],
+			rewards: [{
+				id: 1457,
+				type: "item"
+			}]
+		},
+		{
+			x: -1.0d,
+			y: 7.5d,
+			dependencies: [I;308],
+			id: 310,
+			tasks: [{
+				id: 311,
+				type: "item",
+				item: "powah:energy_cable_blazing"
+			}],
+			rewards: [{
+				id: 1458,
+				type: "item",
+				item: "apotheosis:prismatic_web"
+			}]
+		},
+		{
+			x: -1.0d,
+			y: 9.0d,
+			dependencies: [I;310],
+			id: 312,
+			tasks: [{
+				id: 313,
+				type: "item",
+				item: "powah:energy_cable_niotic"
+			}],
+			rewards: [{
+				id: 1459,
+				type: "item",
+				item: {
+					id: "minecraft:enchanted_book",
+					Count: 1,
+					tag: {
+						StoredEnchantments: [{
+							lvl: 3,
+							id: "apotheosis:mounted_strike"
+						}]
+					}
+				}
+			}]
+		},
+		{
+			x: -1.0d,
+			y: 10.5d,
+			dependencies: [I;312],
+			id: 314,
+			tasks: [{
+				id: 315,
+				type: "item",
+				item: "powah:energy_cable_spirited"
+			}]
+		},
+		{
+			x: -1.0d,
+			y: 12.0d,
+			dependencies: [I;314],
+			id: 316,
+			tasks: [{
+				id: 317,
+				type: "item",
+				item: "powah:energy_cable_nitro"
+			}]
+		},
+		{
+			x: 0.5d,
+			y: 3.0d,
+			dependencies: [I;299],
+			id: 318,
+			tasks: [{
+				id: 319,
+				type: "item",
+				item: "powah:energy_cell_starter"
+			}],
+			rewards: [{
+				id: 1460,
+				type: "xp",
+				xp: 50
+			}]
+		},
+		{
+			x: 0.5d,
+			y: 4.5d,
+			dependencies: [I;318],
+			id: 320,
+			tasks: [{
+				id: 321,
+				type: "item",
+				item: "powah:energy_cell_basic"
+			}],
+			rewards: [{
+				id: 1461,
+				type: "item",
+				item: "xreliquary:salamander_eye"
+			}]
+		},
+		{
+			x: 0.5d,
+			y: 7.5d,
+			dependencies: [I;253],
+			id: 322,
+			tasks: [{
+				id: 323,
+				type: "item",
+				item: "powah:energy_cell_blazing"
+			}],
+			rewards: [{
+				id: 1463,
+				type: "item"
+			}]
+		},
+		{
+			x: 0.5d,
+			y: 9.0d,
+			dependencies: [I;322],
+			id: 324,
+			tasks: [{
+				id: 325,
+				type: "item",
+				item: "powah:energy_cell_niotic"
+			}],
+			rewards: [{
+				id: 1464,
+				type: "item",
+				item: {
+					id: "xreliquary:squid_beak",
+					Count: 4
+				}
+			}]
+		},
+		{
+			x: 0.5d,
+			y: 10.5d,
+			dependencies: [I;324],
+			id: 326,
+			tasks: [{
+				id: 327,
+				type: "item",
+				item: "powah:energy_cell_spirited"
+			}],
+			rewards: [{
+				id: 1465,
+				type: "item",
+				item: {
+					id: "apotheosis:hellshelf",
+					Count: 4
+				}
+			}]
+		},
+		{
+			x: 0.5d,
+			y: 12.0d,
+			dependencies: [I;326],
+			id: 328,
+			tasks: [{
+				id: 329,
+				type: "item",
+				item: "powah:energy_cell_nitro"
+			}],
+			rewards: [{
+				id: 1466,
+				type: "item"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 3.0d,
+			dependencies: [I;299],
+			id: 330,
+			tasks: [{
+				id: 331,
+				type: "item",
+				item: "powah:ender_cell_starter"
+			}],
+			rewards: [{
+				id: 1467,
+				type: "xp",
+				xp: 50
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 4.5d,
+			dependencies: [I;330],
+			id: 332,
+			tasks: [{
+				id: 333,
+				type: "item",
+				item: "powah:ender_cell_basic"
+			}],
+			rewards: [{
+				id: 1468,
+				type: "item",
+				item: "cyclic:heart"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 6.0d,
+			dependencies: [I;332],
+			id: 334,
+			tasks: [{
+				id: 335,
+				type: "item",
+				item: "powah:ender_cell_hardened"
+			}],
+			rewards: [{
+				id: 1469,
+				type: "item"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 7.5d,
+			dependencies: [I;334],
+			id: 336,
+			tasks: [{
+				id: 337,
+				type: "item",
+				item: "powah:ender_cell_blazing"
+			}],
+			rewards: [{
+				id: 1470,
+				type: "item",
+				item: {
+					id: "xreliquary:molten_core",
+					Count: 4
+				}
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 9.0d,
+			dependencies: [I;336],
+			id: 338,
+			tasks: [{
+				id: 339,
+				type: "item",
+				item: "powah:ender_cell_niotic"
+			}],
+			rewards: [{
+				id: 1471,
+				type: "item",
+				item: {
+					id: "minecraft:enchanted_book",
+					Count: 1,
+					tag: {
+						StoredEnchantments: [{
+							lvl: 5,
+							id: "apotheosis:depth_miner"
+						}]
+					}
+				}
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 10.5d,
+			dependencies: [I;338],
+			id: 340,
+			tasks: [{
+				id: 341,
+				type: "item",
+				item: "powah:ender_cell_spirited"
+			}],
+			rewards: [
+				{
+					id: 1472,
+					type: "item",
+					item: {
+						id: "xreliquary:slime_pearl",
+						Count: 4
+					}
+				},
+				{
+					id: 1473,
+					type: "item",
+					item: "xreliquary:frozen_core"
+				}
+			]
+		},
+		{
+			x: 2.0d,
+			y: 12.0d,
+			dependencies: [I;340],
+			id: 342,
+			tasks: [{
+				id: 343,
+				type: "item",
+				item: "powah:ender_cell_nitro"
+			}],
+			rewards: [{
+				id: 1474,
+				type: "item",
+				item: {
+					id: "xreliquary:interdiction_torch",
+					Count: 4
+				}
+			}]
+		},
+		{
+			x: -3.5d,
+			y: 1.0d,
+			shape: "diamond",
+			size: 1.5d,
+			id: 344,
+			tasks: [{
+				id: 345,
+				type: "item",
+				item: "solarflux:sp_1"
+			}],
+			rewards: [{
+				id: 1475,
+				type: "item",
+				item: {
+					id: "minecraft:glass",
+					Count: 64
+				}
+			}]
+		},
+		{
+			x: -3.5d,
+			y: -1.0d,
+			dependencies: [I;344],
+			id: 346,
+			tasks: [{
+				id: 347,
+				type: "item",
+				item: "solarflux:sp_2"
+			}],
+			rewards: [{
+				id: 1476,
+				type: "item",
+				item: {
+					id: "minecraft:piston",
+					Count: 4
+				}
+			}]
+		},
+		{
+			x: -3.5d,
+			y: -2.5d,
+			dependencies: [I;346],
+			id: 348,
+			tasks: [{
+				id: 349,
+				type: "item",
+				item: "solarflux:sp_3"
+			}]
+		},
+		{
+			x: -3.5d,
+			y: -4.0d,
+			dependencies: [I;348],
+			id: 350,
+			tasks: [{
+				id: 351,
+				type: "item",
+				item: "solarflux:sp_4"
+			}]
+		},
+		{
+			x: -3.5d,
+			y: -5.5d,
+			dependencies: [I;350],
+			id: 352,
+			tasks: [{
+				id: 353,
+				type: "item",
+				item: "solarflux:sp_5"
+			}]
+		},
+		{
+			x: -3.5d,
+			y: -7.0d,
+			dependencies: [I;352],
+			id: 354,
+			tasks: [{
+				id: 355,
+				type: "item",
+				item: "solarflux:sp_6"
+			}]
+		},
+		{
+			x: -3.5d,
+			y: -8.5d,
+			dependencies: [I;354],
+			id: 356,
+			tasks: [{
+				id: 357,
+				type: "item",
+				item: "solarflux:sp_7"
+			}]
+		},
+		{
+			x: -3.5d,
+			y: -10.0d,
+			dependencies: [I;356],
+			id: 358,
+			tasks: [{
+				id: 359,
+				type: "item",
+				item: "solarflux:sp_8"
+			}]
+		},
+		{
+			x: -3.5d,
+			y: 3.0d,
+			dependencies: [I;344],
+			id: 360,
+			tasks: [{
+				id: 361,
+				type: "item",
+				item: "solarflux:capacity_upgrade"
+			}],
+			rewards: [{
+				id: 1478,
+				type: "xp",
+				xp: 100
+			}]
+		},
+		{
+			x: -5.0d,
+			y: 2.0d,
+			dependencies: [I;344],
+			id: 362,
+			tasks: [{
+				id: 363,
+				type: "item",
+				item: "solarflux:transfer_rate_upgrade"
+			}],
+			rewards: [{
+				id: 1479,
+				type: "item"
+			}]
+		},
+		{
+			x: -2.0d,
+			y: 2.0d,
+			dependencies: [I;344],
+			id: 364,
+			tasks: [{
+				id: 365,
+				type: "item",
+				item: "solarflux:efficiency_upgrade"
+			}],
+			rewards: [{
+				id: 1477,
+				type: "xp",
+				xp: 100
+			}]
+		},
+		{
+			x: 3.5d,
+			y: 3.0d,
+			dependencies: [I;380],
+			id: 366,
+			tasks: [{
+				id: 367,
+				type: "item",
+				item: "powah:energizing_rod_starter"
+			}],
+			rewards: [{
+				id: 1484,
+				type: "item",
+				item: {
+					id: "xreliquary:catalyzing_gland",
+					Count: 4
+				}
+			}]
+		},
+		{
+			x: 3.5d,
+			y: 4.5d,
+			dependencies: [I;366],
+			id: 368,
+			tasks: [{
+				id: 369,
+				type: "item",
+				item: "powah:energizing_rod_basic"
+			}],
+			rewards: [{
+				id: 1485,
+				type: "item"
+			}]
+		},
+		{
+			x: 3.5d,
+			y: 6.0d,
+			dependencies: [I;368],
+			id: 370,
+			tasks: [{
+				id: 371,
+				type: "item",
+				item: "powah:energizing_rod_hardened"
+			}],
+			rewards: [{
+				id: 1486,
+				type: "item",
+				item: "cyclic:heart"
+			}]
+		},
+		{
+			x: 3.5d,
+			y: 7.5d,
+			dependencies: [I;370],
+			id: 372,
+			tasks: [{
+				id: 373,
+				type: "item",
+				item: "powah:energizing_rod_blazing"
+			}],
+			rewards: [{
+				id: 1487,
+				type: "item",
+				item: {
+					id: "xreliquary:nebulous_heart",
+					Count: 4
+				}
+			}]
+		},
+		{
+			x: 3.5d,
+			y: 9.0d,
+			dependencies: [I;
+				370,
+				372
+			],
+			id: 374,
+			tasks: [{
+				id: 375,
+				type: "item",
+				item: "powah:energizing_rod_niotic"
+			}]
+		},
+		{
+			x: 3.5d,
+			y: 10.5d,
+			dependencies: [I;374],
+			id: 376,
+			tasks: [{
+				id: 377,
+				type: "item",
+				item: "powah:energizing_rod_spirited"
+			}]
+		},
+		{
+			x: 3.5d,
+			y: 12.0d,
+			dependencies: [I;376],
+			id: 378,
+			tasks: [{
+				id: 379,
+				type: "item",
+				item: "powah:energizing_rod_nitro"
+			}]
+		},
+		{
+			x: 3.5d,
+			y: 1.0d,
+			dependencies: [I;299],
+			id: 380,
+			tasks: [{
+				id: 381,
+				type: "item",
+				item: "powah:energizing_orb"
+			}],
+			rewards: [{
+				id: 1483,
+				type: "item"
+			}]
+		},
+		{
+			x: 6.0d,
+			y: 1.0d,
+			shape: "diamond",
+			size: 1.5d,
+			id: 382,
+			tasks: [
+				{
+					id: 383,
+					type: "item",
+					item: "mekanism:ingot_osmium",
+					count: 16
+				},
+				{
+					id: 400,
+					type: "item",
+					item: "mekanism:metallurgic_infuser"
+				}
+			],
+			rewards: [
+				{
+					id: 1391,
+					type: "item",
+					item: "mekanism:basic_tier_installer"
+				},
+				{
+					id: 1392,
+					type: "item",
+					item: {
+						id: "mekanism:upgrade_energy",
+						Count: 2
+					}
+				}
+			]
+		},
+		{
+			x: 8.0d,
+			y: 1.0d,
+			dependencies: [I;382],
+			id: 384,
+			tasks: [
+				{
+					id: 385,
+					type: "item",
+					item: "mekanism:alloy_infused",
+					count: 8
+				},
+				{
+					id: 403,
+					type: "item",
+					item: "mekanism:basic_control_circuit",
+					count: 8
+				}
+			],
+			rewards: [{
+				id: 420,
+				type: "item",
+				item: "mekanism:configurator"
+			}]
+		},
+		{
+			x: 8.0d,
+			y: -0.5d,
+			dependencies: [I;384],
+			id: 388,
+			tasks: [{
+				id: 389,
+				type: "item",
+				item: "mekanismgenerators:solar_generator"
+			}],
+			rewards: [{
+				id: 1402,
+				type: "item"
+			}]
+		},
+		{
+			x: 8.0d,
+			y: -2.0d,
+			dependencies: [I;388],
+			id: 390,
+			tasks: [{
+				id: 391,
+				type: "item",
+				item: "mekanismgenerators:advanced_solar_generator"
+			}],
+			rewards: [{
+				id: 1403,
+				type: "item",
+				item: "mekanism:elite_tier_installer"
+			}]
+		},
+		{
+			x: 6.5d,
+			y: -2.0d,
+			dependencies: [I;384],
+			id: 392,
+			tasks: [{
+				id: 393,
+				type: "item",
+				item: "mekanismgenerators:wind_generator"
+			}],
+			rewards: [{
+				id: 1396,
+				type: "item",
+				item: "cyclic:heart"
+			}]
+		},
+		{
+			x: 8.0d,
+			y: 4.0d,
+			dependencies: [I;401],
+			id: 394,
+			tasks: [{
+				id: 395,
+				type: "item",
+				item: "mekanismgenerators:bio_generator"
+			}],
+			rewards: [{
+				id: 1400,
+				type: "item",
+				item: {
+					id: "mekanism:alloy_reinforced",
+					Count: 4
+				}
+			}]
+		},
+		{
+			x: 6.5d,
+			y: -0.5d,
+			dependencies: [I;384],
+			id: 398,
+			tasks: [{
+				id: 399,
+				type: "item",
+				item: "mekanism:precision_sawmill"
+			}],
+			rewards: [{
+				id: 423,
+				type: "item",
+				item: {
+					id: "mekanism:cardboard_box",
+					Count: 8
+				}
+			}]
+		},
+		{
+			x: 8.0d,
+			y: 2.5d,
+			dependencies: [I;384],
+			id: 401,
+			tasks: [{
+				id: 402,
+				type: "item",
+				item: "mekanism:crusher"
+			}],
+			rewards: [{
+				id: 1442,
+				type: "item",
+				item: {
+					id: "mekanism:upgrade_energy",
+					Count: 4
+				}
+			}]
+		},
+		{
+			x: 9.5d,
+			y: 1.0d,
+			dependencies: [I;384],
+			id: 404,
+			tasks: [{
+				id: 405,
+				type: "item",
+				item: "mekanism:energized_smelter"
+			}],
+			rewards: [{
+				id: 1397,
+				type: "item",
+				item: {
+					id: "mekanism:upgrade_muffling",
+					Count: 4
+				}
+			}]
+		},
+		{
+			x: 9.5d,
+			y: -0.5d,
+			dependencies: [I;404],
+			id: 406,
+			tasks: [{
+				id: 407,
+				type: "item",
+				item: "mekanism:enrichment_chamber"
+			}],
+			rewards: [{
+				id: 1395,
+				type: "item",
+				item: {
+					id: "mekanism:dust_osmium",
+					Count: 10
+				}
+			}]
+		},
+		{
+			x: 9.5d,
+			y: -2.0d,
+			dependencies: [I;406],
+			id: 408,
+			tasks: [{
+				id: 409,
+				type: "item",
+				item: "mekanism:purification_chamber"
+			}],
+			rewards: [{
+				id: 1398,
+				type: "item",
+				item: {
+					id: "mekanism:upgrade_speed",
+					Count: 4
+				}
+			}]
+		},
+		{
+			x: 9.5d,
+			y: -3.5d,
+			dependencies: [I;408],
+			id: 410,
+			tasks: [{
+				id: 411,
+				type: "item",
+				item: "mekanism:electrolytic_separator"
+			}],
+			rewards: [{
+				id: 1399,
+				type: "item"
+			}]
+		},
+		{
+			x: 6.5d,
+			y: 2.5d,
+			dependencies: [I;384],
+			id: 412,
+			tasks: [{
+				id: 413,
+				type: "item",
+				item: "mekanism:electric_pump"
+			}],
+			rewards: [{
+				id: 1401,
+				type: "item"
+			}]
+		},
+		{
+			x: 9.5d,
+			y: 2.5d,
+			id: 414,
+			tasks: [{
+				id: 415,
+				type: "item",
+				item: "mekanism:basic_mechanical_pipe"
+			}],
+			rewards: [{
+				id: 1393,
+				type: "item",
+				item: {
+					id: "mekanism:basic_mechanical_pipe",
+					Count: 8
+				}
+			}]
+		},
+		{
+			x: 11.0d,
+			y: 2.5d,
+			id: 416,
+			tasks: [{
+				id: 417,
+				type: "item",
+				item: "mekanism:basic_universal_cable"
+			}],
+			rewards: [{
+				id: 1394,
+				type: "item",
+				item: {
+					id: "mekanism:basic_universal_cable",
+					Count: 8
+				}
+			}]
+		},
+		{
+			x: 12.5d,
+			y: 2.5d,
+			id: 421,
+			tasks: [{
+				id: 422,
+				type: "item",
+				item: "mekanism:basic_logistical_transporter"
+			}],
+			rewards: [{
+				id: 1390,
+				type: "item",
+				item: "mekanism:logistical_sorter"
+			}]
+		},
+		{
+			x: 3.5d,
+			y: -1.0d,
+			dependencies: [I;299],
+			id: 424,
+			tasks: [{
+				id: 425,
+				type: "item",
+				item: "powah:solar_panel_starter"
+			}],
+			rewards: [{
+				id: 1287,
+				type: "item",
+				item: {
+					id: "engineerstools:diving_capsule",
+					Count: 1,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 3.5d,
+			y: -2.5d,
+			dependencies: [I;424],
+			id: 426,
+			tasks: [{
+				id: 427,
+				type: "item",
+				item: "powah:solar_panel_basic"
+			}],
+			rewards: [{
+				id: 1331,
+				type: "item",
+				item: {
+					id: "simplefarming:peanut_butter_cookie",
+					Count: 16
+				}
+			}]
+		},
+		{
+			x: 3.5d,
+			y: -4.0d,
+			dependencies: [I;426],
+			id: 428,
+			tasks: [{
+				id: 429,
+				type: "item",
+				item: "powah:solar_panel_hardened"
+			}],
+			rewards: [{
+				id: 1332,
+				type: "item",
+				item: "mekanism:logistical_sorter"
+			}]
+		},
+		{
+			x: 3.5d,
+			y: -5.5d,
+			dependencies: [I;428],
+			id: 430,
+			tasks: [{
+				id: 431,
+				type: "item",
+				item: "powah:solar_panel_blazing"
+			}],
+			rewards: [{
+				id: 1333,
+				type: "item",
+				item: {
+					id: "mcwbridges:bamboo_bridge",
+					Count: 10
+				}
+			}]
+		},
+		{
+			x: 3.5d,
+			y: -7.0d,
+			dependencies: [I;430],
+			id: 432,
+			tasks: [{
+				id: 433,
+				type: "item",
+				item: "powah:solar_panel_niotic"
+			}],
+			rewards: [
+				{
+					id: 1334,
+					type: "item",
+					item: {
+						id: "simplefarming:mutton_curry",
+						Count: 8
+					}
+				},
+				{
+					id: 1335,
+					type: "item",
+					item: {
+						id: "mekanism:jetpack_armored",
+						Count: 1,
+						tag: {
+							mekData: {
+								GasTanks: [{
+									Tank: 0,
+									stored: {
+										gasName: "mekanism:hydrogen",
+										amount: 24000
+									}
+								}]
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			x: 3.5d,
+			y: -8.5d,
+			dependencies: [I;
+				430,
+				432
+			],
+			id: 434,
+			tasks: [{
+				id: 435,
+				type: "item",
+				item: "powah:solar_panel_spirited"
+			}],
+			rewards: [{
+				id: 1336,
+				type: "item",
+				item: {
+					id: "mekanism:upgrade_muffling",
+					Count: 4
+				}
+			}]
+		},
+		{
+			x: 3.5d,
+			y: -10.0d,
+			dependencies: [I;434],
+			id: 436,
+			tasks: [{
+				id: 437,
+				type: "item",
+				item: "powah:solar_panel_nitro"
+			}],
+			rewards: [
+				{
+					id: 1337,
+					type: "item",
+					item: {
+						id: "simplefarming:cornbread",
+						Count: 8
+					}
+				},
+				{
+					id: 1338,
+					type: "item",
+					item: {
+						id: "mekanism:scuba_tank",
+						Count: 1,
+						tag: {
+							HideFlags: 2,
+							mekData: {
+								GasTanks: [{
+									Tank: 0,
+									stored: {
+										gasName: "mekanism:oxygen",
+										amount: 24000
+									}
+								}]
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			x: 6.5d,
+			y: 4.0d,
+			description: ["When you have completed this, see if you can make an obsidian generator."],
+			dependencies: [I;384],
+			id: 1150,
+			tasks: [{
+				id: 1151,
+				type: "item",
+				item: {
+					id: "mekanism:fluidic_plenisher",
+					Count: 1,
+					tag: {
+						mekData: {
+							FluidTanks: [],
+							ownerLeast: -4715755658393386747L,
+							controlType: 0,
+							EnergyContainers: [],
+							securityMode: 0,
+							Items: [],
+							ownerMost: 5396186238822598410L,
+							componentUpgrade: {
+								upgrades: []
+							}
+						}
+					}
+				}
+			}],
+			rewards: [{
+				id: 1153,
+				type: "item",
+				item: {
+					id: "mekanism:flamethrower",
+					Count: 1,
+					tag: {
+						mekData: {
+							GasTanks: [{
+								Tank: 0,
+								stored: {
+									gasName: "mekanism:hydrogen",
+									amount: 24000
+								}
+							}]
+						}
+					}
+				}
+			}]
+		}
+	]
+}

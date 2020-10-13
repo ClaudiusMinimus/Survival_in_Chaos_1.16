@@ -1,0 +1,448 @@
+{
+	id: 908,
+	filename: "cooking",
+	order_index: 6,
+	title: "Cooking",
+	icon: "simplefarming:blt",
+	quests: [
+		{
+			x: -2.5d,
+			y: 0.5d,
+			shape: "diamond",
+			size: 1.5d,
+			id: 909,
+			tasks: [{
+				id: 910,
+				type: "item",
+				item: "cookingforblockheads:recipe_book"
+			}],
+			rewards: [{
+				id: 1361,
+				type: "item",
+				item: "gobber2:gobber2_ring_farmer"
+			}]
+		},
+		{
+			x: -2.5d,
+			y: -1.0d,
+			dependencies: [I;909],
+			id: 911,
+			tasks: [{
+				id: 912,
+				type: "item",
+				item: "cookingforblockheads:crafting_book"
+			}],
+			rewards: [{
+				id: 1362,
+				type: "item",
+				item: "silentgear:spoon_upgrade"
+			}]
+		},
+		{
+			x: -2.5d,
+			y: -2.5d,
+			dependencies: [I;911],
+			id: 913,
+			tasks: [
+				{
+					id: 914,
+					type: "item",
+					item: "cookingforblockheads:cooking_table"
+				},
+				{
+					id: 925,
+					type: "item",
+					item: "cookingforblockheads:oven"
+				},
+				{
+					id: 926,
+					type: "item",
+					item: "cookingforblockheads:sink"
+				},
+				{
+					id: 927,
+					type: "item",
+					item: "cookingforblockheads:counter"
+				},
+				{
+					id: 928,
+					type: "item",
+					item: "cookingforblockheads:corner"
+				},
+				{
+					id: 929,
+					type: "item",
+					item: "cookingforblockheads:cabinet"
+				},
+				{
+					id: 930,
+					type: "item",
+					item: "cookingforblockheads:fridge"
+				}
+			],
+			rewards: [
+				{
+					id: 931,
+					type: "item",
+					item: {
+						id: "cookingforblockheads:white_kitchen_floor",
+						Count: 16
+					}
+				},
+				{
+					id: 943,
+					type: "item",
+					item: "cookingforblockheads:fridge"
+				},
+				{
+					id: 944,
+					type: "item",
+					item: "cookingforblockheads:cabinet"
+				},
+				{
+					id: 945,
+					type: "item",
+					item: "cookingforblockheads:counter"
+				},
+				{
+					id: 946,
+					type: "item",
+					item: "cookingforblockheads:heating_unit"
+				},
+				{
+					id: 947,
+					type: "item",
+					item: "cookingforblockheads:ice_unit"
+				},
+				{
+					id: 948,
+					type: "item",
+					item: "cookingforblockheads:preservation_chamber"
+				}
+			]
+		},
+		{
+			x: -2.5d,
+			y: -4.0d,
+			dependencies: [I;913],
+			id: 932,
+			tasks: [{
+				id: 933,
+				type: "item",
+				item: "cookingforblockheads:milk_jar"
+			}],
+			rewards: [
+				{
+					id: 941,
+					type: "item",
+					item: "minecraft:cow_spawn_egg"
+				},
+				{
+					id: 942,
+					type: "item",
+					item: "minecraft:anvil"
+				}
+			]
+		},
+		{
+			x: -2.5d,
+			y: -5.5d,
+			dependencies: [I;932],
+			id: 934,
+			tasks: [{
+				id: 935,
+				type: "item",
+				item: "cookingforblockheads:cow_jar"
+			}],
+			rewards: [{
+				id: 1363,
+				type: "item"
+			}]
+		},
+		{
+			x: -1.0d,
+			y: -3.5d,
+			dependencies: [I;913],
+			id: 936,
+			tasks: [{
+				id: 937,
+				type: "item",
+				item: "cookingforblockheads:toaster"
+			}],
+			rewards: [
+				{
+					id: 938,
+					type: "item",
+					item: "cookingforblockheads:tool_rack"
+				},
+				{
+					id: 939,
+					type: "item",
+					item: "cookingforblockheads:spice_rack"
+				},
+				{
+					id: 940,
+					type: "item",
+					item: "cookingforblockheads:fruit_basket"
+				},
+				{
+					id: 949,
+					type: "item"
+				}
+			]
+		},
+		{
+			x: -4.5d,
+			y: -0.5d,
+			id: 950,
+			tasks: [{
+				id: 951,
+				type: "item",
+				item: "simplefarming:blueberry_pie"
+			}],
+			rewards: [{
+				id: 1356,
+				type: "xp",
+				xp: 50
+			}]
+		},
+		{
+			x: -7.5d,
+			y: -0.5d,
+			id: 952,
+			tasks: [{
+				id: 953,
+				type: "item",
+				item: "simplefarming:blt"
+			}],
+			rewards: [{
+				id: 1353,
+				type: "xp",
+				xp: 50
+			}]
+		},
+		{
+			x: -4.5d,
+			y: -1.5d,
+			id: 954,
+			tasks: [{
+				id: 955,
+				type: "item",
+				item: "simplefarming:potato_knish"
+			}],
+			rewards: [{
+				id: 1352,
+				type: "xp",
+				xp: 50
+			}]
+		},
+		{
+			x: -5.5d,
+			y: -1.5d,
+			id: 956,
+			tasks: [{
+				id: 957,
+				type: "item",
+				item: "simplefarming:sandwich"
+			}],
+			rewards: [{
+				id: 1351,
+				type: "xp",
+				xp: 50
+			}]
+		},
+		{
+			x: -6.5d,
+			y: -1.5d,
+			id: 958,
+			tasks: [{
+				id: 959,
+				type: "item",
+				item: "simplefarming:sushi"
+			}],
+			rewards: [{
+				id: 1350,
+				type: "xp",
+				xp: 50
+			}]
+		},
+		{
+			x: -7.5d,
+			y: -1.5d,
+			id: 960,
+			tasks: [{
+				id: 961,
+				type: "item",
+				item: "simplefarming:stuffed_corn_zucchini"
+			}],
+			rewards: [{
+				id: 1349,
+				type: "xp",
+				xp: 50
+			}]
+		},
+		{
+			x: -7.5d,
+			y: -2.5d,
+			id: 962,
+			tasks: [{
+				id: 963,
+				type: "item",
+				item: "simplefarming:trail_mix"
+			}],
+			rewards: [{
+				id: 1345,
+				type: "xp",
+				xp: 50
+			}]
+		},
+		{
+			x: -6.5d,
+			y: -2.5d,
+			id: 964,
+			tasks: [{
+				id: 965,
+				type: "item",
+				item: "simplefarming:pizza"
+			}],
+			rewards: [{
+				id: 1346,
+				type: "item",
+				item: "xreliquary:alkahestry_altar"
+			}]
+		},
+		{
+			x: -5.5d,
+			y: -2.5d,
+			id: 966,
+			tasks: [{
+				id: 967,
+				type: "item",
+				item: "simplefarming:eggplant_parmesan"
+			}],
+			rewards: [{
+				id: 1347,
+				type: "xp",
+				xp: 50
+			}]
+		},
+		{
+			x: -4.5d,
+			y: -2.5d,
+			id: 968,
+			tasks: [{
+				id: 969,
+				type: "item",
+				item: "simplefarming:lasagna"
+			}],
+			rewards: [{
+				id: 1348,
+				type: "xp",
+				xp: 50
+			}]
+		},
+		{
+			x: -6.5d,
+			y: -0.5d,
+			id: 970,
+			tasks: [{
+				id: 971,
+				type: "item",
+				item: "simplefarming:pulled_pork_sandwich"
+			}],
+			rewards: [{
+				id: 1354,
+				type: "xp",
+				xp: 50
+			}]
+		},
+		{
+			x: -5.5d,
+			y: -0.5d,
+			id: 972,
+			tasks: [{
+				id: 973,
+				type: "item",
+				item: "simplefarming:egg_sandwich"
+			}],
+			rewards: [{
+				id: 1355,
+				type: "xp",
+				xp: 50
+			}]
+		},
+		{
+			x: -7.5d,
+			y: -3.5d,
+			id: 974,
+			tasks: [{
+				id: 975,
+				type: "item",
+				item: "simplefarming:italian_beef"
+			}],
+			rewards: [{
+				id: 1341,
+				type: "xp",
+				xp: 50
+			}]
+		},
+		{
+			x: -6.5d,
+			y: -3.5d,
+			id: 976,
+			tasks: [{
+				id: 977,
+				type: "item",
+				item: "simplefarming:caesar_salad"
+			}],
+			rewards: [{
+				id: 1342,
+				type: "xp",
+				xp: 50
+			}]
+		},
+		{
+			x: -5.5d,
+			y: -3.5d,
+			id: 978,
+			tasks: [{
+				id: 979,
+				type: "item",
+				item: "simplefarming:hotdog"
+			}],
+			rewards: [{
+				id: 1343,
+				type: "xp",
+				xp: 50
+			}]
+		},
+		{
+			x: -4.5d,
+			y: -3.5d,
+			id: 980,
+			tasks: [{
+				id: 981,
+				type: "item",
+				item: "simplefarming:chicory_gratin"
+			}]
+		},
+		{
+			title: "Eat all of your vegtables",
+			x: -6.0d,
+			y: -5.5d,
+			shape: "heart",
+			description: ["A healthy and varied diet can provide many health benefits. Eating a variety of foods will even give you extra hearts!"],
+			size: 1.5d,
+			id: 1507,
+			tasks: [{
+				id: 1508,
+				type: "checkmark"
+			}],
+			rewards: [{
+				id: 1509,
+				type: "item",
+				item: "cyclic:heart"
+			}]
+		}
+	]
+}
