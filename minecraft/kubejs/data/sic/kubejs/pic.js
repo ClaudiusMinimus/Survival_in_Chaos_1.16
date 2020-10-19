@@ -19,4 +19,13 @@ events.listen('recipes', function (event) {
     // Add shapeless recipe for sugarcane
     event.shapeless(item.of('minecraft:sugar_cane', 1), ['minecraft:sugar', 'minecraft:stick'])
 
+    // Add shaped recipe for chests
+     event.shaped(item.of('minecraft:chest', 4), [
+        'WWW',
+        'W W',
+        'WWW'
+    ], {
+        W: '#minecraft:logs'
+    })
+
 })
