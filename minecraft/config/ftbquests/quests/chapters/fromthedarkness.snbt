@@ -1,7 +1,7 @@
 {
 	id: 4,
 	filename: "fromthedarkness",
-	order_index: 1,
+	order_index: 2,
 	title: "From the Darkness",
 	icon: "minecraft:campfire",
 	quests: [
@@ -744,7 +744,13 @@
 			rewards: [{
 				id: 1482,
 				type: "item",
-				item: "minecraft:diamond"
+				item: {
+					id: "mysticalagriculture:infusion_crystal",
+					Count: 1,
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
 		},
 		{
@@ -771,6 +777,7 @@
 		{
 			x: 0.0d,
 			y: -4.5d,
+			description: ["To craft an Iron Hook, surround a Stone Hook with iron ingots in a crafting grid. The JEI reciped is currently broken."],
 			dependencies: [I;446],
 			id: 1556,
 			tasks: [{
@@ -818,6 +825,7 @@
 		{
 			x: 0.0d,
 			y: -6.0d,
+			description: ["To craft a Golden Hook, surround an Iron Hook with gold ingots in a crafting grid. The JEI reciped is currently broken."],
 			dependencies: [I;1556],
 			id: 1558,
 			tasks: [{
@@ -879,6 +887,7 @@
 		{
 			x: 0.0d,
 			y: -7.5d,
+			description: ["To craft a Diamond Hook, surround a Golden Hook with diamonds in a crafting grid. The JEI reciped is currently broken."],
 			dependencies: [I;1558],
 			id: 1560,
 			tasks: [{

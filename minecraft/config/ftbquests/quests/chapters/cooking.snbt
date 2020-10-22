@@ -156,7 +156,8 @@
 			}],
 			rewards: [{
 				id: 1363,
-				type: "item"
+				type: "item",
+				item: "minecraft:cauldron"
 			}]
 		},
 		{
@@ -184,10 +185,6 @@
 					id: 940,
 					type: "item",
 					item: "cookingforblockheads:fruit_basket"
-				},
-				{
-					id: 949,
-					type: "item"
 				}
 			]
 		},
@@ -304,11 +301,6 @@
 				id: 965,
 				type: "item",
 				item: "simplefarming:pizza"
-			}],
-			rewards: [{
-				id: 1346,
-				type: "item",
-				item: "xreliquary:alkahestry_altar"
 			}]
 		},
 		{
