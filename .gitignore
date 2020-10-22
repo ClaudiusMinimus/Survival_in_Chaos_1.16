@@ -12,6 +12,7 @@ minecraft/local/*
 minecraft/logs/*
 minecraft/mods/*
 minecraft/natives/*
+minecraft/output/*
 minecraft/saves/*
 minecraft/shaderpacks/*
 minecraft/screenshots/*
