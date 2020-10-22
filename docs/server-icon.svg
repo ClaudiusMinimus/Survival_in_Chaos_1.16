@@ -79,14 +79,14 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:window-width="1920"
-     inkscape:window-height="1052"
+     inkscape:window-height="1009"
      id="namedview922"
      showgrid="false"
-     inkscape:zoom="2.13"
-     inkscape:cx="200"
+     inkscape:zoom="2.04"
+     inkscape:cx="199.5098"
      inkscape:cy="200"
      inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:window-y="34"
      inkscape:window-maximized="1"
      inkscape:current-layer="g1456" />
   <g
@@ -110,14 +110,15 @@
   <g
      inkscape:groupmode="layer"
      id="layer1"
-     inkscape:label="overlay">
+     inkscape:label="overlay"
+     style="display:none">
     <rect
        id="rect52"
        width="400"
        height="400"
        x="0"
        y="0"
-       style="stroke:none;fill:#000000;fill-opacity:1;opacity:0.5"
+       style="opacity:0.5;fill:#000000;fill-opacity:1;stroke:none"
        inkscape:export-xdpi="15.36"
        inkscape:export-ydpi="15.36" />
   </g>
