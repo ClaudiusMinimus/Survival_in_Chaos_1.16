@@ -1,0 +1,1530 @@
+{
+	id: 261,
+	filename: "storage",
+	order_index: 7,
+	title: "Storage",
+	icon: "minecraft:barrel",
+	quests: [
+		{
+			x: 0.0d,
+			y: 0.0d,
+			shape: "diamond",
+			size: 1.5d,
+			id: 262,
+			tasks: [{
+				id: 263,
+				type: "item",
+				item: "minecraft:barrel"
+			}],
+			rewards: [
+				{
+					id: 555,
+					type: "item",
+					item: {
+						id: "cyclic:item_pipe",
+						Count: 8
+					}
+				},
+				{
+					id: 556,
+					type: "item",
+					item: {
+						id: "cyclic:cable_wrench",
+						Count: 1,
+						tag: {}
+					}
+				}
+			]
+		},
+		{
+			x: 1.0d,
+			y: -1.5d,
+			dependencies: [I;262],
+			id: 438,
+			tasks: [{
+				id: 439,
+				type: "item",
+				item: "metalbarrels:wood_to_iron"
+			}],
+			rewards: [{
+				id: 557,
+				type: "item",
+				item: "xreliquary:emperor_chalice"
+			}]
+		},
+		{
+			x: 1.0d,
+			y: -3.0d,
+			dependencies: [I;438],
+			id: 440,
+			tasks: [{
+				id: 441,
+				type: "item",
+				item: "metalbarrels:iron_to_gold"
+			}],
+			rewards: [{
+				id: 1138,
+				type: "item"
+			}]
+		},
+		{
+			x: 1.0d,
+			y: -4.5d,
+			dependencies: [I;440],
+			id: 442,
+			tasks: [{
+				id: 443,
+				type: "item",
+				item: "metalbarrels:gold_to_diamond"
+			}],
+			rewards: [{
+				id: 1139,
+				type: "item",
+				item: {
+					id: "gobber2:gobber2_foo_nether",
+					Count: 8
+				}
+			}]
+		},
+		{
+			x: 1.0d,
+			y: -6.0d,
+			dependencies: [I;442],
+			id: 444,
+			tasks: [{
+				id: 445,
+				type: "item",
+				item: "metalbarrels:diamond_to_crystal"
+			}],
+			rewards: [{
+				id: 1140,
+				type: "item",
+				item: {
+					id: "cyclic:spell_ice",
+					Count: 1,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			title: "Simple Storage Network",
+			x: -6.0d,
+			y: 0.0d,
+			shape: "diamond",
+			size: 1.5d,
+			id: 455,
+			tasks: [{
+				id: 456,
+				type: "item",
+				item: "storagenetwork:kabel"
+			}],
+			rewards: [{
+				id: 554,
+				type: "item",
+				item: {
+					id: "additional_lights:al_lamp_cobblestone",
+					Count: 8
+				}
+			}]
+		},
+		{
+			x: -4.5d,
+			y: -1.5d,
+			dependencies: [I;455],
+			id: 457,
+			tasks: [{
+				id: 458,
+				type: "item",
+				item: "storagenetwork:storage_kabel"
+			}],
+			rewards: [{
+				id: 1491,
+				type: "xp",
+				xp: 50
+			}]
+		},
+		{
+			x: -7.5d,
+			y: -1.5d,
+			dependencies: [I;455],
+			id: 459,
+			tasks: [{
+				id: 460,
+				type: "item",
+				item: "storagenetwork:import_kabel"
+			}],
+			rewards: [{
+				id: 1493,
+				type: "xp",
+				xp: 50
+			}]
+		},
+		{
+			x: -4.5d,
+			y: 0.0d,
+			dependencies: [I;455],
+			id: 461,
+			tasks: [{
+				id: 462,
+				type: "item",
+				item: "storagenetwork:inventory"
+			}],
+			rewards: [{
+				id: 1503,
+				type: "item",
+				item: {
+					id: "minecraft:sea_lantern",
+					Count: 8
+				}
+			}]
+		},
+		{
+			x: -3.0d,
+			y: 0.0d,
+			dependencies: [I;461],
+			id: 463,
+			tasks: [{
+				id: 464,
+				type: "item",
+				item: "storagenetwork:request"
+			}],
+			rewards: [{
+				id: 1377,
+				type: "item",
+				item: {
+					id: "minecraft:magma_cream",
+					Count: 4
+				}
+			}]
+		},
+		{
+			x: -6.0d,
+			y: -2.0d,
+			dependencies: [I;455],
+			id: 465,
+			tasks: [{
+				id: 466,
+				type: "item",
+				item: "storagenetwork:master"
+			}],
+			rewards: [{
+				id: 1271,
+				type: "item",
+				item: {
+					id: "silentgems:enchantment_token",
+					Count: 1,
+					tag: {
+						TokenEnchantments: [{
+							lvl: 1,
+							id: "cyclic:beheading"
+						}]
+					}
+				}
+			}]
+		},
+		{
+			x: -5.0d,
+			y: -3.0d,
+			dependencies: [I;465],
+			id: 467,
+			tasks: [{
+				id: 468,
+				type: "item",
+				item: "storagenetwork:crafting_remote"
+			}],
+			rewards: [{
+				id: 1272,
+				type: "item",
+				item: "silentgear:salvager"
+			}]
+		},
+		{
+			x: -7.0d,
+			y: -3.0d,
+			dependencies: [I;465],
+			id: 469,
+			tasks: [{
+				id: 470,
+				type: "item",
+				item: "storagenetwork:inventory_remote"
+			}],
+			rewards: [{
+				id: 1373,
+				type: "item",
+				item: "cyclic:heart"
+			}]
+		},
+		{
+			x: -8.5d,
+			y: -2.5d,
+			dependencies: [I;459],
+			id: 471,
+			tasks: [{
+				id: 472,
+				type: "item",
+				item: "storagenetwork:import_filter_kabel"
+			}],
+			rewards: [{
+				id: 1494,
+				type: "xp",
+				xp: 50
+			}]
+		},
+		{
+			x: -3.5d,
+			y: -2.5d,
+			dependencies: [I;457],
+			id: 473,
+			tasks: [{
+				id: 474,
+				type: "item",
+				item: "storagenetwork:filter_kabel"
+			}],
+			rewards: [{
+				id: 1492,
+				type: "xp",
+				xp: 50
+			}]
+		},
+		{
+			x: -7.5d,
+			y: 0.0d,
+			dependencies: [I;455],
+			id: 475,
+			tasks: [{
+				id: 476,
+				type: "item",
+				item: "storagenetwork:export_kabel"
+			}],
+			rewards: [{
+				id: 1489,
+				type: "xp",
+				xp: 50
+			}]
+		},
+		{
+			title: "Fluid Tanks",
+			x: -11.0d,
+			y: 0.0d,
+			shape: "diamond",
+			size: 1.5d,
+			id: 481,
+			tasks: [{
+				id: 482,
+				type: "item",
+				item: "fluidtank:tank_wood"
+			}],
+			rewards: [{
+				id: 1255,
+				type: "item",
+				item: "botanypots:hopper_botany_pot"
+			}]
+		},
+		{
+			x: -11.0d,
+			y: -1.5d,
+			dependencies: [I;481],
+			id: 483,
+			tasks: [{
+				id: 484,
+				type: "item",
+				item: "fluidtank:tank_stone"
+			}],
+			rewards: [{
+				id: 1256,
+				type: "item"
+			}]
+		},
+		{
+			x: -11.0d,
+			y: -3.0d,
+			dependencies: [I;483],
+			id: 485,
+			tasks: [{
+				id: 486,
+				type: "item",
+				item: "fluidtank:tank_iron"
+			}],
+			rewards: [{
+				id: 1257,
+				type: "item"
+			}]
+		},
+		{
+			x: -11.0d,
+			y: -4.5d,
+			dependencies: [I;485],
+			id: 487,
+			tasks: [{
+				id: 488,
+				type: "item",
+				item: "fluidtank:tank_gold"
+			}],
+			rewards: [{
+				id: 1258,
+				type: "item"
+			}]
+		},
+		{
+			x: -11.0d,
+			y: -6.0d,
+			dependencies: [I;487],
+			id: 489,
+			tasks: [{
+				id: 490,
+				type: "item",
+				item: "fluidtank:tank_diamond"
+			}],
+			rewards: [{
+				id: 1259,
+				type: "item",
+				item: "xreliquary:pyromancer_staff"
+			}]
+		},
+		{
+			x: -11.0d,
+			y: -7.5d,
+			dependencies: [I;489],
+			id: 491,
+			tasks: [{
+				id: 492,
+				type: "item",
+				item: "fluidtank:tank_emerald"
+			}],
+			rewards: [{
+				id: 1260,
+				type: "item",
+				item: {
+					id: "silentgear:crossbow",
+					Count: 1,
+					tag: {
+						SGear_UUIDLeast: -5793065083293377914L,
+						SGear_UUIDMost: 3787864417353944517L,
+						Damage: 0,
+						SGear_Data: {
+							Construction: {
+								IsExample: 1,
+								Parts: [
+									{
+										Item: {
+											id: "silentgems:black_diamond",
+											Count: 1
+										},
+										ID: "silentgems:main/black_diamond"
+									},
+									{
+										Item: {
+											id: "silentgems:ornate_gold_rod",
+											Count: 1
+										},
+										ID: "silentgems:rod/ornate_gold"
+									},
+									{
+										Item: {
+											id: "silentgear:plain_bowstring",
+											Count: 1
+										},
+										ID: "silentgear:bowstring/string"
+									},
+									{
+										Item: {
+											id: "silentgear:quartz_tipped_upgrade",
+											Count: 1
+										},
+										ID: "silentgear:tip/quartz"
+									},
+									{
+										Item: {
+											id: "minecraft:air",
+											Count: 1
+										},
+										ID: "silentgear:highlight/highlight"
+									}
+								]
+							},
+							ModelKeys: {
+								0: "crossbow|0|0|0_0|0|0",
+								1: "crossbow|0|0|0_1|0|0",
+								2: "crossbow|0|0|0_2|0|0",
+								3: "crossbow|0_3|0_3|0_3|0_3|0_3"
+							},
+							Properties: {
+								repair_efficiency: 1.0f,
+								synergy: 1.0f,
+								magic_armor: 6.0f,
+								durability: 2134.4f,
+								armor_durability: 42.0f,
+								harvest_speed: 12.0f,
+								attack_speed: -0.2f,
+								ranged_damage: 6.325f,
+								ranged_speed: 0.88f,
+								armor_toughness: 2.0f,
+								LockStats: 0,
+								Traits: [
+									{
+										Level: 1,
+										Name: "silentgear:brittle"
+									},
+									{
+										Level: 2,
+										Name: "silentgear:organic"
+									},
+									{
+										Level: 1,
+										Name: "silentgear:chipping"
+									},
+									{
+										Level: 3,
+										Name: "silentgear:jagged"
+									}
+								],
+								enchantability: 8.8f,
+								armor: 18.0f,
+								melee_damage: 8.05f,
+								chargeability: 1.0f,
+								magic_damage: 6.0f,
+								harvest_level: 3.0f,
+								rarity: 65.0f
+							},
+							Rendering: {
+								BlendedHeadColor: 1973790,
+								ArmorColor: -1
+							}
+						}
+					}
+				}
+			}]
+		},
+		{
+			x: -11.0d,
+			y: 3.0d,
+			dependencies: [I;497],
+			id: 495,
+			tasks: [{
+				id: 496,
+				type: "item",
+				item: "fluidtank:fluid_source"
+			}],
+			rewards: [{
+				id: 1253,
+				type: "item",
+				item: {
+					id: "silentgems:secret_donut",
+					Count: 8
+				}
+			}]
+		},
+		{
+			x: -11.0d,
+			y: 1.5d,
+			dependencies: [I;481],
+			id: 497,
+			tasks: [{
+				id: 498,
+				type: "item",
+				item: "fluidtank:tank_void"
+			}],
+			rewards: [{
+				id: 1254,
+				type: "item",
+				item: {
+					id: "silentgems:enchantment_token",
+					Count: 1,
+					tag: {
+						TokenEnchantments: [{
+							lvl: 1,
+							id: "silentgems:life_steal"
+						}]
+					}
+				}
+			}]
+		},
+		{
+			title: "Storage Drawers",
+			x: 3.0d,
+			y: 0.0d,
+			shape: "diamond",
+			size: 1.5d,
+			id: 499,
+			tasks: [{
+				id: 500,
+				type: "item",
+				title: "Any storagedrawers:drawers",
+				item: {
+					id: "itemfilters:tag",
+					Count: 1,
+					tag: {
+						value: "storagedrawers:drawers"
+					}
+				},
+				count: 8
+			}],
+			rewards: [
+				{
+					id: 552,
+					type: "item",
+					item: {
+						id: "xreliquary:glowing_bread",
+						Count: 8
+					}
+				},
+				{
+					id: 1303,
+					type: "item",
+					item: "theoneprobe:probe"
+				}
+			]
+		},
+		{
+			x: 3.0d,
+			y: 1.5d,
+			dependencies: [I;499],
+			id: 503,
+			tasks: [{
+				id: 504,
+				type: "item",
+				item: "storagedrawers:compacting_drawers_3"
+			}],
+			rewards: [{
+				id: 1144,
+				type: "item",
+				item: "xreliquary:lantern_of_paranoia"
+			}]
+		},
+		{
+			x: 3.0d,
+			y: -1.5d,
+			dependencies: [I;499],
+			id: 505,
+			tasks: [{
+				id: 506,
+				type: "item",
+				item: "storagedrawers:controller"
+			}],
+			rewards: [
+				{
+					id: 509,
+					type: "item",
+					item: "storagedrawers:drawer_key"
+				},
+				{
+					id: 1146,
+					type: "item",
+					item: {
+						id: "cyclic:charm_ultimate",
+						Count: 1,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		},
+		{
+			x: 3.0d,
+			y: -3.0d,
+			dependencies: [I;505],
+			id: 507,
+			tasks: [{
+				id: 508,
+				type: "item",
+				item: "storagedrawers:controller_slave"
+			}],
+			rewards: [{
+				id: 1147,
+				type: "item",
+				item: {
+					id: "cyclic:spell_water",
+					Count: 1,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 4.5d,
+			y: 0.0d,
+			dependencies: [I;499],
+			id: 510,
+			tasks: [{
+				id: 511,
+				type: "item",
+				item: "storagedrawers:upgrade_template"
+			}],
+			rewards: [{
+				id: 1145,
+				type: "item",
+				item: {
+					id: "cyclic:charm_home",
+					Count: 1,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 4.5d,
+			y: -1.5d,
+			dependencies: [I;510],
+			id: 512,
+			tasks: [{
+				id: 513,
+				type: "item",
+				item: "storagedrawers:obsidian_storage_upgrade"
+			}],
+			rewards: [{
+				id: 1263,
+				type: "item",
+				item: {
+					id: "xreliquary:mercy_cross",
+					Count: 1,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 4.5d,
+			y: -3.0d,
+			dependencies: [I;512],
+			id: 514,
+			tasks: [{
+				id: 515,
+				type: "item",
+				item: "storagedrawers:iron_storage_upgrade"
+			}],
+			rewards: [{
+				id: 1264,
+				type: "xp",
+				xp: 50
+			}]
+		},
+		{
+			x: 4.5d,
+			y: -4.5d,
+			dependencies: [I;514],
+			id: 516,
+			tasks: [{
+				id: 517,
+				type: "item",
+				item: "storagedrawers:gold_storage_upgrade"
+			}],
+			rewards: [{
+				id: 1265,
+				type: "item",
+				item: {
+					id: "simplefarming:cheeseburger",
+					Count: 8
+				}
+			}]
+		},
+		{
+			x: 4.5d,
+			y: -6.0d,
+			dependencies: [I;516],
+			id: 518,
+			tasks: [{
+				id: 519,
+				type: "item",
+				item: "storagedrawers:diamond_storage_upgrade"
+			}],
+			rewards: [{
+				id: 1266,
+				type: "item",
+				item: "rftoolsbuilder:builder"
+			}]
+		},
+		{
+			x: 4.5d,
+			y: -7.5d,
+			dependencies: [I;518],
+			id: 520,
+			tasks: [{
+				id: 521,
+				type: "item",
+				item: "storagedrawers:emerald_storage_upgrade"
+			}],
+			rewards: [{
+				id: 1267,
+				type: "item"
+			}]
+		},
+		{
+			x: 4.5d,
+			y: 1.5d,
+			dependencies: [I;510],
+			id: 522,
+			tasks: [{
+				id: 523,
+				type: "item",
+				item: "storagedrawers:void_upgrade"
+			}],
+			rewards: [{
+				id: 1270,
+				type: "item"
+			}]
+		},
+		{
+			x: 6.0d,
+			y: -1.5d,
+			dependencies: [I;510],
+			id: 524,
+			tasks: [{
+				id: 525,
+				type: "item",
+				item: "storagedrawers:conversion_upgrade"
+			}],
+			rewards: [{
+				id: 1268,
+				type: "xp",
+				xp: 50
+			}]
+		},
+		{
+			x: 6.0d,
+			y: 0.0d,
+			dependencies: [I;510],
+			id: 526,
+			tasks: [{
+				id: 527,
+				type: "item",
+				item: "storagedrawers:redstone_upgrade"
+			}],
+			rewards: [{
+				id: 1269,
+				type: "item"
+			}]
+		},
+		{
+			x: 1.0d,
+			y: -7.5d,
+			dependencies: [I;444],
+			id: 1134,
+			tasks: [{
+				id: 1135,
+				type: "item",
+				item: "metalbarrels:diamond_to_obsidian"
+			}],
+			rewards: [{
+				id: 1142,
+				type: "item",
+				item: {
+					id: "minecraft:potion",
+					Count: 1,
+					tag: {
+						Potion: "potionsmaster:diamond_sight"
+					}
+				}
+			}]
+		},
+		{
+			title: "Refined Storage",
+			icon: "refinedstorage:creative_controller",
+			x: 0.0d,
+			y: 4.5d,
+			shape: "diamond",
+			size: 1.5d,
+			id: 1154,
+			tasks: [
+				{
+					id: 1155,
+					type: "item",
+					item: "refinedstorage:controller"
+				},
+				{
+					id: 1156,
+					type: "item",
+					item: "refinedstorage:grid"
+				}
+			],
+			rewards: [
+				{
+					id: 1157,
+					type: "item",
+					item: {
+						id: "refinedstorage:cable",
+						Count: 12
+					}
+				},
+				{
+					id: 1158,
+					type: "item",
+					item: {
+						id: "refinedstorage:external_storage",
+						Count: 4
+					}
+				}
+			]
+		},
+		{
+			x: 0.0d,
+			y: 6.5d,
+			dependencies: [I;1154],
+			id: 1159,
+			tasks: [{
+				id: 1160,
+				type: "item",
+				item: "refinedstorage:disk_drive"
+			}],
+			rewards: [
+				{
+					id: 1197,
+					type: "xp",
+					xp: 100
+				},
+				{
+					id: 1382,
+					type: "item",
+					item: {
+						id: "minecraft:magma_cream",
+						Count: 8
+					}
+				}
+			]
+		},
+		{
+			x: -1.0d,
+			y: 9.0d,
+			dependencies: [I;1177],
+			id: 1161,
+			tasks: [{
+				id: 1162,
+				type: "item",
+				item: "refinedstorage:1k_storage_part"
+			}],
+			rewards: [
+				{
+					id: 1183,
+					type: "item",
+					item: "refinedstorage:1k_storage_part"
+				},
+				{
+					id: 1443,
+					type: "item",
+					item: "refinedstorage:storage_housing"
+				}
+			]
+		},
+		{
+			x: -1.0d,
+			y: 10.5d,
+			dependencies: [I;1161],
+			id: 1163,
+			tasks: [{
+				id: 1164,
+				type: "item",
+				item: "refinedstorage:4k_storage_part"
+			}],
+			rewards: [
+				{
+					id: 1184,
+					type: "item",
+					item: "refinedstorage:4k_storage_part"
+				},
+				{
+					id: 1444,
+					type: "item",
+					item: "refinedstorage:storage_housing"
+				}
+			]
+		},
+		{
+			x: -1.0d,
+			y: 12.0d,
+			dependencies: [I;1163],
+			id: 1165,
+			tasks: [{
+				id: 1166,
+				type: "item",
+				item: "refinedstorage:16k_storage_part"
+			}],
+			rewards: [
+				{
+					id: 1185,
+					type: "item",
+					item: "refinedstorage:16k_storage_part"
+				},
+				{
+					id: 1445,
+					type: "item",
+					item: "refinedstorage:storage_housing"
+				}
+			]
+		},
+		{
+			x: -1.0d,
+			y: 13.5d,
+			dependencies: [I;1165],
+			id: 1167,
+			tasks: [{
+				id: 1168,
+				type: "item",
+				item: "refinedstorage:64k_storage_part"
+			}],
+			rewards: [
+				{
+					id: 1186,
+					type: "item",
+					item: "refinedstorage:64k_storage_part"
+				},
+				{
+					id: 1446,
+					type: "item",
+					item: "refinedstorage:storage_housing"
+				}
+			]
+		},
+		{
+			x: 1.0d,
+			y: 9.0d,
+			dependencies: [I;1177],
+			id: 1169,
+			tasks: [{
+				id: 1170,
+				type: "item",
+				item: "refinedstorage:64k_fluid_storage_part"
+			}],
+			rewards: [
+				{
+					id: 1187,
+					type: "item",
+					item: "refinedstorage:64k_fluid_storage_part"
+				},
+				{
+					id: 1447,
+					type: "item",
+					item: "refinedstorage:storage_housing"
+				}
+			]
+		},
+		{
+			x: 1.0d,
+			y: 10.5d,
+			dependencies: [I;1169],
+			id: 1171,
+			tasks: [{
+				id: 1172,
+				type: "item",
+				item: "refinedstorage:256k_fluid_storage_part"
+			}],
+			rewards: [
+				{
+					id: 1188,
+					type: "item",
+					item: "refinedstorage:256k_fluid_storage_part"
+				},
+				{
+					id: 1448,
+					type: "item",
+					item: "refinedstorage:storage_housing"
+				}
+			]
+		},
+		{
+			x: 1.0d,
+			y: 12.0d,
+			dependencies: [I;1171],
+			id: 1173,
+			tasks: [{
+				id: 1174,
+				type: "item",
+				item: "refinedstorage:1024k_fluid_storage_part"
+			}],
+			rewards: [
+				{
+					id: 1189,
+					type: "item",
+					item: "refinedstorage:1024k_fluid_storage_part"
+				},
+				{
+					id: 1449,
+					type: "item",
+					item: "refinedstorage:storage_housing"
+				}
+			]
+		},
+		{
+			x: 1.0d,
+			y: 13.5d,
+			dependencies: [I;1173],
+			id: 1175,
+			tasks: [{
+				id: 1176,
+				type: "item",
+				item: "refinedstorage:4096k_fluid_storage_part"
+			}],
+			rewards: [
+				{
+					id: 1190,
+					type: "item",
+					item: "refinedstorage:4096k_fluid_storage_part"
+				},
+				{
+					id: 1450,
+					type: "item",
+					item: "refinedstorage:storage_housing"
+				}
+			]
+		},
+		{
+			x: 0.0d,
+			y: 8.0d,
+			description: ["Storage Disks require a Storage Housing"],
+			dependencies: [I;1159],
+			id: 1177,
+			tasks: [{
+				id: 1178,
+				type: "item",
+				item: "refinedstorage:storage_housing"
+			}],
+			rewards: [{
+				id: 1191,
+				type: "item",
+				item: "refinedstorage:wrench"
+			}]
+		},
+		{
+			x: 1.0d,
+			y: 5.5d,
+			dependencies: [I;1159],
+			id: 1179,
+			tasks: [{
+				id: 1180,
+				type: "item",
+				item: "refinedstorage:importer"
+			}],
+			rewards: [{
+				id: 1181,
+				type: "item",
+				item: "refinedstorage:speed_upgrade"
+			}]
+		},
+		{
+			x: -1.5d,
+			y: 7.0d,
+			dependencies: [I;1159],
+			id: 1192,
+			tasks: [{
+				id: 1193,
+				type: "item",
+				item: "refinedstorage:exporter"
+			}],
+			rewards: [{
+				id: 1194,
+				type: "item",
+				item: "refinedstorage:stack_upgrade"
+			}]
+		},
+		{
+			x: 6.0d,
+			y: 4.5d,
+			dependencies: [I;1154],
+			id: 1198,
+			tasks: [{
+				id: 1199,
+				type: "item",
+				item: "refinedstorage:crafting_grid"
+			}],
+			rewards: [{
+				id: 1206,
+				type: "item",
+				item: {
+					id: "simplefarming:fish_sandwich",
+					Count: 8
+				}
+			}]
+		},
+		{
+			x: 4.0d,
+			y: 5.0d,
+			dependencies: [I;1198],
+			id: 1200,
+			tasks: [{
+				id: 1201,
+				type: "item",
+				item: "refinedstorage:pattern_grid"
+			}],
+			rewards: [{
+				id: 1202,
+				type: "item",
+				item: {
+					id: "refinedstorage:pattern",
+					Count: 8
+				}
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 7.0d,
+			dependencies: [I;1159],
+			id: 1203,
+			tasks: [{
+				id: 1204,
+				type: "item",
+				item: "refinedstorage:storage_monitor",
+				count: 4
+			}],
+			rewards: [{
+				id: 1205,
+				type: "item",
+				item: {
+					id: "refinedstorage:storage_monitor",
+					Count: 2
+				}
+			}]
+		},
+		{
+			x: 5.0d,
+			y: 3.0d,
+			dependencies: [I;1198],
+			id: 1207,
+			tasks: [{
+				id: 1208,
+				type: "item",
+				item: "refinedstorage:constructor"
+			}],
+			rewards: [{
+				id: 1216,
+				type: "item",
+				item: {
+					id: "botania:cacophonium",
+					Count: 1,
+					tag: {}
+				}
+			}]
+		},
+		{
+			x: 6.5d,
+			y: 3.0d,
+			dependencies: [I;1198],
+			id: 1209,
+			tasks: [{
+				id: 1210,
+				type: "item",
+				item: "refinedstorage:destructor"
+			}],
+			rewards: [{
+				id: 1215,
+				type: "item",
+				item: "refinedstorage:fortune_1_upgrade"
+			}]
+		},
+		{
+			x: -1.5d,
+			y: 3.0d,
+			dependencies: [I;1154],
+			id: 1211,
+			tasks: [{
+				id: 1212,
+				type: "item",
+				item: "refinedstorage:relay"
+			}],
+			rewards: [{
+				id: 1217,
+				type: "item",
+				item: {
+					id: "minecraft:enchanted_book",
+					Count: 1,
+					tag: {
+						StoredEnchantments: [{
+							lvl: 3,
+							id: "bluepower:disjunction"
+						}]
+					}
+				}
+			}]
+		},
+		{
+			x: -2.5d,
+			y: 2.0d,
+			dependencies: [I;1211],
+			id: 1213,
+			tasks: [{
+				id: 1214,
+				type: "item",
+				item: "refinedstorage:detector"
+			}],
+			rewards: [{
+				id: 1218,
+				type: "item",
+				item: {
+					id: "gobber2:gobber2_gooey_beefstew",
+					Count: 8
+				}
+			}]
+		},
+		{
+			x: 7.0d,
+			y: 6.0d,
+			dependencies: [I;1198],
+			id: 1219,
+			tasks: [{
+				id: 1220,
+				type: "item",
+				item: "refinedstorage:fluid_grid"
+			}],
+			rewards: [{
+				id: 1225,
+				type: "item",
+				item: "minecraft:ender_chest"
+			}]
+		},
+		{
+			x: 8.0d,
+			y: 7.5d,
+			dependencies: [I;1219],
+			id: 1221,
+			tasks: [{
+				id: 1222,
+				type: "item",
+				item: "refinedstorage:fluid_interface"
+			}],
+			rewards: [{
+				id: 1226,
+				type: "item",
+				item: "usefulbackpacks:backpack_enderchest"
+			}]
+		},
+		{
+			x: 7.5d,
+			y: 4.5d,
+			dependencies: [I;1198],
+			id: 1223,
+			tasks: [{
+				id: 1224,
+				type: "item",
+				item: "refinedstorage:interface"
+			}],
+			rewards: [{
+				id: 1229,
+				type: "item",
+				item: {
+					id: "minecraft:ender_eye",
+					Count: 3
+				}
+			}]
+		},
+		{
+			x: 2.5d,
+			y: 5.5d,
+			dependencies: [I;1200],
+			id: 1227,
+			tasks: [{
+				id: 1228,
+				type: "item",
+				item: "refinedstorage:crafting_monitor"
+			}]
+		},
+		{
+			x: 3.5d,
+			y: 6.5d,
+			dependencies: [I;1200],
+			id: 1230,
+			tasks: [{
+				id: 1231,
+				type: "item",
+				item: "refinedstorage:crafter"
+			}],
+			rewards: [{
+				id: 1232,
+				type: "xp",
+				xp: 100
+			}]
+		},
+		{
+			x: -2.0d,
+			y: 4.5d,
+			dependencies: [I;1154],
+			id: 1233,
+			tasks: [{
+				id: 1234,
+				type: "item",
+				item: {
+					id: "refinedstorage:portable_grid",
+					Count: 1,
+					tag: {}
+				}
+			}],
+			rewards: [{
+				id: 1380,
+				type: "item"
+			}]
+		},
+		{
+			x: -1.5d,
+			y: 5.5d,
+			dependencies: [I;1154],
+			id: 1235,
+			tasks: [
+				{
+					id: 1236,
+					type: "item",
+					item: "refinedstorage:security_manager"
+				},
+				{
+					id: 1237,
+					type: "item",
+					item: "refinedstorage:security_card"
+				}
+			],
+			rewards: [{
+				id: 1381,
+				type: "item",
+				item: "cyclic:heart"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 2.5d,
+			dependencies: [I;1154],
+			id: 1238,
+			tasks: [{
+				id: 1239,
+				type: "item",
+				item: "refinedstorage:network_transmitter"
+			}],
+			rewards: [{
+				id: 1242,
+				type: "item",
+				item: "refinedstorage:network_card"
+			}]
+		},
+		{
+			x: 1.0d,
+			y: 1.5d,
+			dependencies: [I;1238],
+			id: 1240,
+			tasks: [{
+				id: 1241,
+				type: "item",
+				item: "refinedstorage:network_receiver"
+			}],
+			rewards: [{
+				id: 1247,
+				type: "item"
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 3.5d,
+			dependencies: [I;1154],
+			id: 1243,
+			tasks: [
+				{
+					id: 1244,
+					type: "item",
+					item: "refinedstorageaddons:wireless_crafting_grid"
+				},
+				{
+					id: 1245,
+					type: "item",
+					item: "refinedstorage:wireless_transmitter"
+				}
+			],
+			rewards: [{
+				id: 1246,
+				type: "item",
+				item: {
+					id: "refinedstorage:range_upgrade",
+					Count: 2
+				}
+			}]
+		},
+		{
+			x: -1.0d,
+			y: -1.5d,
+			dependencies: [I;262],
+			id: 1518,
+			tasks: [{
+				id: 1519,
+				type: "item",
+				item: "metalbarrels:wood_to_copper"
+			}],
+			rewards: [{
+				id: 1524,
+				type: "item",
+				item: "minecraft:bucket"
+			}]
+		},
+		{
+			x: -1.0d,
+			y: -3.0d,
+			dependencies: [I;1518],
+			id: 1520,
+			tasks: [{
+				id: 1521,
+				type: "item",
+				item: "metalbarrels:copper_to_silver"
+			}],
+			rewards: [{
+				id: 1525,
+				type: "item",
+				item: {
+					id: "minecraft:quartz",
+					Count: 32
+				}
+			}]
+		},
+		{
+			x: -1.0d,
+			y: -4.5d,
+			dependencies: [I;1520],
+			id: 1522,
+			tasks: [{
+				id: 1523,
+				type: "item",
+				item: "metalbarrels:silver_to_gold"
+			}],
+			rewards: [{
+				id: 1526,
+				type: "item"
+			}]
+		},
+		{
+			x: -1.0d,
+			y: -6.0d,
+			dependencies: [I;1522],
+			id: 1527,
+			tasks: [{
+				id: 1528,
+				type: "item",
+				item: "metalbarrels:copper_to_diamond"
+			}],
+			rewards: [{
+				id: 1531,
+				type: "item",
+				item: {
+					id: "minecraft:redstone_block",
+					Count: 8
+				}
+			}]
+		},
+		{
+			x: -1.0d,
+			y: -7.5d,
+			dependencies: [I;1527],
+			id: 1529,
+			tasks: [{
+				id: 1530,
+				type: "item",
+				item: "metalbarrels:wood_to_obsidian"
+			}],
+			rewards: [{
+				id: 1532,
+				type: "item",
+				item: {
+					id: "minecraft:potion",
+					Count: 1,
+					tag: {
+						Potion: "minecraft:long_fire_resistance"
+					}
+				}
+			}]
+		}
+	]
+}

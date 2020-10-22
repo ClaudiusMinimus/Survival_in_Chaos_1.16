@@ -1,0 +1,19 @@
+{
+	id: 1571,
+	filename: "create",
+	order_index: 1,
+	title: "Create",
+	icon: "minecraft:beacon",
+	subtitle: ["Build amazing things with Create!"],
+	quests: [{
+		x: 0.0d,
+		y: 1.5d,
+		description: ["The mod, Create is in the process of coming to 1.16.3 and will be included as soon as possible"],
+		id: 1580,
+		tasks: [{
+			id: 1581,
+			type: "checkmark",
+			title: "Create Coming Soon!"
+		}]
+	}]
+}

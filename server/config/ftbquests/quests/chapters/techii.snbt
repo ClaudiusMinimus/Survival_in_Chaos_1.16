@@ -1,0 +1,144 @@
+{
+	id: 561,
+	filename: "techii",
+	order_index: 9,
+	title: "Tech II",
+	icon: "titanium:gold_gear",
+	quests: [
+		{
+			x: 5.0d,
+			y: -2.5d,
+			id: 562,
+			tasks: [{
+				id: 563,
+				type: "item",
+				item: "cyclic:item_pipe",
+				count: 8
+			}]
+		},
+		{
+			x: 0.5d,
+			y: -4.0d,
+			id: 564,
+			tasks: [{
+				id: 565,
+				type: "item",
+				item: "cyclic:collector"
+			}]
+		},
+		{
+			x: 3.5d,
+			y: -2.5d,
+			id: 574,
+			tasks: [{
+				id: 575,
+				type: "item",
+				item: "cyclic:energy_pipe",
+				count: 8
+			}]
+		},
+		{
+			x: 2.0d,
+			y: -2.5d,
+			id: 576,
+			tasks: [{
+				id: 577,
+				type: "item",
+				item: "cyclic:fluid_pipe",
+				count: 8
+			}]
+		},
+		{
+			x: 0.5d,
+			y: -2.5d,
+			id: 578,
+			tasks: [{
+				id: 579,
+				type: "item",
+				item: "cyclic:placer"
+			}]
+		},
+		{
+			x: -1.0d,
+			y: -2.5d,
+			id: 580,
+			tasks: [{
+				id: 581,
+				type: "item",
+				item: "cyclic:breaker"
+			}]
+		},
+		{
+			x: -1.0d,
+			y: -4.0d,
+			id: 582,
+			tasks: [{
+				id: 583,
+				type: "item",
+				item: "cyclic:harvester"
+			}]
+		},
+		{
+			x: -5.0d,
+			y: -0.5d,
+			shape: "diamond",
+			size: 1.5d,
+			id: 915,
+			tasks: [{
+				id: 916,
+				type: "item",
+				item: "industrialforegoing:fluid_extractor"
+			}],
+			rewards: [
+				{
+					id: 1439,
+					type: "item",
+					item: "industrialforegoing:latex_bucket"
+				},
+				{
+					id: 1441,
+					type: "item",
+					item: "industrialforegoing:fluid_extractor"
+				}
+			]
+		},
+		{
+			x: -5.0d,
+			y: 1.0d,
+			dependencies: [I;915],
+			id: 917,
+			tasks: [{
+				id: 918,
+				type: "item",
+				item: "industrialforegoing:latex_processing_unit"
+			}],
+			rewards: [{
+				id: 1454,
+				type: "item"
+			}]
+		},
+		{
+			x: -5.0d,
+			y: 2.5d,
+			dependencies: [I;917],
+			id: 919,
+			tasks: [
+				{
+					id: 920,
+					type: "item",
+					item: "industrialforegoing:tinydryrubber"
+				},
+				{
+					id: 921,
+					type: "item",
+					item: "industrialforegoing:dryrubber"
+				},
+				{
+					id: 922,
+					type: "item",
+					item: "industrialforegoing:plastic"
+				}
+			]
+		}
+	]
+}
