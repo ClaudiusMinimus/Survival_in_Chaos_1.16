@@ -2,6 +2,6 @@
     "packAuthor": "ClaudiusMinimus",
     "minecraftVersion": "1.16.3",
     "modLoader": "forge",
-    "modLoaderVersion": "34.1.19",
+    "modLoaderVersion": "34.1.25",
     "includes": ["config", "defaultconfigs", "global_data_packs", "kubejs", "patchouli_books", "mods" ]
 }
