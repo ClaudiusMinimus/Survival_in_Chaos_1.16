@@ -1,0 +1,32 @@
+{
+    "name": "Day 1",
+    "icon": "minecraft:writable_book",
+    "category": "journal",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "text",
+            "text": "The last I remember is I was home with my family. My dog, Blizzard, jumped onto my lap, then I must have blinked because I found myself in an inhospitable land full of dark foul creatures. The land was indefinable, unlike anything I imagined possible. All I can say was I found myself in a never-ending land of caverns, floating islands, shelves, and plateaus."
+        },
+        {
+            "type":"text",
+            "text": "In an effort to prevent insanity, I thought I should document my successes and failures. Maybe, this journal will help get through this living nightmare.$(p)I noticed some valuable gifts was given by some unknown entity. The first thing I did was put on my armor and grabbed my sword and shield. I also found some other very nice tools, some food, a $(#f00)$(t:Turn the page to learn more)Blueprint Package$(/t)$(), a $(#f00)$(t:Shift-right click to activate - only if not already activated.)magnet$(/t)$(), a few precious torches, a backpack, and this journal."
+        },
+        {
+            "type":"spotlight",
+            "item":"silentgear:blueprint_package",
+            "text":"This package contains four reusable blueprints for making tools and weapons. Here is an example one of the blueprints:"
+        },
+        {
+            "type":"spotlight",
+            "text":"Using this example: Place the blueprint, one stick, and three cobblestones in your crafting table - one cobblestone per slot. You will now have an easily repairable and upgradable pickaxe. To repair: You will need a Repair Kit. I'll show you one on the next page.",
+            "item":"silentgear:pickaxe_blueprint"
+        },
+        {
+            "type": "crafting",
+            "title": "Crude Repair Kit",
+            "recipe": "silentgear:crude_repair_kit",
+            "text": "You will need to fill the repair kit in a crafting table with suitable materials to repair. You can use many types of stones, including netherrack. As you progress to higher tier tools, you will need higher tier repair kits too."
+        }
+    ]
+}

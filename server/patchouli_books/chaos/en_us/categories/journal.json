@@ -1,0 +1,6 @@
+{
+	"name": "My Journal",
+	"description": "A daily detail of my attempts to survive. $(br2)$(o)In the following journal entries, please hover over any colored text as it may contain additional info.$()",
+	"icon": "minecraft:writable_book",
+	"sortnum": 0
+}
