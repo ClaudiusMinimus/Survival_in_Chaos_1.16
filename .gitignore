@@ -81,16 +81,15 @@ modlist.html
 
 # Do not ignore these directories
 !minecraft/config/defaultoptions
-!server/config/defaultoptions
 !minecraft/config/fancymenu
 !minecraft/config/ftbquests
 !server/config/ftbquests
-!server/config/ProjectEssentials
-!server/config/serverutils
 
 # Do not ignore these files
+!minecraft/config/quark-common.toml
 !server/config/auto_restart.toml
 !server/config/gobber-general.toml
 !server/config/shutdowner-common.toml
 !minecraft/config/gobber-general.toml
+!server/config/quark-common.toml
 !mmc-pack.json
