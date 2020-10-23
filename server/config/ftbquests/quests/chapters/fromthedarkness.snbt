@@ -226,11 +226,18 @@
 				type: "item",
 				item: "mining_dimension:teleporter"
 			}],
-			rewards: [{
-				id: 36,
-				type: "item",
-				item: "dankstorage:dank_1"
-			}]
+			rewards: [
+				{
+					id: 36,
+					type: "item",
+					item: "dankstorage:dank_1"
+				},
+				{
+					id: 1611,
+					type: "item",
+					item: "dankstorage:dock"
+				}
+			]
 		},
 		{
 			title: "Over an Open Fire",
@@ -325,21 +332,11 @@
 					}
 				}
 			}],
-			rewards: [
-				{
-					id: 59,
-					type: "item",
-					item: "minecraft:slime_block"
-				},
-				{
-					id: 1511,
-					type: "item",
-					item: {
-						id: "additional_lights:al_torch_stone_bricks",
-						Count: 8
-					}
-				}
-			]
+			rewards: [{
+				id: 59,
+				type: "item",
+				item: "minecraft:slime_block"
+			}]
 		},
 		{
 			x: -1.5d,
