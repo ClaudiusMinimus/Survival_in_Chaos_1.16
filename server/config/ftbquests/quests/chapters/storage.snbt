@@ -122,11 +122,7 @@
 			}],
 			rewards: [{
 				id: 554,
-				type: "item",
-				item: {
-					id: "additional_lights:al_lamp_cobblestone",
-					Count: 8
-				}
+				type: "item"
 			}]
 		},
 		{
