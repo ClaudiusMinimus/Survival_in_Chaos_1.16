@@ -1,9 +1,10 @@
 {
 	id: 561,
 	filename: "techii",
-	order_index: 9,
+	order_index: 10,
 	title: "Tech II",
 	icon: "titanium:gold_gear",
+	default_quest_shape: "",
 	quests: [
 		{
 			x: 5.0d,
@@ -13,7 +14,18 @@
 				id: 563,
 				type: "item",
 				item: "cyclic:item_pipe",
-				count: 8
+				count: 8L
+			}],
+			rewards: [{
+				id: 1636,
+				type: "item",
+				item: {
+					id: "silentgear:crude_repair_kit",
+					Count: 1b,
+					tag: {
+						Storage: {}
+					}
+				}
 			}]
 		},
 		{
@@ -24,6 +36,12 @@
 				id: 565,
 				type: "item",
 				item: "cyclic:collector"
+			}],
+			rewards: [{
+				id: 1633,
+				type: "item",
+				item: "minecraft:ender_pearl",
+				count: 4
 			}]
 		},
 		{
@@ -34,7 +52,7 @@
 				id: 575,
 				type: "item",
 				item: "cyclic:energy_pipe",
-				count: 8
+				count: 8L
 			}]
 		},
 		{
@@ -45,7 +63,12 @@
 				id: 577,
 				type: "item",
 				item: "cyclic:fluid_pipe",
-				count: 8
+				count: 8L
+			}],
+			rewards: [{
+				id: 1637,
+				type: "item",
+				item: "silentgems:summon_puppy"
 			}]
 		},
 		{
@@ -56,6 +79,17 @@
 				id: 579,
 				type: "item",
 				item: "cyclic:placer"
+			}],
+			rewards: [{
+				id: 1635,
+				type: "item",
+				item: {
+					id: "silentgear:sturdy_repair_kit",
+					Count: 1b,
+					tag: {
+						Storage: {}
+					}
+				}
 			}]
 		},
 		{
@@ -66,6 +100,12 @@
 				id: 581,
 				type: "item",
 				item: "cyclic:breaker"
+			}],
+			rewards: [{
+				id: 1634,
+				type: "item",
+				item: "silentgems:potato_on_a_stick",
+				count: 8
 			}]
 		},
 		{
@@ -76,6 +116,11 @@
 				id: 583,
 				type: "item",
 				item: "cyclic:harvester"
+			}],
+			rewards: [{
+				id: 1632,
+				type: "item",
+				item: "solarflux:sp_2"
 			}]
 		},
 		{
@@ -114,7 +159,8 @@
 			}],
 			rewards: [{
 				id: 1454,
-				type: "item"
+				type: "item",
+				item: "mekanism:basic_fluid_tank"
 			}]
 		},
 		{
@@ -138,7 +184,12 @@
 					type: "item",
 					item: "industrialforegoing:plastic"
 				}
-			]
+			],
+			rewards: [{
+				id: 1638,
+				type: "item",
+				item: "silentgems:summon_kitty"
+			}]
 		}
 	]
 }

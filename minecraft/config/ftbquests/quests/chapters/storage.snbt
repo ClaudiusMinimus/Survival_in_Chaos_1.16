@@ -1,9 +1,10 @@
 {
 	id: 261,
 	filename: "storage",
-	order_index: 7,
+	order_index: 8,
 	title: "Storage",
 	icon: "minecraft:barrel",
+	default_quest_shape: "",
 	quests: [
 		{
 			x: 0.0d,
@@ -20,17 +21,15 @@
 				{
 					id: 555,
 					type: "item",
-					item: {
-						id: "cyclic:item_pipe",
-						Count: 8
-					}
+					item: "cyclic:item_pipe",
+					count: 8
 				},
 				{
 					id: 556,
 					type: "item",
 					item: {
 						id: "cyclic:cable_wrench",
-						Count: 1,
+						Count: 1b,
 						tag: {}
 					}
 				}
@@ -64,7 +63,17 @@
 			}],
 			rewards: [{
 				id: 1138,
-				type: "item"
+				type: "item",
+				item: {
+					id: "silentgems:enchantment_token",
+					Count: 1b,
+					tag: {
+						TokenEnchantments: [{
+							lvl: 1s,
+							id: "minecraft:sweeping"
+						}]
+					}
+				}
 			}]
 		},
 		{
@@ -80,10 +89,8 @@
 			rewards: [{
 				id: 1139,
 				type: "item",
-				item: {
-					id: "gobber2:gobber2_foo_nether",
-					Count: 8
-				}
+				item: "gobber2:gobber2_foo_nether",
+				count: 8
 			}]
 		},
 		{
@@ -101,7 +108,7 @@
 				type: "item",
 				item: {
 					id: "cyclic:spell_ice",
-					Count: 1,
+					Count: 1b,
 					tag: {
 						Damage: 0
 					}
@@ -122,7 +129,9 @@
 			}],
 			rewards: [{
 				id: 554,
-				type: "item"
+				type: "item",
+				item: "rats:rat_burger",
+				count: 8
 			}]
 		},
 		{
@@ -170,10 +179,8 @@
 			rewards: [{
 				id: 1503,
 				type: "item",
-				item: {
-					id: "minecraft:sea_lantern",
-					Count: 8
-				}
+				item: "minecraft:sea_lantern",
+				count: 8
 			}]
 		},
 		{
@@ -189,10 +196,8 @@
 			rewards: [{
 				id: 1377,
 				type: "item",
-				item: {
-					id: "minecraft:magma_cream",
-					Count: 4
-				}
+				item: "minecraft:magma_cream",
+				count: 4
 			}]
 		},
 		{
@@ -210,7 +215,7 @@
 				type: "item",
 				item: {
 					id: "silentgems:enchantment_token",
-					Count: 1,
+					Count: 1b,
 					tag: {
 						TokenEnchantments: [{
 							lvl: 1,
@@ -330,7 +335,17 @@
 			}],
 			rewards: [{
 				id: 1256,
-				type: "item"
+				type: "item",
+				item: {
+					id: "silentgems:enchantment_token",
+					Count: 1b,
+					tag: {
+						TokenEnchantments: [{
+							lvl: 1s,
+							id: "minecraft:thorns"
+						}]
+					}
+				}
 			}]
 		},
 		{
@@ -345,7 +360,14 @@
 			}],
 			rewards: [{
 				id: 1257,
-				type: "item"
+				type: "item",
+				item: {
+					id: "rats:black_death_mask",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
 		},
 		{
@@ -360,7 +382,18 @@
 			}],
 			rewards: [{
 				id: 1258,
-				type: "item"
+				type: "item",
+				item: {
+					id: "silentgems:enchantment_token",
+					Count: 1b,
+					tag: {
+						TokenEnchantments: [{
+							lvl: 1s,
+							id: "apotheosis:berserk"
+						}]
+					}
+				},
+				count: 3
 			}]
 		},
 		{
@@ -394,7 +427,7 @@
 				type: "item",
 				item: {
 					id: "silentgear:crossbow",
-					Count: 1,
+					Count: 1b,
 					tag: {
 						SGear_UUIDLeast: -5793065083293377914L,
 						SGear_UUIDMost: 3787864417353944517L,
@@ -506,10 +539,8 @@
 			rewards: [{
 				id: 1253,
 				type: "item",
-				item: {
-					id: "silentgems:secret_donut",
-					Count: 8
-				}
+				item: "silentgems:secret_donut",
+				count: 8
 			}]
 		},
 		{
@@ -527,7 +558,7 @@
 				type: "item",
 				item: {
 					id: "silentgems:enchantment_token",
-					Count: 1,
+					Count: 1b,
 					tag: {
 						TokenEnchantments: [{
 							lvl: 1,
@@ -550,21 +581,19 @@
 				title: "Any storagedrawers:drawers",
 				item: {
 					id: "itemfilters:tag",
-					Count: 1,
+					Count: 1b,
 					tag: {
 						value: "storagedrawers:drawers"
 					}
 				},
-				count: 8
+				count: 8L
 			}],
 			rewards: [
 				{
 					id: 552,
 					type: "item",
-					item: {
-						id: "xreliquary:glowing_bread",
-						Count: 8
-					}
+					item: "xreliquary:glowing_bread",
+					count: 8
 				},
 				{
 					id: 1303,
@@ -610,7 +639,7 @@
 					type: "item",
 					item: {
 						id: "cyclic:charm_ultimate",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							Damage: 0
 						}
@@ -633,7 +662,7 @@
 				type: "item",
 				item: {
 					id: "cyclic:spell_water",
-					Count: 1,
+					Count: 1b,
 					tag: {
 						Damage: 0
 					}
@@ -655,7 +684,7 @@
 				type: "item",
 				item: {
 					id: "cyclic:charm_home",
-					Count: 1,
+					Count: 1b,
 					tag: {
 						Damage: 0
 					}
@@ -677,7 +706,7 @@
 				type: "item",
 				item: {
 					id: "xreliquary:mercy_cross",
-					Count: 1,
+					Count: 1b,
 					tag: {
 						Damage: 0
 					}
@@ -713,10 +742,8 @@
 			rewards: [{
 				id: 1265,
 				type: "item",
-				item: {
-					id: "simplefarming:cheeseburger",
-					Count: 8
-				}
+				item: "simplefarming:cheeseburger",
+				count: 8
 			}]
 		},
 		{
@@ -747,7 +774,9 @@
 			}],
 			rewards: [{
 				id: 1267,
-				type: "item"
+				type: "item",
+				item: "rats:token_piece",
+				count: 4
 			}]
 		},
 		{
@@ -793,7 +822,14 @@
 			}],
 			rewards: [{
 				id: 1269,
-				type: "item"
+				type: "item",
+				item: {
+					id: "rats:ghost_pirat_cutlass",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
 		},
 		{
@@ -811,7 +847,7 @@
 				type: "item",
 				item: {
 					id: "minecraft:potion",
-					Count: 1,
+					Count: 1b,
 					tag: {
 						Potion: "potionsmaster:diamond_sight"
 					}
@@ -842,18 +878,14 @@
 				{
 					id: 1157,
 					type: "item",
-					item: {
-						id: "refinedstorage:cable",
-						Count: 12
-					}
+					item: "refinedstorage:cable",
+					count: 12
 				},
 				{
 					id: 1158,
 					type: "item",
-					item: {
-						id: "refinedstorage:external_storage",
-						Count: 4
-					}
+					item: "refinedstorage:external_storage",
+					count: 4
 				}
 			]
 		},
@@ -876,10 +908,8 @@
 				{
 					id: 1382,
 					type: "item",
-					item: {
-						id: "minecraft:magma_cream",
-						Count: 8
-					}
+					item: "minecraft:magma_cream",
+					count: 8
 				}
 			]
 		},
@@ -1129,10 +1159,8 @@
 			rewards: [{
 				id: 1206,
 				type: "item",
-				item: {
-					id: "simplefarming:fish_sandwich",
-					Count: 8
-				}
+				item: "simplefarming:fish_sandwich",
+				count: 8
 			}]
 		},
 		{
@@ -1148,10 +1176,8 @@
 			rewards: [{
 				id: 1202,
 				type: "item",
-				item: {
-					id: "refinedstorage:pattern",
-					Count: 8
-				}
+				item: "refinedstorage:pattern",
+				count: 8
 			}]
 		},
 		{
@@ -1163,15 +1189,13 @@
 				id: 1204,
 				type: "item",
 				item: "refinedstorage:storage_monitor",
-				count: 4
+				count: 4L
 			}],
 			rewards: [{
 				id: 1205,
 				type: "item",
-				item: {
-					id: "refinedstorage:storage_monitor",
-					Count: 2
-				}
+				item: "refinedstorage:storage_monitor",
+				count: 2
 			}]
 		},
 		{
@@ -1189,7 +1213,7 @@
 				type: "item",
 				item: {
 					id: "botania:cacophonium",
-					Count: 1,
+					Count: 1b,
 					tag: {}
 				}
 			}]
@@ -1225,7 +1249,7 @@
 				type: "item",
 				item: {
 					id: "minecraft:enchanted_book",
-					Count: 1,
+					Count: 1b,
 					tag: {
 						StoredEnchantments: [{
 							lvl: 3,
@@ -1248,10 +1272,8 @@
 			rewards: [{
 				id: 1218,
 				type: "item",
-				item: {
-					id: "gobber2:gobber2_gooey_beefstew",
-					Count: 8
-				}
+				item: "gobber2:gobber2_gooey_beefstew",
+				count: 8
 			}]
 		},
 		{
@@ -1299,10 +1321,8 @@
 			rewards: [{
 				id: 1229,
 				type: "item",
-				item: {
-					id: "minecraft:ender_eye",
-					Count: 3
-				}
+				item: "minecraft:ender_eye",
+				count: 3
 			}]
 		},
 		{
@@ -1314,6 +1334,11 @@
 				id: 1228,
 				type: "item",
 				item: "refinedstorage:crafting_monitor"
+			}],
+			rewards: [{
+				id: 1618,
+				type: "item",
+				item: "rats:cauldron_cheese"
 			}]
 		},
 		{
@@ -1342,13 +1367,23 @@
 				type: "item",
 				item: {
 					id: "refinedstorage:portable_grid",
-					Count: 1,
+					Count: 1b,
 					tag: {}
 				}
 			}],
 			rewards: [{
 				id: 1380,
-				type: "item"
+				type: "item",
+				item: {
+					id: "silentgems:enchantment_token",
+					Count: 1b,
+					tag: {
+						TokenEnchantments: [{
+							lvl: 1s,
+							id: "apotheosis:stable_footing"
+						}]
+					}
+				}
 			}]
 		},
 		{
@@ -1402,7 +1437,9 @@
 			}],
 			rewards: [{
 				id: 1247,
-				type: "item"
+				type: "item",
+				item: "rats:plague_stew",
+				count: 4
 			}]
 		},
 		{
@@ -1425,10 +1462,8 @@
 			rewards: [{
 				id: 1246,
 				type: "item",
-				item: {
-					id: "refinedstorage:range_upgrade",
-					Count: 2
-				}
+				item: "refinedstorage:range_upgrade",
+				count: 2
 			}]
 		},
 		{
@@ -1460,10 +1495,8 @@
 			rewards: [{
 				id: 1525,
 				type: "item",
-				item: {
-					id: "minecraft:quartz",
-					Count: 32
-				}
+				item: "minecraft:quartz",
+				count: 32
 			}]
 		},
 		{
@@ -1478,7 +1511,8 @@
 			}],
 			rewards: [{
 				id: 1526,
-				type: "item"
+				type: "item",
+				item: "rats:rat_upgrade_basic"
 			}]
 		},
 		{
@@ -1494,10 +1528,8 @@
 			rewards: [{
 				id: 1531,
 				type: "item",
-				item: {
-					id: "minecraft:redstone_block",
-					Count: 8
-				}
+				item: "minecraft:redstone_block",
+				count: 8
 			}]
 		},
 		{
@@ -1515,7 +1547,7 @@
 				type: "item",
 				item: {
 					id: "minecraft:potion",
-					Count: 1,
+					Count: 1b,
 					tag: {
 						Potion: "minecraft:long_fire_resistance"
 					}

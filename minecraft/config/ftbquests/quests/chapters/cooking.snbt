@@ -1,9 +1,10 @@
 {
 	id: 908,
 	filename: "cooking",
-	order_index: 6,
+	order_index: 7,
 	title: "Cooking",
 	icon: "simplefarming:blt",
+	default_quest_shape: "",
 	quests: [
 		{
 			x: -2.5d,
@@ -84,10 +85,8 @@
 				{
 					id: 931,
 					type: "item",
-					item: {
-						id: "cookingforblockheads:white_kitchen_floor",
-						Count: 16
-					}
+					item: "cookingforblockheads:white_kitchen_floor",
+					count: 16
 				},
 				{
 					id: 943,

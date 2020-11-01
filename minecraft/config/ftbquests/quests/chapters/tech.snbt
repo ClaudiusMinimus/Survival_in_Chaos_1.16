@@ -1,9 +1,10 @@
 {
 	id: 228,
 	filename: "tech",
-	order_index: 8,
+	order_index: 9,
 	title: "Tech",
 	icon: "titanium:iron_gear",
+	default_quest_shape: "",
 	quests: [
 		{
 			x: 0.5d,
@@ -20,7 +21,7 @@
 				type: "item",
 				item: {
 					id: "engineerstools:redia_tool",
-					Count: 1,
+					Count: 1b,
 					tag: {
 						Damage: 0
 					}
@@ -52,7 +53,7 @@
 				id: 234,
 				type: "item",
 				item: "powah:energy_cable_starter",
-				count: 8
+				count: 8L
 			}],
 			rewards: [{
 				id: 1455,
@@ -69,6 +70,12 @@
 				id: 236,
 				type: "item",
 				item: "silents_mechanisms:basic_alloy_smelter"
+			}],
+			rewards: [{
+				id: 1631,
+				type: "item",
+				item: "silents_mechanisms:bismuth_brass_ingot",
+				count: 8
 			}]
 		},
 		{
@@ -80,6 +87,12 @@
 				id: 238,
 				type: "item",
 				item: "silents_mechanisms:alloy_smelter"
+			}],
+			rewards: [{
+				id: 1624,
+				type: "item",
+				item: "silents_mechanisms:redstone_alloy_ingot",
+				count: 10
 			}]
 		},
 		{
@@ -97,7 +110,7 @@
 				type: "item",
 				item: {
 					id: "forbidden_arcanus:slimec_pickaxe",
-					Count: 1,
+					Count: 1b,
 					tag: {
 						Damage: 0,
 						Enchantments: [{
@@ -140,7 +153,7 @@
 				type: "item",
 				item: {
 					id: "cyclic:charm_fire",
-					Count: 1,
+					Count: 1b,
 					tag: {
 						Damage: 0
 					}
@@ -156,6 +169,11 @@
 				id: 248,
 				type: "item",
 				item: "silents_mechanisms:basic_crusher"
+			}],
+			rewards: [{
+				id: 1626,
+				type: "item",
+				item: "rats:charged_creeper_chunk"
 			}]
 		},
 		{
@@ -167,6 +185,12 @@
 				id: 250,
 				type: "item",
 				item: "silents_mechanisms:crusher"
+			}],
+			rewards: [{
+				id: 1627,
+				type: "item",
+				item: "immersiveengineering:alu_scaffolding_grate_top",
+				count: 16
 			}]
 		},
 		{
@@ -178,6 +202,11 @@
 				id: 252,
 				type: "item",
 				item: "silents_mechanisms:electric_furnace"
+			}],
+			rewards: [{
+				id: 1625,
+				type: "item",
+				item: "minecraft:slime_spawn_egg"
 			}]
 		},
 		{
@@ -190,7 +219,7 @@
 				type: "item",
 				item: {
 					id: "powah:energy_cell_hardened",
-					Count: 1,
+					Count: 1b,
 					tag: {
 						lollipopTileStorableNBT: {
 							StoredEnergy: 4000000
@@ -213,6 +242,11 @@
 				id: 256,
 				type: "item",
 				item: "silents_mechanisms:processing_speed_upgrade"
+			}],
+			rewards: [{
+				id: 1630,
+				type: "item",
+				item: "silents_mechanisms:processing_speed_upgrade"
 			}]
 		},
 		{
@@ -224,6 +258,12 @@
 				id: 258,
 				type: "item",
 				item: "silents_mechanisms:output_chance_upgrade"
+			}],
+			rewards: [{
+				id: 1629,
+				type: "item",
+				item: "silentgems:gilded_string",
+				count: 3
 			}]
 		},
 		{
@@ -235,6 +275,12 @@
 				id: 260,
 				type: "item",
 				item: "silents_mechanisms:energy_efficiency_upgrade"
+			}],
+			rewards: [{
+				id: 1628,
+				type: "item",
+				item: "silents_mechanisms:plastic_sheet",
+				count: 16
 			}]
 		},
 		{
@@ -252,7 +298,7 @@
 				type: "item",
 				item: {
 					id: "forbidden_arcanus:draco_arcanus_helmet",
-					Count: 1,
+					Count: 1b,
 					tag: {
 						Damage: 0
 					}
@@ -290,7 +336,7 @@
 				type: "item",
 				item: {
 					id: "gobber2:gobber2_chestplate",
-					Count: 1,
+					Count: 1b,
 					tag: {
 						Damage: 0
 					}
@@ -328,7 +374,7 @@
 				type: "item",
 				item: {
 					id: "xreliquary:mob_charm",
-					Count: 1,
+					Count: 1b,
 					tag: {
 						Damage: 0,
 						entity: "minecraft:ghast"
@@ -351,7 +397,7 @@
 				type: "item",
 				item: {
 					id: "mekanism:flamethrower",
-					Count: 1,
+					Count: 1b,
 					tag: {
 						mekData: {
 							GasTanks: [{
@@ -410,10 +456,8 @@
 			rewards: [{
 				id: 1306,
 				type: "item",
-				item: {
-					id: "forbidden_arcanus:mundabitur_dust",
-					Count: 24
-				}
+				item: "forbidden_arcanus:mundabitur_dust",
+				count: 24
 			}]
 		},
 		{
@@ -451,10 +495,8 @@
 				{
 					id: 1286,
 					type: "item",
-					item: {
-						id: "engineerstools:musli_bar",
-						Count: 8
-					}
+					item: "engineerstools:musli_bar",
+					count: 8
 				}
 			]
 		},
@@ -486,10 +528,8 @@
 			rewards: [{
 				id: 1326,
 				type: "item",
-				item: {
-					id: "silentgear:crimson_steel_ingot",
-					Count: 8
-				}
+				item: "silentgear:crimson_steel_ingot",
+				count: 8
 			}]
 		},
 		{
@@ -505,10 +545,8 @@
 			rewards: [{
 				id: 1325,
 				type: "item",
-				item: {
-					id: "minecraft:redstone_block",
-					Count: 8
-				}
+				item: "minecraft:redstone_block",
+				count: 8
 			}]
 		},
 		{
@@ -525,10 +563,8 @@
 				{
 					id: 1328,
 					type: "item",
-					item: {
-						id: "simplefarming:cheese_block",
-						Count: 8
-					}
+					item: "simplefarming:cheese_block",
+					count: 8
 				},
 				{
 					id: 1330,
@@ -566,10 +602,8 @@
 			rewards: [{
 				id: 1327,
 				type: "item",
-				item: {
-					id: "simplefarming:lasagna",
-					Count: 8
-				}
+				item: "simplefarming:lasagna",
+				count: 8
 			}]
 		},
 		{
@@ -584,13 +618,13 @@
 					id: 300,
 					type: "item",
 					item: "powah:dielectric_paste",
-					count: 24
+					count: 24L
 				},
 				{
 					id: 301,
 					type: "item",
 					item: "powah:dielectric_rod",
-					count: 8
+					count: 8L
 				},
 				{
 					id: 302,
@@ -601,7 +635,7 @@
 					id: 303,
 					type: "item",
 					item: "powah:capacitor_basic",
-					count: 4
+					count: 4L
 				}
 			],
 			rewards: [
@@ -615,7 +649,7 @@
 					type: "item",
 					item: {
 						id: "powah:wrench",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							PowahWrenchNBT: {}
 						}
@@ -685,7 +719,7 @@
 				type: "item",
 				item: {
 					id: "minecraft:enchanted_book",
-					Count: 1,
+					Count: 1b,
 					tag: {
 						StoredEnchantments: [{
 							lvl: 3,
@@ -777,10 +811,8 @@
 			rewards: [{
 				id: 1464,
 				type: "item",
-				item: {
-					id: "xreliquary:squid_beak",
-					Count: 4
-				}
+				item: "xreliquary:squid_beak",
+				count: 4
 			}]
 		},
 		{
@@ -796,10 +828,8 @@
 			rewards: [{
 				id: 1465,
 				type: "item",
-				item: {
-					id: "apotheosis:hellshelf",
-					Count: 4
-				}
+				item: "apotheosis:hellshelf",
+				count: 4
 			}]
 		},
 		{
@@ -877,10 +907,8 @@
 			rewards: [{
 				id: 1470,
 				type: "item",
-				item: {
-					id: "xreliquary:molten_core",
-					Count: 4
-				}
+				item: "xreliquary:molten_core",
+				count: 4
 			}]
 		},
 		{
@@ -898,7 +926,7 @@
 				type: "item",
 				item: {
 					id: "minecraft:enchanted_book",
-					Count: 1,
+					Count: 1b,
 					tag: {
 						StoredEnchantments: [{
 							lvl: 5,
@@ -922,10 +950,8 @@
 				{
 					id: 1472,
 					type: "item",
-					item: {
-						id: "xreliquary:slime_pearl",
-						Count: 4
-					}
+					item: "xreliquary:slime_pearl",
+					count: 4
 				},
 				{
 					id: 1473,
@@ -947,10 +973,8 @@
 			rewards: [{
 				id: 1474,
 				type: "item",
-				item: {
-					id: "xreliquary:interdiction_torch",
-					Count: 4
-				}
+				item: "xreliquary:interdiction_torch",
+				count: 4
 			}]
 		},
 		{
@@ -967,10 +991,8 @@
 			rewards: [{
 				id: 1475,
 				type: "item",
-				item: {
-					id: "minecraft:glass",
-					Count: 64
-				}
+				item: "minecraft:glass",
+				count: 64
 			}]
 		},
 		{
@@ -986,10 +1008,8 @@
 			rewards: [{
 				id: 1476,
 				type: "item",
-				item: {
-					id: "minecraft:piston",
-					Count: 4
-				}
+				item: "minecraft:piston",
+				count: 4
 			}]
 		},
 		{
@@ -1001,6 +1021,11 @@
 				id: 349,
 				type: "item",
 				item: "solarflux:sp_3"
+			}],
+			rewards: [{
+				id: 1619,
+				type: "item",
+				item: "rats:rat_upgrade_basic"
 			}]
 		},
 		{
@@ -1023,6 +1048,12 @@
 				id: 353,
 				type: "item",
 				item: "solarflux:sp_5"
+			}],
+			rewards: [{
+				id: 1620,
+				type: "item",
+				item: "solarflux:efficiency_upgrade",
+				count: 20
 			}]
 		},
 		{
@@ -1032,6 +1063,11 @@
 			id: 354,
 			tasks: [{
 				id: 355,
+				type: "item",
+				item: "solarflux:sp_6"
+			}],
+			rewards: [{
+				id: 1621,
 				type: "item",
 				item: "solarflux:sp_6"
 			}]
@@ -1045,6 +1081,11 @@
 				id: 357,
 				type: "item",
 				item: "solarflux:sp_7"
+			}],
+			rewards: [{
+				id: 1622,
+				type: "item",
+				item: "solarflux:sp_7"
 			}]
 		},
 		{
@@ -1054,6 +1095,11 @@
 			id: 358,
 			tasks: [{
 				id: 359,
+				type: "item",
+				item: "solarflux:sp_8"
+			}],
+			rewards: [{
+				id: 1623,
 				type: "item",
 				item: "solarflux:sp_8"
 			}]
@@ -1086,7 +1132,17 @@
 			}],
 			rewards: [{
 				id: 1479,
-				type: "item"
+				type: "item",
+				item: {
+					id: "silentgems:enchantment_token",
+					Count: 1b,
+					tag: {
+						TokenEnchantments: [{
+							lvl: 1s,
+							id: "minecraft:depth_strider"
+						}]
+					}
+				}
 			}]
 		},
 		{
@@ -1118,10 +1174,8 @@
 			rewards: [{
 				id: 1484,
 				type: "item",
-				item: {
-					id: "xreliquary:catalyzing_gland",
-					Count: 4
-				}
+				item: "xreliquary:catalyzing_gland",
+				count: 4
 			}]
 		},
 		{
@@ -1168,10 +1222,8 @@
 			rewards: [{
 				id: 1487,
 				type: "item",
-				item: {
-					id: "xreliquary:nebulous_heart",
-					Count: 4
-				}
+				item: "xreliquary:nebulous_heart",
+				count: 4
 			}]
 		},
 		{
@@ -1236,7 +1288,7 @@
 					id: 383,
 					type: "item",
 					item: "mekanism:ingot_osmium",
-					count: 16
+					count: 16L
 				},
 				{
 					id: 400,
@@ -1253,10 +1305,8 @@
 				{
 					id: 1392,
 					type: "item",
-					item: {
-						id: "mekanism:upgrade_energy",
-						Count: 2
-					}
+					item: "mekanism:upgrade_energy",
+					count: 2
 				}
 			]
 		},
@@ -1270,13 +1320,13 @@
 					id: 385,
 					type: "item",
 					item: "mekanism:alloy_infused",
-					count: 8
+					count: 8L
 				},
 				{
 					id: 403,
 					type: "item",
 					item: "mekanism:basic_control_circuit",
-					count: 8
+					count: 8L
 				}
 			],
 			rewards: [{
@@ -1297,7 +1347,17 @@
 			}],
 			rewards: [{
 				id: 1402,
-				type: "item"
+				type: "item",
+				item: {
+					id: "silentgems:enchantment_token",
+					Count: 1b,
+					tag: {
+						TokenEnchantments: [{
+							lvl: 1s,
+							id: "cyclic:step"
+						}]
+					}
+				}
 			}]
 		},
 		{
@@ -1345,10 +1405,8 @@
 			rewards: [{
 				id: 1400,
 				type: "item",
-				item: {
-					id: "mekanism:alloy_reinforced",
-					Count: 4
-				}
+				item: "mekanism:alloy_reinforced",
+				count: 4
 			}]
 		},
 		{
@@ -1364,10 +1422,8 @@
 			rewards: [{
 				id: 423,
 				type: "item",
-				item: {
-					id: "mekanism:cardboard_box",
-					Count: 8
-				}
+				item: "mekanism:cardboard_box",
+				count: 8
 			}]
 		},
 		{
@@ -1383,10 +1439,8 @@
 			rewards: [{
 				id: 1442,
 				type: "item",
-				item: {
-					id: "mekanism:upgrade_energy",
-					Count: 4
-				}
+				item: "mekanism:upgrade_energy",
+				count: 4
 			}]
 		},
 		{
@@ -1402,10 +1456,8 @@
 			rewards: [{
 				id: 1397,
 				type: "item",
-				item: {
-					id: "mekanism:upgrade_muffling",
-					Count: 4
-				}
+				item: "mekanism:upgrade_muffling",
+				count: 4
 			}]
 		},
 		{
@@ -1421,10 +1473,8 @@
 			rewards: [{
 				id: 1395,
 				type: "item",
-				item: {
-					id: "mekanism:dust_osmium",
-					Count: 10
-				}
+				item: "mekanism:dust_osmium",
+				count: 10
 			}]
 		},
 		{
@@ -1440,10 +1490,8 @@
 			rewards: [{
 				id: 1398,
 				type: "item",
-				item: {
-					id: "mekanism:upgrade_speed",
-					Count: 4
-				}
+				item: "mekanism:upgrade_speed",
+				count: 4
 			}]
 		},
 		{
@@ -1458,7 +1506,19 @@
 			}],
 			rewards: [{
 				id: 1399,
-				type: "item"
+				type: "item",
+				item: {
+					id: "mekanism:basic_energy_cube",
+					Count: 1b,
+					tag: {
+						mekData: {
+							EnergyContainers: [{
+								Container: 0b,
+								stored: "4000000"
+							}]
+						}
+					}
+				}
 			}]
 		},
 		{
@@ -1473,7 +1533,17 @@
 			}],
 			rewards: [{
 				id: 1401,
-				type: "item"
+				type: "item",
+				item: {
+					id: "silentgems:enchantment_token",
+					Count: 1b,
+					tag: {
+						TokenEnchantments: [{
+							lvl: 1s,
+							id: "apotheosis:true_infinity"
+						}]
+					}
+				}
 			}]
 		},
 		{
@@ -1488,10 +1558,8 @@
 			rewards: [{
 				id: 1393,
 				type: "item",
-				item: {
-					id: "mekanism:basic_mechanical_pipe",
-					Count: 8
-				}
+				item: "mekanism:basic_mechanical_pipe",
+				count: 8
 			}]
 		},
 		{
@@ -1506,10 +1574,8 @@
 			rewards: [{
 				id: 1394,
 				type: "item",
-				item: {
-					id: "mekanism:basic_universal_cable",
-					Count: 8
-				}
+				item: "mekanism:basic_universal_cable",
+				count: 8
 			}]
 		},
 		{
@@ -1542,7 +1608,7 @@
 				type: "item",
 				item: {
 					id: "engineerstools:diving_capsule",
-					Count: 1,
+					Count: 1b,
 					tag: {
 						Damage: 0
 					}
@@ -1562,10 +1628,8 @@
 			rewards: [{
 				id: 1331,
 				type: "item",
-				item: {
-					id: "simplefarming:peanut_butter_cookie",
-					Count: 16
-				}
+				item: "simplefarming:peanut_butter_cookie",
+				count: 16
 			}]
 		},
 		{
@@ -1597,10 +1661,8 @@
 			rewards: [{
 				id: 1333,
 				type: "item",
-				item: {
-					id: "mcwbridges:bamboo_bridge",
-					Count: 10
-				}
+				item: "mcwbridges:bamboo_bridge",
+				count: 10
 			}]
 		},
 		{
@@ -1617,17 +1679,15 @@
 				{
 					id: 1334,
 					type: "item",
-					item: {
-						id: "simplefarming:mutton_curry",
-						Count: 8
-					}
+					item: "simplefarming:mutton_curry",
+					count: 8
 				},
 				{
 					id: 1335,
 					type: "item",
 					item: {
 						id: "mekanism:jetpack_armored",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							mekData: {
 								GasTanks: [{
@@ -1659,10 +1719,8 @@
 			rewards: [{
 				id: 1336,
 				type: "item",
-				item: {
-					id: "mekanism:upgrade_muffling",
-					Count: 4
-				}
+				item: "mekanism:upgrade_muffling",
+				count: 4
 			}]
 		},
 		{
@@ -1679,17 +1737,15 @@
 				{
 					id: 1337,
 					type: "item",
-					item: {
-						id: "simplefarming:cornbread",
-						Count: 8
-					}
+					item: "simplefarming:cornbread",
+					count: 8
 				},
 				{
 					id: 1338,
 					type: "item",
 					item: {
 						id: "mekanism:scuba_tank",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							HideFlags: 2,
 							mekData: {
@@ -1717,7 +1773,7 @@
 				type: "item",
 				item: {
 					id: "mekanism:fluidic_plenisher",
-					Count: 1,
+					Count: 1b,
 					tag: {
 						mekData: {
 							FluidTanks: [],
@@ -1739,7 +1795,7 @@
 				type: "item",
 				item: {
 					id: "mekanism:flamethrower",
-					Count: 1,
+					Count: 1b,
 					tag: {
 						mekData: {
 							GasTanks: [{

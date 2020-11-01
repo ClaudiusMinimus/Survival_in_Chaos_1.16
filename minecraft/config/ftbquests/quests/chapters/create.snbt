@@ -1,10 +1,11 @@
 {
 	id: 1571,
 	filename: "create",
-	order_index: 1,
+	order_index: 2,
 	title: "Create",
 	icon: "minecraft:beacon",
 	subtitle: ["Build amazing things with Create!"],
+	default_quest_shape: "",
 	quests: [{
 		x: 0.0d,
 		y: 1.5d,
