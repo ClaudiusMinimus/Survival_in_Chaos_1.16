@@ -1,7 +1,7 @@
 {
 	id: 1404,
 	filename: "magic",
-	order_index: 1,
+	order_index: 9,
 	title: "Magic",
 	icon: {
 		id: "botania:pixie_ring",
