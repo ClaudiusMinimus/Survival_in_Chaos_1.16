@@ -5,7 +5,7 @@
 	title: "Armor, Tools and Weapons",
 	icon: {
 		id: "gobber2:gobber2_paxel_end",
-		Count: 1b,
+		Count: true,
 		tag: {
 			Damage: 0
 		}
@@ -30,7 +30,7 @@
 					type: "item",
 					item: {
 						id: "silentgear:pickaxe",
-						Count: 1b,
+						Count: true,
 						tag: {
 							SGear_UUID: [I;
 								-714576008,
@@ -132,7 +132,7 @@
 					type: "item",
 					item: {
 						id: "silentgear:axe",
-						Count: 1b,
+						Count: true,
 						tag: {
 							SGear_UUID: [I;
 								-2066625422,
@@ -234,7 +234,7 @@
 					type: "item",
 					item: {
 						id: "silentgear:shovel",
-						Count: 1b,
+						Count: true,
 						tag: {
 							SGear_UUID: [I;
 								1827648452,
@@ -344,7 +344,7 @@
 					type: "item",
 					item: {
 						id: "itemfilters:or",
-						Count: 1b,
+						Count: true,
 						tag: {
 							RepairCost: 0,
 							items: [
@@ -368,7 +368,7 @@
 					type: "item",
 					item: {
 						id: "itemfilters:or",
-						Count: 1b,
+						Count: true,
 						tag: {
 							RepairCost: 0,
 							items: [
@@ -392,7 +392,7 @@
 					type: "item",
 					item: {
 						id: "silentgear:bow",
-						Count: 1b,
+						Count: true,
 						tag: {
 							SGear_UUID: [I;
 								530718105,
@@ -534,7 +534,7 @@
 					type: "item",
 					item: {
 						id: "silentgems:enchantment_token",
-						Count: 1b,
+						Count: true,
 						tag: {
 							TokenEnchantments: [{
 								lvl: 1,
@@ -564,7 +564,7 @@
 					type: "item",
 					item: {
 						id: "silentgear:hammer",
-						Count: 1b,
+						Count: true,
 						tag: {
 							SGear_UUID: [I;
 								597635255,
@@ -687,7 +687,7 @@
 					type: "item",
 					item: {
 						id: "itemfilters:or",
-						Count: 1b,
+						Count: true,
 						tag: {
 							RepairCost: 0,
 							items: [
@@ -713,7 +713,7 @@
 					type: "item",
 					item: {
 						id: "cyclic:glove_climb",
-						Count: 1b,
+						Count: true,
 						tag: {}
 					}
 				},
@@ -739,7 +739,7 @@
 					type: "item",
 					item: {
 						id: "silentgear:excavator",
-						Count: 1b,
+						Count: true,
 						tag: {
 							SGear_UUID: [I;
 								-1013719742,
@@ -855,7 +855,7 @@
 					type: "item",
 					item: {
 						id: "itemfilters:or",
-						Count: 1b,
+						Count: true,
 						tag: {
 							RepairCost: 0,
 							items: [
@@ -900,7 +900,7 @@
 					type: "item",
 					item: {
 						id: "silentgear:mattock",
-						Count: 1b,
+						Count: true,
 						tag: {
 							SGear_UUID: [I;
 								-1355472450,
@@ -1009,7 +1009,7 @@
 					type: "item",
 					item: {
 						id: "itemfilters:or",
-						Count: 1b,
+						Count: true,
 						tag: {
 							RepairCost: 0,
 							items: [
@@ -1052,7 +1052,7 @@
 					type: "item",
 					item: {
 						id: "itemfilters:or",
-						Count: 1b,
+						Count: true,
 						tag: {
 							RepairCost: 0,
 							items: [
@@ -1158,7 +1158,7 @@
 					type: "item",
 					item: {
 						id: "silentgear:rod",
-						Count: 1b,
+						Count: true,
 						tag: {
 							CraftedCount: 4,
 							Materials: [
@@ -1187,7 +1187,7 @@
 					type: "item",
 					item: {
 						id: "silentgems:enchantment_token",
-						Count: 1b,
+						Count: true,
 						tag: {
 							TokenEnchantments: [{
 								lvl: 1,
@@ -1202,7 +1202,7 @@
 					type: "item",
 					item: {
 						id: "silentgems:enchantment_token",
-						Count: 1b,
+						Count: true,
 						tag: {
 							TokenEnchantments: [{
 								lvl: 1,
@@ -1265,7 +1265,7 @@
 					type: "item",
 					item: {
 						id: "mysticalagriculture:soulium_dagger",
-						Count: 1b,
+						Count: true,
 						tag: {
 							Damage: 0
 						}
@@ -1284,7 +1284,7 @@
 					type: "item",
 					item: {
 						id: "itemfilters:or",
-						Count: 1b,
+						Count: true,
 						tag: {
 							RepairCost: 0,
 							items: [
@@ -1308,7 +1308,7 @@
 					type: "item",
 					item: {
 						id: "itemfilters:or",
-						Count: 1b,
+						Count: true,
 						tag: {
 							RepairCost: 0,
 							items: [
@@ -1332,7 +1332,7 @@
 					type: "item",
 					item: {
 						id: "itemfilters:or",
-						Count: 1b,
+						Count: true,
 						tag: {
 							RepairCost: 0,
 							items: [
@@ -1356,7 +1356,7 @@
 					type: "item",
 					item: {
 						id: "itemfilters:or",
-						Count: 1b,
+						Count: true,
 						tag: {
 							RepairCost: 0,
 							items: [
@@ -1381,7 +1381,7 @@
 				type: "item",
 				item: {
 					id: "silentgems:enchantment_token",
-					Count: 1b,
+					Count: true,
 					tag: {
 						TokenEnchantments: [{
 							lvl: 1,
@@ -1403,7 +1403,7 @@
 					type: "item",
 					item: {
 						id: "itemfilters:or",
-						Count: 1b,
+						Count: true,
 						tag: {
 							RepairCost: 0,
 							items: [
@@ -1427,7 +1427,7 @@
 					type: "item",
 					item: {
 						id: "silentgear:paxel",
-						Count: 1b,
+						Count: true,
 						tag: {
 							SGear_UUID: [I;
 								-239002615,
@@ -1571,7 +1571,7 @@
 					type: "item",
 					item: {
 						id: "silentgear:dagger",
-						Count: 1b,
+						Count: true,
 						tag: {
 							SGear_UUIDLeast: -6445736362882874778L,
 							SGear_UUIDMost: 5791057238796487566L,
@@ -1646,7 +1646,7 @@
 					type: "item",
 					item: {
 						id: "silentgear:dagger",
-						Count: 1b,
+						Count: true,
 						tag: {
 							SGear_UUIDLeast: -6113640670222005085L,
 							SGear_UUIDMost: -993454010487976867L,
@@ -1721,7 +1721,7 @@
 					type: "item",
 					item: {
 						id: "silentgear:dagger",
-						Count: 1b,
+						Count: true,
 						tag: {
 							SGear_UUIDLeast: -5212427410715455299L,
 							SGear_UUIDMost: 2831194394131579261L,
@@ -1810,7 +1810,7 @@
 					type: "item",
 					item: {
 						id: "itemfilters:or",
-						Count: 1b,
+						Count: true,
 						tag: {
 							RepairCost: 0,
 							items: [
@@ -1834,7 +1834,7 @@
 					type: "item",
 					item: {
 						id: "silentgear:shears",
-						Count: 1b,
+						Count: true,
 						tag: {
 							SGear_UUID: [I;
 								-773160040,
@@ -1940,7 +1940,7 @@
 				type: "item",
 				item: {
 					id: "itemfilters:or",
-					Count: 1b,
+					Count: true,
 					tag: {
 						RepairCost: 0,
 						items: [
@@ -1975,7 +1975,7 @@
 				type: "item",
 				item: {
 					id: "itemfilters:or",
-					Count: 1b,
+					Count: true,
 					tag: {
 						RepairCost: 0,
 						items: [
@@ -2027,7 +2027,7 @@
 				type: "item",
 				item: {
 					id: "itemfilters:or",
-					Count: 1b,
+					Count: true,
 					tag: {
 						RepairCost: 0,
 						items: [
@@ -2063,7 +2063,7 @@
 				type: "item",
 				item: {
 					id: "silentgems:fragile_chaos_orb",
-					Count: 1b,
+					Count: true,
 					tag: {
 						Damage: 0
 					}

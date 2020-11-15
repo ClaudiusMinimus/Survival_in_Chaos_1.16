@@ -5,7 +5,7 @@
 	title: "Magic",
 	icon: {
 		id: "botania:pixie_ring",
-		Count: 1b,
+		Count: true,
 		tag: {
 			baubleUUIDMost: 7996151965223632990L,
 			baubleUUIDLeast: -8226548531356194201L
@@ -87,7 +87,7 @@
 					type: "item",
 					item: {
 						id: "botania:incense_stick",
-						Count: 1b,
+						Count: true,
 						tag: {
 							brewKey: "botania:night_vision"
 						}
@@ -98,7 +98,7 @@
 					type: "item",
 					item: {
 						id: "minecraft:flint_and_steel",
-						Count: 1b,
+						Count: true,
 						tag: {
 							Damage: 0
 						}
@@ -197,7 +197,7 @@
 				type: "item",
 				item: {
 					id: "silentgems:chaos_meter",
-					Count: 1b,
+					Count: true,
 					tag: {}
 				}
 			}]
@@ -212,7 +212,7 @@
 				type: "item",
 				item: {
 					id: "botania:twig_wand",
-					Count: 1b,
+					Count: true,
 					tag: {
 						color1: 6,
 						color2: 2,
@@ -262,7 +262,7 @@
 				type: "item",
 				item: {
 					id: "silentgems:soul_urn",
-					Count: 1b,
+					Count: true,
 					tag: {
 						BlockEntityTag: {
 							Gem: "tanzanite"
@@ -281,7 +281,7 @@
 				type: "item",
 				item: {
 					id: "botania:magnet_ring",
-					Count: 1b,
+					Count: true,
 					tag: {}
 				}
 			}],

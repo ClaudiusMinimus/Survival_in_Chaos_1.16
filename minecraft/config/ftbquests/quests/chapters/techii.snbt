@@ -21,7 +21,7 @@
 				type: "item",
 				item: {
 					id: "silentgear:crude_repair_kit",
-					Count: 1b,
+					Count: true,
 					tag: {
 						Storage: {}
 					}
@@ -85,7 +85,7 @@
 				type: "item",
 				item: {
 					id: "silentgear:sturdy_repair_kit",
-					Count: 1b,
+					Count: true,
 					tag: {
 						Storage: {}
 					}

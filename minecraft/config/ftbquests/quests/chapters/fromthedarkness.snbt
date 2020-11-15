@@ -41,7 +41,7 @@
 					type: "item",
 					item: {
 						id: "waystones:warp_stone",
-						Count: 1b,
+						Count: true,
 						tag: {
 							Damage: 0
 						}
@@ -52,7 +52,7 @@
 					type: "item",
 					item: {
 						id: "patchouli:guide_book",
-						Count: 1b,
+						Count: true,
 						tag: {
 							"patchouli:book": "patchouli:chaos"
 						}
@@ -76,7 +76,7 @@
 				title: "Any minecraft:logs",
 				item: {
 					id: "itemfilters:tag",
-					Count: 1b,
+					Count: true,
 					tag: {
 						value: "minecraft:logs"
 					}
@@ -88,7 +88,7 @@
 				type: "item",
 				item: {
 					id: "mining_helmet:mining_helmet",
-					Count: 1b,
+					Count: true,
 					tag: {
 						Damage: 0
 					}
@@ -131,7 +131,7 @@
 				title: "Any minecraft:beds",
 				item: {
 					id: "itemfilters:tag",
-					Count: 1b,
+					Count: true,
 					tag: {
 						value: "minecraft:beds"
 					}
@@ -203,7 +203,7 @@
 					type: "item",
 					item: {
 						id: "engineerstools:crushing_hammer",
-						Count: 1b,
+						Count: true,
 						tag: {
 							Damage: 0
 						}
@@ -219,7 +219,7 @@
 			tasks: [{
 				id: 34,
 				type: "item",
-				item: "mining_dimension:teleporter"
+				item: "allthemodium:teleport_pad"
 			}],
 			rewards: [
 				{
@@ -236,7 +236,7 @@
 		},
 		{
 			title: "Over an Open Fire",
-			disable_toast: 1b,
+			disable_toast: true,
 			x: 1.5d,
 			y: 1.5d,
 			description: [
@@ -289,7 +289,7 @@
 				type: "item",
 				item: {
 					id: "cyclic:torch_launcher",
-					Count: 1b,
+					Count: true,
 					tag: {
 						Damage: 0
 					}
@@ -312,7 +312,7 @@
 				type: "item",
 				item: {
 					id: "ceramicbucket:filled_ceramic_bucket",
-					Count: 1b,
+					Count: true,
 					tag: {
 						Fluid: {
 							FluidName: "minecraft:water",
@@ -349,7 +349,7 @@
 					type: "item",
 					item: {
 						id: "engineerstools:ariadne_coal",
-						Count: 1b,
+						Count: true,
 						tag: {
 							Damage: 0
 						}
@@ -459,7 +459,7 @@
 					type: "item",
 					item: {
 						id: "waterstrainer:strainer_survivalist",
-						Count: 1b,
+						Count: true,
 						tag: {
 							Damage: 0
 						}
@@ -490,7 +490,7 @@
 					type: "item",
 					item: {
 						id: "waterstrainer:strainer_fisherman",
-						Count: 1b,
+						Count: true,
 						tag: {
 							Damage: 0
 						}
@@ -501,7 +501,7 @@
 					type: "item",
 					item: {
 						id: "waterstrainer:garden_trowel",
-						Count: 1b,
+						Count: true,
 						tag: {
 							Damage: 0
 						}
@@ -520,7 +520,7 @@
 					type: "item",
 					item: {
 						id: "waterstrainer:bait_pot",
-						Count: 1b,
+						Count: true,
 						tag: {
 							Damage: 0
 						}
@@ -543,7 +543,7 @@
 				type: "item",
 				item: {
 					id: "waterstrainer:strainer_fisherman_solid",
-					Count: 1b,
+					Count: true,
 					tag: {
 						Damage: 0
 					}
@@ -573,7 +573,7 @@
 				type: "item",
 				item: {
 					id: "waterstrainer:strainer_survivalist_solid",
-					Count: 1b,
+					Count: true,
 					tag: {
 						Damage: 0
 					}
@@ -585,7 +585,7 @@
 					type: "item",
 					item: {
 						id: "minecraft:enchanted_book",
-						Count: 1b,
+						Count: true,
 						tag: {
 							StoredEnchantments: [{
 								lvl: 3,
@@ -611,7 +611,7 @@
 				type: "item",
 				item: {
 					id: "waterstrainer:strainer_fisherman_reinforced",
-					Count: 1b,
+					Count: true,
 					tag: {
 						Damage: 0
 					}
@@ -629,7 +629,7 @@
 					type: "item",
 					item: {
 						id: "minecraft:enchanted_book",
-						Count: 1b,
+						Count: true,
 						tag: {
 							StoredEnchantments: [{
 								lvl: 2,
@@ -657,7 +657,7 @@
 				type: "item",
 				item: {
 					id: "grapple_hooks:hook_wooden",
-					Count: 1b,
+					Count: true,
 					tag: {
 						Damage: 0
 					}
@@ -669,7 +669,7 @@
 					type: "item",
 					item: {
 						id: "grapple_hooks:hook_stone",
-						Count: 1b,
+						Count: true,
 						tag: {
 							Damage: 0
 						}
@@ -680,7 +680,7 @@
 					type: "item",
 					item: {
 						id: "silentgems:enchantment_token",
-						Count: 1b,
+						Count: true,
 						tag: {
 							TokenEnchantments: [{
 								lvl: 1,
@@ -724,7 +724,7 @@
 				type: "item",
 				item: {
 					id: "mysticalagriculture:infusion_crystal",
-					Count: 1b,
+					Count: true,
 					tag: {
 						Damage: 0
 					}
@@ -763,7 +763,7 @@
 				type: "item",
 				item: {
 					id: "grapple_hooks:hook_iron",
-					Count: 1b,
+					Count: true,
 					tag: {
 						Damage: 0
 					}
@@ -775,7 +775,7 @@
 					type: "item",
 					item: {
 						id: "silentgems:enchantment_token",
-						Count: 1b,
+						Count: true,
 						tag: {
 							TokenEnchantments: [{
 								lvl: 1,
@@ -789,7 +789,7 @@
 					type: "item",
 					item: {
 						id: "silentgems:enchantment_token",
-						Count: 1b,
+						Count: true,
 						tag: {
 							TokenEnchantments: [{
 								lvl: 1,
@@ -811,7 +811,7 @@
 				type: "item",
 				item: {
 					id: "grapple_hooks:hook_golden",
-					Count: 1b,
+					Count: true,
 					tag: {
 						Damage: 0
 					}
@@ -823,7 +823,7 @@
 					type: "item",
 					item: {
 						id: "silentgems:enchantment_token",
-						Count: 1b,
+						Count: true,
 						tag: {
 							TokenEnchantments: [{
 								lvl: 1,
@@ -837,7 +837,7 @@
 					type: "item",
 					item: {
 						id: "silentgems:enchantment_token",
-						Count: 1b,
+						Count: true,
 						tag: {
 							TokenEnchantments: [{
 								lvl: 1,
@@ -851,7 +851,7 @@
 					type: "item",
 					item: {
 						id: "silentgems:enchantment_token",
-						Count: 1b,
+						Count: true,
 						tag: {
 							TokenEnchantments: [{
 								lvl: 1,
@@ -873,7 +873,7 @@
 				type: "item",
 				item: {
 					id: "grapple_hooks:hook_diamond",
-					Count: 1b,
+					Count: true,
 					tag: {
 						Damage: 0
 					}
@@ -885,7 +885,7 @@
 					type: "item",
 					item: {
 						id: "silentgems:enchantment_token",
-						Count: 1b,
+						Count: true,
 						tag: {
 							TokenEnchantments: [{
 								lvl: 1,
@@ -899,7 +899,7 @@
 					type: "item",
 					item: {
 						id: "silentgems:enchantment_token",
-						Count: 1b,
+						Count: true,
 						tag: {
 							TokenEnchantments: [{
 								lvl: 1,
@@ -914,7 +914,7 @@
 					type: "item",
 					item: {
 						id: "silentgems:enchantment_token",
-						Count: 1b,
+						Count: true,
 						tag: {
 							TokenEnchantments: [{
 								lvl: 1,

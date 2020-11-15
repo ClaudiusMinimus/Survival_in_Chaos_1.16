@@ -5,7 +5,7 @@
 	title: "Hunter",
 	icon: {
 		id: "minecraft:crossbow",
-		Count: 1b,
+		Count: true,
 		tag: {
 			Damage: 0
 		}
@@ -36,7 +36,7 @@
 					type: "item",
 					item: {
 						id: "silentgems:enchantment_token",
-						Count: 1b,
+						Count: true,
 						tag: {
 							TokenEnchantments: [{
 								lvl: 1,
@@ -67,7 +67,7 @@
 					type: "item",
 					item: {
 						id: "silentgems:enchantment_token",
-						Count: 1b,
+						Count: true,
 						tag: {
 							TokenEnchantments: [{
 								lvl: 1,
@@ -82,7 +82,7 @@
 					type: "item",
 					item: {
 						id: "silentgems:enchantment_token",
-						Count: 1b,
+						Count: true,
 						tag: {
 							TokenEnchantments: [{
 								lvl: 1,
@@ -131,7 +131,7 @@
 				type: "item",
 				item: {
 					id: "gobber2:gobber2_helmet_nether",
-					Count: 1b,
+					Count: true,
 					tag: {
 						Damage: 0
 					}
@@ -162,7 +162,7 @@
 					type: "item",
 					item: {
 						id: "silentgems:enchantment_token",
-						Count: 1b,
+						Count: true,
 						tag: {
 							TokenEnchantments: [{
 								lvl: 1s,
@@ -191,7 +191,7 @@
 				type: "item",
 				item: {
 					id: "silentgems:enchantment_token",
-					Count: 1b,
+					Count: true,
 					tag: {
 						TokenEnchantments: [{
 							lvl: 1,
@@ -240,7 +240,7 @@
 				type: "item",
 				item: {
 					id: "gobber2:gobber2_chestplate_nether",
-					Count: 1b,
+					Count: true,
 					tag: {
 						Damage: 0
 					}
@@ -271,7 +271,7 @@
 					type: "item",
 					item: {
 						id: "silentgems:enchantment_token",
-						Count: 1b,
+						Count: true,
 						tag: {
 							TokenEnchantments: [{
 								lvl: 1,
@@ -301,7 +301,7 @@
 					type: "item",
 					item: {
 						id: "cyclic:charm_antidote",
-						Count: 1b,
+						Count: true,
 						tag: {
 							Damage: 0
 						}
@@ -312,7 +312,7 @@
 					type: "item",
 					item: {
 						id: "silentgems:enchantment_token",
-						Count: 1b,
+						Count: true,
 						tag: {
 							TokenEnchantments: [{
 								lvl: 1s,
@@ -361,7 +361,7 @@
 				type: "item",
 				item: {
 					id: "gobber2:gobber2_leggings_nether",
-					Count: 1b,
+					Count: true,
 					tag: {
 						Damage: 0
 					}
@@ -392,7 +392,7 @@
 					type: "item",
 					item: {
 						id: "silentgems:enchantment_token",
-						Count: 1b,
+						Count: true,
 						tag: {
 							TokenEnchantments: [{
 								lvl: 1s,
@@ -459,7 +459,7 @@
 				type: "item",
 				item: {
 					id: "gobber2:gobber2_boots_end",
-					Count: 1b,
+					Count: true,
 					tag: {
 						Damage: 0
 					}
@@ -484,7 +484,7 @@
 					type: "item",
 					item: {
 						id: "cyclic:charm_wither",
-						Count: 1b,
+						Count: true,
 						tag: {
 							Damage: 0
 						}
@@ -495,7 +495,7 @@
 					type: "item",
 					item: {
 						id: "silentgems:enchantment_token",
-						Count: 1b,
+						Count: true,
 						tag: {
 							TokenEnchantments: [{
 								lvl: 1,
@@ -524,7 +524,7 @@
 				type: "item",
 				item: {
 					id: "xreliquary:mob_charm",
-					Count: 1b,
+					Count: true,
 					tag: {
 						Damage: 0,
 						entity: "minecraft:wither_skeleton"
@@ -570,7 +570,7 @@
 				type: "item",
 				item: {
 					id: "gobber2:gobber2_helmet_end",
-					Count: 1b,
+					Count: true,
 					tag: {
 						Damage: 0
 					}
@@ -595,7 +595,7 @@
 					type: "item",
 					item: {
 						id: "cyclic:charm_torch",
-						Count: 1b,
+						Count: true,
 						tag: {
 							Damage: 0
 						}
@@ -606,7 +606,7 @@
 					type: "item",
 					item: {
 						id: "silentgems:enchantment_token",
-						Count: 1b,
+						Count: true,
 						tag: {
 							TokenEnchantments: [{
 								lvl: 1s,
@@ -639,7 +639,7 @@
 					type: "item",
 					item: {
 						id: "mysticalagriculture:soulium_dagger",
-						Count: 1b,
+						Count: true,
 						tag: {
 							Damage: 0
 						}
@@ -664,7 +664,7 @@
 					type: "item",
 					item: {
 						id: "cyclic:stirrups",
-						Count: 1b,
+						Count: true,
 						tag: {
 							Damage: 0
 						}
@@ -675,7 +675,7 @@
 					type: "item",
 					item: {
 						id: "silentgems:chaos_rune",
-						Count: 1b,
+						Count: true,
 						tag: {
 							SGems_BuffRune: "silentgems:fire_resistance"
 						}
@@ -736,7 +736,7 @@
 				type: "item",
 				item: {
 					id: "gobber2:gobber2_chestplate_end",
-					Count: 1b,
+					Count: true,
 					tag: {
 						Damage: 0
 					}
@@ -780,7 +780,7 @@
 				type: "item",
 				item: {
 					id: "silentgems:enchantment_token",
-					Count: 1b,
+					Count: true,
 					tag: {
 						TokenEnchantments: [{
 							lvl: 1,
@@ -828,7 +828,7 @@
 				type: "item",
 				item: {
 					id: "gobber2:gobber2_leggings_end",
-					Count: 1b,
+					Count: true,
 					tag: {
 						Damage: 0
 					}
@@ -853,7 +853,7 @@
 				type: "item",
 				item: {
 					id: "cyclic:charm_void",
-					Count: 1b,
+					Count: true,
 					tag: {
 						Damage: 0
 					}
@@ -900,7 +900,7 @@
 				type: "item",
 				item: {
 					id: "gobber2:gobber2_boots_end",
-					Count: 1b,
+					Count: true,
 					tag: {
 						Damage: 0
 					}

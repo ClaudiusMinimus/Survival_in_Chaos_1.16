@@ -29,7 +29,7 @@
 					type: "item",
 					item: {
 						id: "cyclic:cable_wrench",
-						Count: 1b,
+						Count: true,
 						tag: {}
 					}
 				}
@@ -66,7 +66,7 @@
 				type: "item",
 				item: {
 					id: "silentgems:enchantment_token",
-					Count: 1b,
+					Count: true,
 					tag: {
 						TokenEnchantments: [{
 							lvl: 1s,
@@ -108,7 +108,7 @@
 				type: "item",
 				item: {
 					id: "cyclic:spell_ice",
-					Count: 1b,
+					Count: true,
 					tag: {
 						Damage: 0
 					}
@@ -215,7 +215,7 @@
 				type: "item",
 				item: {
 					id: "silentgems:enchantment_token",
-					Count: 1b,
+					Count: true,
 					tag: {
 						TokenEnchantments: [{
 							lvl: 1,
@@ -338,7 +338,7 @@
 				type: "item",
 				item: {
 					id: "silentgems:enchantment_token",
-					Count: 1b,
+					Count: true,
 					tag: {
 						TokenEnchantments: [{
 							lvl: 1s,
@@ -363,7 +363,7 @@
 				type: "item",
 				item: {
 					id: "rats:black_death_mask",
-					Count: 1b,
+					Count: true,
 					tag: {
 						Damage: 0
 					}
@@ -385,7 +385,7 @@
 				type: "item",
 				item: {
 					id: "silentgems:enchantment_token",
-					Count: 1b,
+					Count: true,
 					tag: {
 						TokenEnchantments: [{
 							lvl: 1s,
@@ -427,7 +427,7 @@
 				type: "item",
 				item: {
 					id: "silentgear:crossbow",
-					Count: 1b,
+					Count: true,
 					tag: {
 						SGear_UUIDLeast: -5793065083293377914L,
 						SGear_UUIDMost: 3787864417353944517L,
@@ -558,7 +558,7 @@
 				type: "item",
 				item: {
 					id: "silentgems:enchantment_token",
-					Count: 1b,
+					Count: true,
 					tag: {
 						TokenEnchantments: [{
 							lvl: 1,
@@ -581,7 +581,7 @@
 				title: "Any storagedrawers:drawers",
 				item: {
 					id: "itemfilters:tag",
-					Count: 1b,
+					Count: true,
 					tag: {
 						value: "storagedrawers:drawers"
 					}
@@ -639,7 +639,7 @@
 					type: "item",
 					item: {
 						id: "cyclic:charm_ultimate",
-						Count: 1b,
+						Count: true,
 						tag: {
 							Damage: 0
 						}
@@ -662,7 +662,7 @@
 				type: "item",
 				item: {
 					id: "cyclic:spell_water",
-					Count: 1b,
+					Count: true,
 					tag: {
 						Damage: 0
 					}
@@ -684,7 +684,7 @@
 				type: "item",
 				item: {
 					id: "cyclic:charm_home",
-					Count: 1b,
+					Count: true,
 					tag: {
 						Damage: 0
 					}
@@ -706,7 +706,7 @@
 				type: "item",
 				item: {
 					id: "xreliquary:mercy_cross",
-					Count: 1b,
+					Count: true,
 					tag: {
 						Damage: 0
 					}
@@ -825,7 +825,7 @@
 				type: "item",
 				item: {
 					id: "rats:ghost_pirat_cutlass",
-					Count: 1b,
+					Count: true,
 					tag: {
 						Damage: 0
 					}
@@ -847,7 +847,7 @@
 				type: "item",
 				item: {
 					id: "minecraft:potion",
-					Count: 1b,
+					Count: true,
 					tag: {
 						Potion: "potionsmaster:diamond_sight"
 					}
@@ -1213,7 +1213,7 @@
 				type: "item",
 				item: {
 					id: "botania:cacophonium",
-					Count: 1b,
+					Count: true,
 					tag: {}
 				}
 			}]
@@ -1249,7 +1249,7 @@
 				type: "item",
 				item: {
 					id: "minecraft:enchanted_book",
-					Count: 1b,
+					Count: true,
 					tag: {
 						StoredEnchantments: [{
 							lvl: 3,
@@ -1367,7 +1367,7 @@
 				type: "item",
 				item: {
 					id: "refinedstorage:portable_grid",
-					Count: 1b,
+					Count: true,
 					tag: {}
 				}
 			}],
@@ -1376,7 +1376,7 @@
 				type: "item",
 				item: {
 					id: "silentgems:enchantment_token",
-					Count: 1b,
+					Count: true,
 					tag: {
 						TokenEnchantments: [{
 							lvl: 1s,
@@ -1547,7 +1547,7 @@
 				type: "item",
 				item: {
 					id: "minecraft:potion",
-					Count: 1b,
+					Count: true,
 					tag: {
 						Potion: "minecraft:long_fire_resistance"
 					}
