@@ -1,15 +1,16 @@
 {
 	id: 53,
 	filename: "silentgear",
-	order_index: 3,
+	order_index: 2,
 	title: "Armor, Tools and Weapons",
 	icon: {
 		id: "gobber2:gobber2_paxel_end",
-		Count: 1,
+		Count: true,
 		tag: {
 			Damage: 0
 		}
 	},
+	default_quest_shape: "",
 	quests: [
 		{
 			title: "We Three Tools",
@@ -29,7 +30,7 @@
 					type: "item",
 					item: {
 						id: "silentgear:pickaxe",
-						Count: 1,
+						Count: true,
 						tag: {
 							SGear_UUID: [I;
 								-714576008,
@@ -131,7 +132,7 @@
 					type: "item",
 					item: {
 						id: "silentgear:axe",
-						Count: 1,
+						Count: true,
 						tag: {
 							SGear_UUID: [I;
 								-2066625422,
@@ -233,7 +234,7 @@
 					type: "item",
 					item: {
 						id: "silentgear:shovel",
-						Count: 1,
+						Count: true,
 						tag: {
 							SGear_UUID: [I;
 								1827648452,
@@ -319,18 +320,14 @@
 				{
 					id: 1595,
 					type: "item",
-					item: {
-						id: "silentgear:blueprint_paper",
-						Count: 32
-					}
+					item: "silentgear:blueprint_paper",
+					count: 32
 				},
 				{
 					id: 1596,
 					type: "item",
-					item: {
-						id: "xreliquary:glowing_bread",
-						Count: 8
-					}
+					item: "xreliquary:glowing_bread",
+					count: 8
 				}
 			]
 		},
@@ -347,7 +344,7 @@
 					type: "item",
 					item: {
 						id: "itemfilters:or",
-						Count: 1,
+						Count: true,
 						tag: {
 							RepairCost: 0,
 							items: [
@@ -371,7 +368,7 @@
 					type: "item",
 					item: {
 						id: "itemfilters:or",
-						Count: 1,
+						Count: true,
 						tag: {
 							RepairCost: 0,
 							items: [
@@ -395,7 +392,7 @@
 					type: "item",
 					item: {
 						id: "silentgear:bow",
-						Count: 1,
+						Count: true,
 						tag: {
 							SGear_UUID: [I;
 								530718105,
@@ -537,22 +534,21 @@
 					type: "item",
 					item: {
 						id: "silentgems:enchantment_token",
-						Count: 3,
+						Count: true,
 						tag: {
 							TokenEnchantments: [{
 								lvl: 1,
 								id: "cyclic:quickshot"
 							}]
 						}
-					}
+					},
+					count: 3
 				},
 				{
 					id: 167,
 					type: "item",
-					item: {
-						id: "minecraft:arrow",
-						Count: 64
-					}
+					item: "minecraft:arrow",
+					count: 64
 				}
 			]
 		},
@@ -568,7 +564,7 @@
 					type: "item",
 					item: {
 						id: "silentgear:hammer",
-						Count: 1,
+						Count: true,
 						tag: {
 							SGear_UUID: [I;
 								597635255,
@@ -691,7 +687,7 @@
 					type: "item",
 					item: {
 						id: "itemfilters:or",
-						Count: 1,
+						Count: true,
 						tag: {
 							RepairCost: 0,
 							items: [
@@ -717,7 +713,7 @@
 					type: "item",
 					item: {
 						id: "cyclic:glove_climb",
-						Count: 1,
+						Count: true,
 						tag: {}
 					}
 				},
@@ -725,10 +721,8 @@
 					id: 169,
 					type: "item",
 					auto: "disabled",
-					item: {
-						id: "simplefarming:pizza",
-						Count: 8
-					}
+					item: "simplefarming:pizza",
+					count: 8
 				}
 			]
 		},
@@ -745,7 +739,7 @@
 					type: "item",
 					item: {
 						id: "silentgear:excavator",
-						Count: 1,
+						Count: true,
 						tag: {
 							SGear_UUID: [I;
 								-1013719742,
@@ -861,7 +855,7 @@
 					type: "item",
 					item: {
 						id: "itemfilters:or",
-						Count: 1,
+						Count: true,
 						tag: {
 							RepairCost: 0,
 							items: [
@@ -906,7 +900,7 @@
 					type: "item",
 					item: {
 						id: "silentgear:mattock",
-						Count: 1,
+						Count: true,
 						tag: {
 							SGear_UUID: [I;
 								-1355472450,
@@ -1015,7 +1009,7 @@
 					type: "item",
 					item: {
 						id: "itemfilters:or",
-						Count: 1,
+						Count: true,
 						tag: {
 							RepairCost: 0,
 							items: [
@@ -1038,10 +1032,8 @@
 			rewards: [{
 				id: 160,
 				type: "item",
-				item: {
-					id: "simplefarming:egg_sandwich",
-					Count: 8
-				}
+				item: "simplefarming:egg_sandwich",
+				count: 8
 			}]
 		},
 		{
@@ -1060,7 +1052,7 @@
 					type: "item",
 					item: {
 						id: "itemfilters:or",
-						Count: 1,
+						Count: true,
 						tag: {
 							RepairCost: 0,
 							items: [
@@ -1166,7 +1158,7 @@
 					type: "item",
 					item: {
 						id: "silentgear:rod",
-						Count: 1,
+						Count: true,
 						tag: {
 							CraftedCount: 4,
 							Materials: [
@@ -1195,21 +1187,22 @@
 					type: "item",
 					item: {
 						id: "silentgems:enchantment_token",
-						Count: 5,
+						Count: true,
 						tag: {
 							TokenEnchantments: [{
 								lvl: 1,
 								id: "minecraft:efficiency"
 							}]
 						}
-					}
+					},
+					count: 5
 				},
 				{
 					id: 163,
 					type: "item",
 					item: {
 						id: "silentgems:enchantment_token",
-						Count: 1,
+						Count: true,
 						tag: {
 							TokenEnchantments: [{
 								lvl: 1,
@@ -1240,10 +1233,8 @@
 				{
 					id: 173,
 					type: "item",
-					item: {
-						id: "silentgems:blank_token",
-						Count: 12
-					}
+					item: "silentgems:blank_token",
+					count: 12
 				},
 				{
 					id: 786,
@@ -1266,17 +1257,15 @@
 				{
 					id: 1281,
 					type: "item",
-					item: {
-						id: "simplefarming:lasagna",
-						Count: 8
-					}
+					item: "simplefarming:lasagna",
+					count: 8
 				},
 				{
 					id: 1298,
 					type: "item",
 					item: {
 						id: "mysticalagriculture:soulium_dagger",
-						Count: 1,
+						Count: true,
 						tag: {
 							Damage: 0
 						}
@@ -1295,7 +1284,7 @@
 					type: "item",
 					item: {
 						id: "itemfilters:or",
-						Count: 1,
+						Count: true,
 						tag: {
 							RepairCost: 0,
 							items: [
@@ -1319,7 +1308,7 @@
 					type: "item",
 					item: {
 						id: "itemfilters:or",
-						Count: 1,
+						Count: true,
 						tag: {
 							RepairCost: 0,
 							items: [
@@ -1343,7 +1332,7 @@
 					type: "item",
 					item: {
 						id: "itemfilters:or",
-						Count: 1,
+						Count: true,
 						tag: {
 							RepairCost: 0,
 							items: [
@@ -1367,7 +1356,7 @@
 					type: "item",
 					item: {
 						id: "itemfilters:or",
-						Count: 1,
+						Count: true,
 						tag: {
 							RepairCost: 0,
 							items: [
@@ -1392,14 +1381,15 @@
 				type: "item",
 				item: {
 					id: "silentgems:enchantment_token",
-					Count: 4,
+					Count: true,
 					tag: {
 						TokenEnchantments: [{
 							lvl: 1,
 							id: "minecraft:protection"
 						}]
 					}
-				}
+				},
+				count: 4
 			}]
 		},
 		{
@@ -1413,7 +1403,7 @@
 					type: "item",
 					item: {
 						id: "itemfilters:or",
-						Count: 1,
+						Count: true,
 						tag: {
 							RepairCost: 0,
 							items: [
@@ -1437,7 +1427,7 @@
 					type: "item",
 					item: {
 						id: "silentgear:paxel",
-						Count: 1,
+						Count: true,
 						tag: {
 							SGear_UUID: [I;
 								-239002615,
@@ -1558,10 +1548,8 @@
 				{
 					id: 1340,
 					type: "item",
-					item: {
-						id: "solarflux:efficiency_upgrade",
-						Count: 8
-					}
+					item: "solarflux:efficiency_upgrade",
+					count: 8
 				}
 			]
 		},
@@ -1583,7 +1571,7 @@
 					type: "item",
 					item: {
 						id: "silentgear:dagger",
-						Count: 1,
+						Count: true,
 						tag: {
 							SGear_UUIDLeast: -6445736362882874778L,
 							SGear_UUIDMost: 5791057238796487566L,
@@ -1658,7 +1646,7 @@
 					type: "item",
 					item: {
 						id: "silentgear:dagger",
-						Count: 1,
+						Count: true,
 						tag: {
 							SGear_UUIDLeast: -6113640670222005085L,
 							SGear_UUIDMost: -993454010487976867L,
@@ -1733,7 +1721,7 @@
 					type: "item",
 					item: {
 						id: "silentgear:dagger",
-						Count: 1,
+						Count: true,
 						tag: {
 							SGear_UUIDLeast: -5212427410715455299L,
 							SGear_UUIDMost: 2831194394131579261L,
@@ -1807,10 +1795,8 @@
 			rewards: [{
 				id: 1499,
 				type: "item",
-				item: {
-					id: "silentgear:template_board",
-					Count: 18
-				}
+				item: "silentgear:template_board",
+				count: 18
 			}]
 		},
 		{
@@ -1824,7 +1810,7 @@
 					type: "item",
 					item: {
 						id: "itemfilters:or",
-						Count: 1,
+						Count: true,
 						tag: {
 							RepairCost: 0,
 							items: [
@@ -1848,7 +1834,7 @@
 					type: "item",
 					item: {
 						id: "silentgear:shears",
-						Count: 1,
+						Count: true,
 						tag: {
 							SGear_UUID: [I;
 								-773160040,
@@ -1954,7 +1940,7 @@
 				type: "item",
 				item: {
 					id: "itemfilters:or",
-					Count: 1,
+					Count: true,
 					tag: {
 						RepairCost: 0,
 						items: [
@@ -1989,7 +1975,7 @@
 				type: "item",
 				item: {
 					id: "itemfilters:or",
-					Count: 1,
+					Count: true,
 					tag: {
 						RepairCost: 0,
 						items: [
@@ -2007,6 +1993,11 @@
 						}
 					}
 				}
+			}],
+			rewards: [{
+				id: 1613,
+				type: "item",
+				item: "rats:rat_breeding_lantern"
 			}]
 		},
 		{
@@ -2018,6 +2009,12 @@
 				id: 1603,
 				type: "item",
 				item: "silentgear:material_grader"
+			}],
+			rewards: [{
+				id: 1612,
+				type: "item",
+				item: "rats:rat_upgrade_basic",
+				count: 2
 			}]
 		},
 		{
@@ -2030,7 +2027,7 @@
 				type: "item",
 				item: {
 					id: "itemfilters:or",
-					Count: 1,
+					Count: true,
 					tag: {
 						RepairCost: 0,
 						items: [
@@ -2066,7 +2063,7 @@
 				type: "item",
 				item: {
 					id: "silentgems:fragile_chaos_orb",
-					Count: 1,
+					Count: true,
 					tag: {
 						Damage: 0
 					}

@@ -9,14 +9,14 @@
             "text": "I survived the first night, thankfully, I noticed quest book and was able to get a dirt shelter put up. I think today I will work on the quest book some more to see what I can learn. I learned to make a crafting station and then found an interesting thing - a Mining Dimension Teleporter. Be sure to claim your Dank Null in the quest book."
         },
         {
-            "type": "crafting",
-            "title": "Mining Dimension",
-            "recipe": "mining_dimension:teleporter",
-            "text": "With this simple, but powerful teleporter I was able to easily $(#f00)$(t:Simply place the teleporter in the Chaos world and right-click on it to travel to the Mining Dimension. In the Mining Dimension, right-click on the teleporter to return to the Chaos world.)teleport$(/t)$() and start mining everything the Chaos world lacked."
+            "type": "spotlight",
+            "title": "Mining Dim. Teleport Pad",
+            "item": "allthemodium:teleport_pad",
+            "text": "With this simple, but powerful teleporter I was able to easily $(#f00)$(t:Simply place the teleporter in the Chaos world and shift-right-click on it with both hands empty to travel to the Mining Dimension.)teleport$(/t)$() and start mining everything the Chaos world lacked."
         },
         {
             "type": "link",
-            "text": "Here is a link to learn how to use your new Dank Storage. Press the 'i' key to change the Dank Storage mode to chest, bag, or construction. In chest mode the Dank Storage can be attached to inventories.",
+            "text": "Press the 'i' key to toggle the Dank Storage mode to bag or construction. Use the Dock to access the inventory. The link below is for an older version of Dank Storage.",
             "link_text": "YouTube Video",
             "url": "https://www.youtube.com/watch?v=ixAV9pXZ78I"
         }

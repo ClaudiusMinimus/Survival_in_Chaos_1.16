@@ -1,8 +1,17 @@
 {
 	id: 1404,
 	filename: "magic",
-	order_index: 10,
+	order_index: 9,
 	title: "Magic",
+	icon: {
+		id: "botania:pixie_ring",
+		Count: true,
+		tag: {
+			baubleUUIDMost: 7996151965223632990L,
+			baubleUUIDLeast: -8226548531356194201L
+		}
+	},
+	default_quest_shape: "",
 	quests: [
 		{
 			x: 0.0d,
@@ -18,10 +27,8 @@
 			rewards: [{
 				id: 1546,
 				type: "item",
-				item: {
-					id: "botania:fertilizer",
-					Count: 16
-				}
+				item: "botania:fertilizer",
+				count: 16
 			}]
 		},
 		{
@@ -49,15 +56,13 @@
 				id: 1417,
 				type: "item",
 				item: "botania:pure_daisy",
-				count: 2
+				count: 2L
 			}],
 			rewards: [{
 				id: 1537,
 				type: "item",
-				item: {
-					id: "botania:floating_pure_daisy",
-					Count: 2
-				}
+				item: "botania:floating_pure_daisy",
+				count: 2
 			}]
 		},
 		{
@@ -69,7 +74,7 @@
 				id: 1419,
 				type: "item",
 				item: "botania:livingwood",
-				count: 16
+				count: 16L
 			}],
 			rewards: [
 				{
@@ -82,7 +87,7 @@
 					type: "item",
 					item: {
 						id: "botania:incense_stick",
-						Count: 1,
+						Count: true,
 						tag: {
 							brewKey: "botania:night_vision"
 						}
@@ -93,7 +98,7 @@
 					type: "item",
 					item: {
 						id: "minecraft:flint_and_steel",
-						Count: 1,
+						Count: true,
 						tag: {
 							Damage: 0
 						}
@@ -110,15 +115,13 @@
 				id: 1421,
 				type: "item",
 				item: "botania:livingrock",
-				count: 16
+				count: 16L
 			}],
 			rewards: [{
 				id: 1538,
 				type: "item",
-				item: {
-					id: "apotheosis:obsidian_arrow",
-					Count: 4
-				}
+				item: "apotheosis:obsidian_arrow",
+				count: 4
 			}]
 		},
 		{
@@ -150,10 +153,8 @@
 			rewards: [{
 				id: 1540,
 				type: "item",
-				item: {
-					id: "botania:thorn_chakram",
-					Count: 6
-				}
+				item: "botania:thorn_chakram",
+				count: 6
 			}]
 		},
 		{
@@ -170,18 +171,14 @@
 				{
 					id: 1539,
 					type: "item",
-					item: {
-						id: "botania:mana_pool",
-						Count: 3
-					}
+					item: "botania:mana_pool",
+					count: 3
 				},
 				{
 					id: 1545,
 					type: "item",
-					item: {
-						id: "botania:black_lotus",
-						Count: 16
-					}
+					item: "botania:black_lotus",
+					count: 16
 				}
 			]
 		},
@@ -197,7 +194,12 @@
 			}],
 			rewards: [{
 				id: 1535,
-				type: "item"
+				type: "item",
+				item: {
+					id: "silentgems:chaos_meter",
+					Count: true,
+					tag: {}
+				}
 			}]
 		},
 		{
@@ -210,7 +212,7 @@
 				type: "item",
 				item: {
 					id: "botania:twig_wand",
-					Count: 1,
+					Count: true,
 					tag: {
 						color1: 6,
 						color2: 2,
@@ -236,15 +238,13 @@
 				id: 1437,
 				type: "item",
 				item: "botania:endoflame",
-				count: 4
+				count: 4L
 			}],
 			rewards: [{
 				id: 1438,
 				type: "item",
-				item: {
-					id: "botania:endoflame",
-					Count: 4
-				}
+				item: "botania:endoflame",
+				count: 4
 			}]
 		},
 		{
@@ -256,6 +256,19 @@
 				id: 1550,
 				type: "item",
 				item: "botania:manasteel_ingot"
+			}],
+			rewards: [{
+				id: 1639,
+				type: "item",
+				item: {
+					id: "silentgems:soul_urn",
+					Count: true,
+					tag: {
+						BlockEntityTag: {
+							Gem: "tanzanite"
+						}
+					}
+				}
 			}]
 		},
 		{
@@ -268,7 +281,7 @@
 				type: "item",
 				item: {
 					id: "botania:magnet_ring",
-					Count: 1,
+					Count: true,
 					tag: {}
 				}
 			}],
