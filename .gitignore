@@ -102,3 +102,5 @@ modlist.html
 !minecraft/config/gobber-general.toml
 !server/config/quark-common.toml
 !mmc-pack.json
+minecraft/ESM/Anchors.dat
+minecraft/ESM/soundsMuffled.dat

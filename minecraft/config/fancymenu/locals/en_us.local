@@ -238,7 +238,7 @@ helper.creator.items.button.delayappearance = Delay Appearance
 helper.creator.items.button.delayappearance.desc = Delay Appearance For Seconds [Decimal Value Support]
 helper.creator.items.button.delayappearance.invalidvalue = §c§lInvalid Value!%n%%n%%n%This is not a valid seconds value!%n%Maybe your value is too long. (..DON'T BE PROUD OF THIS!)%n%%n%Value Examples: 3, 2.0, 0.05, 0.8, 10.5
 
-custombuttons.action.opengui.cannotopengui = §c§lUnable To Open GUI!%n%%n%%n%The GUI you want to open either does not exist or isn't supported!%n%%n%If this is an existing GUI, please contact the developer to add support for it.
+custombuttons.action.opengui.cannotopengui = §c§lUnable To Open GUI!%n%%n%%n%The GUI you want to open either does not exist or isn't supported!%n%%n%If this is an existing GUI, please contact the developer of FancyMenu to add support for it.
 
 helper.creator.custombutton.config.actiontype.opengui.desc = Opens a GUI by its menu identifier.
 helper.creator.custombutton.config.actiontype.opengui.desc.value = Menu Identifier
@@ -318,3 +318,15 @@ helper.creator.items.custombutton.onlydisplayin.reset = RESET
 
 helper.creator.items.button.clicksound = Set Clicksound
 helper.creator.items.button.clicksound.reset = Reset Clicksound
+
+helper.popup.togglecustomization.enable = Customization: §cOff
+helper.popup.togglecustomization.disable = Customization: §aOn
+
+helper.creator.object.stretch = Stretch
+helper.creator.object.stretch.x = To Screen Width
+helper.creator.object.stretch.y = To Screen Height
+
+helper.creator.object.stretch.unsupportedorientation = §c§lUnsupported Orientation!%n%%n%%n%The current orientation of this object is not supported by this stretch action.%n%%n%§lSupported Orientations: {}
+
+
+
