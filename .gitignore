@@ -32,6 +32,7 @@ server/world/*
 server/world*
 
 # Ignore these files
+builds/*(copy).zip
 minecraft/.vote2020_marker
 minecraft/BotaniaVars.dat
 minecraft/instance.cfg
@@ -83,16 +84,21 @@ modlist.html
 !minecraft/config/defaultoptions
 !minecraft/config/fancymenu
 !minecraft/config/ftbquests
+!minecraft/config/saveandloadinventories
+!minecraft/config/starterkit
 !server/config/ftbquests
 
 # Do not ignore these files
+!minecraft/config/ftbchunks-client.toml
+!minecraft/config/ftbultimine-common.toml
+!minecraft/config/gobber-general.toml
 !minecraft/config/quark-common.toml
+!minecraft/config/theoneprobe-client.toml
+!minecraft/config/waystones-*.toml
+!minecraft/config/xaerominimap.txt
 !server/config/auto_restart.toml
 !server/config/gobber-general.toml
 !server/config/shutdowner-common.toml
 !minecraft/config/gobber-general.toml
 !server/config/quark-common.toml
 !mmc-pack.json
-builds/Survival in Chaos-1.16.3-0.8.11 (copy).zip
-builds/Survival in Chaos-1.16.3-0.9.1 (copy).zip
-builds/Survival in Chaos-1.16.3-0.9.2 (copy).zip
