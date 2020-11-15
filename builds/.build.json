@@ -3,5 +3,24 @@
     "minecraftVersion": "1.16.4",
     "modLoader": "forge",
     "modLoaderVersion": "35.0.17",
-    "includes": ["config/defaultsettings", "defaultconfigs", "global_data_packs", "kubejs", "patchouli_books", "mods"]
+    "includes": [
+        "config/defaultoptions", 
+        "config/fancymenu", 
+        "config/ftbquests", 
+        "config/saveandloadinventories",
+        "config/starterkit",
+        "config/ftbchunks-client.toml",
+        "config/ftbultimine-common.toml",
+        "config/gobber-general.toml",
+        "config/quark-common.toml",
+        "config/theoneprobe-client.toml",
+        "config/waystones-client.toml",
+        "config/waystones-server.toml",
+        "config/waystones-common.toml",
+        "config/xaerominimap.txt",
+        "defaultconfigs", 
+        "global_data_packs", 
+        "kubejs", 
+        "patchouli_books", 
+        "mods"]
 }
