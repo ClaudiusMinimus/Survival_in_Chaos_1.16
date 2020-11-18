@@ -33,6 +33,10 @@ server/world*
 
 # Ignore these files
 builds/*(copy).zip
+minecraft/ESM/Anchors.dat
+minecraft/ESM/soundsMuffled.dat
+minecraft/resourcepacks/Quark Programmer Art.zip
+minecraft/XaeroWaypoints*
 minecraft/.vote2020_marker
 minecraft/BotaniaVars.dat
 minecraft/instance.cfg
@@ -102,6 +106,3 @@ modlist.html
 !minecraft/config/gobber-general.toml
 !server/config/quark-common.toml
 !mmc-pack.json
-minecraft/ESM/Anchors.dat
-minecraft/ESM/soundsMuffled.dat
-minecraft/resourcepacks/Quark Programmer Art.zip
