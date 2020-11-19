@@ -1,0 +1,13 @@
+{
+    "type": "mekanism:enriching",
+    "input": {
+        "ingredient": {
+            "tag": "forge:ores/tungsten"
+        }
+    },
+    "output": {
+        "item": "easy_steel:tungsten_powder",
+        "count": 2
+
+    }
+}

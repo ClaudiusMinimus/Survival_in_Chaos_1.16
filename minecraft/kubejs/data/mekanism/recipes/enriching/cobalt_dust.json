@@ -1,0 +1,13 @@
+{
+    "type": "mekanism:enriching",
+    "input": {
+        "ingredient": {
+            "tag": "forge:ores/cobalt"
+        }
+    },
+    "output": {
+        "item": "wtbw_machines:cobalt_dust",
+        "count": 2
+
+    }
+}
