@@ -1,0 +1,37 @@
+### Change Log
+_Version 0.11.0_
+- Mod(s) Added:
+  - Blame-1.16.4-1.5.0
+  - Clay+WorldGen-1.16.4-1.2.0
+  - Mahoutsukai-1.16.3-v1.25.4
+  - NaturesAura-33.0
+- Updated:
+  - Bluepower-1.16.4-0.5.223-alpha-universal
+  - Bookshelf-1.16.4-9.1.9
+  - BotanyPots-1.16.4-6.0.5
+  - Citadel-1.5.2
+  - extremeSoundMuffler-3.0_Forge-1.16.4
+  - Ftb-quests-1604.1.1.14
+  - Gobber2-1.16.4-2.3.26
+  - GreaterEye-1.16.4-1.1.8
+  - Kubejs-1604.3.1.82
+  - LargeFluidTank-16.0.8
+  - Mcjtylib-1.16-5.0.14
+  - Quark-r2.4-276
+  - Reliquary-1.16.3-1.3.4.1055
+  - Rftoolsbase-1.16-2.0.7
+  - Rftoolsutility-1.16-3.0.18
+  - ScalableCatsForce-2.13.3-build-6-with-library
+  - SilentGear-1.16.3-2.3.7+176
+  - SimpleStorageNetwork-1.16.3-1.2.0
+  - U_team_core-1.16.4-3.1.13.187
+  - Xaeros_Minimap_20.27.3_Forge_1.16.4
+  - XaerosWorldMap_1.11.1_Forge_1.16.4
+- Mods Removed:
+  - Borderless
+  - CoHF
+- Other Changes:
+  - Updated Forge 35.0.18
+  - Updated Quests
+  - Added Mekanism &amp; Easy Steel ore doubling recipes
+  - Updated Survival in Chaos book
