@@ -1,0 +1,13 @@
+{
+    "type": "mekanism:enriching",
+    "input": {
+        "ingredient": {
+            "tag": "forge:ores/titanium"
+        }
+    },
+    "output": {
+        "item": "easy_steel:titanium_powder",
+        "count": 2
+
+    }
+}
