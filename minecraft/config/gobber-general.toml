@@ -108,9 +108,6 @@
 	#Ring of Acceleration - amount of velocity applied [default: .18]
 	#Range: 0.0 ~ 0.3
 	ringAccelerationVelocity = 0.18
-	#Ring of Haste - Block break speed [default: 30]
-	#Range: 10 ~ 100
-	ringHasteBreakSpeed = 30
 
 #Enable Dragon Armor Void Protect - immune to /kill command
 [dragon_armor_void]
