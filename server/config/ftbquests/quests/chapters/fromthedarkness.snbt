@@ -202,7 +202,7 @@
 					id: 1282,
 					type: "item",
 					item: {
-						id: "engineerstools:crushing_hammer",
+						id: "easy_steel:crack_hammer",
 						Count: true,
 						tag: {
 							Damage: 0
