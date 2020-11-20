@@ -2,7 +2,7 @@
     "packAuthor": "ClaudiusMinimus",
     "minecraftVersion": "1.16.4",
     "modLoader": "forge",
-    "modLoaderVersion": "35.0.17",
+    "modLoaderVersion": "35.0.18",
     "includes": [
         "config/defaultoptions", 
         "config/fancymenu", 
