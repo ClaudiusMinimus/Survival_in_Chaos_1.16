@@ -290,6 +290,37 @@
 				type: "item",
 				item: "botania:floating_solegnolia"
 			}]
+		},
+		{
+			x: -1.5d,
+			y: 1.5d,
+			shape: "diamond",
+			size: 1.5d,
+			id: 1640,
+			tasks: [{
+				id: 1641,
+				type: "item",
+				item: {
+					id: "patchouli:guide_book",
+					Count: true,
+					tag: {
+						"patchouli:book": "naturesaura:book"
+					}
+				}
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 1.5d,
+			shape: "diamond",
+			description: ["YouTube video links is in the Survival in Chaos book"],
+			size: 1.5d,
+			id: 1642,
+			tasks: [{
+				id: 1643,
+				type: "item",
+				item: "mahoutsukai:guidebook"
+			}]
 		}
 	]
 }
