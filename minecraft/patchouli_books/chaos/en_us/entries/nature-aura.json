@@ -1,0 +1,14 @@
+{
+    "name": "Nature's Aura",
+    "icon": "rftoolsutility:screen",
+    "category": "videos",
+    "sortnum": 0,
+    "pages": [
+        {
+            "type": "link",
+            "text": "This Bit-by-Bit video from Mischief of Mice takes you through all the basics of Nature's Aura. This video was made for 1.12.2, but much is the same and will help you get started.",
+            "link_text": "YouTube Video",
+            "url": "https://www.youtube.com/watch?v=APE0UWPGBDM&feature=emb_logo"
+        }
+    ]
+}

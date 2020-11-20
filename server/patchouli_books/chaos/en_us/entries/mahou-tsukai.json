@@ -1,0 +1,14 @@
+{
+    "name": "Mahou Tsukai",
+    "icon": "rftoolsutility:screen",
+    "category": "videos",
+    "sortnum": 0,
+    "pages": [
+        {
+            "type": "link",
+            "text": "This video takes you through all the basics of Mahou Tsukai. There is a timestamp index if you click on the Show More button on the YouTube page.",
+            "link_text": "YouTube Video",
+            "url": "https://www.youtube.com/watch?v=CMOdotxZUYw"
+        }
+    ]
+}
