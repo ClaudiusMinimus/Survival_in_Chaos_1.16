@@ -13,65 +13,100 @@ customization {
 customization {
   identifier = %id=400322%
   orientation = top-left
-  x = 24
+  x = 15
   action = movebutton
   y = 105
 }
 
 customization {
+  identifier = %id=400322%
+  width = 215
+  action = resizebutton
+  height = 20
+}
+
+customization {
   identifier = %id=604382%
   orientation = top-left
-  x = 73
+  x = 65
   action = movebutton
-  y = 180
+  y = 205
 }
 
 customization {
   identifier = %id=400382%
   orientation = top-left
-  x = 24
+  x = 15
+  action = movebutton
+  y = 155
+}
+
+customization {
+  identifier = %id=400382%
+  width = 105
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=502382%
+  orientation = top-left
+  x = 125
   action = movebutton
   y = 155
 }
 
 customization {
   identifier = %id=502382%
-  orientation = top-left
-  x = 126
-  action = movebutton
-  y = 155
+  width = 105
+  action = resizebutton
+  height = 20
 }
 
 customization {
   identifier = %id=376382%
   orientation = top-left
-  x = 49
+  x = 40
   action = movebutton
-  y = 180
+  y = 205
 }
 
 customization {
   identifier = %id=400298%
   orientation = top-left
-  x = 24
+  x = 15
   action = movebutton
   y = 80
 }
 
 customization {
+  identifier = %id=400298%
+  width = 215
+  action = resizebutton
+  height = 20
+}
+
+customization {
   identifier = %id=400346%
   orientation = top-left
-  x = 24
+  x = 15
   action = movebutton
   y = 130
 }
 
 customization {
+  identifier = %id=400346%
+  width = 105
+  action = resizebutton
+  height = 20
+}
+
+customization {
   identifier = %id=376346%
   orientation = top-left
-  x = 24
+  x = 15
   action = movebutton
-  y = 180
+  y = 205
 }
 
 customization {
@@ -82,8 +117,8 @@ customization {
 customization {
   orientation = top-left
   buttonaction = openlink
-  x = 126
-  width = 98
+  x = 125
+  width = 105
   action = addbutton
   y = 130
   label = Discord
@@ -99,6 +134,19 @@ customization {
   action = addtext
   y = -13
   scale = 1.0
-  value = Survival in Chaos v.1.16.4-0.10.0
+  value = Survival in Chaos v.1.16.4-0.11.1
+}
+
+customization {
+  orientation = top-left
+  hoverlabel = Use code 'minimus' for 25% off 1st month
+  buttonaction = openlink
+  x = 15
+  width = 215
+  action = addbutton
+  y = 180
+  label = Need a server to play with friends?
+  value = 
+  height = 20
 }
 
