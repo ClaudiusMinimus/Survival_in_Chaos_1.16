@@ -1,11 +1,21 @@
 ### Change Log
+
+_Version 0.11.1_
+- Mod(s) Added: None
+- Mods Updated: None
+- Mods Removed: None
+- Other Changes:
+  - Added ore doubling recipe for lead and uranium ores
+  - Added rewards to the farming quests
+  - Updated opening screen menu
+
 _Version 0.11.0_
 - Mod(s) Added:
   - Blame-1.16.4-1.5.0
   - Clay+WorldGen-1.16.4-1.2.0
   - Mahoutsukai-1.16.3-v1.25.4
   - NaturesAura-33.0
-- Updated:
+- Mods Updated:
   - Bluepower-1.16.4-0.5.223-alpha-universal
   - Bookshelf-1.16.4-9.1.9
   - BotanyPots-1.16.4-6.0.5
