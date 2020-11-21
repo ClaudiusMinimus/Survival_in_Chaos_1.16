@@ -335,7 +335,11 @@
 			title: "Bow",
 			x: 0.0d,
 			y: -1.5d,
-			description: ["Make a Bow blueprint and a Bow using three Garnets, a stick, and a Bow String. Your reward will be a Blaze Rod and Sinew Bow String. Place your Bow, the Blaze Rod and Sinew Bow String in a crafting grid to upgrade your new Bow."],
+			description: [
+				"First, make a Bow blueprint/template, a Bowstring blueprint/template. Then make a Bow using three Garnets (if you want flame arrows), a stick, and a Bowstring. ",
+				"",
+				"Your reward will be a Multishow enchantment token and a stack of arrows. Place your Bow, and the token in a crafting grid to upgrade your new Bow."
+			],
 			dependencies: [I;143],
 			id: 134,
 			tasks: [
@@ -537,12 +541,11 @@
 						Count: true,
 						tag: {
 							TokenEnchantments: [{
-								lvl: 1,
-								id: "cyclic:quickshot"
+								lvl: 1s,
+								id: "cyclic:multishot"
 							}]
 						}
-					},
-					count: 3
+					}
 				},
 				{
 					id: 167,
@@ -2068,6 +2071,63 @@
 						Damage: 0
 					}
 				}
+			}]
+		},
+		{
+			title: "Gilded Bowstring",
+			x: 1.5d,
+			y: -1.5d,
+			description: ["Craft a Bowstring using Gilded String"],
+			dependencies: [I;134],
+			id: 1646,
+			tasks: [{
+				id: 1647,
+				type: "item",
+				item: {
+					id: "silentgear:bowstring",
+					Count: true,
+					tag: {
+						CraftedCount: 1,
+						Materials: [
+							{
+								Item: {
+									id: "silentgems:gilded_string",
+									Count: true
+								},
+								ID: "silentgems:gilded_string"
+							},
+							{
+								Item: {
+									id: "silentgems:gilded_string",
+									Count: true
+								},
+								ID: "silentgems:gilded_string"
+							},
+							{
+								Item: {
+									id: "silentgems:gilded_string",
+									Count: true
+								},
+								ID: "silentgems:gilded_string"
+							}
+						]
+					}
+				}
+			}],
+			rewards: [{
+				id: 1648,
+				type: "item",
+				item: {
+					id: "silentgems:enchantment_token",
+					Count: true,
+					tag: {
+						TokenEnchantments: [{
+							lvl: 1s,
+							id: "cyclic:quickshot"
+						}]
+					}
+				},
+				count: 3
 			}]
 		}
 	]

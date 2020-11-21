@@ -124,6 +124,11 @@
 				id: 790,
 				type: "item",
 				item: "simplefarming:pear"
+			}],
+			rewards: [{
+				id: 1649,
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
@@ -134,6 +139,11 @@
 				id: 792,
 				type: "item",
 				item: "simplefarming:orange"
+			}],
+			rewards: [{
+				id: 1650,
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
@@ -144,6 +154,11 @@
 				id: 794,
 				type: "item",
 				item: "simplefarming:mango"
+			}],
+			rewards: [{
+				id: 1651,
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
@@ -154,6 +169,11 @@
 				id: 796,
 				type: "item",
 				item: "simplefarming:grapes"
+			}],
+			rewards: [{
+				id: 1652,
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
@@ -164,6 +184,11 @@
 				id: 798,
 				type: "item",
 				item: "simplefarming:cherries"
+			}],
+			rewards: [{
+				id: 1653,
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
@@ -174,6 +199,11 @@
 				id: 800,
 				type: "item",
 				item: "simplefarming:banana"
+			}],
+			rewards: [{
+				id: 1654,
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
@@ -184,6 +214,11 @@
 				id: 802,
 				type: "item",
 				item: "simplefarming:apricot"
+			}],
+			rewards: [{
+				id: 1655,
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
@@ -194,6 +229,11 @@
 				id: 804,
 				type: "item",
 				item: "simplefarming:sorghum"
+			}],
+			rewards: [{
+				id: 1656,
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
@@ -204,6 +244,11 @@
 				id: 806,
 				type: "item",
 				item: "simplefarming:corn"
+			}],
+			rewards: [{
+				id: 1657,
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
@@ -214,6 +259,11 @@
 				id: 808,
 				type: "item",
 				item: "simplefarming:radish"
+			}],
+			rewards: [{
+				id: 1658,
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
@@ -224,6 +274,11 @@
 				id: 810,
 				type: "item",
 				item: "simplefarming:strawberries"
+			}],
+			rewards: [{
+				id: 1659,
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
@@ -249,6 +304,11 @@
 				id: 814,
 				type: "item",
 				item: "simplefarming:cactus_fruit"
+			}],
+			rewards: [{
+				id: 1660,
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
@@ -259,6 +319,11 @@
 				id: 816,
 				type: "item",
 				item: "simplefarming:blueberries"
+			}],
+			rewards: [{
+				id: 1661,
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
@@ -269,6 +334,11 @@
 				id: 818,
 				type: "item",
 				item: "simplefarming:blackberries"
+			}],
+			rewards: [{
+				id: 1662,
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
@@ -279,7 +349,19 @@
 				id: 820,
 				type: "item",
 				item: "simplefarming:squash"
-			}]
+			}],
+			rewards: [
+				{
+					id: 1663,
+					type: "xp",
+					xp: 100
+				},
+				{
+					id: 1664,
+					type: "xp",
+					xp: 100
+				}
+			]
 		},
 		{
 			x: 7.0d,
@@ -289,6 +371,11 @@
 				id: 822,
 				type: "item",
 				item: "simplefarming:soybean"
+			}],
+			rewards: [{
+				id: 1665,
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
@@ -314,6 +401,11 @@
 				id: 826,
 				type: "item",
 				item: "simplefarming:ginger"
+			}],
+			rewards: [{
+				id: 1666,
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
@@ -324,6 +416,11 @@
 				id: 828,
 				type: "item",
 				item: "simplefarming:habanero"
+			}],
+			rewards: [{
+				id: 1667,
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
@@ -334,6 +431,11 @@
 				id: 830,
 				type: "item",
 				item: "simplefarming:olives"
+			}],
+			rewards: [{
+				id: 1668,
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
@@ -344,6 +446,11 @@
 				id: 832,
 				type: "item",
 				item: "simplefarming:honeydew"
+			}],
+			rewards: [{
+				id: 1669,
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
@@ -354,6 +461,11 @@
 				id: 834,
 				type: "item",
 				item: "simplefarming:cantaloupe"
+			}],
+			rewards: [{
+				id: 1670,
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
@@ -380,6 +492,11 @@
 				id: 838,
 				type: "item",
 				item: "simplefarming:sweet_potato"
+			}],
+			rewards: [{
+				id: 1671,
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
@@ -390,6 +507,11 @@
 				id: 840,
 				type: "item",
 				item: "simplefarming:spinach"
+			}],
+			rewards: [{
+				id: 1672,
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
@@ -400,6 +522,11 @@
 				id: 842,
 				type: "item",
 				item: "simplefarming:pea_pod"
+			}],
+			rewards: [{
+				id: 1673,
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
@@ -410,6 +537,11 @@
 				id: 844,
 				type: "item",
 				item: "simplefarming:lettuce"
+			}],
+			rewards: [{
+				id: 1674,
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
@@ -420,6 +552,11 @@
 				id: 846,
 				type: "item",
 				item: "simplefarming:onion"
+			}],
+			rewards: [{
+				id: 1675,
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
@@ -446,6 +583,11 @@
 				id: 850,
 				type: "item",
 				item: "simplefarming:broccoli"
+			}],
+			rewards: [{
+				id: 1676,
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
@@ -456,6 +598,11 @@
 				id: 852,
 				type: "item",
 				item: "simplefarming:zucchini"
+			}],
+			rewards: [{
+				id: 1677,
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
@@ -466,6 +613,11 @@
 				id: 854,
 				type: "item",
 				item: "simplefarming:tomato"
+			}],
+			rewards: [{
+				id: 1678,
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
@@ -476,6 +628,11 @@
 				id: 856,
 				type: "item",
 				item: "simplefarming:eggplant"
+			}],
+			rewards: [{
+				id: 1679,
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
@@ -486,6 +643,11 @@
 				id: 858,
 				type: "item",
 				item: "simplefarming:cucumber"
+			}],
+			rewards: [{
+				id: 1680,
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
@@ -506,6 +668,11 @@
 				id: 862,
 				type: "item",
 				item: "simplefarming:rice"
+			}],
+			rewards: [{
+				id: 1681,
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
@@ -516,6 +683,11 @@
 				id: 864,
 				type: "item",
 				item: "simplefarming:rye"
+			}],
+			rewards: [{
+				id: 1682,
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
@@ -526,6 +698,11 @@
 				id: 866,
 				type: "item",
 				item: "simplefarming:oat"
+			}],
+			rewards: [{
+				id: 1683,
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
@@ -536,6 +713,11 @@
 				id: 868,
 				type: "item",
 				item: "simplefarming:barley"
+			}],
+			rewards: [{
+				id: 1684,
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
@@ -546,6 +728,11 @@
 				id: 870,
 				type: "item",
 				item: "simplefarming:kenaf_fiber"
+			}],
+			rewards: [{
+				id: 1685,
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
@@ -556,6 +743,11 @@
 				id: 872,
 				type: "item",
 				item: "simplefarming:cotton"
+			}],
+			rewards: [{
+				id: 1686,
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
@@ -566,6 +758,11 @@
 				id: 874,
 				type: "item",
 				item: "simplefarming:yam"
+			}],
+			rewards: [{
+				id: 1687,
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
@@ -576,6 +773,11 @@
 				id: 876,
 				type: "item",
 				item: "simplefarming:peanut"
+			}],
+			rewards: [{
+				id: 1688,
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
@@ -586,6 +788,11 @@
 				id: 878,
 				type: "item",
 				item: "simplefarming:scarecrow"
+			}],
+			rewards: [{
+				id: 1689,
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
@@ -637,6 +844,71 @@
 				type: "item",
 				item: "farmingforblockheads:green_fertilizer",
 				count: 4
+			}]
+		},
+		{
+			x: 10.0d,
+			y: 3.5d,
+			shape: "hexagon",
+			dependencies: [I;
+				805,
+				803,
+				801,
+				799,
+				797,
+				795,
+				793,
+				791,
+				789,
+				823,
+				821,
+				819,
+				817,
+				815,
+				813,
+				811,
+				809,
+				807,
+				841,
+				839,
+				837,
+				835,
+				833,
+				831,
+				829,
+				827,
+				825,
+				843,
+				845,
+				847,
+				849,
+				851,
+				853,
+				855,
+				857,
+				859,
+				861,
+				863,
+				865,
+				867,
+				869,
+				871,
+				873,
+				875,
+				877
+			],
+			size: 1.5d,
+			id: 1690,
+			tasks: [{
+				id: 1693,
+				type: "checkmark",
+				title: "All Your Veggies"
+			}],
+			rewards: [{
+				id: 1692,
+				type: "item",
+				item: "cyclic:heart",
+				count: 5
 			}]
 		}
 	]
