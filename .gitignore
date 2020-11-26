@@ -68,6 +68,7 @@ server/eula.txt
 server/forge.jar
 server/ops.json
 server/maessentials/data.json
+server/sic-server*.zip
 server/usernamecache.json
 server/*.tar.xz
 server/usercache.json
