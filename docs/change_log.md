@@ -1,5 +1,7 @@
 ### Change Log
 
+#### FYI: Forge has a bug that is preventing the Ender Dragon from spawning.
+
 _Version 0.12.0_
 - Mod(s) Added: 
   - Architectury 1.1.49-forge
