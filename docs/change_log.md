@@ -1,5 +1,32 @@
 ### Change Log
 
+_Version 0.12.0_
+- Mod(s) Added: 
+  - Architectury 1.1.49-forge
+  - Mob Catcher 3.1
+- Mods Updated: 
+  - Bigger Reactors 1.16.3-0.2.5-beta
+  - Blame 1.7.2
+  - Clockout 1.16.4-2.0.0.1
+  - Cyclic 1.16.4-0.9.3
+  - Easy Steel 1.16.4-1.2.10
+  - FTB Quests 1604.1.1.15
+  - FTB Ultimine 1603.1.1.13
+  - Gobber 1.16.4-2.3.32
+  - Gravestone 1.16.4-1.0.4
+  - Greater Eye 1.16.4-1.1.10
+  - Mahout Sukai 1.16.4-v1.25.6
+  - Reliquary 1.16.3-1.3.4.1061
+  - Repurposed Structures 1.16.4-2.3.2
+  - Resourceful Tools 1.16.4-1.2.9
+  - Rftools Builder 1.16-3.0.11
+  - Server Tab Info 1.16.4-1.3.3
+  - Simple Storage Network 1.16.3-1.3.0
+  - The Veggie Way 1.16.4-2.2.12
+- Mods Removed: None
+- Other Changes:
+  - Forge updated to 35.1.0
+  - Accidently added Borderless back, so if you don't want it, then disable or remove it :)
 _Version 0.11.1_
 - Mod(s) Added: None
 - Mods Updated: None
