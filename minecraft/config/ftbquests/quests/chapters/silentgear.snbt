@@ -2129,6 +2129,1073 @@
 				},
 				count: 3
 			}]
+		},
+		{
+			x: -7.5d,
+			y: -3.0d,
+			shape: "diamond",
+			hide: false,
+			size: 1.5d,
+			id: 1694,
+			tasks: [{
+				id: 1695,
+				type: "item",
+				item: "gobber2:gobber2_ore"
+			}],
+			rewards: [{
+				id: 1752,
+				type: "xp",
+				xp: 100
+			}]
+		},
+		{
+			x: -7.5d,
+			y: -4.5d,
+			dependencies: [I;1694],
+			id: 1696,
+			tasks: [{
+				id: 1697,
+				type: "item",
+				item: "gobber2:gobber2_seed"
+			}],
+			rewards: [{
+				id: 1753,
+				type: "xp",
+				xp: 100
+			}]
+		},
+		{
+			x: -7.5d,
+			y: -6.0d,
+			dependencies: [I;1696],
+			id: 1698,
+			tasks: [{
+				id: 1699,
+				type: "item",
+				item: "gobber2:gobber2_ingot"
+			}]
+		},
+		{
+			x: -8.5d,
+			y: -7.0d,
+			dependencies: [I;1698],
+			id: 1700,
+			tasks: [
+				{
+					id: 1701,
+					type: "item",
+					item: {
+						id: "gobber2:gobber2_helmet",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1702,
+					type: "item",
+					item: {
+						id: "gobber2:gobber2_chestplate",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1703,
+					type: "item",
+					item: {
+						id: "gobber2:gobber2_leggings",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1704,
+					type: "item",
+					item: {
+						id: "gobber2:gobber2_boots",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [
+				{
+					id: 1709,
+					type: "item",
+					item: "gobber2:block_healer"
+				},
+				{
+					id: 1710,
+					type: "item",
+					item: "gobber2:gobber2_armor_repair"
+				}
+			]
+		},
+		{
+			x: -7.5d,
+			y: -7.5d,
+			dependencies: [I;1698],
+			id: 1705,
+			tasks: [{
+				id: 1706,
+				type: "item",
+				item: {
+					id: "gobber2:gobber2_sword",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: 1820,
+				type: "item",
+				item: "cyclic:water_candle"
+			}]
+		},
+		{
+			x: -6.5d,
+			y: -7.0d,
+			dependencies: [I;1698],
+			id: 1707,
+			tasks: [
+				{
+					id: 1708,
+					type: "item",
+					item: {
+						id: "gobber2:gobber2_pickaxe",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1741,
+					type: "item",
+					item: {
+						id: "gobber2:gobber2_axe",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1742,
+					type: "item",
+					item: {
+						id: "gobber2:gobber2_shovel",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: 1743,
+				type: "item",
+				item: {
+					id: "gobber2:gobber2_paxel",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: -12.0d,
+			y: -3.0d,
+			dependencies: [I;1694],
+			id: 1711,
+			tasks: [{
+				id: 1712,
+				type: "item",
+				item: "gobber2:gobber2_ore_nether"
+			}],
+			rewards: [{
+				id: 1755,
+				type: "xp",
+				xp: 150
+			}]
+		},
+		{
+			x: -16.5d,
+			y: -3.0d,
+			dependencies: [I;1711],
+			id: 1713,
+			tasks: [{
+				id: 1714,
+				type: "item",
+				item: "gobber2:gobber2_ore_end"
+			}]
+		},
+		{
+			x: -12.0d,
+			y: -4.5d,
+			dependencies: [I;1711],
+			id: 1715,
+			tasks: [{
+				id: 1716,
+				type: "item",
+				item: "gobber2:gobber2_seed_nether"
+			}],
+			rewards: [{
+				id: 1754,
+				type: "xp",
+				xp: 150
+			}]
+		},
+		{
+			x: -12.0d,
+			y: -6.0d,
+			dependencies: [I;1715],
+			id: 1717,
+			tasks: [{
+				id: 1718,
+				type: "item",
+				item: "gobber2:gobber2_ingot_nether"
+			}]
+		},
+		{
+			x: -13.0d,
+			y: -7.0d,
+			dependencies: [I;1717],
+			id: 1719,
+			tasks: [
+				{
+					id: 1720,
+					type: "item",
+					item: {
+						id: "gobber2:gobber2_helmet_nether",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1721,
+					type: "item",
+					item: {
+						id: "gobber2:gobber2_chestplate_nether",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1722,
+					type: "item",
+					item: {
+						id: "gobber2:gobber2_leggings_nether",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1723,
+					type: "item",
+					item: {
+						id: "gobber2:gobber2_boots_nether",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: 1747,
+				type: "item",
+				item: "gobber2:block_protector"
+			}]
+		},
+		{
+			x: -12.0d,
+			y: -7.5d,
+			dependencies: [I;1717],
+			id: 1724,
+			tasks: [{
+				id: 1725,
+				type: "item",
+				item: {
+					id: "gobber2:gobber2_sword_nether",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: 1831,
+				type: "item",
+				item: {
+					id: "minecraft:enchanted_book",
+					Count: true,
+					tag: {
+						StoredEnchantments: [{
+							lvl: 3s,
+							id: "minecraft:looting"
+						}]
+					}
+				}
+			}]
+		},
+		{
+			x: -11.0d,
+			y: -7.0d,
+			dependencies: [I;1717],
+			id: 1726,
+			tasks: [
+				{
+					id: 1727,
+					type: "item",
+					item: {
+						id: "gobber2:gobber2_pickaxe_nether",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1744,
+					type: "item",
+					item: {
+						id: "gobber2:gobber2_axe_nether",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1745,
+					type: "item",
+					item: {
+						id: "gobber2:gobber2_shovel_nether",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: 1746,
+				type: "item",
+				item: {
+					id: "gobber2:gobber2_paxel_nether",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: -9.0d,
+			y: -6.0d,
+			dependencies: [I;1698],
+			id: 1728,
+			tasks: [{
+				id: 1729,
+				type: "item",
+				item: {
+					id: "gobber2:gobber2_bow",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: 1825,
+				type: "item",
+				item: "cyclic:spikes_iron",
+				count: 4
+			}]
+		},
+		{
+			x: -13.5d,
+			y: -6.0d,
+			dependencies: [I;1717],
+			id: 1732,
+			tasks: [{
+				id: 1733,
+				type: "item",
+				item: {
+					id: "gobber2:gobber2_bow_nether",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: 1832,
+				type: "item",
+				item: {
+					id: "silentgems:enchantment_token",
+					Count: true,
+					tag: {
+						TokenEnchantments: [{
+							lvl: 1s,
+							id: "apotheosis:true_infinity"
+						}]
+					}
+				}
+			}]
+		},
+		{
+			x: -13.0d,
+			y: -5.0d,
+			dependencies: [I;1717],
+			id: 1734,
+			tasks: [{
+				id: 1735,
+				type: "item",
+				item: {
+					id: "gobber2:gobber2_tree_axe_nether",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: 1842,
+				type: "item",
+				item: "cyclic:heart"
+			}]
+		},
+		{
+			x: -6.0d,
+			y: -6.0d,
+			dependencies: [I;1698],
+			id: 1736,
+			tasks: [{
+				id: 1737,
+				type: "item",
+				item: {
+					id: "gobber2:gobber2_hammer",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: 1822,
+				type: "item",
+				item: {
+					id: "cyclic:flippers",
+					Count: true,
+					tag: {}
+				}
+			}]
+		},
+		{
+			x: -6.5d,
+			y: -5.0d,
+			dependencies: [I;1698],
+			id: 1738,
+			tasks: [{
+				id: 1739,
+				type: "item",
+				item: {
+					id: "gobber2:gobber2_excavator",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: 1823,
+				type: "item",
+				item: "cyclic:heart"
+			}]
+		},
+		{
+			x: -10.5d,
+			y: -6.0d,
+			dependencies: [I;1717],
+			id: 1748,
+			tasks: [{
+				id: 1749,
+				type: "item",
+				item: {
+					id: "gobber2:gobber2_hammer_nether",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: 1830,
+				type: "item",
+				item: {
+					id: "silentgems:enchantment_token",
+					Count: true,
+					tag: {
+						TokenEnchantments: [{
+							lvl: 1s,
+							id: "silentgems:gravity"
+						}]
+					}
+				}
+			}]
+		},
+		{
+			x: -11.0d,
+			y: -5.0d,
+			dependencies: [I;1717],
+			id: 1750,
+			tasks: [{
+				id: 1751,
+				type: "item",
+				item: {
+					id: "gobber2:gobber2_excavator_nether",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: 1841,
+				type: "item",
+				item: "biggerreactors:graphite_ingot",
+				count: 64
+			}]
+		},
+		{
+			x: -16.5d,
+			y: -6.0d,
+			dependencies: [I;1758],
+			id: 1756,
+			tasks: [{
+				id: 1757,
+				type: "item",
+				item: "gobber2:gobber2_glob_end"
+			}]
+		},
+		{
+			x: -16.5d,
+			y: -4.5d,
+			dependencies: [I;1713],
+			id: 1758,
+			tasks: [{
+				id: 1759,
+				type: "item",
+				item: "gobber2:gobber2_seed_end"
+			}]
+		},
+		{
+			x: -17.5d,
+			y: -7.0d,
+			dependencies: [I;1756],
+			id: 1760,
+			tasks: [
+				{
+					id: 1761,
+					type: "item",
+					item: {
+						id: "gobber2:gobber2_helmet_end",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1762,
+					type: "item",
+					item: {
+						id: "gobber2:gobber2_chestplate_end",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1763,
+					type: "item",
+					item: {
+						id: "gobber2:gobber2_leggings_end",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1764,
+					type: "item",
+					item: {
+						id: "gobber2:gobber2_boots_end",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: 1786,
+				type: "item",
+				item: "gobber2:block_defender"
+			}]
+		},
+		{
+			x: -15.5d,
+			y: -7.0d,
+			dependencies: [I;1756],
+			id: 1768,
+			tasks: [
+				{
+					id: 1769,
+					type: "item",
+					item: {
+						id: "gobber2:gobber2_pickaxe_end",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1770,
+					type: "item",
+					item: {
+						id: "gobber2:gobber2_axe_end",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1771,
+					type: "item",
+					item: {
+						id: "gobber2:gobber2_shovel_end",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: 1772,
+				type: "item",
+				item: {
+					id: "gobber2:gobber2_paxel_stars",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: -15.0d,
+			y: -6.0d,
+			dependencies: [I;1756],
+			id: 1773,
+			tasks: [{
+				id: 1774,
+				type: "item",
+				item: {
+					id: "gobber2:gobber2_hammer_end",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: -15.5d,
+			y: -5.0d,
+			dependencies: [I;1756],
+			id: 1775,
+			tasks: [{
+				id: 1776,
+				type: "item",
+				item: {
+					id: "gobber2:gobber2_excavator_end",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: -18.0d,
+			y: -6.0d,
+			dependencies: [I;1756],
+			id: 1777,
+			tasks: [{
+				id: 1778,
+				type: "item",
+				item: {
+					id: "gobber2:gobber2_bow_end",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: -17.5d,
+			y: -5.0d,
+			dependencies: [I;1756],
+			id: 1779,
+			tasks: [{
+				id: 1780,
+				type: "item",
+				item: {
+					id: "gobber2:gobber2_tree_axe_end",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: -8.5d,
+			y: -5.0d,
+			id: 1781,
+			tasks: [{
+				id: 1782,
+				type: "item",
+				item: {
+					id: "gobber2:gobber2_tree_axe",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: 1824,
+				type: "item",
+				item: "gobber2:gobber2_medallion_breathing"
+			}]
+		},
+		{
+			x: -16.5d,
+			y: -7.5d,
+			id: 1783,
+			tasks: [{
+				id: 1784,
+				type: "item",
+				item: {
+					id: "gobber2:gobber2_sword_end",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: 1843,
+				type: "item",
+				item: "gobber2:gobber2_staff_sniper"
+			}]
+		},
+		{
+			x: -7.5d,
+			y: 0.5d,
+			dependencies: [I;1694],
+			id: 1787,
+			tasks: [{
+				id: 1788,
+				type: "item",
+				item: "gobber2:gobber2_ring"
+			}],
+			rewards: [{
+				id: 1817,
+				type: "item",
+				item: "gobber2:gobber2_foo"
+			}]
+		},
+		{
+			x: -6.5d,
+			y: -0.5d,
+			dependencies: [I;1787],
+			id: 1789,
+			tasks: [{
+				id: 1790,
+				type: "item",
+				item: "gobber2:gobber2_ring_return"
+			}],
+			rewards: [
+				{
+					id: 1834,
+					type: "item",
+					item: {
+						id: "mobcatcher:net_launcher",
+						Count: true,
+						tag: {}
+					}
+				},
+				{
+					id: 1835,
+					type: "item",
+					item: "mobcatcher:net",
+					count: 4
+				}
+			]
+		},
+		{
+			x: -6.5d,
+			y: 1.5d,
+			dependencies: [I;1787],
+			id: 1791,
+			tasks: [{
+				id: 1792,
+				type: "item",
+				item: "gobber2:gobber2_ring_miner"
+			}],
+			rewards: [
+				{
+					id: 1836,
+					type: "item",
+					item: "silentgems:ruby_teleporter"
+				},
+				{
+					id: 1837,
+					type: "item",
+					item: {
+						id: "silentgems:ruby_return_home_charm",
+						Count: true,
+						tag: {
+							posX: 9446,
+							posY: 177,
+							dim: "minecraft:overworld",
+							posZ: 55878,
+							IsReady: false
+						}
+					}
+				}
+			]
+		},
+		{
+			x: -8.5d,
+			y: -0.5d,
+			dependencies: [I;1787],
+			id: 1793,
+			tasks: [{
+				id: 1794,
+				type: "item",
+				item: "gobber2:gobber2_ring_swiftness"
+			}],
+			rewards: [{
+				id: 1833,
+				type: "item",
+				item: "fluxnetworks:basic_flux_storage"
+			}]
+		},
+		{
+			x: -8.5d,
+			y: 1.5d,
+			dependencies: [I;1787],
+			id: 1795,
+			tasks: [{
+				id: 1796,
+				type: "item",
+				item: "gobber2:gobber2_ring_ascent"
+			}],
+			rewards: [
+				{
+					id: 1838,
+					type: "item",
+					item: "glassential:glass_dark_ethereal",
+					count: 8
+				},
+				{
+					id: 1839,
+					type: "item",
+					item: "glassential:glass_dark_ethereal_reverse",
+					count: 4
+				}
+			]
+		},
+		{
+			x: -12.0d,
+			y: 0.5d,
+			dependencies: [I;1711],
+			id: 1797,
+			tasks: [{
+				id: 1798,
+				type: "item",
+				item: "gobber2:gobber2_ring_nether"
+			}],
+			rewards: [{
+				id: 1818,
+				type: "item",
+				item: "gobber2:gobber2_foo_nether"
+			}]
+		},
+		{
+			x: -11.0d,
+			y: -0.5d,
+			dependencies: [I;1797],
+			id: 1799,
+			tasks: [{
+				id: 1800,
+				type: "item",
+				item: "gobber2:gobber2_ring_vision"
+			}],
+			rewards: [{
+				id: 1826,
+				type: "item",
+				item: "metalbarrels:diamond_barrel"
+			}]
+		},
+		{
+			x: -13.0d,
+			y: -0.5d,
+			dependencies: [I;1797],
+			id: 1801,
+			tasks: [{
+				id: 1802,
+				type: "item",
+				item: "gobber2:gobber2_ring_blaze"
+			}],
+			rewards: [{
+				id: 1827,
+				type: "item",
+				item: {
+					id: "gobber2:gobber2_medallion_exp",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: -11.0d,
+			y: 1.5d,
+			dependencies: [I;1797],
+			id: 1803,
+			tasks: [{
+				id: 1804,
+				type: "item",
+				item: "gobber2:gobber2_ring_acceleration"
+			}],
+			rewards: [{
+				id: 1829,
+				type: "item",
+				item: "gobber2:gobber2_gooey_bread_nether",
+				count: 8
+			}]
+		},
+		{
+			x: -13.0d,
+			y: 1.5d,
+			dependencies: [I;1797],
+			id: 1805,
+			tasks: [{
+				id: 1806,
+				type: "item",
+				item: "gobber2:gobber2_ring_curing"
+			}],
+			rewards: [{
+				id: 1828,
+				type: "item",
+				item: "gobber2:gobber2_gooey_beefstew_nether",
+				count: 8
+			}]
+		},
+		{
+			x: -16.5d,
+			y: 0.5d,
+			dependencies: [I;1713],
+			id: 1807,
+			tasks: [{
+				id: 1808,
+				type: "item",
+				item: "gobber2:gobber2_ring_end"
+			}],
+			rewards: [{
+				id: 1819,
+				type: "item",
+				item: "gobber2:gobber2_foo_end"
+			}]
+		},
+		{
+			x: -15.5d,
+			y: -0.5d,
+			dependencies: [I;1807],
+			id: 1809,
+			tasks: [{
+				id: 1810,
+				type: "item",
+				item: "gobber2:gobber2_ring_dismissal"
+			}]
+		},
+		{
+			x: -15.5d,
+			y: 1.5d,
+			dependencies: [I;1807],
+			id: 1811,
+			tasks: [{
+				id: 1812,
+				type: "item",
+				item: "gobber2:gobber2_ring_stealth"
+			}],
+			rewards: [{
+				id: 1840,
+				type: "item",
+				item: "gobber2:gobber2_medallion_conduit"
+			}]
+		},
+		{
+			x: -17.5d,
+			y: -0.5d,
+			dependencies: [I;1807],
+			id: 1813,
+			tasks: [{
+				id: 1814,
+				type: "item",
+				item: "gobber2:gobber2_ring_teleport"
+			}]
+		},
+		{
+			x: -17.5d,
+			y: 1.5d,
+			dependencies: [I;1807],
+			id: 1815,
+			tasks: [{
+				id: 1816,
+				type: "item",
+				item: "gobber2:gobber2_ring_blink"
+			}]
 		}
 	]
 }
