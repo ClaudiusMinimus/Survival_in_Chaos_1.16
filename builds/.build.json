@@ -2,8 +2,9 @@
     "packAuthor": "ClaudiusMinimus",
     "minecraftVersion": "1.16.4",
     "modLoader": "forge",
-    "modLoaderVersion": "35.0.18",
+    "modLoaderVersion": "35.1.0",
     "includes": [
+        "config/forge-client.toml",
         "config/defaultoptions", 
         "config/fancymenu", 
         "config/ftbquests", 
