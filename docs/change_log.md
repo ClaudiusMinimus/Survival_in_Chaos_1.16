@@ -1,6 +1,46 @@
 ### Change Log
-
-_Version 0.12.0_
+ Version 0.13.0 
+- Mods Added: 
+  - Builders Addition 1.16.4-20201130b
+  - Code Chicken Lib 1.16.4-3.5.0.398-universal
+  - Ender Storage 1.16.4-2.7.0.159-universal
+- Mods Updated: 
+  - AutoRegLib-1.6-47
+  - Bigger Reactors 1.16.3-0.2.6-beta
+  - Blame 1.7.3
+  - Bookshelf 1.16.4-9.2.16
+  - Botany Pots 1.16.4-6.0.7
+  - Ceramic Bucket 2.4.0-1.16.2+
+  - Chisels and Bits 0.2.4-RELEASE
+  - Creative Core v2.0.10 mc1.16.4
+  - Dank Storage 3.11a
+  - Engineers Tools 1.16.4-1.1.2
+  - Extreme Sound Muffler 3.1 Forge-1.16.4
+  - Fancy Menu 1.6.0 MC 1.16.2-1.16.4
+  - Gobber 1.16.4-2.3.37
+  - Gravestone 1.16.4-1.0.5
+  - Konkrete 1.1.0 MC 1.16.2-1.16.4
+  - Lollipop 1.16.4-3.2.3
+  - Mahou Sukai 1.16.4-v1.26.3
+  - Mystical Agradditions 1.16.4-4.1.2
+  - Natures Aura 33.1
+  - Patchouli 1.16.4-48
+  - Platforms 1.16-1.7.8
+  - Polymorph Forge 1.16.4-0.18
+  - Potions Master 0.1.25-1.16.4-35.1.0
+  - Powah 1.16.4-2.3.6
+  - Quark r2.4-277
+  - Random Patches 1.12.2-1.22.1.9
+  - Repurposed Structures 1.16.4-2.3.3
+  - Silent Gear 1.16.3-2.4.0+183
+  - Silent Gems 1.16.3-3.7.4+107
+  - Xaeros Minimap 20.28.1 Forge 1.16.4
+  - Xaeros World Map 1.11.3 Forge 1.16.4
+- Mods Removed: None
+- Other Changes:
+  - Forge updated to 35.1.7 _fixes end server bug_
+  - Added and updated quests
+ Version 0.12.0 
 #### FYI: Forge has a server bug that is preventing the Ender Dragon from spawning.
 - Mod(s) Added: 
   - Architectury 1.1.49-forge
@@ -28,7 +68,7 @@ _Version 0.12.0_
 - Other Changes:
   - Forge updated to 35.1.0
   - Accidently added Borderless back, so if you don't want it, then disable or remove it :)
-_Version 0.11.1_
+ Version 0.11.1 
 - Mod(s) Added: None
 - Mods Updated: None
 - Mods Removed: None
@@ -37,7 +77,7 @@ _Version 0.11.1_
   - Added rewards to the farming quests
   - Updated opening screen menu
 
-_Version 0.11.0_
+ Version 0.11.0 
 - Mod(s) Added:
   - Blame-1.16.4-1.5.0
   - Clay+WorldGen-1.16.4-1.2.0
@@ -48,7 +88,7 @@ _Version 0.11.0_
   - Bookshelf-1.16.4-9.1.9
   - BotanyPots-1.16.4-6.0.5
   - Citadel-1.5.2
-  - extremeSoundMuffler-3.0_Forge-1.16.4
+  - extremeSoundMuffler-3.0 Forge-1.16.4
   - Ftb-quests-1604.1.1.14
   - Gobber2-1.16.4-2.3.26
   - GreaterEye-1.16.4-1.1.8
@@ -62,9 +102,9 @@ _Version 0.11.0_
   - ScalableCatsForce-2.13.3-build-6-with-library
   - SilentGear-1.16.3-2.3.7+176
   - SimpleStorageNetwork-1.16.3-1.2.0
-  - U_team_core-1.16.4-3.1.13.187
-  - Xaeros_Minimap_20.27.3_Forge_1.16.4
-  - XaerosWorldMap_1.11.1_Forge_1.16.4
+  - U team core-1.16.4-3.1.13.187
+  - Xaeros Minimap 20.27.3 Forge 1.16.4
+  - XaerosWorldMap 1.11.1 Forge 1.16.4
 - Mods Removed:
   - Borderless
   - CoHF

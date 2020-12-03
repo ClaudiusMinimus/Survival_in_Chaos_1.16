@@ -1,1 +1,1 @@
-./twitch-export-builder_linux_amd64 -d="/home/helaman/.local/share/multimc/instances/Survival_in_Chaos_build/minecraft" -n="Survival in Chaos" -p=1.16.4-0.12.0 -c=".build.json"
+./twitch-export-builder_linux_amd64 -d="/home/helaman/.local/share/multimc/instances/Survival_in_Chaos_build/minecraft" -n="Survival in Chaos" -p=1.16.4-0.13.0 -c=".build.json"
