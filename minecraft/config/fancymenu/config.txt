@@ -27,6 +27,7 @@ I:splashoffsety = '0';
 ##[loading]
 
 B:allowgameintroskip = 'true';
+S:loadinganimationcolor = '#ffffffff';
 B:showanimationloadingstatus = 'true';
 S:gameintroanimation = '';
 S:customgameintroskiptext = '';
@@ -40,6 +41,9 @@ B:playbackgroundsounds = 'true';
 [A minecraft restart is required after changing this value.]
 B:enablehotkeys = 'true';
 B:playmenumusic = 'true';
+B:showdebugwarnings = 'true';
+[Sets the default GUI scale on first launch. Useful for modpacks. Cache data is saved in '/mods/fancymenu/'.]
+I:defaultguiscale = '-1';
 
 
 ##[minecraftwindow]
@@ -54,5 +58,3 @@ B:customwindowicon = 'false';
 
 [If the warning when trying to move an vanilla button without an orientation should be displayed or not.]
 B:showvanillamovewarning = 'true';
-[If the undo/redo control buttons of the layout editor should be visible or not.]
-B:showundoredocontrols = 'false';
