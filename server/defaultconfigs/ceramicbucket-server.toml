@@ -7,8 +7,6 @@
 	fishObtainingEnabled = true
 	#Whether or not milking entities with a Ceramic Bucket should be enabled.
 	milkingEnabled = true
-	#If a ceramic bucket contains one of these fluids, it can be enchanted with Infinity (comma separated list). Example: "water,minecraft:lava,othermod:other_fluid"
-	infinityEnchantmentFluids = "water"
 	#Whether or not Infinity enchantment for Ceramic Buckets filled with multiplying sources like water should be enabled.
 	infinityEnchantmentEnabled = false
 
