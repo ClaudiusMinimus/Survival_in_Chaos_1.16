@@ -1,8 +1,7 @@
 ### Change Log
 
-#### FYI: Forge has a bug that is preventing the Ender Dragon from spawning.
-
 _Version 0.12.0_
+#### FYI: Forge has a server bug that is preventing the Ender Dragon from spawning.
 - Mod(s) Added: 
   - Architectury 1.1.49-forge
   - Mob Catcher 3.1
