@@ -20,10 +20,12 @@ minecraft/XaeroWorldMap/*
 minecraft/XaeroWaypoints/*
 natives/*
 server/backup/*
+server/backups/*
 server/config/*
 server/crash-reports/*
 server/config/defaultoptions/*
 server/libraries/*
+server/local/*
 server/logs/*
 server/maessentials/players/*
 server/ma-essentials/players/*
