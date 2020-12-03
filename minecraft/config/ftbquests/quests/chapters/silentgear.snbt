@@ -559,6 +559,7 @@
 			title: "Hammer! Hammer!",
 			x: -1.5d,
 			y: 2.0d,
+			description: ["Did someone call Thor?"],
 			dependencies: [I;143],
 			id: 137,
 			tasks: [
@@ -1043,7 +1044,7 @@
 			x: 0.0d,
 			y: 1.5d,
 			description: [
-				"Make a pickaxe head using three Hardened Netherrack and a Blaze rod for the handle",
+				"Make a pickaxe head using three Hardened Netherrack and a Crimson Iron Tool Rod for the handle",
 				"",
 				"Your reward will be six enchantment tokens and a piece of red wool. Apply these items to the pickaxe in your crafting grid one-at-time to greatly increase your pick's efficiency and provide mending."
 			],
@@ -1398,6 +1399,7 @@
 		{
 			x: -3.5d,
 			y: -0.5d,
+			description: ["This is your basic all in one tool."],
 			dependencies: [I;143],
 			id: 1314,
 			tasks: [
@@ -1805,6 +1807,7 @@
 		{
 			x: -3.0d,
 			y: -1.5d,
+			description: ["Make some super simple shears. Now say that fives times real fast!"],
 			dependencies: [I;143],
 			id: 1587,
 			tasks: [
@@ -2021,8 +2024,10 @@
 			}]
 		},
 		{
+			title: "Control the Chaos",
 			x: 1.5d,
 			y: -3.0d,
+			description: ["Make a pedestal and place the reward on top to start controlling the chaos."],
 			dependencies: [I;171],
 			id: 1608,
 			tasks: [{
@@ -2258,7 +2263,7 @@
 			rewards: [{
 				id: 1820,
 				type: "item",
-				item: "cyclic:water_candle"
+				item: "forbidden_arcanus:orb_of_temporary_flight"
 			}]
 		},
 		{
@@ -2338,6 +2343,11 @@
 				id: 1714,
 				type: "item",
 				item: "gobber2:gobber2_ore_end"
+			}],
+			rewards: [{
+				id: 1847,
+				type: "xp",
+				xp: 200
 			}]
 		},
 		{
@@ -2693,7 +2703,13 @@
 			tasks: [{
 				id: 1757,
 				type: "item",
-				item: "gobber2:gobber2_glob_end"
+				item: "gobber2:gobber2_ingot_end"
+			}],
+			rewards: [{
+				id: 1853,
+				type: "item",
+				item: "minecraft:comparator",
+				count: 4
 			}]
 		},
 		{
@@ -2705,6 +2721,11 @@
 				id: 1759,
 				type: "item",
 				item: "gobber2:gobber2_seed_end"
+			}],
+			rewards: [{
+				id: 1848,
+				type: "item",
+				item: "minecraft:turtle_egg"
 			}]
 		},
 		{
@@ -2831,6 +2852,11 @@
 						Damage: 0
 					}
 				}
+			}],
+			rewards: [{
+				id: 1850,
+				type: "item",
+				item: "minecraft:heart_of_the_sea"
 			}]
 		},
 		{
@@ -2846,6 +2872,17 @@
 					Count: true,
 					tag: {
 						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: 1849,
+				type: "item",
+				item: {
+					id: "minecraft:potion",
+					Count: true,
+					tag: {
+						Potion: "quark:danger_sight"
 					}
 				}
 			}]
@@ -2865,6 +2902,12 @@
 						Damage: 0
 					}
 				}
+			}],
+			rewards: [{
+				id: 1851,
+				type: "item",
+				item: "apotheosis:hellshelf",
+				count: 5
 			}]
 		},
 		{
@@ -2882,6 +2925,11 @@
 						Damage: 0
 					}
 				}
+			}],
+			rewards: [{
+				id: 1852,
+				type: "item",
+				item: "enderstorage:ender_tank"
 			}]
 		},
 		{
@@ -3157,6 +3205,11 @@
 				id: 1810,
 				type: "item",
 				item: "gobber2:gobber2_ring_dismissal"
+			}],
+			rewards: [{
+				id: 1844,
+				type: "item",
+				item: "enderstorage:ender_tank"
 			}]
 		},
 		{
@@ -3184,6 +3237,11 @@
 				id: 1814,
 				type: "item",
 				item: "gobber2:gobber2_ring_teleport"
+			}],
+			rewards: [{
+				id: 1845,
+				type: "item",
+				item: "cyclic:collector_fluid"
 			}]
 		},
 		{
@@ -3195,6 +3253,38 @@
 				id: 1816,
 				type: "item",
 				item: "gobber2:gobber2_ring_blink"
+			}],
+			rewards: [{
+				id: 1846,
+				type: "item",
+				item: {
+					id: "minecraft:enchanted_book",
+					Count: true,
+					tag: {
+						StoredEnchantments: [{
+							lvl: 3s,
+							id: "apotheosis:capturing"
+						}]
+					}
+				}
+			}]
+		},
+		{
+			x: 2.0d,
+			y: -0.5d,
+			description: ["Want a jump & speed boost? Make some refined iron and then make some armor from it."],
+			dependencies: [I;1275],
+			id: 1854,
+			tasks: [{
+				id: 1855,
+				type: "item",
+				item: "silents_mechanisms:refined_iron_ingot",
+				count: 24L
+			}],
+			rewards: [{
+				id: 1856,
+				type: "item",
+				item: "minecraft:beacon"
 			}]
 		}
 	]

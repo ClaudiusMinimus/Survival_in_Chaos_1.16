@@ -624,7 +624,7 @@
 			tasks: [{
 				id: 120,
 				type: "kill",
-				entity: "silentgems:corrupted_slime",
+				entity: "minecraft:slime",
 				value: 10L
 			}],
 			rewards: [
