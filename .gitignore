@@ -10,6 +10,7 @@ minecraft/ct_dumps/*
 minecraft/journeymap/*
 minecraft/local/*
 minecraft/logs/*
+minecraft/mods
 minecraft/mods/*
 minecraft/natives/*
 minecraft/output/*
@@ -29,6 +30,7 @@ server/local/*
 server/logs/*
 server/maessentials/players/*
 server/ma-essentials/players/*
+server/mods
 server/mods/*
 server/world/*
 server/world*
