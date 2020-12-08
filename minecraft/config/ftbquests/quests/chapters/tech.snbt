@@ -1287,7 +1287,14 @@
 				{
 					id: 383,
 					type: "item",
-					item: "mekanism:ingot_osmium",
+					title: "Any forge:ingots/osmium",
+					item: {
+						id: "itemfilters:tag",
+						Count: true,
+						tag: {
+							value: "forge:ingots/osmium"
+						}
+					},
 					count: 16L
 				},
 				{
