@@ -237,14 +237,14 @@
 		{
 			title: "Over an Open Fire",
 			disable_toast: true,
-			x: 1.5d,
-			y: 1.5d,
+			x: 4.5d,
+			y: 0.0d,
 			description: [
 				"There is nothing quite like cooking over an open campfire, as long as it isn't me.",
 				"",
 				"Make a campfire and enjoy the meats!"
 			],
-			dependencies: [I;13],
+			dependencies: [I;16],
 			id: 37,
 			tasks: [{
 				id: 38,
@@ -924,6 +924,35 @@
 					}
 				}
 			]
+		},
+		{
+			x: 4.5d,
+			y: 1.5d,
+			description: ["Have you ever wanted to capture a mod? With this device you can catch many!"],
+			dependencies: [I;16],
+			id: 1859,
+			tasks: [
+				{
+					id: 1860,
+					type: "item",
+					item: {
+						id: "mobcatcher:net_launcher",
+						Count: true,
+						tag: {}
+					}
+				},
+				{
+					id: 1861,
+					type: "item",
+					item: "mobcatcher:net"
+				}
+			],
+			rewards: [{
+				id: 1862,
+				type: "item",
+				item: "mobcatcher:net",
+				count: 4
+			}]
 		}
 	]
 }
