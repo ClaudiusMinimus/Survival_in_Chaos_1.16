@@ -1,4 +1,101 @@
 ### Change Log
+ Version 0.14.0 
+- Mods Added: 
+  - Enviromental Core 1.16.4-3.0.4.1
+  - Enviromental Materials 1.16.4-2.0.4.1
+  - Enviromental Tech 1.16.4-3.0.4.1
+  - Valkyrielib 1.16.4-3.0.4.3
+
+- Mods Updated: 
+  - Allthemodium 1.1.17 1.16.4-35.1.4
+  - Ambient Sounds_v3.1.2_mc1.16.4
+  - Applied Energistics 2-8.2.0 Alpha.2
+  - Architectury 1.1.55-Forge
+  - Autoreglib 1.6-47
+  - Bigger Reactors 1.16.3-0.2.6-Beta
+  - Blame 1.7.3
+  - Bookshelf 1.16.4-9.2.16
+  - Botania 1.16.4-410
+  - Botany Pots 1.16.4-6.0.7
+  - Botany Trees 1.16.4-2.0.4
+  - Builder Saddition 1.16.4-20201130b
+  - Ceramic Bucket 2.4.0-1.16.2+
+  - Chisels And Bits 0.2.4-Release
+  - Citadel 1.5.3
+  - Cloth Config Forge 4.1.1
+  - Codechickenlib 1.16.4-3.5.0.398-Universal
+  - Construction Wand 1.16.2-1.7
+  - Crash Utilities 3.6
+  - Creative Core_v2.0.10_mc1.16.4
+  - Curios Forge 1.16.4-4.0.3.0
+  - Cyclic 1.16.4-0.10.0
+  - Dank Storage 3.12
+  - Dark Utilities 1.16.4-7.0.3
+  - Easy Steel 1.16.4-1.2.11
+  - Enchantment Descriptions 1.16.4-6.0.2
+  - Ender Storage 1.16.4-2.7.0.159-Universal
+  - Engineers Decor 1.16.4-1.1.4
+  - Engineers Tools 1.16.4-1.1.2
+  - Essentials 1.16.4-2.9.6
+  - Extreme Sound Muffler 3.1_forge-1.16.4
+  - Falling Tree Forge 1.16.4-2.7.0
+  - Fancy Menu 1.6.0_mc_1.16.2-1.16.4
+  - Fastwork Bench 1.16.3-4.4.1
+  - Friendly Fire 1.16.4-6.0.1
+  - FTB Chunks 1604.2.1.50
+  - FTB Gui Library 1604.1.1.26
+  - FTB Quests 1604.1.1.17
+  - FTB Teams 1604.1.0.13
+  - Gobber 2 .16.4-2.3.37
+  - Gravestone 1.16.4-1.0.5
+  - Industrial Foregoing 1.16.4-3.2.5-74675d6
+  - Item Filters 1604.2.2.19
+  - JEI Integration 1.16.4-6.1.1.11
+  - Just Enough Resources 1.16.4-0.12.0.103
+  - Konkrete 1.1.0_mc_1.16.2-1.16.4
+  - Kubejs 1604.3.1.111-Forge
+  - Lollipop 1.16.4-3.2.3
+  - Mahout Sukai 1.16.4-V1.26.3
+  - Mcjtylib 1.16-5.0.15
+  - Mekanism 1.16.4-10.0.18.445
+  - Mekanism Additions 1.16.4-10.0.18.445
+  - Mekanism Generators 1.16.4-10.0.18.445
+  - Mekanism Tools 1.16.4-10.0.18.445
+  - Mystical Agradditions 1.16.4-4.1.2
+  - Mystical Agriculture 1.16.4-4.1.3
+  - Natures Aura 33.1
+  - Openloader 1.16.4-8.0.1
+  - Over Powdered Pickles 1.16.4-1.1.3
+  - Patchouli 1.16.4-48
+  - Platforms 1.16-1.7.8
+  - Polymorph Forge-1.16.4-0.18
+  - Potions Master 0.1.27-1.16.4-35.1.0
+  - Powah 1.16.4-2.3.6
+  - Quark R2.4-277
+  - Random Patches 1.16.4-1.22.1.9
+  - Repurposed Structures 1.16.4-2.3.3
+  - Rftools Base 1.16-2.0.8
+  - Rftools Builder 1.16-3.0.12
+  - Rftools Storage 1.16-2.0.7
+  - Rftools Utility 1.16-3.0.19
+  - Rsgauges 1.16.4-1.2.6-B2
+  - Runelic 1.16.4-6.0.2
+  - Silent Gear 1.16.3-2.4.3+186
+  - Silent Gems 1.16.3-3.7.4+107
+  - Tips 1.16.4-3.0.1
+  - Titanium 1.16.4-3.2.2
+  - Torch Master 2.3.5-Alpha
+  - U Team Core 1.16.4-3.1.15.189
+  - Xaeros Minimap 20.28.2_forge_1.16.4
+  - Xaeros World Map 1.11.4_forge_1.16.4
+  - Xnet 1.16-3.0.10
+- Mods Removed: None
+- Other Changes:
+  - Updated Forge to 31.1.11
+  - Updated Quests
+  - Fixed Osmium ore in quest to accept forge tags
+  - Added grappling hook recipe images to Survival in Chaos book. This is because the recipes for some are missing in JEI
+
  Version 0.13.0 
 - Mods Added: 
   - Builders Addition 1.16.4-20201130b
