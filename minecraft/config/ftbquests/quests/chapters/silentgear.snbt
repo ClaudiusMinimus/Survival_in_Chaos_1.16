@@ -2178,6 +2178,12 @@
 				id: 1699,
 				type: "item",
 				item: "gobber2:gobber2_ingot"
+			}],
+			rewards: [{
+				id: 1866,
+				type: "item",
+				item: "minecraft:comparator",
+				count: 4
 			}]
 		},
 		{
@@ -2329,7 +2335,7 @@
 				item: "gobber2:gobber2_ore_nether"
 			}],
 			rewards: [{
-				id: 1755,
+				id: 1865,
 				type: "xp",
 				xp: 150
 			}]
@@ -2375,6 +2381,11 @@
 				id: 1718,
 				type: "item",
 				item: "gobber2:gobber2_ingot_nether"
+			}],
+			rewards: [{
+				id: 1867,
+				type: "item",
+				item: "mysticalagriculture:supremium_block"
 			}]
 		},
 		{
@@ -2706,10 +2717,9 @@
 				item: "gobber2:gobber2_ingot_end"
 			}],
 			rewards: [{
-				id: 1853,
+				id: 1868,
 				type: "item",
-				item: "minecraft:comparator",
-				count: 4
+				item: "mysticalagradditions:insanium_block"
 			}]
 		},
 		{
