@@ -10,8 +10,7 @@ minecraft/ct_dumps/*
 minecraft/journeymap/*
 minecraft/local/*
 minecraft/logs/*
-minecraft/mods
-minecraft/mods/*
+minecraft/mods*/*
 minecraft/natives/*
 minecraft/output/*
 minecraft/saves/*
