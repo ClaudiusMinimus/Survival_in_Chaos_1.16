@@ -1,0 +1,36 @@
+{
+    "name": "Some Recipes",
+    "icon": "computercraft:printed_pages",
+    "category": "game_tips",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "text",
+            "text": "Here are some useful recipes."
+        },
+        {
+            "type": "image",
+            "title": "Iron Hook Recipe",
+            "images": [
+                "sic:iron_hook_recipe.png", 
+                "sic:iron_hook.png"
+            ]
+        },
+        {
+            "type": "image",
+            "title": "Gold Hook Recipe",
+            "images": [
+                "sic:gold_hook_recipe.png", 
+                "sic:gold_hook.png"
+            ]
+        },
+        {
+            "type": "image",
+            "title": "Diamond Hook Recipe",
+            "images": [
+                "sic:diamond_hook_recipe.png", 
+                "sic:diamond_hook.png"
+            ]
+        }
+    ]
+}
