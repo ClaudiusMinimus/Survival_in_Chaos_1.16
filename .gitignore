@@ -110,4 +110,5 @@ modlist.html
 !server/config/shutdowner-common.toml
 !minecraft/config/gobber-general.toml
 !server/config/quark-common.toml
+server/server.properties
 !mmc-pack.json
