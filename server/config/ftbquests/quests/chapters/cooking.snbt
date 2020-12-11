@@ -1,7 +1,7 @@
 {
 	id: 908,
 	filename: "cooking",
-	order_index: 5,
+	order_index: 6,
 	title: "Cooking",
 	icon: "simplefarming:blt",
 	default_quest_shape: "",

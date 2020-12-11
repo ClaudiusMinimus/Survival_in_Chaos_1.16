@@ -2,7 +2,7 @@
     "name": "Mahou Tsukai",
     "icon": "rftoolsutility:screen",
     "category": "videos",
-    "sortnum": 0,
+    "sortnum": 1,
     "pages": [
         {
             "type": "link",

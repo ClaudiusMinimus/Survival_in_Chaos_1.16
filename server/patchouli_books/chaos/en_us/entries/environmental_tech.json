@@ -1,0 +1,14 @@
+{
+    "name": "Environmental Tech",
+    "icon": "rftoolsutility:screen",
+    "category": "videos",
+    "sortnum": 0,
+    "pages": [
+        {
+            "type": "link",
+            "text": "This video is an Introduction to Environmental Tech 3 - Void Miners",
+            "link_text": "YouTube Video",
+            "url": "https://www.youtube.com/watch?v=GB7CvGQ7I40"
+        }
+    ]
+}
