@@ -98,6 +98,8 @@
 
 #Misc Ring/staff Settings
 [misc_ring_staff_settings]
+	#Ring of Attraction - Items are instantly placed in player inventory  [true / false]
+	ringAttractionMode = false
 	#Uses a delayed break mode to reduce stutter and potential lag on Ring of Miner and Ring of Lumberjack [true / false]
 	delayedBreakMode = true
 	#Ring of Repair - Delay time between repair ticks [default: 120]
