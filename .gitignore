@@ -97,6 +97,7 @@ modlist.html
 !server/config/ftbquests
 
 # Do not ignore these files
+!minecraft/config/friendlyfire-common.toml
 !minecraft/config/forge-client.toml
 !minecraft/config/ftbchunks-client.toml
 !minecraft/config/ftbultimine-common.toml
@@ -106,6 +107,7 @@ modlist.html
 !minecraft/config/waystones-*.toml
 !minecraft/config/xaerominimap.txt
 !server/config/auto_restart.toml
+!server/config/friendlyfire-common.toml
 !server/config/forge-client.toml
 !server/config/gobber-general.toml
 !server/config/shutdowner-common.toml
