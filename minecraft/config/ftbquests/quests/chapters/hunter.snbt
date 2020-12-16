@@ -1,7 +1,7 @@
 {
 	id: 60,
 	filename: "hunter",
-	order_index: 4,
+	order_index: 3,
 	title: "Hunter",
 	icon: {
 		id: "minecraft:crossbow",
