@@ -1,7 +1,7 @@
 {
 	id: 53,
 	filename: "silentgear",
-	order_index: 3,
+	order_index: 2,
 	title: "Armor, Tools and Weapons",
 	icon: {
 		id: "gobber2:gobber2_paxel_end",
