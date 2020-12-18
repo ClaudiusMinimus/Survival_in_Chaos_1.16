@@ -1,7 +1,7 @@
 {
 	id: 261,
 	filename: "storage",
-	order_index: 7,
+	order_index: 6,
 	title: "Storage",
 	icon: "minecraft:barrel",
 	default_quest_shape: "",

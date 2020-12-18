@@ -1,7 +1,7 @@
 {
 	id: 175,
 	filename: "farmer",
-	order_index: 5,
+	order_index: 4,
 	title: "Let's Get Farming",
 	icon: "simplefarming:scarecrow",
 	default_quest_shape: "",

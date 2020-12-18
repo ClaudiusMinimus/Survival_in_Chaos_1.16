@@ -1,7 +1,7 @@
 {
 	id: 228,
 	filename: "tech",
-	order_index: 8,
+	order_index: 7,
 	title: "Tech",
 	icon: "titanium:iron_gear",
 	default_quest_shape: "",
@@ -1278,7 +1278,7 @@
 			}]
 		},
 		{
-			x: 6.0d,
+			x: 8.5d,
 			y: 1.0d,
 			shape: "diamond",
 			size: 1.5d,
@@ -1318,7 +1318,7 @@
 			]
 		},
 		{
-			x: 8.0d,
+			x: 10.5d,
 			y: 1.0d,
 			dependencies: [I;382],
 			id: 384,
@@ -1336,16 +1336,30 @@
 					count: 8L
 				}
 			],
-			rewards: [{
-				id: 420,
-				type: "item",
-				item: "mekanism:configurator"
-			}]
+			rewards: [
+				{
+					id: 420,
+					type: "item",
+					item: "mekanism:configurator"
+				},
+				{
+					id: 1873,
+					type: "item",
+					item: "mekanism:enriched_carbon",
+					count: 8
+				},
+				{
+					id: 1874,
+					type: "item",
+					item: "mekanism:enriched_redstone",
+					count: 8
+				}
+			]
 		},
 		{
-			x: 8.0d,
-			y: -0.5d,
-			dependencies: [I;384],
+			x: 9.0d,
+			y: -2.0d,
+			dependencies: [I;392],
 			id: 388,
 			tasks: [{
 				id: 389,
@@ -1368,8 +1382,8 @@
 			}]
 		},
 		{
-			x: 8.0d,
-			y: -2.0d,
+			x: 9.0d,
+			y: -3.5d,
 			dependencies: [I;388],
 			id: 390,
 			tasks: [{
@@ -1384,8 +1398,8 @@
 			}]
 		},
 		{
-			x: 6.5d,
-			y: -2.0d,
+			x: 9.0d,
+			y: -0.5d,
 			dependencies: [I;384],
 			id: 392,
 			tasks: [{
@@ -1400,7 +1414,7 @@
 			}]
 		},
 		{
-			x: 8.0d,
+			x: 10.5d,
 			y: 4.0d,
 			dependencies: [I;401],
 			id: 394,
@@ -1417,8 +1431,8 @@
 			}]
 		},
 		{
-			x: 6.5d,
-			y: -0.5d,
+			x: 12.0d,
+			y: 2.5d,
 			dependencies: [I;384],
 			id: 398,
 			tasks: [{
@@ -1434,7 +1448,7 @@
 			}]
 		},
 		{
-			x: 8.0d,
+			x: 10.5d,
 			y: 2.5d,
 			dependencies: [I;384],
 			id: 401,
@@ -1451,8 +1465,8 @@
 			}]
 		},
 		{
-			x: 9.5d,
-			y: 1.0d,
+			x: 12.0d,
+			y: -0.5d,
 			dependencies: [I;384],
 			id: 404,
 			tasks: [{
@@ -1468,8 +1482,8 @@
 			}]
 		},
 		{
-			x: 9.5d,
-			y: -0.5d,
+			x: 12.0d,
+			y: -2.0d,
 			dependencies: [I;404],
 			id: 406,
 			tasks: [{
@@ -1485,8 +1499,8 @@
 			}]
 		},
 		{
-			x: 9.5d,
-			y: -2.0d,
+			x: 12.0d,
+			y: -3.5d,
 			dependencies: [I;406],
 			id: 408,
 			tasks: [{
@@ -1502,8 +1516,8 @@
 			}]
 		},
 		{
-			x: 9.5d,
-			y: -3.5d,
+			x: 12.0d,
+			y: -5.0d,
 			dependencies: [I;408],
 			id: 410,
 			tasks: [{
@@ -1529,7 +1543,7 @@
 			}]
 		},
 		{
-			x: 6.5d,
+			x: 9.0d,
 			y: 2.5d,
 			dependencies: [I;384],
 			id: 412,
@@ -1554,8 +1568,8 @@
 			}]
 		},
 		{
-			x: 9.5d,
-			y: 2.5d,
+			x: 13.5d,
+			y: -0.5d,
 			id: 414,
 			tasks: [{
 				id: 415,
@@ -1570,8 +1584,8 @@
 			}]
 		},
 		{
-			x: 11.0d,
-			y: 2.5d,
+			x: 15.0d,
+			y: -0.5d,
 			id: 416,
 			tasks: [{
 				id: 417,
@@ -1586,8 +1600,8 @@
 			}]
 		},
 		{
-			x: 12.5d,
-			y: 2.5d,
+			x: 16.5d,
+			y: -0.5d,
 			id: 421,
 			tasks: [{
 				id: 422,
@@ -1770,10 +1784,10 @@
 			]
 		},
 		{
-			x: 6.5d,
-			y: 4.0d,
+			x: 8.0d,
+			y: 3.5d,
 			description: ["When you have completed this, see if you can make an obsidian generator."],
-			dependencies: [I;384],
+			dependencies: [I;412],
 			id: 1150,
 			tasks: [{
 				id: 1151,
@@ -1815,6 +1829,302 @@
 						}
 					}
 				}
+			}]
+		},
+		{
+			x: 12.0d,
+			y: 1.0d,
+			dependencies: [I;384],
+			id: 1869,
+			tasks: [{
+				id: 1870,
+				type: "item",
+				item: "mekanism:alloy_reinforced"
+			}],
+			rewards: [{
+				id: 1875,
+				type: "item",
+				item: "mekanism:enriched_diamond",
+				count: 8
+			}]
+		},
+		{
+			x: 13.5d,
+			y: 1.0d,
+			dependencies: [I;1869],
+			id: 1871,
+			tasks: [{
+				id: 1872,
+				type: "item",
+				item: "mekanism:alloy_atomic"
+			}],
+			rewards: [{
+				id: 1876,
+				type: "item",
+				item: "mekanism:enriched_refined_obsidian",
+				count: 8
+			}]
+		},
+		{
+			x: 13.5d,
+			y: -2.0d,
+			dependencies: [I;414],
+			id: 1877,
+			tasks: [{
+				id: 1878,
+				type: "item",
+				item: "mekanism:advanced_mechanical_pipe",
+				count: 8L
+			}],
+			rewards: [{
+				id: 1879,
+				type: "item",
+				item: "mekanism:advanced_mechanical_pipe",
+				count: 8
+			}]
+		},
+		{
+			x: 13.5d,
+			y: -3.5d,
+			dependencies: [I;1877],
+			id: 1880,
+			tasks: [{
+				id: 1881,
+				type: "item",
+				item: "mekanism:elite_mechanical_pipe",
+				count: 8L
+			}],
+			rewards: [{
+				id: 1882,
+				type: "item",
+				item: "mekanism:elite_mechanical_pipe",
+				count: 8
+			}]
+		},
+		{
+			x: 13.5d,
+			y: -5.0d,
+			dependencies: [I;1880],
+			id: 1883,
+			tasks: [{
+				id: 1884,
+				type: "item",
+				item: "mekanism:ultimate_mechanical_pipe",
+				count: 8L
+			}],
+			rewards: [{
+				id: 1885,
+				type: "item",
+				item: "mekanism:ultimate_mechanical_pipe",
+				count: 8
+			}]
+		},
+		{
+			x: 18.0d,
+			y: -0.5d,
+			id: 1886,
+			tasks: [{
+				id: 1887,
+				type: "item",
+				item: "mekanism:basic_pressurized_tube",
+				count: 8L
+			}],
+			rewards: [{
+				id: 1888,
+				type: "item",
+				item: "mekanism:basic_pressurized_tube",
+				count: 8
+			}]
+		},
+		{
+			x: 18.0d,
+			y: -2.0d,
+			dependencies: [I;1886],
+			id: 1889,
+			tasks: [{
+				id: 1890,
+				type: "item",
+				item: "mekanism:advanced_pressurized_tube",
+				count: 8L
+			}],
+			rewards: [{
+				id: 1891,
+				type: "item",
+				item: "mekanism:advanced_pressurized_tube",
+				count: 8
+			}]
+		},
+		{
+			x: 18.0d,
+			y: -3.5d,
+			dependencies: [I;1889],
+			id: 1892,
+			tasks: [{
+				id: 1893,
+				type: "item",
+				item: "mekanism:elite_pressurized_tube",
+				count: 8L
+			}]
+		},
+		{
+			x: 18.0d,
+			y: -5.0d,
+			dependencies: [I;1892],
+			id: 1894,
+			tasks: [{
+				id: 1895,
+				type: "item",
+				item: "mekanism:ultimate_pressurized_tube",
+				count: 8L
+			}],
+			rewards: [{
+				id: 1896,
+				type: "item",
+				item: "mekanism:ultimate_pressurized_tube",
+				count: 8
+			}]
+		},
+		{
+			x: 15.0d,
+			y: -2.0d,
+			dependencies: [I;416],
+			id: 1897,
+			tasks: [{
+				id: 1898,
+				type: "item",
+				item: "mekanism:advanced_universal_cable",
+				count: 8L
+			}],
+			rewards: [{
+				id: 1899,
+				type: "item",
+				item: "mekanism:advanced_universal_cable",
+				count: 8
+			}]
+		},
+		{
+			x: 15.0d,
+			y: -3.5d,
+			dependencies: [I;1897],
+			id: 1900,
+			tasks: [{
+				id: 1901,
+				type: "item",
+				item: "mekanism:elite_universal_cable",
+				count: 8L
+			}]
+		},
+		{
+			x: 15.0d,
+			y: -5.0d,
+			dependencies: [I;1900],
+			id: 1902,
+			tasks: [{
+				id: 1903,
+				type: "item",
+				item: "mekanism:ultimate_universal_cable",
+				count: 8L
+			}]
+		},
+		{
+			x: 16.5d,
+			y: -2.0d,
+			dependencies: [I;421],
+			id: 1904,
+			tasks: [{
+				id: 1905,
+				type: "item",
+				item: "mekanism:advanced_logistical_transporter",
+				count: 8L
+			}],
+			rewards: [{
+				id: 1906,
+				type: "item",
+				item: "mekanism:advanced_logistical_transporter",
+				count: 8
+			}]
+		},
+		{
+			x: 16.5d,
+			y: -3.5d,
+			dependencies: [I;1904],
+			id: 1907,
+			tasks: [{
+				id: 1908,
+				type: "item",
+				item: "mekanism:elite_logistical_transporter",
+				count: 8L
+			}]
+		},
+		{
+			x: 16.5d,
+			y: -5.0d,
+			dependencies: [I;1907],
+			id: 1909,
+			tasks: [{
+				id: 1910,
+				type: "item",
+				item: "mekanism:ultimate_logistical_transporter",
+				count: 8L
+			}],
+			rewards: [{
+				id: 1911,
+				type: "item",
+				item: "mekanism:ultimate_logistical_transporter",
+				count: 8
+			}]
+		},
+		{
+			x: 13.5d,
+			y: 2.5d,
+			id: 1912,
+			tasks: [{
+				id: 1913,
+				type: "item",
+				item: "mekanism:basic_fluid_tank"
+			}]
+		},
+		{
+			x: 15.0d,
+			y: 2.5d,
+			id: 1914,
+			tasks: [{
+				id: 1915,
+				type: "item",
+				item: "mekanism:basic_chemical_tank"
+			}]
+		},
+		{
+			x: 10.5d,
+			y: -0.5d,
+			dependencies: [I;384],
+			id: 1916,
+			tasks: [{
+				id: 1917,
+				type: "item",
+				item: "mekanismgenerators:heat_generator"
+			}]
+		},
+		{
+			x: 10.5d,
+			y: -2.0d,
+			dependencies: [I;1916],
+			id: 1918,
+			tasks: [{
+				id: 1919,
+				type: "item",
+				item: "mekanismgenerators:bio_generator"
+			}]
+		},
+		{
+			x: 10.5d,
+			y: -3.5d,
+			dependencies: [I;1918],
+			id: 1920,
+			tasks: [{
+				id: 1921,
+				type: "item",
+				item: "mekanismgenerators:gas_burning_generator"
 			}]
 		}
 	]
