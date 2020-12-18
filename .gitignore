@@ -81,6 +81,7 @@ server/*.tar.xz
 server/usercache.json
 minecraft/knownkeys.txt
 instance.cfg
+*.tgz
 *.log
 *.code-workspace
 *.disabled
