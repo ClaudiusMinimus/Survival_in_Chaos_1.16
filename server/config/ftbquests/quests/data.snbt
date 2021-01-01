@@ -1,6 +1,6 @@
 {
 	version: 9,
-	last_id: 1921,
+	last_id: 2003,
 	title: "Suvival in Chaos",
 	default_reward_team: false,
 	default_consume_items: false,

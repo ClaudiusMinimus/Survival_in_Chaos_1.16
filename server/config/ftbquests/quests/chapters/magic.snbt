@@ -1,7 +1,7 @@
 {
 	id: 1404,
 	filename: "magic",
-	order_index: 9,
+	order_index: 10,
 	title: "Magic",
 	icon: {
 		id: "botania:pixie_ring",
@@ -248,8 +248,8 @@
 			}]
 		},
 		{
-			x: 2.5d,
-			y: -7.5d,
+			x: -0.5d,
+			y: -8.0d,
 			dependencies: [I;1426],
 			id: 1549,
 			tasks: [{
@@ -272,8 +272,8 @@
 			}]
 		},
 		{
-			x: 4.0d,
-			y: -8.5d,
+			x: -0.5d,
+			y: -9.5d,
 			dependencies: [I;1549],
 			id: 1552,
 			tasks: [{
@@ -320,6 +320,122 @@
 				id: 1643,
 				type: "item",
 				item: "mahoutsukai:guidebook"
+			}]
+		},
+		{
+			x: 2.5d,
+			y: -6.0d,
+			description: ["The Runic Altar is an important work station where you will make rune and other items."],
+			dependencies: [I;1426],
+			id: 1986,
+			tasks: [{
+				id: 1987,
+				type: "item",
+				item: "botania:runic_altar"
+			}],
+			rewards: [{
+				id: 2001,
+				type: "item",
+				item: "botania:rune_water"
+			}]
+		},
+		{
+			x: 2.5d,
+			y: -7.5d,
+			description: ["Place an Alchemy Catyalst under a Mana pool allows you to make some interesting items. Drop the cactus or the rotten flesh into a pool to see what you get back."],
+			dependencies: [I;1426],
+			id: 1988,
+			tasks: [{
+				id: 1989,
+				type: "item",
+				item: "botania:alchemy_catalyst"
+			}],
+			rewards: [
+				{
+					id: 2002,
+					type: "item",
+					item: "minecraft:rotten_flesh",
+					count: 8
+				},
+				{
+					id: 2003,
+					type: "item",
+					item: "minecraft:cactus",
+					count: 8
+				}
+			]
+		},
+		{
+			x: -2.0d,
+			y: -8.0d,
+			dependencies: [I;1549],
+			id: 1990,
+			tasks: [{
+				id: 1991,
+				type: "item",
+				item: {
+					id: "botania:crafting_halo",
+					Count: true,
+					tag: {
+						rotationBase: 712.3563f
+					}
+				}
+			}]
+		},
+		{
+			x: 4.0d,
+			y: -7.0d,
+			description: ["Creates a trickle of Mana which is stored in Mana containing items in your inventory"],
+			dependencies: [I;1986],
+			id: 1992,
+			tasks: [{
+				id: 1993,
+				type: "item",
+				item: "botania:aura_ring"
+			}],
+			rewards: [{
+				id: 1994,
+				type: "item",
+				item: {
+					id: "botania:mana_tablet",
+					Count: true,
+					tag: {}
+				}
+			}]
+		},
+		{
+			x: 4.0d,
+			y: -5.5d,
+			dependencies: [I;1986],
+			id: 1995,
+			tasks: [{
+				id: 1996,
+				type: "item",
+				item: "botania:terra_plate"
+			}],
+			rewards: [{
+				id: 2000,
+				type: "item",
+				item: "minecraft:lapis_block",
+				count: 4
+			}]
+		},
+		{
+			x: 5.5d,
+			y: -6.5d,
+			description: ["An ingot for making more advanced items."],
+			dependencies: [I;1995],
+			id: 1997,
+			tasks: [{
+				id: 1998,
+				type: "item",
+				item: "botania:terrasteel_ingot",
+				count: 4L
+			}],
+			rewards: [{
+				id: 1999,
+				type: "item",
+				item: "botania:terrasteel_block"
 			}]
 		}
 	]
