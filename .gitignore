@@ -24,6 +24,7 @@ server/backups/*
 server/config/*
 server/crash-reports/*
 server/config/defaultoptions/*
+minecraft/kubejs/exported/*
 server/libraries/*
 server/local/*
 server/logs/*
