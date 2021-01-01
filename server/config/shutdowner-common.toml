@@ -1,0 +1,23 @@
+
+["Shutdowner settings"]
+
+	["Shutdowner settings"."server shutdown hang settings"]
+		#Whether to kill the server when shutdown takes too long. default: true
+		shouldDetectShutDownHang = true
+		#Print remaining threads to log? default:true
+		printThreads = true
+		#The maximum time the shutdown is allowed to take. default: 120s
+		#Range: 1 ~ 20000
+		maxShutDownTime = 120
+
+	["Shutdowner settings"."server runtime hang settings"]
+		#Whether to detect and close the server hang during runtime default: true
+		shouldDetectHang = true
+
+	["Shutdowner settings"."server timed shutdown settings"]
+		#Whether to use the timed shutdown default: true
+		shouldAutoShutDown = true
+		#Shutdown ever X minutes default: 180
+		#Range: 1 ~ 20000
+		shutDownInterval = 180
+

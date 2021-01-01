@@ -1,7 +1,7 @@
 {
 	id: 228,
 	filename: "tech",
-	order_index: 7,
+	order_index: 8,
 	title: "Tech",
 	icon: "titanium:iron_gear",
 	default_quest_shape: "",

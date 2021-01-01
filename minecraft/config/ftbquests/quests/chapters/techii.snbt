@@ -1,7 +1,7 @@
 {
 	id: 561,
 	filename: "techii",
-	order_index: 8,
+	order_index: 9,
 	title: "Tech II",
 	icon: "titanium:gold_gear",
 	default_quest_shape: "",
