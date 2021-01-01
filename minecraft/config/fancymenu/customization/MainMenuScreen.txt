@@ -11,102 +11,197 @@ customization {
 }
 
 customization {
-  identifier = %id=400322%
-  orientation = top-left
-  x = 15
-  action = movebutton
-  y = 105
+  identifier = %id=376346%
+  action = hidebutton
 }
 
 customization {
   identifier = %id=400322%
-  width = 215
+  orientation = top-left
+  x = 0
+  action = movebutton
+  y = 40
+}
+
+customization {
+  identifier = %id=400322%
+  width = 160
   action = resizebutton
   height = 20
+}
+
+customization {
+  identifier = %id=400322%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=400322%
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/images/menu/hover/multiplayer.png
+  backgroundnormal = config/fancymenu/images/menu/multiplayer.png
 }
 
 customization {
   identifier = %id=604382%
   orientation = top-left
-  x = 65
+  x = 55
   action = movebutton
-  y = 205
+  y = 140
+}
+
+customization {
+  identifier = %id=604382%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=604382%
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/images/menu/hover/accessibility.png
+  backgroundnormal = config/fancymenu/images/menu/accessibility.png
 }
 
 customization {
   identifier = %id=400382%
   orientation = top-left
-  x = 15
+  x = 0
   action = movebutton
-  y = 155
+  y = 60
 }
 
 customization {
   identifier = %id=400382%
-  width = 105
+  width = 160
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=400382%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=400382%
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/images/menu/hover/options.png
+  backgroundnormal = config/fancymenu/images/menu/options.png
+}
+
+customization {
+  identifier = %id=502382%
+  orientation = top-left
+  x = 0
+  action = movebutton
+  y = 120
+}
+
+customization {
+  identifier = %id=502382%
+  width = 160
   action = resizebutton
   height = 20
 }
 
 customization {
   identifier = %id=502382%
-  orientation = top-left
-  x = 125
-  action = movebutton
-  y = 155
+  action = setbuttonlabel
+  value = 
 }
 
 customization {
   identifier = %id=502382%
-  width = 105
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/images/menu/hover/quit.png
+  backgroundnormal = config/fancymenu/images/menu/quit.png
+}
+
+customization {
+  identifier = %id=376382%
+  orientation = top-left
+  x = 1
+  action = movebutton
+  y = 140
+}
+
+customization {
+  identifier = %id=376382%
+  width = 54
   action = resizebutton
   height = 20
 }
 
 customization {
   identifier = %id=376382%
-  orientation = top-left
-  x = 40
-  action = movebutton
-  y = 205
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=376382%
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/images/menu/hover/abc.png
+  backgroundnormal = config/fancymenu/images/menu/abc.png
 }
 
 customization {
   identifier = %id=400298%
   orientation = top-left
-  x = 15
+  x = 0
+  action = movebutton
+  y = 20
+}
+
+customization {
+  identifier = %id=400298%
+  width = 160
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=400298%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=400298%
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/images/menu/hover/singleplayer.png
+  backgroundnormal = config/fancymenu/images/menu/singleplayer.png
+}
+
+customization {
+  identifier = %id=400346%
+  orientation = top-left
+  x = 0
   action = movebutton
   y = 80
 }
 
 customization {
-  identifier = %id=400298%
-  width = 215
+  identifier = %id=400346%
+  width = 160
   action = resizebutton
   height = 20
 }
 
 customization {
   identifier = %id=400346%
-  orientation = top-left
-  x = 15
-  action = movebutton
-  y = 130
+  action = setbuttonlabel
+  value = 
 }
 
 customization {
   identifier = %id=400346%
-  width = 105
-  action = resizebutton
-  height = 20
-}
-
-customization {
-  identifier = %id=376346%
-  orientation = top-left
-  x = 15
-  action = movebutton
-  y = 205
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/images/menu/hover/mods.png
+  backgroundnormal = config/fancymenu/images/menu/mods.png
 }
 
 customization {
@@ -117,11 +212,14 @@ customization {
 customization {
   orientation = top-left
   buttonaction = openlink
-  x = 125
-  width = 105
+  x = 0
+  width = 160
   action = addbutton
-  y = 130
-  label = Discord
+  y = 100
+  backgroundhovered = config/fancymenu/images/menu/hover/discord.png
+  description = Please come join our discord server&ncommunity for fun and support!
+  label = 
+  backgroundnormal = config/fancymenu/images/menu/discord.png
   value = https://discord.gg/jXrx4Tu
   height = 20
 }
@@ -134,19 +232,22 @@ customization {
   action = addtext
   y = -13
   scale = 1.0
-  value = Survival in Chaos v.1.16.4-0.16.0
+  value = Survival in Chaos v.1.16.4-0.16.1
 }
 
 customization {
   orientation = top-left
-  hoverlabel = Use code 'minimus' for 25% off 1st month
   buttonaction = openlink
-  x = 15
-  width = 215
+  backgroundhovered = config/fancymenu/images/menu/hover/server.png
+  description = Use code 'minimus' for&n25% off 1st month
+  label = 
+  hoverlabel = 
+  x = 0
+  width = 213
   action = addbutton
-  y = 180
-  label = Need a server to play with friends?
-  value = 
-  height = 20
+  y = 160
+  backgroundnormal = config/fancymenu/images/menu/server.png
+  value = https://bisecthosting.com/minimus
+  height = 37
 }
 
