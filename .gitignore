@@ -37,6 +37,7 @@ server/world/*
 server/world*
 
 # Ignore these files
+mmc-pack.json
 builds/*(copy).zip
 builds/sic-server*.zip
 minecraft/ESM/*
@@ -120,4 +121,3 @@ modlist.html
 !minecraft/config/gobber-general.toml
 !server/config/quark-common.toml
 !server/server.properties
-!mmc-pack.json
