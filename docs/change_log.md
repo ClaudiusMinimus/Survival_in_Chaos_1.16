@@ -1,8 +1,64 @@
 ### Change Log
-- Mods Added: 
+ Version 0.17.0 
+- Mods Added: None
 - Mods Updated:
-- Mods Removed: None
+  - alltheores-1.1.15-1.16.4-35.1.13
+  - appliedenergistics2-8.2.0-beta.1
+  - architectury-1.2.65-forge
+  - biggerreactors-1.16.4-0.4.1-beta
+  - blame-1.7.6
+  - bluepower-1.16.4-0.5.231-alpha-universal
+  - BotanyPots-1.16.4-6.0.12
+  - BotanyTrees-1.16.4-2.0.6
+  - buildersaddition-1.16.4-20201220b
+  - buildinggadgets-1.16.4-3.7.3
+  - cc-tweaked-1.16.4-1.95.0
+  - ceramicbucket-2.5.2-1.16.2+
+  - cloth-config-forge-4.1.2
+  - CodeChickenLib-1.16.4-3.5.0.401-universal
+  - comforts-forge-1.16.4-4.0.0.3
+  - crashutilities-3.8.1
+  - curios-forge-1.16.4-4.0.3.3
+  - Cyclic-1.16.4-1.0.2
+  - EasySteel-1.16.4-1.2.13
+  - engineersdecor-1.16.4-1.1.6-b1
+  - engineerstools-1.16.4-1.1.3-b1
+  - envirocore-1.16.4-3.0.6.0
+  - enviromats-1.16.4-2.0.6.0
+  - envirotech-1.16.4-3.0.6.0
+  - extremeSoundMuffler-3.3_Forge-1.16.4
+  - FallingTree-Forge-1.16.4-2.8.1
+  - ftb-chunks-1604.2.2.54
+  - ftb-quests-1604.1.1.21
+  - globaldataandresourcepacks-1.16.4-1.7.4
+  - industrial-foregoing-1.16.4-3.2.7-7d95990
+  - itemcollectors-1.0.7-mc1.16.4
+  - jei-1.16.4-7.6.1.63
+  - konkrete_1.1.1-2_MC_1.16.2-1.16.4
+  - kubejs-1604.3.4.134-forge
+  - mahoutsukai-1.16.4-v1.26.13
+  - MysticalAgradditions-1.16.4-4.1.2
+  - phosphophyllite-1.16.4-0.4.0-beta
+  - polymorph-forge-1.16.4-0.21
+  - potionsmaster-0.1.34-1.16.4-35.1.13
+  - Quark-r2.4-283
+  - randompatches-2.1.0
+  - rftoolsstorage-1.16-2.0.8
+  - rftoolsutility-1.16-3.0.20
+  - rsgauges-1.16.4-1.2.6
+  - SilentGear-1.16.3-2.4.9+197
+  - SilentGems-1.16.3-3.7.6+109
+  - titanium-1.16.4-3.2.4
+  - u_team_core-1.16.4-3.1.17.191
+  - valkyrielib-1.16.4-3.0.6.1
+  - Xaeros_Minimap_20.30.1_Forge_1.16.4
+  - XaerosWorldMap_1.11.6_Forge_1.16.4
+- Mods Removed: 
+  - Ender Chests (was redundant since Ender Storage has both chests and tanks)
+  - Ender Tanks
 - Other Changes:
+  - Quest updates include starting new questline for Rats
+  - Forge 35.1.28
 
  Version 0.15.1 
 - Mods Added: 
