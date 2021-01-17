@@ -34,26 +34,26 @@
 
 #Item Cooldown Settings
 [item_cooldown_settings]
-	#Number of ticks duration for the Staff of the Sniper cooldown [0-120, default: 60]
-	#Range: 0 ~ 120
+	#Number of ticks duration for the Staff of the Sniper cooldown [0-3600, default: 60]
+	#Range: 0 ~ 3600
 	staffSniperCooldown = 30
-	#Number of ticks duration for the Ring of the Explorer cooldown [0-1200, default: 480]
-	#Range: 0 ~ 1200
+	#Number of ticks duration for the Ring of the Explorer cooldown [0-3600, default: 480]
+	#Range: 0 ~ 3600
 	ringExplorerCooldown = 480
-	#Number of ticks duration for the Ring of Above cooldown [0-240, default: 80]
-	#Range: 0 ~ 120
+	#Number of ticks duration for the Ring of Above cooldown [0-3600, default: 80]
+	#Range: 0 ~ 3600
 	ringAboveCooldown = 80
-	#Number of ticks duration for the Sword of the Sniper cooldown [0-120, default: 60]
-	#Range: 0 ~ 120
+	#Number of ticks duration for the Sword of the Sniper cooldown [0-3600, default: 60]
+	#Range: 0 ~ 3600
 	swordSniperCooldown = 60
-	#Number of ticks duration for the Ring of the Miner cooldown [0-240, default: 80]
-	#Range: 0 ~ 120
+	#Number of ticks duration for the Ring of the Miner cooldown [0-3600, default: 80]
+	#Range: 0 ~ 3600
 	ringMinerCooldown = 80
-	#Number of ticks duration for the Ring of Blink cooldown [0-120, default: 60]
-	#Range: 0 ~ 120
+	#Number of ticks duration for the Ring of Blink cooldown [0-3600, default: 60]
+	#Range: 0 ~ 3600
 	ringBlinkCooldown = 60
-	#Number of ticks duration for the Ring of the Lumberjack cooldown [0-240, default: 80]
-	#Range: 0 ~ 120
+	#Number of ticks duration for the Ring of the Lumberjack cooldown [0-3600, default: 80]
+	#Range: 0 ~ 3600
 	ringLumberjackCooldown = 80
 
 #Settings for Maturator
@@ -82,7 +82,7 @@
 	#Chances of Gobber Ore pocket being generated [0-100, default: 15]
 	#Range: 0 ~ 100
 	gobberOreChance = 15
-	#Maximal height for Gobber Ore pocket generation [0-255, default: 50]
+	#Maximal height for Gobber Ore pocket generation [0-255, default: 30]
 	#Range: 0 ~ 255
 	gobberOreMaxHeight = 255
 	#Generate Gobber Ore in the world [true / false]
@@ -113,6 +113,12 @@
 	#Ring of Attraction - Distance coal blocks magnet effect [default: 5]
 	#Range: 0 ~ 15
 	ringAttractionBlocking = 5
+	#Ring of Dismissal - Sets the horizontal velocity [default: 0.2]
+	#Range: 0.0 ~ 15.0
+	ringDismissalVelocity = 0.2
+	#Ring of Dismissal - Sets the horizontal range to detect mobs [default: 8.0]
+	#Range: 0.0 ~ 16.0
+	ringDismissalLift = 8.0
 
 #Enable Dragon Armor Void Protect - immune to /kill command
 [dragon_armor_void]
@@ -239,4 +245,15 @@
 	gobberLuckyBlockMaxHeight = 255
 	#Generate Gobber Lucky Block in the world [true / false]
 	gobberLuckyBlockGeneration = true
+
+#Armor Health Perks Settings
+[armor_health_perk_settings]
+	#Enable/disable Gobber Armor health perks
+	gobberArmorHealthPerks = true
+	#Enable/disable Gobber Nether Armor health perks
+	gobberNetherArmorHealthPerks = true
+	#Enable/disable Gobber End Armor health perks
+	gobberEndArmorHealthPerks = true
+	#Enable/disable Gobber Dragon Armor health perks
+	gobberDragonArmorHealthPerks = true
 
