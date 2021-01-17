@@ -13,7 +13,7 @@ B:hidebranding = 'true';
 B:hidelogo = 'true';
 B:showmainmenufooter = 'true';
 B:hiderealmsnotifications = 'true';
-B:hideforgenotifications = 'false';
+B:hideforgenotifications = 'true';
 
 
 ##[mainmenu_splash]

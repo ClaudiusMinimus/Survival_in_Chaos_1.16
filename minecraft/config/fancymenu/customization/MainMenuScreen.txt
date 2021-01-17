@@ -232,7 +232,7 @@ customization {
   action = addtext
   y = -13
   scale = 1.0
-  value = Survival in Chaos v.1.16.4-0.17.0
+  value = Survival in Chaos v.1.16.5-0.18.0
 }
 
 customization {
