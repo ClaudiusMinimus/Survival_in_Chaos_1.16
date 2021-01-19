@@ -1,5 +1,90 @@
 ### Change Log
- Version 0.17.0 
+
+Version 1.19.2
+- Mods Added: 
+  - moreoverlays-1.18.13-mc1.16.5
+- Mods Updated:
+  - allthemodium-1.1.27-1.16.4-35.1.13
+  - alltheores-1.1.19-1.16.4-35.1.13
+  - appliedenergistics2-8.2.0-beta.2
+  - architectury-1.3.80-forge
+  - AutoRestart-1.16.5-1.0.0
+  - biggerreactors-1.16.4-0.4.3-beta
+  - blame-1.16.4-1.9.0
+  - bluepower-1.16.4-0.5.233-alpha-universal
+  - Bookshelf-1.16.5-10.0.1
+  - BotanyPots-1.16.5-7.0.1
+  - BotanyTrees-1.16.5-3.0.1
+  - buildersaddition-1.16.4-20210118a
+  - cc-tweaked-1.16.4-1.95.2
+  - ceramicbucket-2.5.6-1.16.2+
+  - chiselsandbits-0.2.9-RELEASE
+  - cloth-config-forge-4.1.3
+  - comforts-forge-1.16.4-4.0.1.0
+  - Controlling-7.0.0.12
+  - curios-forge-1.16.4-4.0.3.5
+  - Cyclic-1.16.4-1.1.3
+  - dankstorage-3.14
+  - DarkUtilities-1.16.4-7.0.7
+  - EasierSleeping-1.16.5-1.0.0
+  - EasySteel-1.16.4-1.2.14
+  - elevatorid-1.16.5-1.7.11
+  - EnchantmentDescriptions-1.16.4-6.0.3
+  - engineersdecor-1.16.4-1.1.6-b3
+  - envirotech-1.16.4-3.0.6.1
+  - essentials-1.16.5-2.10.1
+  - extremeSoundMuffler-3.6_Forge-1.16.4
+  - FallingTree-Forge-1.16.5-2.10.0
+  - FastWorkbench-1.16.4-4.5.0
+  - ftb-chunks-1604.2.2.58
+  - ftb-essentials-1604.1.0.13
+  - ftb-gui-library-1604.2.0.28-forge
+  - Gobber2-Forge-1.16.4-2.3.45
+  - gravestone-1.16.5-1.0.0
+  - industrial-foregoing-1.16.4-3.2.8.3-7ac4a96
+  - itemcollectors-1.0.9-mc1.16.4
+  - jei-1.16.4-7.6.1.65
+  - JustEnoughResources-1.16.4-0.12.0.104
+  - kubejs-1604.3.4.144-forge
+  - LightingWand-1.16.4-1.7.3
+  - Lollipop-1.16.4-3.2.4
+  - mahoutsukai-1.16.5-v1.27.4
+  - MysticalAgradditions-1.16.4-4.1.3
+  - NaturesAura-33.4
+  - phosphophyllite-1.16.4-0.4.1-beta
+  - Placebo-1.16.4-4.4.1
+  - polymorph-forge-1.16.4-0.22
+  - Powah-1.16.4-2.3.9
+  - Quark-r2.4-295
+  - randompatches-2.1.5-forge
+  - rats-7.0.5-1.16.3
+  - reap-1.16.5-1.0.0
+  - refinedstorage-1.9.11
+  - repurposed_structures-1.16.4-2.3.4
+  - rsgauges-1.16.4-1.2.7-b2
+  - Runelic-1.16.4-6.0.4
+  - shulkerbox-1.16.5-1.0.0
+  - SilentGear-1.16.3-2.5.1+206
+  - SilentGems-1.16.3-3.7.9+112
+  - SilentMechanisms-1.16.3-0.8.9+74
+  - SimpleStorageNetwork-1.16.4-1.3.1
+  - tellme-forge-1.16.4-0.9.1
+  - theoneprobe-1.16-3.0.7
+  - Tips-1.16.4-3.0.2
+  - titanium-1.16.4-3.2.5
+  - torchmaster-2.3.6
+  - ultra_amplified_dimension-1.16.4-9.0.3-forge
+  - Wither-Skeleton-Tweaks-1.16.4-5.3.0
+  - Xaeros_Minimap_21.0.0_Forge_1.16.5
+  - XaerosWorldMap_1.11.7_Forge_1.16.5
+- Mods Removed: 
+  - Light Level Overlay
+- Other Changes:
+  - Minecraft updated to 1.16.5
+  - Forge 36.0.1
+  - Fixed dupe bug with Blue Power alloy furnace and Silent Gear tools
+
+Version 0.17.0 
 - Mods Added: None
 - Mods Updated:
   - alltheores-1.1.15-1.16.4-35.1.13
