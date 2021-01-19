@@ -57,6 +57,7 @@ minecraft/patchouli_data.json
 minecraft/realms_persistence.json
 minecraft/reauth.toml
 minecraft/screenshots/*
+minecraft/servers.dat
 minecraft/servers.dat_old
 minecraft/soundsMuffled.dat
 minecraft/TrashSlotSaveState.json
