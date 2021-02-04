@@ -97,7 +97,7 @@ customization {
   orientation = top-left
   x = 0
   action = movebutton
-  y = 120
+  y = 121
 }
 
 customization {
@@ -232,7 +232,7 @@ customization {
   action = addtext
   y = -13
   scale = 1.0
-  value = Survival in Chaos v.1.16.5-0.20.0
+  value = Survival in Chaos v.1.16.5-0.21.0
 }
 
 customization {
