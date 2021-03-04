@@ -1,5 +1,5 @@
 ### Change Log
-## Version 0.22.0
+## Version 1.19.2
 - Mods Added: none
 - Mods Updated:
   - AmbientSounds_v3.1.5_mc1.16.5
@@ -90,13 +90,13 @@
   - valhelsia_core-16.0.5
   - valkyrielib-1.16.5-3.0.7.2
   - Waystones_1.16.5-7.4.0
+  - worldedit-mod-7.2.3
   - Xaeros_Minimap_21.4.1_Forge_1.16.5
   - XaerosWorldMap_1.12.1_Forge_1.16.5
-- Mods Removed: 
-  - worldedit-mod-7.2.3 (crashed server)
+- Mods Removed: none
 - Other Changes:
   - Updated forge to 36.0.45
-  - Updated Suvival in Chaos book
+  - Updated Survival in Chaos book
   - Updated quests
 
 ## Version 1.19.2 (should have been 0.19.2)
