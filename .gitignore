@@ -63,6 +63,7 @@ minecraft/soundsMuffled.dat
 minecraft/TrashSlotSaveState.json
 minecraft/usercache.json
 minecraft/usernamecache.json
+minecraft/openloader/.cache
 server/.mixin.out/*
 server/maessentials/homes/*
 server/auto_restart/restart
@@ -72,6 +73,7 @@ server/server.json
 server/mods_0.1.tar.gz
 server/banned-ips.json
 server/banned-players.json
+server/openloader/.cache
 server/1.16.*.json
 server/eula.txt
 server/forge.jar
@@ -122,4 +124,3 @@ modlist.html
 !minecraft/config/gobber-general.toml
 !server/config/quark-common.toml
 !server/server.properties
-minecraft/openloader/.cache

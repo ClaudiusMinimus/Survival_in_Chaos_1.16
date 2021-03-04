@@ -44,6 +44,12 @@ customization {
 }
 
 customization {
+  identifier = %id=400322%
+  action = setbuttondescription
+  description = The official server will soon be whitelisted.&nTo play, you will need to join our discord&n(see discord button on this page) and apply&nto be whitelisted.
+}
+
+customization {
   identifier = %id=604382%
   orientation = top-left
   x = 55
@@ -95,7 +101,7 @@ customization {
 customization {
   identifier = %id=502382%
   orientation = top-left
-  x = 0
+  x = 1
   action = movebutton
   y = 121
 }
@@ -232,7 +238,7 @@ customization {
   action = addtext
   y = -13
   scale = 1.0
-  value = Survival in Chaos v.1.16.5-0.21.0
+  value = Survival in Chaos v.1.16.5-0.22.0
 }
 
 customization {

@@ -1,5 +1,5 @@
 #Minecraft server properties
-#Wed Dec 23 13:35:49 CET 2020
+#Wed Mar 03 20:45:05 MST 2021
 allow-flight=true
 allow-nether=true
 broadcast-console-to-ops=false
@@ -28,7 +28,7 @@ max-build-height=256
 max-players=20
 max-tick-time=-1
 max-world-size=29999984
-motd=\u00A73 Survival in Chaos \u00A76>>>> Ver. 1.16.4-0.20.1 <<<<\nWelcome to our offical server\! 
+motd=\u00A73 Survival in Chaos \u00A76>>>> Ver. 1.16.4-0.22.0 <<<<\nWelcome to our offical server\! 
 network-compression-threshold=256
 online-mode=true
 op-permission-level=4
@@ -42,7 +42,7 @@ rcon.port=25575
 resource-pack=
 resource-pack-sha1=
 server-ip=
-server-port=25566
+server-port=25565
 snooper-enabled=false
 spawn-animals=true
 spawn-monsters=true
