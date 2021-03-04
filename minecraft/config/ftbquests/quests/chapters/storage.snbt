@@ -1,7 +1,8 @@
 {
-	id: 261,
+	id: "0000000000000105",
+	group: "",
+	order_index: 5,
 	filename: "storage",
-	order_index: 6,
 	title: "Storage",
 	icon: "minecraft:barrel",
 	default_quest_shape: "",
@@ -11,25 +12,25 @@
 			y: 0.0d,
 			shape: "diamond",
 			size: 1.5d,
-			id: 262,
+			id: "0000000000000106",
 			tasks: [{
-				id: 263,
+				id: "0000000000000107",
 				type: "item",
 				item: "minecraft:barrel"
 			}],
 			rewards: [
 				{
-					id: 555,
+					id: "000000000000022B",
 					type: "item",
 					item: "cyclic:item_pipe",
 					count: 8
 				},
 				{
-					id: 556,
+					id: "000000000000022C",
 					type: "item",
 					item: {
 						id: "cyclic:cable_wrench",
-						Count: true,
+						Count: 1b,
 						tag: {}
 					}
 				}
@@ -38,15 +39,15 @@
 		{
 			x: 1.0d,
 			y: -1.5d,
-			dependencies: [I;262],
-			id: 438,
+			dependencies: ["0000000000000106"],
+			id: "00000000000001B6",
 			tasks: [{
-				id: 439,
+				id: "00000000000001B7",
 				type: "item",
 				item: "metalbarrels:wood_to_iron"
 			}],
 			rewards: [{
-				id: 557,
+				id: "000000000000022D",
 				type: "item",
 				item: "xreliquary:emperor_chalice"
 			}]
@@ -54,19 +55,19 @@
 		{
 			x: 1.0d,
 			y: -3.0d,
-			dependencies: [I;438],
-			id: 440,
+			dependencies: ["00000000000001B6"],
+			id: "00000000000001B8",
 			tasks: [{
-				id: 441,
+				id: "00000000000001B9",
 				type: "item",
 				item: "metalbarrels:iron_to_gold"
 			}],
 			rewards: [{
-				id: 1138,
+				id: "0000000000000472",
 				type: "item",
 				item: {
 					id: "silentgems:enchantment_token",
-					Count: true,
+					Count: 1b,
 					tag: {
 						TokenEnchantments: [{
 							lvl: 1s,
@@ -79,15 +80,15 @@
 		{
 			x: 1.0d,
 			y: -4.5d,
-			dependencies: [I;440],
-			id: 442,
+			dependencies: ["00000000000001B8"],
+			id: "00000000000001BA",
 			tasks: [{
-				id: 443,
+				id: "00000000000001BB",
 				type: "item",
 				item: "metalbarrels:gold_to_diamond"
 			}],
 			rewards: [{
-				id: 1139,
+				id: "0000000000000473",
 				type: "item",
 				item: "gobber2:gobber2_foo_nether",
 				count: 8
@@ -96,19 +97,19 @@
 		{
 			x: 1.0d,
 			y: -6.0d,
-			dependencies: [I;442],
-			id: 444,
+			dependencies: ["00000000000001BA"],
+			id: "00000000000001BC",
 			tasks: [{
-				id: 445,
+				id: "00000000000001BD",
 				type: "item",
 				item: "metalbarrels:diamond_to_crystal"
 			}],
 			rewards: [{
-				id: 1140,
+				id: "0000000000000474",
 				type: "item",
 				item: {
 					id: "cyclic:spell_ice",
-					Count: true,
+					Count: 1b,
 					tag: {
 						Damage: 0
 					}
@@ -121,14 +122,14 @@
 			y: 0.0d,
 			shape: "diamond",
 			size: 1.5d,
-			id: 455,
+			id: "00000000000001C7",
 			tasks: [{
-				id: 456,
+				id: "00000000000001C8",
 				type: "item",
 				item: "storagenetwork:kabel"
 			}],
 			rewards: [{
-				id: 554,
+				id: "000000000000022A",
 				type: "item",
 				item: "rats:rat_burger",
 				count: 8
@@ -137,15 +138,15 @@
 		{
 			x: -4.5d,
 			y: -1.5d,
-			dependencies: [I;455],
-			id: 457,
+			dependencies: ["00000000000001C7"],
+			id: "00000000000001C9",
 			tasks: [{
-				id: 458,
+				id: "00000000000001CA",
 				type: "item",
 				item: "storagenetwork:storage_kabel"
 			}],
 			rewards: [{
-				id: 1491,
+				id: "00000000000005D3",
 				type: "xp",
 				xp: 50
 			}]
@@ -153,15 +154,15 @@
 		{
 			x: -7.5d,
 			y: -1.5d,
-			dependencies: [I;455],
-			id: 459,
+			dependencies: ["00000000000001C7"],
+			id: "00000000000001CB",
 			tasks: [{
-				id: 460,
+				id: "00000000000001CC",
 				type: "item",
 				item: "storagenetwork:import_kabel"
 			}],
 			rewards: [{
-				id: 1493,
+				id: "00000000000005D5",
 				type: "xp",
 				xp: 50
 			}]
@@ -169,15 +170,15 @@
 		{
 			x: -4.5d,
 			y: 0.0d,
-			dependencies: [I;455],
-			id: 461,
+			dependencies: ["00000000000001C7"],
+			id: "00000000000001CD",
 			tasks: [{
-				id: 462,
+				id: "00000000000001CE",
 				type: "item",
 				item: "storagenetwork:inventory"
 			}],
 			rewards: [{
-				id: 1503,
+				id: "00000000000005DF",
 				type: "item",
 				item: "minecraft:sea_lantern",
 				count: 8
@@ -186,15 +187,15 @@
 		{
 			x: -3.0d,
 			y: 0.0d,
-			dependencies: [I;461],
-			id: 463,
+			dependencies: ["00000000000001CD"],
+			id: "00000000000001CF",
 			tasks: [{
-				id: 464,
+				id: "00000000000001D0",
 				type: "item",
 				item: "storagenetwork:request"
 			}],
 			rewards: [{
-				id: 1377,
+				id: "0000000000000561",
 				type: "item",
 				item: "minecraft:magma_cream",
 				count: 4
@@ -203,19 +204,19 @@
 		{
 			x: -6.0d,
 			y: -2.0d,
-			dependencies: [I;455],
-			id: 465,
+			dependencies: ["00000000000001C7"],
+			id: "00000000000001D1",
 			tasks: [{
-				id: 466,
+				id: "00000000000001D2",
 				type: "item",
 				item: "storagenetwork:master"
 			}],
 			rewards: [{
-				id: 1271,
+				id: "00000000000004F7",
 				type: "item",
 				item: {
 					id: "silentgems:enchantment_token",
-					Count: true,
+					Count: 1b,
 					tag: {
 						TokenEnchantments: [{
 							lvl: 1,
@@ -228,15 +229,15 @@
 		{
 			x: -5.0d,
 			y: -3.0d,
-			dependencies: [I;465],
-			id: 467,
+			dependencies: ["00000000000001D1"],
+			id: "00000000000001D3",
 			tasks: [{
-				id: 468,
+				id: "00000000000001D4",
 				type: "item",
 				item: "storagenetwork:crafting_remote"
 			}],
 			rewards: [{
-				id: 1272,
+				id: "00000000000004F8",
 				type: "item",
 				item: "silentgear:salvager"
 			}]
@@ -244,15 +245,15 @@
 		{
 			x: -7.0d,
 			y: -3.0d,
-			dependencies: [I;465],
-			id: 469,
+			dependencies: ["00000000000001D1"],
+			id: "00000000000001D5",
 			tasks: [{
-				id: 470,
+				id: "00000000000001D6",
 				type: "item",
 				item: "storagenetwork:inventory_remote"
 			}],
 			rewards: [{
-				id: 1373,
+				id: "000000000000055D",
 				type: "item",
 				item: "cyclic:heart"
 			}]
@@ -260,15 +261,15 @@
 		{
 			x: -8.5d,
 			y: -2.5d,
-			dependencies: [I;459],
-			id: 471,
+			dependencies: ["00000000000001CB"],
+			id: "00000000000001D7",
 			tasks: [{
-				id: 472,
+				id: "00000000000001D8",
 				type: "item",
 				item: "storagenetwork:import_filter_kabel"
 			}],
 			rewards: [{
-				id: 1494,
+				id: "00000000000005D6",
 				type: "xp",
 				xp: 50
 			}]
@@ -276,15 +277,15 @@
 		{
 			x: -3.5d,
 			y: -2.5d,
-			dependencies: [I;457],
-			id: 473,
+			dependencies: ["00000000000001C9"],
+			id: "00000000000001D9",
 			tasks: [{
-				id: 474,
+				id: "00000000000001DA",
 				type: "item",
 				item: "storagenetwork:filter_kabel"
 			}],
 			rewards: [{
-				id: 1492,
+				id: "00000000000005D4",
 				type: "xp",
 				xp: 50
 			}]
@@ -292,15 +293,15 @@
 		{
 			x: -7.5d,
 			y: 0.0d,
-			dependencies: [I;455],
-			id: 475,
+			dependencies: ["00000000000001C7"],
+			id: "00000000000001DB",
 			tasks: [{
-				id: 476,
+				id: "00000000000001DC",
 				type: "item",
 				item: "storagenetwork:export_kabel"
 			}],
 			rewards: [{
-				id: 1489,
+				id: "00000000000005D1",
 				type: "xp",
 				xp: 50
 			}]
@@ -311,14 +312,14 @@
 			y: 0.0d,
 			shape: "diamond",
 			size: 1.5d,
-			id: 481,
+			id: "00000000000001E1",
 			tasks: [{
-				id: 482,
+				id: "00000000000001E2",
 				type: "item",
 				item: "fluidtank:tank_wood"
 			}],
 			rewards: [{
-				id: 1255,
+				id: "00000000000004E7",
 				type: "item",
 				item: "botanypots:hopper_botany_pot"
 			}]
@@ -326,19 +327,19 @@
 		{
 			x: -11.0d,
 			y: -1.5d,
-			dependencies: [I;481],
-			id: 483,
+			dependencies: ["00000000000001E1"],
+			id: "00000000000001E3",
 			tasks: [{
-				id: 484,
+				id: "00000000000001E4",
 				type: "item",
 				item: "fluidtank:tank_stone"
 			}],
 			rewards: [{
-				id: 1256,
+				id: "00000000000004E8",
 				type: "item",
 				item: {
 					id: "silentgems:enchantment_token",
-					Count: true,
+					Count: 1b,
 					tag: {
 						TokenEnchantments: [{
 							lvl: 1s,
@@ -351,19 +352,19 @@
 		{
 			x: -11.0d,
 			y: -3.0d,
-			dependencies: [I;483],
-			id: 485,
+			dependencies: ["00000000000001E3"],
+			id: "00000000000001E5",
 			tasks: [{
-				id: 486,
+				id: "00000000000001E6",
 				type: "item",
 				item: "fluidtank:tank_iron"
 			}],
 			rewards: [{
-				id: 1257,
+				id: "00000000000004E9",
 				type: "item",
 				item: {
 					id: "rats:black_death_mask",
-					Count: true,
+					Count: 1b,
 					tag: {
 						Damage: 0
 					}
@@ -373,19 +374,19 @@
 		{
 			x: -11.0d,
 			y: -4.5d,
-			dependencies: [I;485],
-			id: 487,
+			dependencies: ["00000000000001E5"],
+			id: "00000000000001E7",
 			tasks: [{
-				id: 488,
+				id: "00000000000001E8",
 				type: "item",
 				item: "fluidtank:tank_gold"
 			}],
 			rewards: [{
-				id: 1258,
+				id: "00000000000004EA",
 				type: "item",
 				item: {
 					id: "silentgems:enchantment_token",
-					Count: true,
+					Count: 1b,
 					tag: {
 						TokenEnchantments: [{
 							lvl: 1s,
@@ -399,15 +400,15 @@
 		{
 			x: -11.0d,
 			y: -6.0d,
-			dependencies: [I;487],
-			id: 489,
+			dependencies: ["00000000000001E7"],
+			id: "00000000000001E9",
 			tasks: [{
-				id: 490,
+				id: "00000000000001EA",
 				type: "item",
 				item: "fluidtank:tank_diamond"
 			}],
 			rewards: [{
-				id: 1259,
+				id: "00000000000004EB",
 				type: "item",
 				item: "xreliquary:pyromancer_staff"
 			}]
@@ -415,19 +416,19 @@
 		{
 			x: -11.0d,
 			y: -7.5d,
-			dependencies: [I;489],
-			id: 491,
+			dependencies: ["00000000000001E9"],
+			id: "00000000000001EB",
 			tasks: [{
-				id: 492,
+				id: "00000000000001EC",
 				type: "item",
 				item: "fluidtank:tank_emerald"
 			}],
 			rewards: [{
-				id: 1260,
+				id: "00000000000004EC",
 				type: "item",
 				item: {
 					id: "silentgear:crossbow",
-					Count: true,
+					Count: 1b,
 					tag: {
 						SGear_UUIDLeast: -5793065083293377914L,
 						SGear_UUIDMost: 3787864417353944517L,
@@ -529,15 +530,15 @@
 		{
 			x: -11.0d,
 			y: 3.0d,
-			dependencies: [I;497],
-			id: 495,
+			dependencies: ["00000000000001F1"],
+			id: "00000000000001EF",
 			tasks: [{
-				id: 496,
+				id: "00000000000001F0",
 				type: "item",
 				item: "fluidtank:fluid_source"
 			}],
 			rewards: [{
-				id: 1253,
+				id: "00000000000004E5",
 				type: "item",
 				item: "silentgems:secret_donut",
 				count: 8
@@ -546,19 +547,19 @@
 		{
 			x: -11.0d,
 			y: 1.5d,
-			dependencies: [I;481],
-			id: 497,
+			dependencies: ["00000000000001E1"],
+			id: "00000000000001F1",
 			tasks: [{
-				id: 498,
+				id: "00000000000001F2",
 				type: "item",
 				item: "fluidtank:tank_void"
 			}],
 			rewards: [{
-				id: 1254,
+				id: "00000000000004E6",
 				type: "item",
 				item: {
 					id: "silentgems:enchantment_token",
-					Count: true,
+					Count: 1b,
 					tag: {
 						TokenEnchantments: [{
 							lvl: 1,
@@ -574,14 +575,14 @@
 			y: 0.0d,
 			shape: "diamond",
 			size: 1.5d,
-			id: 499,
+			id: "00000000000001F3",
 			tasks: [{
-				id: 500,
+				id: "00000000000001F4",
 				type: "item",
 				title: "Any storagedrawers:drawers",
 				item: {
 					id: "itemfilters:tag",
-					Count: true,
+					Count: 1b,
 					tag: {
 						value: "storagedrawers:drawers"
 					}
@@ -590,13 +591,13 @@
 			}],
 			rewards: [
 				{
-					id: 552,
+					id: "0000000000000228",
 					type: "item",
 					item: "xreliquary:glowing_bread",
 					count: 8
 				},
 				{
-					id: 1303,
+					id: "0000000000000517",
 					type: "item",
 					item: "theoneprobe:probe"
 				}
@@ -605,15 +606,15 @@
 		{
 			x: 3.0d,
 			y: 1.5d,
-			dependencies: [I;499],
-			id: 503,
+			dependencies: ["00000000000001F3"],
+			id: "00000000000001F7",
 			tasks: [{
-				id: 504,
+				id: "00000000000001F8",
 				type: "item",
 				item: "storagedrawers:compacting_drawers_3"
 			}],
 			rewards: [{
-				id: 1144,
+				id: "0000000000000478",
 				type: "item",
 				item: "xreliquary:lantern_of_paranoia"
 			}]
@@ -621,25 +622,25 @@
 		{
 			x: 3.0d,
 			y: -1.5d,
-			dependencies: [I;499],
-			id: 505,
+			dependencies: ["00000000000001F3"],
+			id: "00000000000001F9",
 			tasks: [{
-				id: 506,
+				id: "00000000000001FA",
 				type: "item",
 				item: "storagedrawers:controller"
 			}],
 			rewards: [
 				{
-					id: 509,
+					id: "00000000000001FD",
 					type: "item",
 					item: "storagedrawers:drawer_key"
 				},
 				{
-					id: 1146,
+					id: "000000000000047A",
 					type: "item",
 					item: {
 						id: "cyclic:charm_ultimate",
-						Count: true,
+						Count: 1b,
 						tag: {
 							Damage: 0
 						}
@@ -650,19 +651,19 @@
 		{
 			x: 3.0d,
 			y: -3.0d,
-			dependencies: [I;505],
-			id: 507,
+			dependencies: ["00000000000001F9"],
+			id: "00000000000001FB",
 			tasks: [{
-				id: 508,
+				id: "00000000000001FC",
 				type: "item",
 				item: "storagedrawers:controller_slave"
 			}],
 			rewards: [{
-				id: 1147,
+				id: "000000000000047B",
 				type: "item",
 				item: {
 					id: "cyclic:spell_water",
-					Count: true,
+					Count: 1b,
 					tag: {
 						Damage: 0
 					}
@@ -672,19 +673,19 @@
 		{
 			x: 4.5d,
 			y: 0.0d,
-			dependencies: [I;499],
-			id: 510,
+			dependencies: ["00000000000001F3"],
+			id: "00000000000001FE",
 			tasks: [{
-				id: 511,
+				id: "00000000000001FF",
 				type: "item",
 				item: "storagedrawers:upgrade_template"
 			}],
 			rewards: [{
-				id: 1145,
+				id: "0000000000000479",
 				type: "item",
 				item: {
 					id: "cyclic:charm_home",
-					Count: true,
+					Count: 1b,
 					tag: {
 						Damage: 0
 					}
@@ -694,19 +695,19 @@
 		{
 			x: 4.5d,
 			y: -1.5d,
-			dependencies: [I;510],
-			id: 512,
+			dependencies: ["00000000000001FE"],
+			id: "0000000000000200",
 			tasks: [{
-				id: 513,
+				id: "0000000000000201",
 				type: "item",
 				item: "storagedrawers:obsidian_storage_upgrade"
 			}],
 			rewards: [{
-				id: 1263,
+				id: "00000000000004EF",
 				type: "item",
 				item: {
 					id: "xreliquary:mercy_cross",
-					Count: true,
+					Count: 1b,
 					tag: {
 						Damage: 0
 					}
@@ -716,15 +717,15 @@
 		{
 			x: 4.5d,
 			y: -3.0d,
-			dependencies: [I;512],
-			id: 514,
+			dependencies: ["0000000000000200"],
+			id: "0000000000000202",
 			tasks: [{
-				id: 515,
+				id: "0000000000000203",
 				type: "item",
 				item: "storagedrawers:iron_storage_upgrade"
 			}],
 			rewards: [{
-				id: 1264,
+				id: "00000000000004F0",
 				type: "xp",
 				xp: 50
 			}]
@@ -732,15 +733,15 @@
 		{
 			x: 4.5d,
 			y: -4.5d,
-			dependencies: [I;514],
-			id: 516,
+			dependencies: ["0000000000000202"],
+			id: "0000000000000204",
 			tasks: [{
-				id: 517,
+				id: "0000000000000205",
 				type: "item",
 				item: "storagedrawers:gold_storage_upgrade"
 			}],
 			rewards: [{
-				id: 1265,
+				id: "00000000000004F1",
 				type: "item",
 				item: "simplefarming:cheeseburger",
 				count: 8
@@ -749,15 +750,15 @@
 		{
 			x: 4.5d,
 			y: -6.0d,
-			dependencies: [I;516],
-			id: 518,
+			dependencies: ["0000000000000204"],
+			id: "0000000000000206",
 			tasks: [{
-				id: 519,
+				id: "0000000000000207",
 				type: "item",
 				item: "storagedrawers:diamond_storage_upgrade"
 			}],
 			rewards: [{
-				id: 1266,
+				id: "00000000000004F2",
 				type: "item",
 				item: "rftoolsbuilder:builder"
 			}]
@@ -765,15 +766,15 @@
 		{
 			x: 4.5d,
 			y: -7.5d,
-			dependencies: [I;518],
-			id: 520,
+			dependencies: ["0000000000000206"],
+			id: "0000000000000208",
 			tasks: [{
-				id: 521,
+				id: "0000000000000209",
 				type: "item",
 				item: "storagedrawers:emerald_storage_upgrade"
 			}],
 			rewards: [{
-				id: 1267,
+				id: "00000000000004F3",
 				type: "item",
 				item: "rats:token_piece",
 				count: 4
@@ -782,30 +783,30 @@
 		{
 			x: 4.5d,
 			y: 1.5d,
-			dependencies: [I;510],
-			id: 522,
+			dependencies: ["00000000000001FE"],
+			id: "000000000000020A",
 			tasks: [{
-				id: 523,
+				id: "000000000000020B",
 				type: "item",
 				item: "storagedrawers:void_upgrade"
 			}],
 			rewards: [{
-				id: 1270,
+				id: "00000000000004F6",
 				type: "item"
 			}]
 		},
 		{
 			x: 6.0d,
 			y: -1.5d,
-			dependencies: [I;510],
-			id: 524,
+			dependencies: ["00000000000001FE"],
+			id: "000000000000020C",
 			tasks: [{
-				id: 525,
+				id: "000000000000020D",
 				type: "item",
 				item: "storagedrawers:conversion_upgrade"
 			}],
 			rewards: [{
-				id: 1268,
+				id: "00000000000004F4",
 				type: "xp",
 				xp: 50
 			}]
@@ -813,19 +814,19 @@
 		{
 			x: 6.0d,
 			y: 0.0d,
-			dependencies: [I;510],
-			id: 526,
+			dependencies: ["00000000000001FE"],
+			id: "000000000000020E",
 			tasks: [{
-				id: 527,
+				id: "000000000000020F",
 				type: "item",
 				item: "storagedrawers:redstone_upgrade"
 			}],
 			rewards: [{
-				id: 1269,
+				id: "00000000000004F5",
 				type: "item",
 				item: {
 					id: "rats:ghost_pirat_cutlass",
-					Count: true,
+					Count: 1b,
 					tag: {
 						Damage: 0
 					}
@@ -835,19 +836,19 @@
 		{
 			x: 1.0d,
 			y: -7.5d,
-			dependencies: [I;444],
-			id: 1134,
+			dependencies: ["00000000000001BC"],
+			id: "000000000000046E",
 			tasks: [{
-				id: 1135,
+				id: "000000000000046F",
 				type: "item",
 				item: "metalbarrels:diamond_to_obsidian"
 			}],
 			rewards: [{
-				id: 1142,
+				id: "0000000000000476",
 				type: "item",
 				item: {
 					id: "minecraft:potion",
-					Count: true,
+					Count: 1b,
 					tag: {
 						Potion: "potionsmaster:diamond_sight"
 					}
@@ -861,28 +862,28 @@
 			y: 4.5d,
 			shape: "diamond",
 			size: 1.5d,
-			id: 1154,
+			id: "0000000000000482",
 			tasks: [
 				{
-					id: 1155,
+					id: "0000000000000483",
 					type: "item",
 					item: "refinedstorage:controller"
 				},
 				{
-					id: 1156,
+					id: "0000000000000484",
 					type: "item",
 					item: "refinedstorage:grid"
 				}
 			],
 			rewards: [
 				{
-					id: 1157,
+					id: "0000000000000485",
 					type: "item",
 					item: "refinedstorage:cable",
 					count: 12
 				},
 				{
-					id: 1158,
+					id: "0000000000000486",
 					type: "item",
 					item: "refinedstorage:external_storage",
 					count: 4
@@ -892,21 +893,21 @@
 		{
 			x: 0.0d,
 			y: 6.5d,
-			dependencies: [I;1154],
-			id: 1159,
+			dependencies: ["0000000000000482"],
+			id: "0000000000000487",
 			tasks: [{
-				id: 1160,
+				id: "0000000000000488",
 				type: "item",
 				item: "refinedstorage:disk_drive"
 			}],
 			rewards: [
 				{
-					id: 1197,
+					id: "00000000000004AD",
 					type: "xp",
 					xp: 100
 				},
 				{
-					id: 1382,
+					id: "0000000000000566",
 					type: "item",
 					item: "minecraft:magma_cream",
 					count: 8
@@ -916,21 +917,21 @@
 		{
 			x: -1.0d,
 			y: 9.0d,
-			dependencies: [I;1177],
-			id: 1161,
+			dependencies: ["0000000000000499"],
+			id: "0000000000000489",
 			tasks: [{
-				id: 1162,
+				id: "000000000000048A",
 				type: "item",
 				item: "refinedstorage:1k_storage_part"
 			}],
 			rewards: [
 				{
-					id: 1183,
+					id: "000000000000049F",
 					type: "item",
 					item: "refinedstorage:1k_storage_part"
 				},
 				{
-					id: 1443,
+					id: "00000000000005A3",
 					type: "item",
 					item: "refinedstorage:storage_housing"
 				}
@@ -939,21 +940,21 @@
 		{
 			x: -1.0d,
 			y: 10.5d,
-			dependencies: [I;1161],
-			id: 1163,
+			dependencies: ["0000000000000489"],
+			id: "000000000000048B",
 			tasks: [{
-				id: 1164,
+				id: "000000000000048C",
 				type: "item",
 				item: "refinedstorage:4k_storage_part"
 			}],
 			rewards: [
 				{
-					id: 1184,
+					id: "00000000000004A0",
 					type: "item",
 					item: "refinedstorage:4k_storage_part"
 				},
 				{
-					id: 1444,
+					id: "00000000000005A4",
 					type: "item",
 					item: "refinedstorage:storage_housing"
 				}
@@ -962,21 +963,21 @@
 		{
 			x: -1.0d,
 			y: 12.0d,
-			dependencies: [I;1163],
-			id: 1165,
+			dependencies: ["000000000000048B"],
+			id: "000000000000048D",
 			tasks: [{
-				id: 1166,
+				id: "000000000000048E",
 				type: "item",
 				item: "refinedstorage:16k_storage_part"
 			}],
 			rewards: [
 				{
-					id: 1185,
+					id: "00000000000004A1",
 					type: "item",
 					item: "refinedstorage:16k_storage_part"
 				},
 				{
-					id: 1445,
+					id: "00000000000005A5",
 					type: "item",
 					item: "refinedstorage:storage_housing"
 				}
@@ -985,21 +986,21 @@
 		{
 			x: -1.0d,
 			y: 13.5d,
-			dependencies: [I;1165],
-			id: 1167,
+			dependencies: ["000000000000048D"],
+			id: "000000000000048F",
 			tasks: [{
-				id: 1168,
+				id: "0000000000000490",
 				type: "item",
 				item: "refinedstorage:64k_storage_part"
 			}],
 			rewards: [
 				{
-					id: 1186,
+					id: "00000000000004A2",
 					type: "item",
 					item: "refinedstorage:64k_storage_part"
 				},
 				{
-					id: 1446,
+					id: "00000000000005A6",
 					type: "item",
 					item: "refinedstorage:storage_housing"
 				}
@@ -1008,21 +1009,21 @@
 		{
 			x: 1.0d,
 			y: 9.0d,
-			dependencies: [I;1177],
-			id: 1169,
+			dependencies: ["0000000000000499"],
+			id: "0000000000000491",
 			tasks: [{
-				id: 1170,
+				id: "0000000000000492",
 				type: "item",
 				item: "refinedstorage:64k_fluid_storage_part"
 			}],
 			rewards: [
 				{
-					id: 1187,
+					id: "00000000000004A3",
 					type: "item",
 					item: "refinedstorage:64k_fluid_storage_part"
 				},
 				{
-					id: 1447,
+					id: "00000000000005A7",
 					type: "item",
 					item: "refinedstorage:storage_housing"
 				}
@@ -1031,21 +1032,21 @@
 		{
 			x: 1.0d,
 			y: 10.5d,
-			dependencies: [I;1169],
-			id: 1171,
+			dependencies: ["0000000000000491"],
+			id: "0000000000000493",
 			tasks: [{
-				id: 1172,
+				id: "0000000000000494",
 				type: "item",
 				item: "refinedstorage:256k_fluid_storage_part"
 			}],
 			rewards: [
 				{
-					id: 1188,
+					id: "00000000000004A4",
 					type: "item",
 					item: "refinedstorage:256k_fluid_storage_part"
 				},
 				{
-					id: 1448,
+					id: "00000000000005A8",
 					type: "item",
 					item: "refinedstorage:storage_housing"
 				}
@@ -1054,21 +1055,21 @@
 		{
 			x: 1.0d,
 			y: 12.0d,
-			dependencies: [I;1171],
-			id: 1173,
+			dependencies: ["0000000000000493"],
+			id: "0000000000000495",
 			tasks: [{
-				id: 1174,
+				id: "0000000000000496",
 				type: "item",
 				item: "refinedstorage:1024k_fluid_storage_part"
 			}],
 			rewards: [
 				{
-					id: 1189,
+					id: "00000000000004A5",
 					type: "item",
 					item: "refinedstorage:1024k_fluid_storage_part"
 				},
 				{
-					id: 1449,
+					id: "00000000000005A9",
 					type: "item",
 					item: "refinedstorage:storage_housing"
 				}
@@ -1077,21 +1078,21 @@
 		{
 			x: 1.0d,
 			y: 13.5d,
-			dependencies: [I;1173],
-			id: 1175,
+			dependencies: ["0000000000000495"],
+			id: "0000000000000497",
 			tasks: [{
-				id: 1176,
+				id: "0000000000000498",
 				type: "item",
 				item: "refinedstorage:4096k_fluid_storage_part"
 			}],
 			rewards: [
 				{
-					id: 1190,
+					id: "00000000000004A6",
 					type: "item",
 					item: "refinedstorage:4096k_fluid_storage_part"
 				},
 				{
-					id: 1450,
+					id: "00000000000005AA",
 					type: "item",
 					item: "refinedstorage:storage_housing"
 				}
@@ -1101,15 +1102,15 @@
 			x: 0.0d,
 			y: 8.0d,
 			description: ["Storage Disks require a Storage Housing"],
-			dependencies: [I;1159],
-			id: 1177,
+			dependencies: ["0000000000000487"],
+			id: "0000000000000499",
 			tasks: [{
-				id: 1178,
+				id: "000000000000049A",
 				type: "item",
 				item: "refinedstorage:storage_housing"
 			}],
 			rewards: [{
-				id: 1191,
+				id: "00000000000004A7",
 				type: "item",
 				item: "refinedstorage:wrench"
 			}]
@@ -1117,15 +1118,15 @@
 		{
 			x: 1.0d,
 			y: 5.5d,
-			dependencies: [I;1159],
-			id: 1179,
+			dependencies: ["0000000000000487"],
+			id: "000000000000049B",
 			tasks: [{
-				id: 1180,
+				id: "000000000000049C",
 				type: "item",
 				item: "refinedstorage:importer"
 			}],
 			rewards: [{
-				id: 1181,
+				id: "000000000000049D",
 				type: "item",
 				item: "refinedstorage:speed_upgrade"
 			}]
@@ -1133,15 +1134,15 @@
 		{
 			x: -1.5d,
 			y: 7.0d,
-			dependencies: [I;1159],
-			id: 1192,
+			dependencies: ["0000000000000487"],
+			id: "00000000000004A8",
 			tasks: [{
-				id: 1193,
+				id: "00000000000004A9",
 				type: "item",
 				item: "refinedstorage:exporter"
 			}],
 			rewards: [{
-				id: 1194,
+				id: "00000000000004AA",
 				type: "item",
 				item: "refinedstorage:stack_upgrade"
 			}]
@@ -1149,15 +1150,15 @@
 		{
 			x: 6.0d,
 			y: 4.5d,
-			dependencies: [I;1154],
-			id: 1198,
+			dependencies: ["0000000000000482"],
+			id: "00000000000004AE",
 			tasks: [{
-				id: 1199,
+				id: "00000000000004AF",
 				type: "item",
 				item: "refinedstorage:crafting_grid"
 			}],
 			rewards: [{
-				id: 1206,
+				id: "00000000000004B6",
 				type: "item",
 				item: "simplefarming:fish_sandwich",
 				count: 8
@@ -1166,15 +1167,15 @@
 		{
 			x: 4.0d,
 			y: 5.0d,
-			dependencies: [I;1198],
-			id: 1200,
+			dependencies: ["00000000000004AE"],
+			id: "00000000000004B0",
 			tasks: [{
-				id: 1201,
+				id: "00000000000004B1",
 				type: "item",
 				item: "refinedstorage:pattern_grid"
 			}],
 			rewards: [{
-				id: 1202,
+				id: "00000000000004B2",
 				type: "item",
 				item: "refinedstorage:pattern",
 				count: 8
@@ -1183,16 +1184,16 @@
 		{
 			x: 1.5d,
 			y: 7.0d,
-			dependencies: [I;1159],
-			id: 1203,
+			dependencies: ["0000000000000487"],
+			id: "00000000000004B3",
 			tasks: [{
-				id: 1204,
+				id: "00000000000004B4",
 				type: "item",
 				item: "refinedstorage:storage_monitor",
 				count: 4L
 			}],
 			rewards: [{
-				id: 1205,
+				id: "00000000000004B5",
 				type: "item",
 				item: "refinedstorage:storage_monitor",
 				count: 2
@@ -1201,19 +1202,19 @@
 		{
 			x: 5.0d,
 			y: 3.0d,
-			dependencies: [I;1198],
-			id: 1207,
+			dependencies: ["00000000000004AE"],
+			id: "00000000000004B7",
 			tasks: [{
-				id: 1208,
+				id: "00000000000004B8",
 				type: "item",
 				item: "refinedstorage:constructor"
 			}],
 			rewards: [{
-				id: 1216,
+				id: "00000000000004C0",
 				type: "item",
 				item: {
 					id: "botania:cacophonium",
-					Count: true,
+					Count: 1b,
 					tag: {}
 				}
 			}]
@@ -1221,15 +1222,15 @@
 		{
 			x: 6.5d,
 			y: 3.0d,
-			dependencies: [I;1198],
-			id: 1209,
+			dependencies: ["00000000000004AE"],
+			id: "00000000000004B9",
 			tasks: [{
-				id: 1210,
+				id: "00000000000004BA",
 				type: "item",
 				item: "refinedstorage:destructor"
 			}],
 			rewards: [{
-				id: 1215,
+				id: "00000000000004BF",
 				type: "item",
 				item: "refinedstorage:fortune_1_upgrade"
 			}]
@@ -1237,19 +1238,19 @@
 		{
 			x: -1.5d,
 			y: 3.0d,
-			dependencies: [I;1154],
-			id: 1211,
+			dependencies: ["0000000000000482"],
+			id: "00000000000004BB",
 			tasks: [{
-				id: 1212,
+				id: "00000000000004BC",
 				type: "item",
 				item: "refinedstorage:relay"
 			}],
 			rewards: [{
-				id: 1217,
+				id: "00000000000004C1",
 				type: "item",
 				item: {
 					id: "minecraft:enchanted_book",
-					Count: true,
+					Count: 1b,
 					tag: {
 						StoredEnchantments: [{
 							lvl: 3,
@@ -1262,15 +1263,15 @@
 		{
 			x: -2.5d,
 			y: 2.0d,
-			dependencies: [I;1211],
-			id: 1213,
+			dependencies: ["00000000000004BB"],
+			id: "00000000000004BD",
 			tasks: [{
-				id: 1214,
+				id: "00000000000004BE",
 				type: "item",
 				item: "refinedstorage:detector"
 			}],
 			rewards: [{
-				id: 1218,
+				id: "00000000000004C2",
 				type: "item",
 				item: "gobber2:gobber2_gooey_beefstew",
 				count: 8
@@ -1279,15 +1280,15 @@
 		{
 			x: 7.0d,
 			y: 6.0d,
-			dependencies: [I;1198],
-			id: 1219,
+			dependencies: ["00000000000004AE"],
+			id: "00000000000004C3",
 			tasks: [{
-				id: 1220,
+				id: "00000000000004C4",
 				type: "item",
 				item: "refinedstorage:fluid_grid"
 			}],
 			rewards: [{
-				id: 1225,
+				id: "00000000000004C9",
 				type: "item",
 				item: "minecraft:ender_chest"
 			}]
@@ -1295,15 +1296,15 @@
 		{
 			x: 8.0d,
 			y: 7.5d,
-			dependencies: [I;1219],
-			id: 1221,
+			dependencies: ["00000000000004C3"],
+			id: "00000000000004C5",
 			tasks: [{
-				id: 1222,
+				id: "00000000000004C6",
 				type: "item",
 				item: "refinedstorage:fluid_interface"
 			}],
 			rewards: [{
-				id: 1226,
+				id: "00000000000004CA",
 				type: "item",
 				item: "usefulbackpacks:backpack_enderchest"
 			}]
@@ -1311,15 +1312,15 @@
 		{
 			x: 7.5d,
 			y: 4.5d,
-			dependencies: [I;1198],
-			id: 1223,
+			dependencies: ["00000000000004AE"],
+			id: "00000000000004C7",
 			tasks: [{
-				id: 1224,
+				id: "00000000000004C8",
 				type: "item",
 				item: "refinedstorage:interface"
 			}],
 			rewards: [{
-				id: 1229,
+				id: "00000000000004CD",
 				type: "item",
 				item: "minecraft:ender_eye",
 				count: 3
@@ -1328,15 +1329,15 @@
 		{
 			x: 2.5d,
 			y: 5.5d,
-			dependencies: [I;1200],
-			id: 1227,
+			dependencies: ["00000000000004B0"],
+			id: "00000000000004CB",
 			tasks: [{
-				id: 1228,
+				id: "00000000000004CC",
 				type: "item",
 				item: "refinedstorage:crafting_monitor"
 			}],
 			rewards: [{
-				id: 1618,
+				id: "0000000000000652",
 				type: "item",
 				item: "rats:cauldron_cheese"
 			}]
@@ -1344,15 +1345,15 @@
 		{
 			x: 3.5d,
 			y: 6.5d,
-			dependencies: [I;1200],
-			id: 1230,
+			dependencies: ["00000000000004B0"],
+			id: "00000000000004CE",
 			tasks: [{
-				id: 1231,
+				id: "00000000000004CF",
 				type: "item",
 				item: "refinedstorage:crafter"
 			}],
 			rewards: [{
-				id: 1232,
+				id: "00000000000004D0",
 				type: "xp",
 				xp: 100
 			}]
@@ -1360,23 +1361,23 @@
 		{
 			x: -2.0d,
 			y: 4.5d,
-			dependencies: [I;1154],
-			id: 1233,
+			dependencies: ["0000000000000482"],
+			id: "00000000000004D1",
 			tasks: [{
-				id: 1234,
+				id: "00000000000004D2",
 				type: "item",
 				item: {
 					id: "refinedstorage:portable_grid",
-					Count: true,
+					Count: 1b,
 					tag: {}
 				}
 			}],
 			rewards: [{
-				id: 1380,
+				id: "0000000000000564",
 				type: "item",
 				item: {
 					id: "silentgems:enchantment_token",
-					Count: true,
+					Count: 1b,
 					tag: {
 						TokenEnchantments: [{
 							lvl: 1s,
@@ -1389,22 +1390,22 @@
 		{
 			x: -1.5d,
 			y: 5.5d,
-			dependencies: [I;1154],
-			id: 1235,
+			dependencies: ["0000000000000482"],
+			id: "00000000000004D3",
 			tasks: [
 				{
-					id: 1236,
+					id: "00000000000004D4",
 					type: "item",
 					item: "refinedstorage:security_manager"
 				},
 				{
-					id: 1237,
+					id: "00000000000004D5",
 					type: "item",
 					item: "refinedstorage:security_card"
 				}
 			],
 			rewards: [{
-				id: 1381,
+				id: "0000000000000565",
 				type: "item",
 				item: "cyclic:heart"
 			}]
@@ -1412,15 +1413,15 @@
 		{
 			x: 0.0d,
 			y: 2.5d,
-			dependencies: [I;1154],
-			id: 1238,
+			dependencies: ["0000000000000482"],
+			id: "00000000000004D6",
 			tasks: [{
-				id: 1239,
+				id: "00000000000004D7",
 				type: "item",
 				item: "refinedstorage:network_transmitter"
 			}],
 			rewards: [{
-				id: 1242,
+				id: "00000000000004DA",
 				type: "item",
 				item: "refinedstorage:network_card"
 			}]
@@ -1428,15 +1429,15 @@
 		{
 			x: 1.0d,
 			y: 1.5d,
-			dependencies: [I;1238],
-			id: 1240,
+			dependencies: ["00000000000004D6"],
+			id: "00000000000004D8",
 			tasks: [{
-				id: 1241,
+				id: "00000000000004D9",
 				type: "item",
 				item: "refinedstorage:network_receiver"
 			}],
 			rewards: [{
-				id: 1247,
+				id: "00000000000004DF",
 				type: "item",
 				item: "rats:plague_stew",
 				count: 4
@@ -1445,22 +1446,22 @@
 		{
 			x: 1.5d,
 			y: 3.5d,
-			dependencies: [I;1154],
-			id: 1243,
+			dependencies: ["0000000000000482"],
+			id: "00000000000004DB",
 			tasks: [
 				{
-					id: 1244,
+					id: "00000000000004DC",
 					type: "item",
 					item: "refinedstorageaddons:wireless_crafting_grid"
 				},
 				{
-					id: 1245,
+					id: "00000000000004DD",
 					type: "item",
 					item: "refinedstorage:wireless_transmitter"
 				}
 			],
 			rewards: [{
-				id: 1246,
+				id: "00000000000004DE",
 				type: "item",
 				item: "refinedstorage:range_upgrade",
 				count: 2
@@ -1469,15 +1470,15 @@
 		{
 			x: -1.0d,
 			y: -1.5d,
-			dependencies: [I;262],
-			id: 1518,
+			dependencies: ["0000000000000106"],
+			id: "00000000000005EE",
 			tasks: [{
-				id: 1519,
+				id: "00000000000005EF",
 				type: "item",
 				item: "metalbarrels:wood_to_copper"
 			}],
 			rewards: [{
-				id: 1524,
+				id: "00000000000005F4",
 				type: "item",
 				item: "minecraft:bucket"
 			}]
@@ -1485,15 +1486,15 @@
 		{
 			x: -1.0d,
 			y: -3.0d,
-			dependencies: [I;1518],
-			id: 1520,
+			dependencies: ["00000000000005EE"],
+			id: "00000000000005F0",
 			tasks: [{
-				id: 1521,
+				id: "00000000000005F1",
 				type: "item",
 				item: "metalbarrels:copper_to_silver"
 			}],
 			rewards: [{
-				id: 1525,
+				id: "00000000000005F5",
 				type: "item",
 				item: "minecraft:quartz",
 				count: 32
@@ -1502,15 +1503,15 @@
 		{
 			x: -1.0d,
 			y: -4.5d,
-			dependencies: [I;1520],
-			id: 1522,
+			dependencies: ["00000000000005F0"],
+			id: "00000000000005F2",
 			tasks: [{
-				id: 1523,
+				id: "00000000000005F3",
 				type: "item",
 				item: "metalbarrels:silver_to_gold"
 			}],
 			rewards: [{
-				id: 1526,
+				id: "00000000000005F6",
 				type: "item",
 				item: "rats:rat_upgrade_basic"
 			}]
@@ -1518,15 +1519,15 @@
 		{
 			x: -1.0d,
 			y: -6.0d,
-			dependencies: [I;1522],
-			id: 1527,
+			dependencies: ["00000000000005F2"],
+			id: "00000000000005F7",
 			tasks: [{
-				id: 1528,
+				id: "00000000000005F8",
 				type: "item",
 				item: "metalbarrels:copper_to_diamond"
 			}],
 			rewards: [{
-				id: 1531,
+				id: "00000000000005FB",
 				type: "item",
 				item: "minecraft:redstone_block",
 				count: 8
@@ -1535,19 +1536,19 @@
 		{
 			x: -1.0d,
 			y: -7.5d,
-			dependencies: [I;1527],
-			id: 1529,
+			dependencies: ["00000000000005F7"],
+			id: "00000000000005F9",
 			tasks: [{
-				id: 1530,
+				id: "00000000000005FA",
 				type: "item",
 				item: "metalbarrels:wood_to_obsidian"
 			}],
 			rewards: [{
-				id: 1532,
+				id: "00000000000005FC",
 				type: "item",
 				item: {
 					id: "minecraft:potion",
-					Count: true,
+					Count: 1b,
 					tag: {
 						Potion: "minecraft:long_fire_resistance"
 					}

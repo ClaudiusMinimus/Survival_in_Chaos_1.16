@@ -1,7 +1,8 @@
 {
-	id: 4,
+	id: "0000000000000004",
+	group: "",
+	order_index: 0,
 	filename: "fromthedarkness",
-	order_index: 1,
 	title: "From the Darkness",
 	icon: "minecraft:campfire",
 	default_quest_shape: "",
@@ -18,41 +19,41 @@
 			],
 			dependency_requirement: "one_completed",
 			size: 1.5d,
-			id: 5,
+			id: "0000000000000005",
 			tasks: [{
-				id: 6,
+				id: "0000000000000006",
 				type: "item",
 				item: "minecraft:dirt",
 				count: 10L
 			}],
 			rewards: [
 				{
-					id: 8,
+					id: "0000000000000008",
 					type: "item",
 					item: "minecraft:oak_door"
 				},
 				{
-					id: 453,
+					id: "00000000000001C5",
 					type: "item",
 					item: "waystones:waystone"
 				},
 				{
-					id: 454,
+					id: "00000000000001C6",
 					type: "item",
 					item: {
 						id: "waystones:warp_stone",
-						Count: true,
+						Count: 1b,
 						tag: {
 							Damage: 0
 						}
 					}
 				},
 				{
-					id: 1488,
+					id: "00000000000005D0",
 					type: "item",
 					item: {
 						id: "patchouli:guide_book",
-						Count: true,
+						Count: 1b,
 						tag: {
 							"patchouli:book": "patchouli:chaos"
 						}
@@ -68,15 +69,15 @@
 				"Use you axe and save your knuckles",
 				"Now chop down 16 logs."
 			],
-			dependencies: [I;5],
-			id: 13,
+			dependencies: ["0000000000000005"],
+			id: "000000000000000D",
 			tasks: [{
-				id: 14,
+				id: "000000000000000E",
 				type: "item",
 				title: "Any minecraft:logs",
 				item: {
 					id: "itemfilters:tag",
-					Count: true,
+					Count: 1b,
 					tag: {
 						value: "minecraft:logs"
 					}
@@ -84,11 +85,11 @@
 				count: 16L
 			}],
 			rewards: [{
-				id: 15,
+				id: "000000000000000F",
 				type: "item",
 				item: {
 					id: "mining_helmet:mining_helmet",
-					Count: true,
+					Count: 1b,
 					tag: {
 						Damage: 0
 					}
@@ -98,21 +99,21 @@
 		{
 			x: 3.0d,
 			y: 0.0d,
-			dependencies: [I;13],
-			id: 16,
+			dependencies: ["000000000000000D"],
+			id: "0000000000000010",
 			tasks: [{
-				id: 17,
+				id: "0000000000000011",
 				type: "item",
 				item: "craftingstation:crafting_station"
 			}],
 			rewards: [
 				{
-					id: 19,
+					id: "0000000000000013",
 					type: "xp",
 					xp: 10
 				},
 				{
-					id: 72,
+					id: "0000000000000048",
 					type: "item",
 					item: "simplefarming:pulled_pork_sandwich",
 					count: 8
@@ -123,15 +124,15 @@
 			title: "Any Minecraft Bed",
 			x: 3.0d,
 			y: -1.5d,
-			dependencies: [I;16],
-			id: 20,
+			dependencies: ["0000000000000010"],
+			id: "0000000000000014",
 			tasks: [{
-				id: 21,
+				id: "0000000000000015",
 				type: "item",
 				title: "Any minecraft:beds",
 				item: {
 					id: "itemfilters:tag",
-					Count: true,
+					Count: 1b,
 					tag: {
 						value: "minecraft:beds"
 					}
@@ -139,17 +140,17 @@
 			}],
 			rewards: [
 				{
-					id: 22,
+					id: "0000000000000016",
 					type: "xp",
 					xp: 10
 				},
 				{
-					id: 26,
+					id: "000000000000001A",
 					type: "item",
 					item: "minecraft:barrel"
 				},
 				{
-					id: 891,
+					id: "000000000000037B",
 					type: "item",
 					item: "torchmaster:megatorch"
 				}
@@ -160,15 +161,15 @@
 			x: 3.0d,
 			y: 1.5d,
 			description: ["Make a Composter so you can recycle a lot of your plant based organic leftovers."],
-			dependencies: [I;16],
-			id: 27,
+			dependencies: ["0000000000000010"],
+			id: "000000000000001B",
 			tasks: [{
-				id: 28,
+				id: "000000000000001C",
 				type: "item",
 				item: "minecraft:composter"
 			}],
 			rewards: [{
-				id: 29,
+				id: "000000000000001D",
 				type: "item",
 				item: "minecraft:bone_meal",
 				count: 64
@@ -178,32 +179,32 @@
 			x: 0.0d,
 			y: 3.0d,
 			description: ["Let's go get some iron!"],
-			dependencies: [I;33],
-			id: 30,
+			dependencies: ["0000000000000021"],
+			id: "000000000000001E",
 			tasks: [{
-				id: 31,
+				id: "000000000000001F",
 				type: "item",
 				item: "minecraft:iron_ore",
 				count: 12L
 			}],
 			rewards: [
 				{
-					id: 32,
+					id: "0000000000000020",
 					type: "item",
 					item: "minecraft:blast_furnace"
 				},
 				{
-					id: 73,
+					id: "0000000000000049",
 					type: "item",
 					item: "simplefarming:italian_beef",
 					count: 8
 				},
 				{
-					id: 1282,
+					id: "0000000000000502",
 					type: "item",
 					item: {
 						id: "easy_steel:crack_hammer",
-						Count: true,
+						Count: 1b,
 						tag: {
 							Damage: 0
 						}
@@ -214,21 +215,21 @@
 		{
 			x: 0.0d,
 			y: 1.5d,
-			dependencies: [I;5],
-			id: 33,
+			dependencies: ["0000000000000005"],
+			id: "0000000000000021",
 			tasks: [{
-				id: 34,
+				id: "0000000000000022",
 				type: "item",
 				item: "allthemodium:teleport_pad"
 			}],
 			rewards: [
 				{
-					id: 36,
+					id: "0000000000000024",
 					type: "item",
 					item: "dankstorage:dank_1"
 				},
 				{
-					id: 1611,
+					id: "000000000000064B",
 					type: "item",
 					item: "dankstorage:dock"
 				}
@@ -244,28 +245,28 @@
 				"",
 				"Make a campfire and enjoy the meats!"
 			],
-			dependencies: [I;16],
-			id: 37,
+			dependencies: ["0000000000000010"],
+			id: "0000000000000025",
 			tasks: [{
-				id: 38,
+				id: "0000000000000026",
 				type: "item",
 				item: "minecraft:campfire"
 			}],
 			rewards: [
 				{
-					id: 39,
+					id: "0000000000000027",
 					type: "item",
 					item: "minecraft:beef",
 					count: 4
 				},
 				{
-					id: 40,
+					id: "0000000000000028",
 					type: "item",
 					item: "minecraft:porkchop",
 					count: 4
 				},
 				{
-					id: 1300,
+					id: "0000000000000514",
 					type: "item",
 					item: "minecraft:rotten_flesh",
 					count: 4
@@ -276,20 +277,20 @@
 			x: 1.5d,
 			y: -1.5d,
 			description: ["If you will make me two stacks of torches, then I'll trade them for an awesome refillable torch launcher!"],
-			dependencies: [I;5],
-			id: 46,
+			dependencies: ["0000000000000005"],
+			id: "000000000000002E",
 			tasks: [{
-				id: 47,
+				id: "000000000000002F",
 				type: "item",
 				item: "minecraft:torch",
 				count: 128L
 			}],
 			rewards: [{
-				id: 49,
+				id: "0000000000000031",
 				type: "item",
 				item: {
 					id: "cyclic:torch_launcher",
-					Count: true,
+					Count: 1b,
 					tag: {
 						Damage: 0
 					}
@@ -305,14 +306,14 @@
 				"",
 				"Hint: The title may help you figure it out."
 			],
-			dependencies: [I;5],
-			id: 57,
+			dependencies: ["0000000000000005"],
+			id: "0000000000000039",
 			tasks: [{
-				id: 58,
+				id: "000000000000003A",
 				type: "item",
 				item: {
 					id: "ceramicbucket:filled_ceramic_bucket",
-					Count: true,
+					Count: 1b,
 					tag: {
 						Fluid: {
 							FluidName: "minecraft:water",
@@ -322,7 +323,7 @@
 				}
 			}],
 			rewards: [{
-				id: 59,
+				id: "000000000000003B",
 				type: "item",
 				item: "minecraft:slime_block"
 			}]
@@ -331,25 +332,25 @@
 			x: -1.5d,
 			y: 0.0d,
 			description: ["The allusive bamboo. We have found they can be crafted if you look in JEI"],
-			dependencies: [I;5],
-			id: 193,
+			dependencies: ["0000000000000005"],
+			id: "00000000000000C1",
 			tasks: [{
-				id: 194,
+				id: "00000000000000C2",
 				type: "item",
 				item: "minecraft:bamboo"
 			}],
 			rewards: [
 				{
-					id: 197,
+					id: "00000000000000C5",
 					type: "xp",
 					xp: 25
 				},
 				{
-					id: 788,
+					id: "0000000000000314",
 					type: "item",
 					item: {
 						id: "engineerstools:ariadne_coal",
-						Count: true,
+						Count: 1b,
 						tag: {
 							Damage: 0
 						}
@@ -361,22 +362,22 @@
 			x: -3.0d,
 			y: 0.0d,
 			description: ["Scaffolding - what a wonderful invention! With it, you can scurry up on top of something. You can make a simple platform and it all comes tumbling down with a simple punch,"],
-			dependencies: [I;193],
-			id: 195,
+			dependencies: ["00000000000000C1"],
+			id: "00000000000000C3",
 			tasks: [{
-				id: 196,
+				id: "00000000000000C4",
 				type: "item",
 				item: "minecraft:scaffolding",
 				count: 18L
 			}],
 			rewards: [
 				{
-					id: 198,
+					id: "00000000000000C6",
 					type: "xp",
 					xp: 50
 				},
 				{
-					id: 566,
+					id: "0000000000000236",
 					type: "item",
 					item: "darkutils:charm_gluttony"
 				}
@@ -385,16 +386,16 @@
 		{
 			x: -1.0d,
 			y: 2.5d,
-			dependencies: [I;33],
-			id: 199,
+			dependencies: ["0000000000000021"],
+			id: "00000000000000C7",
 			tasks: [{
-				id: 200,
+				id: "00000000000000C8",
 				type: "item",
 				item: "minecraft:cobblestone",
 				count: 64L
 			}],
 			rewards: [{
-				id: 227,
+				id: "00000000000000E3",
 				type: "item",
 				item: "mysticalagriculture:inferium_furnace"
 			}]
@@ -402,16 +403,16 @@
 		{
 			x: -2.0d,
 			y: 3.5d,
-			dependencies: [I;199],
-			id: 201,
+			dependencies: ["00000000000000C7"],
+			id: "00000000000000C9",
 			tasks: [{
-				id: 202,
+				id: "00000000000000CA",
 				type: "item",
 				item: "minecraft:stone",
 				count: 64L
 			}],
 			rewards: [{
-				id: 226,
+				id: "00000000000000E2",
 				type: "item",
 				item: "clockout:clockout_block"
 			}]
@@ -419,25 +420,25 @@
 		{
 			x: -3.0d,
 			y: 4.5d,
-			dependencies: [I;
-				199,
-				201
+			dependencies: [
+				"00000000000000C7",
+				"00000000000000C9"
 			],
-			id: 203,
+			id: "00000000000000CB",
 			tasks: [{
-				id: 204,
+				id: "00000000000000CC",
 				type: "item",
 				item: "minecraft:smooth_stone",
 				count: 64L
 			}],
 			rewards: [
 				{
-					id: 225,
+					id: "00000000000000E1",
 					type: "item",
 					item: "cyclic:anvil"
 				},
 				{
-					id: 1290,
+					id: "000000000000050A",
 					type: "item",
 					item: "rftoolspower:coalgenerator"
 				}
@@ -446,20 +447,20 @@
 		{
 			x: -1.5d,
 			y: -1.5d,
-			dependencies: [I;5],
-			id: 205,
+			dependencies: ["0000000000000005"],
+			id: "00000000000000CD",
 			tasks: [
 				{
-					id: 206,
+					id: "00000000000000CE",
 					type: "item",
 					item: "waterstrainer:strainer_base"
 				},
 				{
-					id: 207,
+					id: "00000000000000CF",
 					type: "item",
 					item: {
 						id: "waterstrainer:strainer_survivalist",
-						Count: true,
+						Count: 1b,
 						tag: {
 							Damage: 0
 						}
@@ -468,12 +469,12 @@
 			],
 			rewards: [
 				{
-					id: 208,
+					id: "00000000000000D0",
 					type: "xp",
 					xp: 50
 				},
 				{
-					id: 1283,
+					id: "0000000000000503",
 					type: "item",
 					item: "xreliquary:fertile_lily_pad"
 				}
@@ -482,26 +483,26 @@
 		{
 			x: -2.0d,
 			y: -3.0d,
-			dependencies: [I;205],
-			id: 209,
+			dependencies: ["00000000000000CD"],
+			id: "00000000000000D1",
 			tasks: [
 				{
-					id: 210,
+					id: "00000000000000D2",
 					type: "item",
 					item: {
 						id: "waterstrainer:strainer_fisherman",
-						Count: true,
+						Count: 1b,
 						tag: {
 							Damage: 0
 						}
 					}
 				},
 				{
-					id: 217,
+					id: "00000000000000D9",
 					type: "item",
 					item: {
 						id: "waterstrainer:garden_trowel",
-						Count: true,
+						Count: 1b,
 						tag: {
 							Damage: 0
 						}
@@ -510,24 +511,24 @@
 			],
 			rewards: [
 				{
-					id: 218,
+					id: "00000000000000DA",
 					type: "item",
 					item: "waterstrainer:worm",
 					count: 32
 				},
 				{
-					id: 219,
+					id: "00000000000000DB",
 					type: "item",
 					item: {
 						id: "waterstrainer:bait_pot",
-						Count: true,
+						Count: 1b,
 						tag: {
 							Damage: 0
 						}
 					}
 				},
 				{
-					id: 1149,
+					id: "000000000000047D",
 					type: "item",
 					item: "waterstrainer:efficiency_meter"
 				}
@@ -536,14 +537,14 @@
 		{
 			x: -2.5d,
 			y: -4.5d,
-			dependencies: [I;209],
-			id: 211,
+			dependencies: ["00000000000000D1"],
+			id: "00000000000000D3",
 			tasks: [{
-				id: 212,
+				id: "00000000000000D4",
 				type: "item",
 				item: {
 					id: "waterstrainer:strainer_fisherman_solid",
-					Count: true,
+					Count: 1b,
 					tag: {
 						Damage: 0
 					}
@@ -551,13 +552,13 @@
 			}],
 			rewards: [
 				{
-					id: 220,
+					id: "00000000000000DC",
 					type: "item",
 					item: "waterstrainer:worm",
 					count: 32
 				},
 				{
-					id: 222,
+					id: "00000000000000DE",
 					type: "item",
 					item: "waterstrainer:worm_bin"
 				}
@@ -566,14 +567,14 @@
 		{
 			x: -3.0d,
 			y: -1.5d,
-			dependencies: [I;205],
-			id: 213,
+			dependencies: ["00000000000000CD"],
+			id: "00000000000000D5",
 			tasks: [{
-				id: 214,
+				id: "00000000000000D6",
 				type: "item",
 				item: {
 					id: "waterstrainer:strainer_survivalist_solid",
-					Count: true,
+					Count: 1b,
 					tag: {
 						Damage: 0
 					}
@@ -581,11 +582,11 @@
 			}],
 			rewards: [
 				{
-					id: 224,
+					id: "00000000000000E0",
 					type: "item",
 					item: {
 						id: "minecraft:enchanted_book",
-						Count: true,
+						Count: 1b,
 						tag: {
 							StoredEnchantments: [{
 								lvl: 3,
@@ -595,7 +596,7 @@
 					}
 				},
 				{
-					id: 787,
+					id: "0000000000000313",
 					type: "item",
 					item: "xreliquary:hero_medallion"
 				}
@@ -604,14 +605,14 @@
 		{
 			x: -3.0d,
 			y: -6.0d,
-			dependencies: [I;211],
-			id: 215,
+			dependencies: ["00000000000000D3"],
+			id: "00000000000000D7",
 			tasks: [{
-				id: 216,
+				id: "00000000000000D8",
 				type: "item",
 				item: {
 					id: "waterstrainer:strainer_fisherman_reinforced",
-					Count: true,
+					Count: 1b,
 					tag: {
 						Damage: 0
 					}
@@ -619,17 +620,17 @@
 			}],
 			rewards: [
 				{
-					id: 221,
+					id: "00000000000000DD",
 					type: "item",
 					item: "waterstrainer:worm",
 					count: 32
 				},
 				{
-					id: 223,
+					id: "00000000000000DF",
 					type: "item",
 					item: {
 						id: "minecraft:enchanted_book",
-						Count: true,
+						Count: 1b,
 						tag: {
 							StoredEnchantments: [{
 								lvl: 2,
@@ -649,15 +650,15 @@
 				"",
 				"Your reward for making a Wooden Hook is a Stone Hook and Feather Falling I Enchantment Token. Place your boots and the token in your crafting grid. Tokens can be stacked."
 			],
-			dependencies: [I;57],
+			dependencies: ["0000000000000039"],
 			dependency_requirement: "one_completed",
-			id: 446,
+			id: "00000000000001BE",
 			tasks: [{
-				id: 447,
+				id: "00000000000001BF",
 				type: "item",
 				item: {
 					id: "grapple_hooks:hook_wooden",
-					Count: true,
+					Count: 1b,
 					tag: {
 						Damage: 0
 					}
@@ -665,22 +666,22 @@
 			}],
 			rewards: [
 				{
-					id: 452,
+					id: "00000000000001C4",
 					type: "item",
 					item: {
 						id: "grapple_hooks:hook_stone",
-						Count: true,
+						Count: 1b,
 						tag: {
 							Damage: 0
 						}
 					}
 				},
 				{
-					id: 1555,
+					id: "0000000000000613",
 					type: "item",
 					item: {
 						id: "silentgems:enchantment_token",
-						Count: true,
+						Count: 1b,
 						tag: {
 							TokenEnchantments: [{
 								lvl: 1,
@@ -694,15 +695,15 @@
 		{
 			x: 4.5d,
 			y: -1.5d,
-			dependencies: [I;16],
-			id: 1311,
+			dependencies: ["0000000000000010"],
+			id: "000000000000051F",
 			tasks: [{
-				id: 1312,
+				id: "0000000000000520",
 				type: "item",
 				item: "craftingcraft:portable_crafting"
 			}],
 			rewards: [{
-				id: 1533,
+				id: "00000000000005FD",
 				type: "item",
 				item: "simplefarming:hamburger",
 				count: 8
@@ -711,20 +712,20 @@
 		{
 			x: 0.0d,
 			y: 4.5d,
-			dependencies: [I;30],
-			id: 1480,
+			dependencies: ["000000000000001E"],
+			id: "00000000000005C8",
 			tasks: [{
-				id: 1481,
+				id: "00000000000005C9",
 				type: "item",
 				item: "minecraft:iron_ingot",
 				count: 24L
 			}],
 			rewards: [{
-				id: 1482,
+				id: "00000000000005CA",
 				type: "item",
 				item: {
 					id: "mysticalagriculture:infusion_crystal",
-					Count: true,
+					Count: 1b,
 					tag: {
 						Damage: 0
 					}
@@ -739,15 +740,15 @@
 				"",
 				"However, some tools if used too long will break and be destroyed, so be sure to recycle before that happens. "
 			],
-			dependencies: [I;30],
-			id: 1504,
+			dependencies: ["000000000000001E"],
+			id: "00000000000005E0",
 			tasks: [{
-				id: 1505,
+				id: "00000000000005E1",
 				type: "item",
 				item: "bluepower:alloyfurnace"
 			}],
 			rewards: [{
-				id: 1506,
+				id: "00000000000005E2",
 				type: "item",
 				item: "minecraft:diamond"
 			}]
@@ -756,14 +757,14 @@
 			x: 0.0d,
 			y: -4.5d,
 			description: ["To craft an Iron Hook, surround a Stone Hook with iron ingots in a crafting grid. The JEI reciped is currently broken."],
-			dependencies: [I;446],
-			id: 1556,
+			dependencies: ["00000000000001BE"],
+			id: "0000000000000614",
 			tasks: [{
-				id: 1557,
+				id: "0000000000000615",
 				type: "item",
 				item: {
 					id: "grapple_hooks:hook_iron",
-					Count: true,
+					Count: 1b,
 					tag: {
 						Damage: 0
 					}
@@ -771,11 +772,11 @@
 			}],
 			rewards: [
 				{
-					id: 1563,
+					id: "000000000000061B",
 					type: "item",
 					item: {
 						id: "silentgems:enchantment_token",
-						Count: true,
+						Count: 1b,
 						tag: {
 							TokenEnchantments: [{
 								lvl: 1,
@@ -785,11 +786,11 @@
 					}
 				},
 				{
-					id: 1564,
+					id: "000000000000061C",
 					type: "item",
 					item: {
 						id: "silentgems:enchantment_token",
-						Count: true,
+						Count: 1b,
 						tag: {
 							TokenEnchantments: [{
 								lvl: 1,
@@ -804,14 +805,14 @@
 			x: 0.0d,
 			y: -6.0d,
 			description: ["To craft a Golden Hook, surround an Iron Hook with gold ingots in a crafting grid. The JEI reciped is currently broken."],
-			dependencies: [I;1556],
-			id: 1558,
+			dependencies: ["0000000000000614"],
+			id: "0000000000000616",
 			tasks: [{
-				id: 1559,
+				id: "0000000000000617",
 				type: "item",
 				item: {
 					id: "grapple_hooks:hook_golden",
-					Count: true,
+					Count: 1b,
 					tag: {
 						Damage: 0
 					}
@@ -819,11 +820,11 @@
 			}],
 			rewards: [
 				{
-					id: 1565,
+					id: "000000000000061D",
 					type: "item",
 					item: {
 						id: "silentgems:enchantment_token",
-						Count: true,
+						Count: 1b,
 						tag: {
 							TokenEnchantments: [{
 								lvl: 1,
@@ -833,11 +834,11 @@
 					}
 				},
 				{
-					id: 1566,
+					id: "000000000000061E",
 					type: "item",
 					item: {
 						id: "silentgems:enchantment_token",
-						Count: true,
+						Count: 1b,
 						tag: {
 							TokenEnchantments: [{
 								lvl: 1,
@@ -847,11 +848,11 @@
 					}
 				},
 				{
-					id: 1567,
+					id: "000000000000061F",
 					type: "item",
 					item: {
 						id: "silentgems:enchantment_token",
-						Count: true,
+						Count: 1b,
 						tag: {
 							TokenEnchantments: [{
 								lvl: 1,
@@ -866,14 +867,14 @@
 			x: 0.0d,
 			y: -7.5d,
 			description: ["To craft a Diamond Hook, surround a Golden Hook with diamonds in a crafting grid. The JEI reciped is currently broken."],
-			dependencies: [I;1558],
-			id: 1560,
+			dependencies: ["0000000000000616"],
+			id: "0000000000000618",
 			tasks: [{
-				id: 1561,
+				id: "0000000000000619",
 				type: "item",
 				item: {
 					id: "grapple_hooks:hook_diamond",
-					Count: true,
+					Count: 1b,
 					tag: {
 						Damage: 0
 					}
@@ -881,11 +882,11 @@
 			}],
 			rewards: [
 				{
-					id: 1568,
+					id: "0000000000000620",
 					type: "item",
 					item: {
 						id: "silentgems:enchantment_token",
-						Count: true,
+						Count: 1b,
 						tag: {
 							TokenEnchantments: [{
 								lvl: 1,
@@ -895,11 +896,11 @@
 					}
 				},
 				{
-					id: 1569,
+					id: "0000000000000621",
 					type: "item",
 					item: {
 						id: "silentgems:enchantment_token",
-						Count: true,
+						Count: 1b,
 						tag: {
 							TokenEnchantments: [{
 								lvl: 1,
@@ -910,11 +911,11 @@
 					count: 2
 				},
 				{
-					id: 1570,
+					id: "0000000000000622",
 					type: "item",
 					item: {
 						id: "silentgems:enchantment_token",
-						Count: true,
+						Count: 1b,
 						tag: {
 							TokenEnchantments: [{
 								lvl: 1,
@@ -929,26 +930,26 @@
 			x: 4.5d,
 			y: 1.5d,
 			description: ["Have you ever wanted to capture a mod? With this device you can catch many!"],
-			dependencies: [I;16],
-			id: 1859,
+			dependencies: ["0000000000000010"],
+			id: "0000000000000743",
 			tasks: [
 				{
-					id: 1860,
+					id: "0000000000000744",
 					type: "item",
 					item: {
 						id: "mobcatcher:net_launcher",
-						Count: true,
+						Count: 1b,
 						tag: {}
 					}
 				},
 				{
-					id: 1861,
+					id: "0000000000000745",
 					type: "item",
 					item: "mobcatcher:net"
 				}
 			],
 			rewards: [{
-				id: 1862,
+				id: "0000000000000746",
 				type: "item",
 				item: "mobcatcher:net",
 				count: 4

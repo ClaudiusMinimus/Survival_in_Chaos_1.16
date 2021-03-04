@@ -1,7 +1,8 @@
 {
-	id: 1922,
+	id: "0000000000000782",
+	group: "",
+	order_index: 6,
 	filename: "rats",
-	order_index: 7,
 	title: "Rats",
 	icon: "rats:marbled_cheese_rat_head",
 	default_quest_shape: "",
@@ -17,21 +18,21 @@
 				"Your reward is two hoppers, which you can use to automate garbage production. Anything you want to throw away, then throw it in the garbage can."
 			],
 			size: 1.5d,
-			id: 1923,
+			id: "0000000000000783",
 			tasks: [{
-				id: 1924,
+				id: "0000000000000784",
 				type: "item",
 				item: "rats:trash_can"
 			}],
 			rewards: [
 				{
-					id: 1932,
+					id: "000000000000078C",
 					type: "item",
 					item: "minecraft:hopper",
 					count: 2
 				},
 				{
-					id: 1982,
+					id: "00000000000007BE",
 					type: "item",
 					item: "rats:token_fragment"
 				}
@@ -40,16 +41,16 @@
 		{
 			x: 0.5d,
 			y: 1.5d,
-			dependencies: [I;1923],
-			id: 1925,
+			dependencies: ["0000000000000783"],
+			id: "0000000000000785",
 			tasks: [{
-				id: 1926,
+				id: "0000000000000786",
 				type: "item",
 				item: "rats:garbage_pile",
 				count: 8L
 			}],
 			rewards: [{
-				id: 1965,
+				id: "00000000000007AD",
 				type: "item",
 				item: "rats:token_fragment"
 			}]
@@ -58,22 +59,22 @@
 			x: 0.5d,
 			y: 3.0d,
 			description: ["Place a bucket of milk in a cauldron and you will make a block of cheese."],
-			dependencies: [I;1925],
-			id: 1927,
+			dependencies: ["0000000000000785"],
+			id: "0000000000000787",
 			tasks: [{
-				id: 1928,
+				id: "0000000000000788",
 				type: "item",
 				item: "rats:block_of_cheese",
 				count: 4L
 			}],
 			rewards: [
 				{
-					id: 1931,
+					id: "000000000000078B",
 					type: "item",
 					item: "rats:cauldron_cheese"
 				},
 				{
-					id: 1971,
+					id: "00000000000007B3",
 					type: "item",
 					item: "rats:token_fragment"
 				}
@@ -87,16 +88,16 @@
 				"",
 				"If you drop a cheese wedge by a rat, then they will eat it. It can take +/- 15 wedges of cheese to tame a rat."
 			],
-			dependencies: [I;1927],
-			id: 1929,
+			dependencies: ["0000000000000787"],
+			id: "0000000000000789",
 			tasks: [{
-				id: 1930,
+				id: "000000000000078A",
 				type: "item",
 				item: "rats:cheese",
 				count: 16L
 			}],
 			rewards: [{
-				id: 1975,
+				id: "00000000000007B7",
 				type: "item",
 				item: "rats:token_fragment"
 			}]
@@ -105,19 +106,19 @@
 			x: 2.0d,
 			y: 4.5d,
 			description: ["The Rat Flute is used to give tame rats within a local area commands"],
-			dependencies: [I;1929],
-			id: 1933,
+			dependencies: ["0000000000000789"],
+			id: "000000000000078D",
 			tasks: [{
-				id: 1934,
+				id: "000000000000078E",
 				type: "item",
 				item: {
 					id: "rats:rat_flute",
-					Count: true,
+					Count: 1b,
 					tag: {}
 				}
 			}],
 			rewards: [{
-				id: 1976,
+				id: "00000000000007B8",
 				type: "item",
 				item: "rats:token_fragment"
 			}]
@@ -126,19 +127,19 @@
 			x: -1.0d,
 			y: 4.5d,
 			description: ["The Cheese Staff is used to bind rats to task."],
-			dependencies: [I;1929],
-			id: 1935,
+			dependencies: ["0000000000000789"],
+			id: "000000000000078F",
 			tasks: [{
-				id: 1936,
+				id: "0000000000000790",
 				type: "item",
 				item: {
 					id: "rats:cheese_stick",
-					Count: true,
+					Count: 1b,
 					tag: {}
 				}
 			}],
 			rewards: [{
-				id: 1974,
+				id: "00000000000007B6",
 				type: "item",
 				item: "rats:token_fragment"
 			}]
@@ -151,15 +152,15 @@
 				"",
 				"Don't forget to use your cheese staff."
 			],
-			dependencies: [I;1939],
-			id: 1937,
+			dependencies: ["0000000000000793"],
+			id: "0000000000000791",
 			tasks: [{
-				id: 1938,
+				id: "0000000000000792",
 				type: "item",
 				item: "rats:rat_upgrade_milker"
 			}],
 			rewards: [{
-				id: 1969,
+				id: "00000000000007B1",
 				type: "item",
 				item: "rats:token_fragment"
 			}]
@@ -168,15 +169,15 @@
 			x: -2.5d,
 			y: 3.0d,
 			description: ["Did someone say Cheese factory? This block is a handy way to make lots of cheese."],
-			dependencies: [I;1935],
-			id: 1939,
+			dependencies: ["000000000000078F"],
+			id: "0000000000000793",
 			tasks: [{
-				id: 1940,
+				id: "0000000000000794",
 				type: "item",
 				item: "rats:auto_curdler"
 			}],
 			rewards: [{
-				id: 1970,
+				id: "00000000000007B2",
 				type: "item",
 				item: "rats:token_fragment"
 			}]
@@ -185,15 +186,15 @@
 			x: -2.5d,
 			y: 4.5d,
 			description: ["This upgrade will allow your rat to take the finished cheese blocks from the Curdling Station and deposit them in a storage chest or barrel."],
-			dependencies: [I;1935],
-			id: 1941,
+			dependencies: ["000000000000078F"],
+			id: "0000000000000795",
 			tasks: [{
-				id: 1942,
+				id: "0000000000000796",
 				type: "item",
 				item: "rats:rat_upgrade_platter"
 			}],
 			rewards: [{
-				id: 1973,
+				id: "00000000000007B5",
 				type: "item",
 				item: "rats:token_fragment"
 			}]
@@ -202,33 +203,33 @@
 			x: -1.0d,
 			y: 3.0d,
 			description: ["A rat chef can cook just about anything a furnace can. Take the assorted vegtables and see what yummy meal is cooked."],
-			dependencies: [I;1935],
-			id: 1945,
+			dependencies: ["000000000000078F"],
+			id: "0000000000000799",
 			tasks: [{
-				id: 1946,
+				id: "000000000000079A",
 				type: "item",
 				item: "rats:rat_upgrade_chef"
 			}],
 			rewards: [
 				{
-					id: 1947,
+					id: "000000000000079B",
 					type: "item",
 					item: "rats:assorted_vegetables",
 					count: 8
 				},
 				{
-					id: 1948,
+					id: "000000000000079C",
 					type: "item",
 					item: {
 						id: "rats:chef_toque",
-						Count: true,
+						Count: 1b,
 						tag: {
 							Damage: 0
 						}
 					}
 				},
 				{
-					id: 1972,
+					id: "00000000000007B4",
 					type: "item",
 					item: "rats:token_fragment"
 				}
@@ -238,15 +239,15 @@
 			x: 2.0d,
 			y: 1.5d,
 			description: ["Compress your garbage once to get... You guessed, Compressed Garbage!"],
-			dependencies: [I;1925],
-			id: 1949,
+			dependencies: ["0000000000000785"],
+			id: "000000000000079D",
 			tasks: [{
-				id: 1950,
+				id: "000000000000079E",
 				type: "item",
 				item: "rats:compressed_garbage"
 			}],
 			rewards: [{
-				id: 1966,
+				id: "00000000000007AE",
 				type: "item",
 				item: "rats:token_fragment"
 			}]
@@ -255,15 +256,15 @@
 			x: 3.5d,
 			y: 1.5d,
 			description: ["Even Compressed Garbage has a use. You can make Filth! Yum Yum!"],
-			dependencies: [I;1949],
-			id: 1951,
+			dependencies: ["000000000000079D"],
+			id: "000000000000079F",
 			tasks: [{
-				id: 1952,
+				id: "00000000000007A0",
 				type: "item",
 				item: "rats:filth"
 			}],
 			rewards: [{
-				id: 1967,
+				id: "00000000000007AF",
 				type: "item",
 				item: "rats:token_fragment"
 			}]
@@ -277,15 +278,15 @@
 				"",
 				"The Ball of Filth will allow you to tranform a tame mouse to a Rat King."
 			],
-			dependencies: [I;1951],
-			id: 1953,
+			dependencies: ["000000000000079F"],
+			id: "00000000000007A1",
 			tasks: [{
-				id: 1954,
+				id: "00000000000007A2",
 				type: "item",
 				item: "rats:filth_corruption"
 			}],
 			rewards: [{
-				id: 1968,
+				id: "00000000000007B0",
 				type: "item",
 				item: "rats:token_fragment"
 			}]
@@ -293,15 +294,15 @@
 		{
 			x: 0.5d,
 			y: 6.0d,
-			dependencies: [I;1935],
-			id: 1955,
+			dependencies: ["000000000000078F"],
+			id: "00000000000007A3",
 			tasks: [{
-				id: 1956,
+				id: "00000000000007A4",
 				type: "item",
 				item: "rats:rat_upgrade_health"
 			}],
 			rewards: [{
-				id: 1979,
+				id: "00000000000007BB",
 				type: "item",
 				item: "rats:token_fragment"
 			}]
@@ -309,15 +310,15 @@
 		{
 			x: -1.0d,
 			y: 6.0d,
-			dependencies: [I;1935],
-			id: 1957,
+			dependencies: ["000000000000078F"],
+			id: "00000000000007A5",
 			tasks: [{
-				id: 1958,
+				id: "00000000000007A6",
 				type: "item",
 				item: "rats:rat_upgrade_strength"
 			}],
 			rewards: [{
-				id: 1978,
+				id: "00000000000007BA",
 				type: "item",
 				item: "rats:token_fragment"
 			}]
@@ -325,29 +326,29 @@
 		{
 			x: -1.0d,
 			y: 7.5d,
-			dependencies: [I;
-				1961,
-				1957,
-				1955
+			dependencies: [
+				"00000000000007A9",
+				"00000000000007A5",
+				"00000000000007A3"
 			],
-			id: 1959,
+			id: "00000000000007A7",
 			tasks: [{
-				id: 1960,
+				id: "00000000000007A8",
 				type: "item",
 				item: "rats:rat_upgrade_warrior"
 			}],
 			rewards: [
 				{
-					id: 1980,
+					id: "00000000000007BC",
 					type: "item",
 					item: "rats:token_fragment"
 				},
 				{
-					id: 1984,
+					id: "00000000000007C0",
 					type: "item",
 					item: {
 						id: "rats:black_death_mask",
-						Count: true,
+						Count: 1b,
 						tag: {
 							Damage: 0
 						}
@@ -358,21 +359,21 @@
 		{
 			x: -2.5d,
 			y: 6.0d,
-			dependencies: [I;1935],
-			id: 1961,
+			dependencies: ["000000000000078F"],
+			id: "00000000000007A9",
 			tasks: [{
-				id: 1962,
+				id: "00000000000007AA",
 				type: "item",
 				item: "rats:rat_upgrade_armor"
 			}],
 			rewards: [
 				{
-					id: 1977,
+					id: "00000000000007B9",
 					type: "item",
 					item: "rats:token_fragment"
 				},
 				{
-					id: 1983,
+					id: "00000000000007BF",
 					type: "item",
 					item: "rats:rattling_gun"
 				}
@@ -381,25 +382,25 @@
 		{
 			x: -1.0d,
 			y: 9.0d,
-			dependencies: [I;1959],
-			id: 1963,
+			dependencies: ["00000000000007A7"],
+			id: "00000000000007AB",
 			tasks: [{
-				id: 1964,
+				id: "00000000000007AC",
 				type: "item",
 				item: "rats:rat_upgrade_god"
 			}],
 			rewards: [
 				{
-					id: 1981,
+					id: "00000000000007BD",
 					type: "item",
 					item: "rats:token_fragment"
 				},
 				{
-					id: 1985,
+					id: "00000000000007C1",
 					type: "item",
 					item: {
 						id: "rats:ratlantis_helmet",
-						Count: true,
+						Count: 1b,
 						tag: {
 							Damage: 0
 						}
