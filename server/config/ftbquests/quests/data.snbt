@@ -1,6 +1,5 @@
 {
-	version: 9,
-	last_id: 2003,
+	version: 10,
 	title: "Suvival in Chaos",
 	default_reward_team: false,
 	default_consume_items: false,
@@ -15,5 +14,7 @@
 		boss: 0
 	},
 	disable_gui: false,
-	grid_scale: 0.5d
+	grid_scale: 0.5d,
+	pause_game: false,
+	chapter_groups: []
 }

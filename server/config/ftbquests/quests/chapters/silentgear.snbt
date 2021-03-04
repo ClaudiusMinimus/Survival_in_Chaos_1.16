@@ -1,11 +1,12 @@
 {
-	id: 53,
+	id: "0000000000000035",
+	group: "",
+	order_index: 1,
 	filename: "silentgear",
-	order_index: 2,
 	title: "Armor, Tools and Weapons",
 	icon: {
 		id: "gobber2:gobber2_paxel_end",
-		Count: true,
+		Count: 1b,
 		tag: {
 			Damage: 0
 		}
@@ -23,14 +24,14 @@
 				"Now place one of the blueprints in your crafting grid with the required pieces of cobblestone and a single stick to craft a pickaxe (3 x cobble), an axe (3 x cobble), and a shovel (1 x cobble)."
 			],
 			size: 1.5d,
-			id: 123,
+			id: "000000000000007B",
 			tasks: [
 				{
-					id: 124,
+					id: "000000000000007C",
 					type: "item",
 					item: {
 						id: "silentgear:pickaxe",
-						Count: true,
+						Count: 1b,
 						tag: {
 							SGear_UUID: [I;
 								-714576008,
@@ -128,11 +129,11 @@
 					}
 				},
 				{
-					id: 127,
+					id: "000000000000007F",
 					type: "item",
 					item: {
 						id: "silentgear:axe",
-						Count: true,
+						Count: 1b,
 						tag: {
 							SGear_UUID: [I;
 								-2066625422,
@@ -230,11 +231,11 @@
 					}
 				},
 				{
-					id: 128,
+					id: "0000000000000080",
 					type: "item",
 					item: {
 						id: "silentgear:shovel",
-						Count: true,
+						Count: 1b,
 						tag: {
 							SGear_UUID: [I;
 								1827648452,
@@ -318,13 +319,13 @@
 			],
 			rewards: [
 				{
-					id: 1595,
+					id: "000000000000063B",
 					type: "item",
 					item: "silentgear:blueprint_paper",
 					count: 32
 				},
 				{
-					id: 1596,
+					id: "000000000000063C",
 					type: "item",
 					item: "xreliquary:glowing_bread",
 					count: 8
@@ -340,15 +341,15 @@
 				"",
 				"Your reward will be a Multishow enchantment token and a stack of arrows. Place your Bow, and the token in a crafting grid to upgrade your new Bow."
 			],
-			dependencies: [I;143],
-			id: 134,
+			dependencies: ["000000000000008F"],
+			id: "0000000000000086",
 			tasks: [
 				{
-					id: 1592,
+					id: "0000000000000638",
 					type: "item",
 					item: {
 						id: "itemfilters:or",
-						Count: true,
+						Count: 1b,
 						tag: {
 							RepairCost: 0,
 							items: [
@@ -368,11 +369,11 @@
 					}
 				},
 				{
-					id: 1593,
+					id: "0000000000000639",
 					type: "item",
 					item: {
 						id: "itemfilters:or",
-						Count: true,
+						Count: 1b,
 						tag: {
 							RepairCost: 0,
 							items: [
@@ -392,11 +393,11 @@
 					}
 				},
 				{
-					id: 1594,
+					id: "000000000000063A",
 					type: "item",
 					item: {
 						id: "silentgear:bow",
-						Count: true,
+						Count: 1b,
 						tag: {
 							SGear_UUID: [I;
 								530718105,
@@ -534,11 +535,11 @@
 			],
 			rewards: [
 				{
-					id: 166,
+					id: "00000000000000A6",
 					type: "item",
 					item: {
 						id: "silentgems:enchantment_token",
-						Count: true,
+						Count: 1b,
 						tag: {
 							TokenEnchantments: [{
 								lvl: 1s,
@@ -548,7 +549,7 @@
 					}
 				},
 				{
-					id: 167,
+					id: "00000000000000A7",
 					type: "item",
 					item: "minecraft:arrow",
 					count: 64
@@ -560,15 +561,15 @@
 			x: -1.5d,
 			y: 2.0d,
 			description: ["Did someone call Thor?"],
-			dependencies: [I;143],
-			id: 137,
+			dependencies: ["000000000000008F"],
+			id: "0000000000000089",
 			tasks: [
 				{
-					id: 139,
+					id: "000000000000008B",
 					type: "item",
 					item: {
 						id: "silentgear:hammer",
-						Count: true,
+						Count: 1b,
 						tag: {
 							SGear_UUID: [I;
 								597635255,
@@ -687,11 +688,11 @@
 					}
 				},
 				{
-					id: 1584,
+					id: "0000000000000630",
 					type: "item",
 					item: {
 						id: "itemfilters:or",
-						Count: true,
+						Count: 1b,
 						tag: {
 							RepairCost: 0,
 							items: [
@@ -713,16 +714,16 @@
 			],
 			rewards: [
 				{
-					id: 168,
+					id: "00000000000000A8",
 					type: "item",
 					item: {
 						id: "cyclic:glove_climb",
-						Count: true,
+						Count: 1b,
 						tag: {}
 					}
 				},
 				{
-					id: 169,
+					id: "00000000000000A9",
 					type: "item",
 					auto: "disabled",
 					item: "simplefarming:pizza",
@@ -735,15 +736,15 @@
 			x: -3.0d,
 			y: 1.5d,
 			description: ["Make an Excavator blueprint and an Excavator using five cobblestones and a stick."],
-			dependencies: [I;143],
-			id: 140,
+			dependencies: ["000000000000008F"],
+			id: "000000000000008C",
 			tasks: [
 				{
-					id: 141,
+					id: "000000000000008D",
 					type: "item",
 					item: {
 						id: "silentgear:excavator",
-						Count: true,
+						Count: 1b,
 						tag: {
 							SGear_UUID: [I;
 								-1013719742,
@@ -855,11 +856,11 @@
 					}
 				},
 				{
-					id: 142,
+					id: "000000000000008E",
 					type: "item",
 					item: {
 						id: "itemfilters:or",
-						Count: true,
+						Count: 1b,
 						tag: {
 							RepairCost: 0,
 							items: [
@@ -880,7 +881,7 @@
 				}
 			],
 			rewards: [{
-				id: 170,
+				id: "00000000000000AA",
 				type: "item",
 				item: "dankstorage:1_to_2"
 			}]
@@ -896,15 +897,15 @@
 				"",
 				"Wooden patterns are a one-time use item."
 			],
-			dependencies: [I;1495],
-			id: 143,
+			dependencies: ["00000000000005D7"],
+			id: "000000000000008F",
 			tasks: [
 				{
-					id: 144,
+					id: "0000000000000090",
 					type: "item",
 					item: {
 						id: "silentgear:mattock",
-						Count: true,
+						Count: 1b,
 						tag: {
 							SGear_UUID: [I;
 								-1355472450,
@@ -1009,11 +1010,11 @@
 					}
 				},
 				{
-					id: 145,
+					id: "0000000000000091",
 					type: "item",
 					item: {
 						id: "itemfilters:or",
-						Count: true,
+						Count: 1b,
 						tag: {
 							RepairCost: 0,
 							items: [
@@ -1034,7 +1035,7 @@
 				}
 			],
 			rewards: [{
-				id: 160,
+				id: "00000000000000A0",
 				type: "item",
 				item: "simplefarming:egg_sandwich",
 				count: 8
@@ -1048,15 +1049,15 @@
 				"",
 				"Your reward will be six enchantment tokens and a piece of red wool. Apply these items to the pickaxe in your crafting grid one-at-time to greatly increase your pick's efficiency and provide mending."
 			],
-			dependencies: [I;143],
-			id: 146,
+			dependencies: ["000000000000008F"],
+			id: "0000000000000092",
 			tasks: [
 				{
-					id: 147,
+					id: "0000000000000093",
 					type: "item",
 					item: {
 						id: "itemfilters:or",
-						Count: true,
+						Count: 1b,
 						tag: {
 							RepairCost: 0,
 							items: [
@@ -1158,11 +1159,11 @@
 					}
 				},
 				{
-					id: 1586,
+					id: "0000000000000632",
 					type: "item",
 					item: {
 						id: "silentgear:rod",
-						Count: true,
+						Count: 1b,
 						tag: {
 							CraftedCount: 4,
 							Materials: [
@@ -1187,11 +1188,11 @@
 			],
 			rewards: [
 				{
-					id: 162,
+					id: "00000000000000A2",
 					type: "item",
 					item: {
 						id: "silentgems:enchantment_token",
-						Count: true,
+						Count: 1b,
 						tag: {
 							TokenEnchantments: [{
 								lvl: 1,
@@ -1202,11 +1203,11 @@
 					count: 5
 				},
 				{
-					id: 163,
+					id: "00000000000000A3",
 					type: "item",
 					item: {
 						id: "silentgems:enchantment_token",
-						Count: true,
+						Count: 1b,
 						tag: {
 							TokenEnchantments: [{
 								lvl: 1,
@@ -1216,7 +1217,7 @@
 					}
 				},
 				{
-					id: 174,
+					id: "00000000000000AE",
 					type: "item",
 					item: "minecraft:red_wool"
 				}
@@ -1226,22 +1227,22 @@
 			x: 0.0d,
 			y: -3.0d,
 			description: ["The Token Enchanter can replace Enchantment books, though it does come with a price of creating Chaos."],
-			dependencies: [I;123],
-			id: 171,
+			dependencies: ["000000000000007B"],
+			id: "00000000000000AB",
 			tasks: [{
-				id: 172,
+				id: "00000000000000AC",
 				type: "item",
 				item: "silentgems:token_enchanter"
 			}],
 			rewards: [
 				{
-					id: 173,
+					id: "00000000000000AD",
 					type: "item",
 					item: "silentgems:blank_token",
 					count: 12
 				},
 				{
-					id: 786,
+					id: "0000000000000312",
 					type: "item",
 					item: "xreliquary:emperor_chalice"
 				}
@@ -1250,26 +1251,26 @@
 		{
 			x: -3.0d,
 			y: -3.0d,
-			dependencies: [I;123],
-			id: 1273,
+			dependencies: ["000000000000007B"],
+			id: "00000000000004F9",
 			tasks: [{
-				id: 1274,
+				id: "00000000000004FA",
 				type: "item",
 				item: "silentgear:salvager"
 			}],
 			rewards: [
 				{
-					id: 1281,
+					id: "0000000000000501",
 					type: "item",
 					item: "simplefarming:lasagna",
 					count: 8
 				},
 				{
-					id: 1298,
+					id: "0000000000000512",
 					type: "item",
 					item: {
 						id: "mysticalagriculture:soulium_dagger",
-						Count: true,
+						Count: 1b,
 						tag: {
 							Damage: 0
 						}
@@ -1280,15 +1281,15 @@
 		{
 			x: 0.5d,
 			y: -0.5d,
-			dependencies: [I;143],
-			id: 1275,
+			dependencies: ["000000000000008F"],
+			id: "00000000000004FB",
 			tasks: [
 				{
-					id: 1276,
+					id: "00000000000004FC",
 					type: "item",
 					item: {
 						id: "itemfilters:or",
-						Count: true,
+						Count: 1b,
 						tag: {
 							RepairCost: 0,
 							items: [
@@ -1308,11 +1309,11 @@
 					}
 				},
 				{
-					id: 1277,
+					id: "00000000000004FD",
 					type: "item",
 					item: {
 						id: "itemfilters:or",
-						Count: true,
+						Count: 1b,
 						tag: {
 							RepairCost: 0,
 							items: [
@@ -1332,11 +1333,11 @@
 					}
 				},
 				{
-					id: 1278,
+					id: "00000000000004FE",
 					type: "item",
 					item: {
 						id: "itemfilters:or",
-						Count: true,
+						Count: 1b,
 						tag: {
 							RepairCost: 0,
 							items: [
@@ -1356,11 +1357,11 @@
 					}
 				},
 				{
-					id: 1279,
+					id: "00000000000004FF",
 					type: "item",
 					item: {
 						id: "itemfilters:or",
-						Count: true,
+						Count: 1b,
 						tag: {
 							RepairCost: 0,
 							items: [
@@ -1381,11 +1382,11 @@
 				}
 			],
 			rewards: [{
-				id: 1299,
+				id: "0000000000000513",
 				type: "item",
 				item: {
 					id: "silentgems:enchantment_token",
-					Count: true,
+					Count: 1b,
 					tag: {
 						TokenEnchantments: [{
 							lvl: 1,
@@ -1400,15 +1401,15 @@
 			x: -3.5d,
 			y: -0.5d,
 			description: ["This is your basic all in one tool."],
-			dependencies: [I;143],
-			id: 1314,
+			dependencies: ["000000000000008F"],
+			id: "0000000000000522",
 			tasks: [
 				{
-					id: 1315,
+					id: "0000000000000523",
 					type: "item",
 					item: {
 						id: "itemfilters:or",
-						Count: true,
+						Count: 1b,
 						tag: {
 							RepairCost: 0,
 							items: [
@@ -1428,11 +1429,11 @@
 					}
 				},
 				{
-					id: 1585,
+					id: "0000000000000631",
 					type: "item",
 					item: {
 						id: "silentgear:paxel",
-						Count: true,
+						Count: 1b,
 						tag: {
 							SGear_UUID: [I;
 								-239002615,
@@ -1546,12 +1547,12 @@
 			],
 			rewards: [
 				{
-					id: 1339,
+					id: "000000000000053B",
 					type: "item",
 					item: "forbidden_arcanus:stellarite_piece"
 				},
 				{
-					id: 1340,
+					id: "000000000000053C",
 					type: "item",
 					item: "solarflux:efficiency_upgrade",
 					count: 8
@@ -1567,16 +1568,16 @@
 				"",
 				"The Dagger will let you craft Template Boards, which will allow you to craft one time use tool templates."
 			],
-			dependencies: [I;123],
+			dependencies: ["000000000000007B"],
 			dependency_requirement: "one_completed",
-			id: 1495,
+			id: "00000000000005D7",
 			tasks: [
 				{
-					id: 1496,
+					id: "00000000000005D8",
 					type: "item",
 					item: {
 						id: "silentgear:dagger",
-						Count: true,
+						Count: 1b,
 						tag: {
 							SGear_UUIDLeast: -6445736362882874778L,
 							SGear_UUIDMost: 5791057238796487566L,
@@ -1647,11 +1648,11 @@
 					}
 				},
 				{
-					id: 1497,
+					id: "00000000000005D9",
 					type: "item",
 					item: {
 						id: "silentgear:dagger",
-						Count: true,
+						Count: 1b,
 						tag: {
 							SGear_UUIDLeast: -6113640670222005085L,
 							SGear_UUIDMost: -993454010487976867L,
@@ -1722,11 +1723,11 @@
 					}
 				},
 				{
-					id: 1498,
+					id: "00000000000005DA",
 					type: "item",
 					item: {
 						id: "silentgear:dagger",
-						Count: true,
+						Count: 1b,
 						tag: {
 							SGear_UUIDLeast: -5212427410715455299L,
 							SGear_UUIDMost: 2831194394131579261L,
@@ -1798,7 +1799,7 @@
 				}
 			],
 			rewards: [{
-				id: 1499,
+				id: "00000000000005DB",
 				type: "item",
 				item: "silentgear:template_board",
 				count: 18
@@ -1808,15 +1809,15 @@
 			x: -3.0d,
 			y: -1.5d,
 			description: ["Make some super simple shears. Now say that fives times real fast!"],
-			dependencies: [I;143],
-			id: 1587,
+			dependencies: ["000000000000008F"],
+			id: "0000000000000633",
 			tasks: [
 				{
-					id: 1588,
+					id: "0000000000000634",
 					type: "item",
 					item: {
 						id: "itemfilters:or",
-						Count: true,
+						Count: 1b,
 						tag: {
 							RepairCost: 0,
 							items: [
@@ -1836,11 +1837,11 @@
 					}
 				},
 				{
-					id: 1590,
+					id: "0000000000000636",
 					type: "item",
 					item: {
 						id: "silentgear:shears",
-						Count: true,
+						Count: 1b,
 						tag: {
 							SGear_UUID: [I;
 								-773160040,
@@ -1931,7 +1932,7 @@
 				}
 			],
 			rewards: [{
-				id: 1591,
+				id: "0000000000000637",
 				type: "item",
 				item: "pamhc2foodcore:cuttingboarditem"
 			}]
@@ -1939,14 +1940,14 @@
 		{
 			x: -3.5d,
 			y: 0.5d,
-			dependencies: [I;143],
-			id: 1597,
+			dependencies: ["000000000000008F"],
+			id: "000000000000063D",
 			tasks: [{
-				id: 1598,
+				id: "000000000000063E",
 				type: "item",
 				item: {
 					id: "itemfilters:or",
-					Count: true,
+					Count: 1b,
 					tag: {
 						RepairCost: 0,
 						items: [
@@ -1966,7 +1967,7 @@
 				}
 			}],
 			rewards: [{
-				id: 1601,
+				id: "0000000000000641",
 				type: "item",
 				item: "essentials:fertile_soil_carrot"
 			}]
@@ -1974,14 +1975,14 @@
 		{
 			x: 0.5d,
 			y: 0.5d,
-			dependencies: [I;143],
-			id: 1599,
+			dependencies: ["000000000000008F"],
+			id: "000000000000063F",
 			tasks: [{
-				id: 1600,
+				id: "0000000000000640",
 				type: "item",
 				item: {
 					id: "itemfilters:or",
-					Count: true,
+					Count: 1b,
 					tag: {
 						RepairCost: 0,
 						items: [
@@ -2001,7 +2002,7 @@
 				}
 			}],
 			rewards: [{
-				id: 1613,
+				id: "000000000000064D",
 				type: "item",
 				item: "rats:rat_breeding_lantern"
 			}]
@@ -2009,15 +2010,15 @@
 		{
 			x: -1.5d,
 			y: -4.5d,
-			dependencies: [I;123],
-			id: 1602,
+			dependencies: ["000000000000007B"],
+			id: "0000000000000642",
 			tasks: [{
-				id: 1603,
+				id: "0000000000000643",
 				type: "item",
 				item: "silentgear:material_grader"
 			}],
 			rewards: [{
-				id: 1612,
+				id: "000000000000064C",
 				type: "item",
 				item: "rats:rat_upgrade_basic",
 				count: 2
@@ -2028,14 +2029,14 @@
 			x: 1.5d,
 			y: -3.0d,
 			description: ["Make a pedestal and place the reward on top to start controlling the chaos."],
-			dependencies: [I;171],
-			id: 1608,
+			dependencies: ["00000000000000AB"],
+			id: "0000000000000648",
 			tasks: [{
-				id: 1609,
+				id: "0000000000000649",
 				type: "item",
 				item: {
 					id: "itemfilters:or",
-					Count: true,
+					Count: 1b,
 					tag: {
 						RepairCost: 0,
 						items: [
@@ -2067,11 +2068,11 @@
 				}
 			}],
 			rewards: [{
-				id: 1610,
+				id: "000000000000064A",
 				type: "item",
 				item: {
 					id: "silentgems:fragile_chaos_orb",
-					Count: true,
+					Count: 1b,
 					tag: {
 						Damage: 0
 					}
@@ -2083,35 +2084,35 @@
 			x: 1.5d,
 			y: -1.5d,
 			description: ["Craft a Bowstring using Gilded String"],
-			dependencies: [I;134],
-			id: 1646,
+			dependencies: ["0000000000000086"],
+			id: "000000000000066E",
 			tasks: [{
-				id: 1647,
+				id: "000000000000066F",
 				type: "item",
 				item: {
 					id: "silentgear:bowstring",
-					Count: true,
+					Count: 1b,
 					tag: {
 						CraftedCount: 1,
 						Materials: [
 							{
 								Item: {
 									id: "silentgems:gilded_string",
-									Count: true
+									Count: 1b
 								},
 								ID: "silentgems:gilded_string"
 							},
 							{
 								Item: {
 									id: "silentgems:gilded_string",
-									Count: true
+									Count: 1b
 								},
 								ID: "silentgems:gilded_string"
 							},
 							{
 								Item: {
 									id: "silentgems:gilded_string",
-									Count: true
+									Count: 1b
 								},
 								ID: "silentgems:gilded_string"
 							}
@@ -2120,11 +2121,11 @@
 				}
 			}],
 			rewards: [{
-				id: 1648,
+				id: "0000000000000670",
 				type: "item",
 				item: {
 					id: "silentgems:enchantment_token",
-					Count: true,
+					Count: 1b,
 					tag: {
 						TokenEnchantments: [{
 							lvl: 1s,
@@ -2141,14 +2142,14 @@
 			shape: "diamond",
 			hide: false,
 			size: 1.5d,
-			id: 1694,
+			id: "000000000000069E",
 			tasks: [{
-				id: 1695,
+				id: "000000000000069F",
 				type: "item",
 				item: "gobber2:gobber2_ore"
 			}],
 			rewards: [{
-				id: 1752,
+				id: "00000000000006D8",
 				type: "xp",
 				xp: 100
 			}]
@@ -2156,15 +2157,15 @@
 		{
 			x: -7.5d,
 			y: -4.5d,
-			dependencies: [I;1694],
-			id: 1696,
+			dependencies: ["000000000000069E"],
+			id: "00000000000006A0",
 			tasks: [{
-				id: 1697,
+				id: "00000000000006A1",
 				type: "item",
 				item: "gobber2:gobber2_seed"
 			}],
 			rewards: [{
-				id: 1753,
+				id: "00000000000006D9",
 				type: "xp",
 				xp: 100
 			}]
@@ -2172,15 +2173,15 @@
 		{
 			x: -7.5d,
 			y: -6.0d,
-			dependencies: [I;1696],
-			id: 1698,
+			dependencies: ["00000000000006A0"],
+			id: "00000000000006A2",
 			tasks: [{
-				id: 1699,
+				id: "00000000000006A3",
 				type: "item",
 				item: "gobber2:gobber2_ingot"
 			}],
 			rewards: [{
-				id: 1866,
+				id: "000000000000074A",
 				type: "item",
 				item: "minecraft:comparator",
 				count: 4
@@ -2189,48 +2190,48 @@
 		{
 			x: -8.5d,
 			y: -7.0d,
-			dependencies: [I;1698],
-			id: 1700,
+			dependencies: ["00000000000006A2"],
+			id: "00000000000006A4",
 			tasks: [
 				{
-					id: 1701,
+					id: "00000000000006A5",
 					type: "item",
 					item: {
 						id: "gobber2:gobber2_helmet",
-						Count: true,
+						Count: 1b,
 						tag: {
 							Damage: 0
 						}
 					}
 				},
 				{
-					id: 1702,
+					id: "00000000000006A6",
 					type: "item",
 					item: {
 						id: "gobber2:gobber2_chestplate",
-						Count: true,
+						Count: 1b,
 						tag: {
 							Damage: 0
 						}
 					}
 				},
 				{
-					id: 1703,
+					id: "00000000000006A7",
 					type: "item",
 					item: {
 						id: "gobber2:gobber2_leggings",
-						Count: true,
+						Count: 1b,
 						tag: {
 							Damage: 0
 						}
 					}
 				},
 				{
-					id: 1704,
+					id: "00000000000006A8",
 					type: "item",
 					item: {
 						id: "gobber2:gobber2_boots",
-						Count: true,
+						Count: 1b,
 						tag: {
 							Damage: 0
 						}
@@ -2239,12 +2240,12 @@
 			],
 			rewards: [
 				{
-					id: 1709,
+					id: "00000000000006AD",
 					type: "item",
 					item: "gobber2:block_healer"
 				},
 				{
-					id: 1710,
+					id: "00000000000006AE",
 					type: "item",
 					item: "gobber2:gobber2_armor_repair"
 				}
@@ -2253,21 +2254,21 @@
 		{
 			x: -7.5d,
 			y: -7.5d,
-			dependencies: [I;1698],
-			id: 1705,
+			dependencies: ["00000000000006A2"],
+			id: "00000000000006A9",
 			tasks: [{
-				id: 1706,
+				id: "00000000000006AA",
 				type: "item",
 				item: {
 					id: "gobber2:gobber2_sword",
-					Count: true,
+					Count: 1b,
 					tag: {
 						Damage: 0
 					}
 				}
 			}],
 			rewards: [{
-				id: 1820,
+				id: "000000000000071C",
 				type: "item",
 				item: "forbidden_arcanus:orb_of_temporary_flight"
 			}]
@@ -2275,37 +2276,37 @@
 		{
 			x: -6.5d,
 			y: -7.0d,
-			dependencies: [I;1698],
-			id: 1707,
+			dependencies: ["00000000000006A2"],
+			id: "00000000000006AB",
 			tasks: [
 				{
-					id: 1708,
+					id: "00000000000006AC",
 					type: "item",
 					item: {
 						id: "gobber2:gobber2_pickaxe",
-						Count: true,
+						Count: 1b,
 						tag: {
 							Damage: 0
 						}
 					}
 				},
 				{
-					id: 1741,
+					id: "00000000000006CD",
 					type: "item",
 					item: {
 						id: "gobber2:gobber2_axe",
-						Count: true,
+						Count: 1b,
 						tag: {
 							Damage: 0
 						}
 					}
 				},
 				{
-					id: 1742,
+					id: "00000000000006CE",
 					type: "item",
 					item: {
 						id: "gobber2:gobber2_shovel",
-						Count: true,
+						Count: 1b,
 						tag: {
 							Damage: 0
 						}
@@ -2313,11 +2314,11 @@
 				}
 			],
 			rewards: [{
-				id: 1743,
+				id: "00000000000006CF",
 				type: "item",
 				item: {
 					id: "gobber2:gobber2_paxel",
-					Count: true,
+					Count: 1b,
 					tag: {
 						Damage: 0
 					}
@@ -2327,15 +2328,15 @@
 		{
 			x: -12.0d,
 			y: -3.0d,
-			dependencies: [I;1694],
-			id: 1711,
+			dependencies: ["000000000000069E"],
+			id: "00000000000006AF",
 			tasks: [{
-				id: 1712,
+				id: "00000000000006B0",
 				type: "item",
 				item: "gobber2:gobber2_ore_nether"
 			}],
 			rewards: [{
-				id: 1865,
+				id: "0000000000000749",
 				type: "xp",
 				xp: 150
 			}]
@@ -2343,15 +2344,15 @@
 		{
 			x: -16.5d,
 			y: -3.0d,
-			dependencies: [I;1711],
-			id: 1713,
+			dependencies: ["00000000000006AF"],
+			id: "00000000000006B1",
 			tasks: [{
-				id: 1714,
+				id: "00000000000006B2",
 				type: "item",
 				item: "gobber2:gobber2_ore_end"
 			}],
 			rewards: [{
-				id: 1847,
+				id: "0000000000000737",
 				type: "xp",
 				xp: 200
 			}]
@@ -2359,15 +2360,15 @@
 		{
 			x: -12.0d,
 			y: -4.5d,
-			dependencies: [I;1711],
-			id: 1715,
+			dependencies: ["00000000000006AF"],
+			id: "00000000000006B3",
 			tasks: [{
-				id: 1716,
+				id: "00000000000006B4",
 				type: "item",
 				item: "gobber2:gobber2_seed_nether"
 			}],
 			rewards: [{
-				id: 1754,
+				id: "00000000000006DA",
 				type: "xp",
 				xp: 150
 			}]
@@ -2375,15 +2376,15 @@
 		{
 			x: -12.0d,
 			y: -6.0d,
-			dependencies: [I;1715],
-			id: 1717,
+			dependencies: ["00000000000006B3"],
+			id: "00000000000006B5",
 			tasks: [{
-				id: 1718,
+				id: "00000000000006B6",
 				type: "item",
 				item: "gobber2:gobber2_ingot_nether"
 			}],
 			rewards: [{
-				id: 1867,
+				id: "000000000000074B",
 				type: "item",
 				item: "mysticalagriculture:supremium_block"
 			}]
@@ -2391,48 +2392,48 @@
 		{
 			x: -13.0d,
 			y: -7.0d,
-			dependencies: [I;1717],
-			id: 1719,
+			dependencies: ["00000000000006B5"],
+			id: "00000000000006B7",
 			tasks: [
 				{
-					id: 1720,
+					id: "00000000000006B8",
 					type: "item",
 					item: {
 						id: "gobber2:gobber2_helmet_nether",
-						Count: true,
+						Count: 1b,
 						tag: {
 							Damage: 0
 						}
 					}
 				},
 				{
-					id: 1721,
+					id: "00000000000006B9",
 					type: "item",
 					item: {
 						id: "gobber2:gobber2_chestplate_nether",
-						Count: true,
+						Count: 1b,
 						tag: {
 							Damage: 0
 						}
 					}
 				},
 				{
-					id: 1722,
+					id: "00000000000006BA",
 					type: "item",
 					item: {
 						id: "gobber2:gobber2_leggings_nether",
-						Count: true,
+						Count: 1b,
 						tag: {
 							Damage: 0
 						}
 					}
 				},
 				{
-					id: 1723,
+					id: "00000000000006BB",
 					type: "item",
 					item: {
 						id: "gobber2:gobber2_boots_nether",
-						Count: true,
+						Count: 1b,
 						tag: {
 							Damage: 0
 						}
@@ -2440,7 +2441,7 @@
 				}
 			],
 			rewards: [{
-				id: 1747,
+				id: "00000000000006D3",
 				type: "item",
 				item: "gobber2:block_protector"
 			}]
@@ -2448,25 +2449,25 @@
 		{
 			x: -12.0d,
 			y: -7.5d,
-			dependencies: [I;1717],
-			id: 1724,
+			dependencies: ["00000000000006B5"],
+			id: "00000000000006BC",
 			tasks: [{
-				id: 1725,
+				id: "00000000000006BD",
 				type: "item",
 				item: {
 					id: "gobber2:gobber2_sword_nether",
-					Count: true,
+					Count: 1b,
 					tag: {
 						Damage: 0
 					}
 				}
 			}],
 			rewards: [{
-				id: 1831,
+				id: "0000000000000727",
 				type: "item",
 				item: {
 					id: "minecraft:enchanted_book",
-					Count: true,
+					Count: 1b,
 					tag: {
 						StoredEnchantments: [{
 							lvl: 3s,
@@ -2479,37 +2480,37 @@
 		{
 			x: -11.0d,
 			y: -7.0d,
-			dependencies: [I;1717],
-			id: 1726,
+			dependencies: ["00000000000006B5"],
+			id: "00000000000006BE",
 			tasks: [
 				{
-					id: 1727,
+					id: "00000000000006BF",
 					type: "item",
 					item: {
 						id: "gobber2:gobber2_pickaxe_nether",
-						Count: true,
+						Count: 1b,
 						tag: {
 							Damage: 0
 						}
 					}
 				},
 				{
-					id: 1744,
+					id: "00000000000006D0",
 					type: "item",
 					item: {
 						id: "gobber2:gobber2_axe_nether",
-						Count: true,
+						Count: 1b,
 						tag: {
 							Damage: 0
 						}
 					}
 				},
 				{
-					id: 1745,
+					id: "00000000000006D1",
 					type: "item",
 					item: {
 						id: "gobber2:gobber2_shovel_nether",
-						Count: true,
+						Count: 1b,
 						tag: {
 							Damage: 0
 						}
@@ -2517,11 +2518,11 @@
 				}
 			],
 			rewards: [{
-				id: 1746,
+				id: "00000000000006D2",
 				type: "item",
 				item: {
 					id: "gobber2:gobber2_paxel_nether",
-					Count: true,
+					Count: 1b,
 					tag: {
 						Damage: 0
 					}
@@ -2531,21 +2532,21 @@
 		{
 			x: -9.0d,
 			y: -6.0d,
-			dependencies: [I;1698],
-			id: 1728,
+			dependencies: ["00000000000006A2"],
+			id: "00000000000006C0",
 			tasks: [{
-				id: 1729,
+				id: "00000000000006C1",
 				type: "item",
 				item: {
 					id: "gobber2:gobber2_bow",
-					Count: true,
+					Count: 1b,
 					tag: {
 						Damage: 0
 					}
 				}
 			}],
 			rewards: [{
-				id: 1825,
+				id: "0000000000000721",
 				type: "item",
 				item: "cyclic:spikes_iron",
 				count: 4
@@ -2554,25 +2555,25 @@
 		{
 			x: -13.5d,
 			y: -6.0d,
-			dependencies: [I;1717],
-			id: 1732,
+			dependencies: ["00000000000006B5"],
+			id: "00000000000006C4",
 			tasks: [{
-				id: 1733,
+				id: "00000000000006C5",
 				type: "item",
 				item: {
 					id: "gobber2:gobber2_bow_nether",
-					Count: true,
+					Count: 1b,
 					tag: {
 						Damage: 0
 					}
 				}
 			}],
 			rewards: [{
-				id: 1832,
+				id: "0000000000000728",
 				type: "item",
 				item: {
 					id: "silentgems:enchantment_token",
-					Count: true,
+					Count: 1b,
 					tag: {
 						TokenEnchantments: [{
 							lvl: 1s,
@@ -2585,21 +2586,21 @@
 		{
 			x: -13.0d,
 			y: -5.0d,
-			dependencies: [I;1717],
-			id: 1734,
+			dependencies: ["00000000000006B5"],
+			id: "00000000000006C6",
 			tasks: [{
-				id: 1735,
+				id: "00000000000006C7",
 				type: "item",
 				item: {
 					id: "gobber2:gobber2_tree_axe_nether",
-					Count: true,
+					Count: 1b,
 					tag: {
 						Damage: 0
 					}
 				}
 			}],
 			rewards: [{
-				id: 1842,
+				id: "0000000000000732",
 				type: "item",
 				item: "cyclic:heart"
 			}]
@@ -2607,25 +2608,25 @@
 		{
 			x: -6.0d,
 			y: -6.0d,
-			dependencies: [I;1698],
-			id: 1736,
+			dependencies: ["00000000000006A2"],
+			id: "00000000000006C8",
 			tasks: [{
-				id: 1737,
+				id: "00000000000006C9",
 				type: "item",
 				item: {
 					id: "gobber2:gobber2_hammer",
-					Count: true,
+					Count: 1b,
 					tag: {
 						Damage: 0
 					}
 				}
 			}],
 			rewards: [{
-				id: 1822,
+				id: "000000000000071E",
 				type: "item",
 				item: {
 					id: "cyclic:flippers",
-					Count: true,
+					Count: 1b,
 					tag: {}
 				}
 			}]
@@ -2633,21 +2634,21 @@
 		{
 			x: -6.5d,
 			y: -5.0d,
-			dependencies: [I;1698],
-			id: 1738,
+			dependencies: ["00000000000006A2"],
+			id: "00000000000006CA",
 			tasks: [{
-				id: 1739,
+				id: "00000000000006CB",
 				type: "item",
 				item: {
 					id: "gobber2:gobber2_excavator",
-					Count: true,
+					Count: 1b,
 					tag: {
 						Damage: 0
 					}
 				}
 			}],
 			rewards: [{
-				id: 1823,
+				id: "000000000000071F",
 				type: "item",
 				item: "cyclic:heart"
 			}]
@@ -2655,25 +2656,25 @@
 		{
 			x: -10.5d,
 			y: -6.0d,
-			dependencies: [I;1717],
-			id: 1748,
+			dependencies: ["00000000000006B5"],
+			id: "00000000000006D4",
 			tasks: [{
-				id: 1749,
+				id: "00000000000006D5",
 				type: "item",
 				item: {
 					id: "gobber2:gobber2_hammer_nether",
-					Count: true,
+					Count: 1b,
 					tag: {
 						Damage: 0
 					}
 				}
 			}],
 			rewards: [{
-				id: 1830,
+				id: "0000000000000726",
 				type: "item",
 				item: {
 					id: "silentgems:enchantment_token",
-					Count: true,
+					Count: 1b,
 					tag: {
 						TokenEnchantments: [{
 							lvl: 1s,
@@ -2686,21 +2687,21 @@
 		{
 			x: -11.0d,
 			y: -5.0d,
-			dependencies: [I;1717],
-			id: 1750,
+			dependencies: ["00000000000006B5"],
+			id: "00000000000006D6",
 			tasks: [{
-				id: 1751,
+				id: "00000000000006D7",
 				type: "item",
 				item: {
 					id: "gobber2:gobber2_excavator_nether",
-					Count: true,
+					Count: 1b,
 					tag: {
 						Damage: 0
 					}
 				}
 			}],
 			rewards: [{
-				id: 1841,
+				id: "0000000000000731",
 				type: "item",
 				item: "biggerreactors:graphite_ingot",
 				count: 64
@@ -2709,15 +2710,15 @@
 		{
 			x: -16.5d,
 			y: -6.0d,
-			dependencies: [I;1758],
-			id: 1756,
+			dependencies: ["00000000000006DE"],
+			id: "00000000000006DC",
 			tasks: [{
-				id: 1757,
+				id: "00000000000006DD",
 				type: "item",
 				item: "gobber2:gobber2_ingot_end"
 			}],
 			rewards: [{
-				id: 1868,
+				id: "000000000000074C",
 				type: "item",
 				item: "mysticalagradditions:insanium_block"
 			}]
@@ -2725,15 +2726,15 @@
 		{
 			x: -16.5d,
 			y: -4.5d,
-			dependencies: [I;1713],
-			id: 1758,
+			dependencies: ["00000000000006B1"],
+			id: "00000000000006DE",
 			tasks: [{
-				id: 1759,
+				id: "00000000000006DF",
 				type: "item",
 				item: "gobber2:gobber2_seed_end"
 			}],
 			rewards: [{
-				id: 1848,
+				id: "0000000000000738",
 				type: "item",
 				item: "minecraft:turtle_egg"
 			}]
@@ -2741,48 +2742,48 @@
 		{
 			x: -17.5d,
 			y: -7.0d,
-			dependencies: [I;1756],
-			id: 1760,
+			dependencies: ["00000000000006DC"],
+			id: "00000000000006E0",
 			tasks: [
 				{
-					id: 1761,
+					id: "00000000000006E1",
 					type: "item",
 					item: {
 						id: "gobber2:gobber2_helmet_end",
-						Count: true,
+						Count: 1b,
 						tag: {
 							Damage: 0
 						}
 					}
 				},
 				{
-					id: 1762,
+					id: "00000000000006E2",
 					type: "item",
 					item: {
 						id: "gobber2:gobber2_chestplate_end",
-						Count: true,
+						Count: 1b,
 						tag: {
 							Damage: 0
 						}
 					}
 				},
 				{
-					id: 1763,
+					id: "00000000000006E3",
 					type: "item",
 					item: {
 						id: "gobber2:gobber2_leggings_end",
-						Count: true,
+						Count: 1b,
 						tag: {
 							Damage: 0
 						}
 					}
 				},
 				{
-					id: 1764,
+					id: "00000000000006E4",
 					type: "item",
 					item: {
 						id: "gobber2:gobber2_boots_end",
-						Count: true,
+						Count: 1b,
 						tag: {
 							Damage: 0
 						}
@@ -2790,7 +2791,7 @@
 				}
 			],
 			rewards: [{
-				id: 1786,
+				id: "00000000000006FA",
 				type: "item",
 				item: "gobber2:block_defender"
 			}]
@@ -2798,37 +2799,37 @@
 		{
 			x: -15.5d,
 			y: -7.0d,
-			dependencies: [I;1756],
-			id: 1768,
+			dependencies: ["00000000000006DC"],
+			id: "00000000000006E8",
 			tasks: [
 				{
-					id: 1769,
+					id: "00000000000006E9",
 					type: "item",
 					item: {
 						id: "gobber2:gobber2_pickaxe_end",
-						Count: true,
+						Count: 1b,
 						tag: {
 							Damage: 0
 						}
 					}
 				},
 				{
-					id: 1770,
+					id: "00000000000006EA",
 					type: "item",
 					item: {
 						id: "gobber2:gobber2_axe_end",
-						Count: true,
+						Count: 1b,
 						tag: {
 							Damage: 0
 						}
 					}
 				},
 				{
-					id: 1771,
+					id: "00000000000006EB",
 					type: "item",
 					item: {
 						id: "gobber2:gobber2_shovel_end",
-						Count: true,
+						Count: 1b,
 						tag: {
 							Damage: 0
 						}
@@ -2836,11 +2837,11 @@
 				}
 			],
 			rewards: [{
-				id: 1772,
+				id: "00000000000006EC",
 				type: "item",
 				item: {
 					id: "gobber2:gobber2_paxel_stars",
-					Count: true,
+					Count: 1b,
 					tag: {
 						Damage: 0
 					}
@@ -2850,21 +2851,21 @@
 		{
 			x: -15.0d,
 			y: -6.0d,
-			dependencies: [I;1756],
-			id: 1773,
+			dependencies: ["00000000000006DC"],
+			id: "00000000000006ED",
 			tasks: [{
-				id: 1774,
+				id: "00000000000006EE",
 				type: "item",
 				item: {
 					id: "gobber2:gobber2_hammer_end",
-					Count: true,
+					Count: 1b,
 					tag: {
 						Damage: 0
 					}
 				}
 			}],
 			rewards: [{
-				id: 1850,
+				id: "000000000000073A",
 				type: "item",
 				item: "minecraft:heart_of_the_sea"
 			}]
@@ -2872,25 +2873,25 @@
 		{
 			x: -15.5d,
 			y: -5.0d,
-			dependencies: [I;1756],
-			id: 1775,
+			dependencies: ["00000000000006DC"],
+			id: "00000000000006EF",
 			tasks: [{
-				id: 1776,
+				id: "00000000000006F0",
 				type: "item",
 				item: {
 					id: "gobber2:gobber2_excavator_end",
-					Count: true,
+					Count: 1b,
 					tag: {
 						Damage: 0
 					}
 				}
 			}],
 			rewards: [{
-				id: 1849,
+				id: "0000000000000739",
 				type: "item",
 				item: {
 					id: "minecraft:potion",
-					Count: true,
+					Count: 1b,
 					tag: {
 						Potion: "quark:danger_sight"
 					}
@@ -2900,21 +2901,21 @@
 		{
 			x: -18.0d,
 			y: -6.0d,
-			dependencies: [I;1756],
-			id: 1777,
+			dependencies: ["00000000000006DC"],
+			id: "00000000000006F1",
 			tasks: [{
-				id: 1778,
+				id: "00000000000006F2",
 				type: "item",
 				item: {
 					id: "gobber2:gobber2_bow_end",
-					Count: true,
+					Count: 1b,
 					tag: {
 						Damage: 0
 					}
 				}
 			}],
 			rewards: [{
-				id: 1851,
+				id: "000000000000073B",
 				type: "item",
 				item: "apotheosis:hellshelf",
 				count: 5
@@ -2923,21 +2924,21 @@
 		{
 			x: -17.5d,
 			y: -5.0d,
-			dependencies: [I;1756],
-			id: 1779,
+			dependencies: ["00000000000006DC"],
+			id: "00000000000006F3",
 			tasks: [{
-				id: 1780,
+				id: "00000000000006F4",
 				type: "item",
 				item: {
 					id: "gobber2:gobber2_tree_axe_end",
-					Count: true,
+					Count: 1b,
 					tag: {
 						Damage: 0
 					}
 				}
 			}],
 			rewards: [{
-				id: 1852,
+				id: "000000000000073C",
 				type: "item",
 				item: "enderstorage:ender_tank"
 			}]
@@ -2945,20 +2946,20 @@
 		{
 			x: -8.5d,
 			y: -5.0d,
-			id: 1781,
+			id: "00000000000006F5",
 			tasks: [{
-				id: 1782,
+				id: "00000000000006F6",
 				type: "item",
 				item: {
 					id: "gobber2:gobber2_tree_axe",
-					Count: true,
+					Count: 1b,
 					tag: {
 						Damage: 0
 					}
 				}
 			}],
 			rewards: [{
-				id: 1824,
+				id: "0000000000000720",
 				type: "item",
 				item: "gobber2:gobber2_medallion_breathing"
 			}]
@@ -2966,20 +2967,20 @@
 		{
 			x: -16.5d,
 			y: -7.5d,
-			id: 1783,
+			id: "00000000000006F7",
 			tasks: [{
-				id: 1784,
+				id: "00000000000006F8",
 				type: "item",
 				item: {
 					id: "gobber2:gobber2_sword_end",
-					Count: true,
+					Count: 1b,
 					tag: {
 						Damage: 0
 					}
 				}
 			}],
 			rewards: [{
-				id: 1843,
+				id: "0000000000000733",
 				type: "item",
 				item: "gobber2:gobber2_staff_sniper"
 			}]
@@ -2987,15 +2988,15 @@
 		{
 			x: -7.5d,
 			y: 0.5d,
-			dependencies: [I;1694],
-			id: 1787,
+			dependencies: ["000000000000069E"],
+			id: "00000000000006FB",
 			tasks: [{
-				id: 1788,
+				id: "00000000000006FC",
 				type: "item",
 				item: "gobber2:gobber2_ring"
 			}],
 			rewards: [{
-				id: 1817,
+				id: "0000000000000719",
 				type: "item",
 				item: "gobber2:gobber2_foo"
 			}]
@@ -3003,25 +3004,25 @@
 		{
 			x: -6.5d,
 			y: -0.5d,
-			dependencies: [I;1787],
-			id: 1789,
+			dependencies: ["00000000000006FB"],
+			id: "00000000000006FD",
 			tasks: [{
-				id: 1790,
+				id: "00000000000006FE",
 				type: "item",
 				item: "gobber2:gobber2_ring_return"
 			}],
 			rewards: [
 				{
-					id: 1834,
+					id: "000000000000072A",
 					type: "item",
 					item: {
 						id: "mobcatcher:net_launcher",
-						Count: true,
+						Count: 1b,
 						tag: {}
 					}
 				},
 				{
-					id: 1835,
+					id: "000000000000072B",
 					type: "item",
 					item: "mobcatcher:net",
 					count: 4
@@ -3031,31 +3032,31 @@
 		{
 			x: -6.5d,
 			y: 1.5d,
-			dependencies: [I;1787],
-			id: 1791,
+			dependencies: ["00000000000006FB"],
+			id: "00000000000006FF",
 			tasks: [{
-				id: 1792,
+				id: "0000000000000700",
 				type: "item",
 				item: "gobber2:gobber2_ring_miner"
 			}],
 			rewards: [
 				{
-					id: 1836,
+					id: "000000000000072C",
 					type: "item",
 					item: "silentgems:ruby_teleporter"
 				},
 				{
-					id: 1837,
+					id: "000000000000072D",
 					type: "item",
 					item: {
 						id: "silentgems:ruby_return_home_charm",
-						Count: true,
+						Count: 1b,
 						tag: {
 							posX: 9446,
 							posY: 177,
 							dim: "minecraft:overworld",
 							posZ: 55878,
-							IsReady: false
+							IsReady: 0b
 						}
 					}
 				}
@@ -3064,15 +3065,15 @@
 		{
 			x: -8.5d,
 			y: -0.5d,
-			dependencies: [I;1787],
-			id: 1793,
+			dependencies: ["00000000000006FB"],
+			id: "0000000000000701",
 			tasks: [{
-				id: 1794,
+				id: "0000000000000702",
 				type: "item",
 				item: "gobber2:gobber2_ring_swiftness"
 			}],
 			rewards: [{
-				id: 1833,
+				id: "0000000000000729",
 				type: "item",
 				item: "fluxnetworks:basic_flux_storage"
 			}]
@@ -3080,22 +3081,22 @@
 		{
 			x: -8.5d,
 			y: 1.5d,
-			dependencies: [I;1787],
-			id: 1795,
+			dependencies: ["00000000000006FB"],
+			id: "0000000000000703",
 			tasks: [{
-				id: 1796,
+				id: "0000000000000704",
 				type: "item",
 				item: "gobber2:gobber2_ring_ascent"
 			}],
 			rewards: [
 				{
-					id: 1838,
+					id: "000000000000072E",
 					type: "item",
 					item: "glassential:glass_dark_ethereal",
 					count: 8
 				},
 				{
-					id: 1839,
+					id: "000000000000072F",
 					type: "item",
 					item: "glassential:glass_dark_ethereal_reverse",
 					count: 4
@@ -3105,15 +3106,15 @@
 		{
 			x: -12.0d,
 			y: 0.5d,
-			dependencies: [I;1711],
-			id: 1797,
+			dependencies: ["00000000000006AF"],
+			id: "0000000000000705",
 			tasks: [{
-				id: 1798,
+				id: "0000000000000706",
 				type: "item",
 				item: "gobber2:gobber2_ring_nether"
 			}],
 			rewards: [{
-				id: 1818,
+				id: "000000000000071A",
 				type: "item",
 				item: "gobber2:gobber2_foo_nether"
 			}]
@@ -3121,15 +3122,15 @@
 		{
 			x: -11.0d,
 			y: -0.5d,
-			dependencies: [I;1797],
-			id: 1799,
+			dependencies: ["0000000000000705"],
+			id: "0000000000000707",
 			tasks: [{
-				id: 1800,
+				id: "0000000000000708",
 				type: "item",
 				item: "gobber2:gobber2_ring_vision"
 			}],
 			rewards: [{
-				id: 1826,
+				id: "0000000000000722",
 				type: "item",
 				item: "metalbarrels:diamond_barrel"
 			}]
@@ -3137,19 +3138,19 @@
 		{
 			x: -13.0d,
 			y: -0.5d,
-			dependencies: [I;1797],
-			id: 1801,
+			dependencies: ["0000000000000705"],
+			id: "0000000000000709",
 			tasks: [{
-				id: 1802,
+				id: "000000000000070A",
 				type: "item",
 				item: "gobber2:gobber2_ring_blaze"
 			}],
 			rewards: [{
-				id: 1827,
+				id: "0000000000000723",
 				type: "item",
 				item: {
 					id: "gobber2:gobber2_medallion_exp",
-					Count: true,
+					Count: 1b,
 					tag: {
 						Damage: 0
 					}
@@ -3159,15 +3160,15 @@
 		{
 			x: -11.0d,
 			y: 1.5d,
-			dependencies: [I;1797],
-			id: 1803,
+			dependencies: ["0000000000000705"],
+			id: "000000000000070B",
 			tasks: [{
-				id: 1804,
+				id: "000000000000070C",
 				type: "item",
 				item: "gobber2:gobber2_ring_acceleration"
 			}],
 			rewards: [{
-				id: 1829,
+				id: "0000000000000725",
 				type: "item",
 				item: "gobber2:gobber2_gooey_bread_nether",
 				count: 8
@@ -3176,15 +3177,15 @@
 		{
 			x: -13.0d,
 			y: 1.5d,
-			dependencies: [I;1797],
-			id: 1805,
+			dependencies: ["0000000000000705"],
+			id: "000000000000070D",
 			tasks: [{
-				id: 1806,
+				id: "000000000000070E",
 				type: "item",
 				item: "gobber2:gobber2_ring_curing"
 			}],
 			rewards: [{
-				id: 1828,
+				id: "0000000000000724",
 				type: "item",
 				item: "gobber2:gobber2_gooey_beefstew_nether",
 				count: 8
@@ -3193,15 +3194,15 @@
 		{
 			x: -16.5d,
 			y: 0.5d,
-			dependencies: [I;1713],
-			id: 1807,
+			dependencies: ["00000000000006B1"],
+			id: "000000000000070F",
 			tasks: [{
-				id: 1808,
+				id: "0000000000000710",
 				type: "item",
 				item: "gobber2:gobber2_ring_end"
 			}],
 			rewards: [{
-				id: 1819,
+				id: "000000000000071B",
 				type: "item",
 				item: "gobber2:gobber2_foo_end"
 			}]
@@ -3209,15 +3210,15 @@
 		{
 			x: -15.5d,
 			y: -0.5d,
-			dependencies: [I;1807],
-			id: 1809,
+			dependencies: ["000000000000070F"],
+			id: "0000000000000711",
 			tasks: [{
-				id: 1810,
+				id: "0000000000000712",
 				type: "item",
 				item: "gobber2:gobber2_ring_dismissal"
 			}],
 			rewards: [{
-				id: 1844,
+				id: "0000000000000734",
 				type: "item",
 				item: "enderstorage:ender_tank"
 			}]
@@ -3225,15 +3226,15 @@
 		{
 			x: -15.5d,
 			y: 1.5d,
-			dependencies: [I;1807],
-			id: 1811,
+			dependencies: ["000000000000070F"],
+			id: "0000000000000713",
 			tasks: [{
-				id: 1812,
+				id: "0000000000000714",
 				type: "item",
 				item: "gobber2:gobber2_ring_stealth"
 			}],
 			rewards: [{
-				id: 1840,
+				id: "0000000000000730",
 				type: "item",
 				item: "gobber2:gobber2_medallion_conduit"
 			}]
@@ -3241,15 +3242,15 @@
 		{
 			x: -17.5d,
 			y: -0.5d,
-			dependencies: [I;1807],
-			id: 1813,
+			dependencies: ["000000000000070F"],
+			id: "0000000000000715",
 			tasks: [{
-				id: 1814,
+				id: "0000000000000716",
 				type: "item",
 				item: "gobber2:gobber2_ring_teleport"
 			}],
 			rewards: [{
-				id: 1845,
+				id: "0000000000000735",
 				type: "item",
 				item: "cyclic:collector_fluid"
 			}]
@@ -3257,19 +3258,19 @@
 		{
 			x: -17.5d,
 			y: 1.5d,
-			dependencies: [I;1807],
-			id: 1815,
+			dependencies: ["000000000000070F"],
+			id: "0000000000000717",
 			tasks: [{
-				id: 1816,
+				id: "0000000000000718",
 				type: "item",
 				item: "gobber2:gobber2_ring_blink"
 			}],
 			rewards: [{
-				id: 1846,
+				id: "0000000000000736",
 				type: "item",
 				item: {
 					id: "minecraft:enchanted_book",
-					Count: true,
+					Count: 1b,
 					tag: {
 						StoredEnchantments: [{
 							lvl: 3s,
@@ -3283,16 +3284,16 @@
 			x: 2.0d,
 			y: -0.5d,
 			description: ["Want a jump & speed boost? Make some refined iron and then make some armor from it."],
-			dependencies: [I;1275],
-			id: 1854,
+			dependencies: ["00000000000004FB"],
+			id: "000000000000073E",
 			tasks: [{
-				id: 1855,
+				id: "000000000000073F",
 				type: "item",
 				item: "silents_mechanisms:refined_iron_ingot",
 				count: 24L
 			}],
 			rewards: [{
-				id: 1856,
+				id: "0000000000000740",
 				type: "item",
 				item: "minecraft:beacon"
 			}]

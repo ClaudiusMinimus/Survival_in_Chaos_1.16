@@ -1,11 +1,12 @@
 {
-	id: 1404,
+	id: "000000000000057C",
+	group: "",
+	order_index: 9,
 	filename: "magic",
-	order_index: 10,
 	title: "Magic",
 	icon: {
 		id: "botania:pixie_ring",
-		Count: true,
+		Count: 1b,
 		tag: {
 			baubleUUIDMost: 7996151965223632990L,
 			baubleUUIDLeast: -8226548531356194201L
@@ -18,14 +19,14 @@
 			y: 0.0d,
 			shape: "diamond",
 			size: 1.5d,
-			id: 1412,
+			id: "0000000000000584",
 			tasks: [{
-				id: 1413,
+				id: "0000000000000585",
 				type: "item",
 				item: "botania:lexicon"
 			}],
 			rewards: [{
-				id: 1546,
+				id: "000000000000060A",
 				type: "item",
 				item: "botania:fertilizer",
 				count: 16
@@ -34,15 +35,15 @@
 		{
 			x: 0.0d,
 			y: -2.0d,
-			dependencies: [I;1412],
-			id: 1414,
+			dependencies: ["0000000000000584"],
+			id: "0000000000000586",
 			tasks: [{
-				id: 1415,
+				id: "0000000000000587",
 				type: "item",
 				item: "botania:apothecary_default"
 			}],
 			rewards: [{
-				id: 1536,
+				id: "0000000000000600",
 				type: "item",
 				item: "minecraft:bucket"
 			}]
@@ -50,16 +51,16 @@
 		{
 			x: 0.0d,
 			y: -3.5d,
-			dependencies: [I;1414],
-			id: 1416,
+			dependencies: ["0000000000000586"],
+			id: "0000000000000588",
 			tasks: [{
-				id: 1417,
+				id: "0000000000000589",
 				type: "item",
 				item: "botania:pure_daisy",
 				count: 2L
 			}],
 			rewards: [{
-				id: 1537,
+				id: "0000000000000601",
 				type: "item",
 				item: "botania:floating_pure_daisy",
 				count: 2
@@ -68,37 +69,37 @@
 		{
 			x: -1.0d,
 			y: -5.0d,
-			dependencies: [I;1416],
-			id: 1418,
+			dependencies: ["0000000000000588"],
+			id: "000000000000058A",
 			tasks: [{
-				id: 1419,
+				id: "000000000000058B",
 				type: "item",
 				item: "botania:livingwood",
 				count: 16L
 			}],
 			rewards: [
 				{
-					id: 1542,
+					id: "0000000000000606",
 					type: "item",
 					item: "botania:incense_plate"
 				},
 				{
-					id: 1543,
+					id: "0000000000000607",
 					type: "item",
 					item: {
 						id: "botania:incense_stick",
-						Count: true,
+						Count: 1b,
 						tag: {
 							brewKey: "botania:night_vision"
 						}
 					}
 				},
 				{
-					id: 1544,
+					id: "0000000000000608",
 					type: "item",
 					item: {
 						id: "minecraft:flint_and_steel",
-						Count: true,
+						Count: 1b,
 						tag: {
 							Damage: 0
 						}
@@ -109,16 +110,16 @@
 		{
 			x: 1.0d,
 			y: -5.0d,
-			dependencies: [I;1416],
-			id: 1420,
+			dependencies: ["0000000000000588"],
+			id: "000000000000058C",
 			tasks: [{
-				id: 1421,
+				id: "000000000000058D",
 				type: "item",
 				item: "botania:livingrock",
 				count: 16L
 			}],
 			rewards: [{
-				id: 1538,
+				id: "0000000000000602",
 				type: "item",
 				item: "apotheosis:obsidian_arrow",
 				count: 4
@@ -127,15 +128,15 @@
 		{
 			x: -2.5d,
 			y: -5.0d,
-			dependencies: [I;1418],
-			id: 1422,
+			dependencies: ["000000000000058A"],
+			id: "000000000000058E",
 			tasks: [{
-				id: 1423,
+				id: "000000000000058F",
 				type: "item",
 				item: "botania:mana_spreader"
 			}],
 			rewards: [{
-				id: 1547,
+				id: "000000000000060B",
 				type: "item",
 				item: "botania:mana_spreader"
 			}]
@@ -143,15 +144,15 @@
 		{
 			x: 1.0d,
 			y: -8.0d,
-			dependencies: [I;1426],
-			id: 1424,
+			dependencies: ["0000000000000592"],
+			id: "0000000000000590",
 			tasks: [{
-				id: 1425,
+				id: "0000000000000591",
 				type: "item",
 				item: "botania:mana_distributor"
 			}],
 			rewards: [{
-				id: 1540,
+				id: "0000000000000604",
 				type: "item",
 				item: "botania:thorn_chakram",
 				count: 6
@@ -160,22 +161,22 @@
 		{
 			x: 1.0d,
 			y: -6.5d,
-			dependencies: [I;1420],
-			id: 1426,
+			dependencies: ["000000000000058C"],
+			id: "0000000000000592",
 			tasks: [{
-				id: 1427,
+				id: "0000000000000593",
 				type: "item",
 				item: "botania:mana_pool"
 			}],
 			rewards: [
 				{
-					id: 1539,
+					id: "0000000000000603",
 					type: "item",
 					item: "botania:mana_pool",
 					count: 3
 				},
 				{
-					id: 1545,
+					id: "0000000000000609",
 					type: "item",
 					item: "botania:black_lotus",
 					count: 16
@@ -185,19 +186,19 @@
 		{
 			x: -2.0d,
 			y: -1.5d,
-			dependencies: [I;1412],
-			id: 1430,
+			dependencies: ["0000000000000584"],
+			id: "0000000000000596",
 			tasks: [{
-				id: 1431,
+				id: "0000000000000597",
 				type: "item",
 				item: "botania:flower_bag"
 			}],
 			rewards: [{
-				id: 1535,
+				id: "00000000000005FF",
 				type: "item",
 				item: {
 					id: "silentgems:chaos_meter",
-					Count: true,
+					Count: 1b,
 					tag: {}
 				}
 			}]
@@ -205,14 +206,14 @@
 		{
 			x: -1.0d,
 			y: -6.5d,
-			dependencies: [I;1418],
-			id: 1432,
+			dependencies: ["000000000000058A"],
+			id: "0000000000000598",
 			tasks: [{
-				id: 1433,
+				id: "0000000000000599",
 				type: "item",
 				item: {
 					id: "botania:twig_wand",
-					Count: true,
+					Count: 1b,
 					tag: {
 						color1: 6,
 						color2: 2,
@@ -224,7 +225,7 @@
 				}
 			}],
 			rewards: [{
-				id: 1548,
+				id: "000000000000060C",
 				type: "item",
 				item: "botania:hopperhock"
 			}]
@@ -232,16 +233,16 @@
 		{
 			x: 1.5d,
 			y: -2.0d,
-			dependencies: [I;1414],
-			id: 1436,
+			dependencies: ["0000000000000586"],
+			id: "000000000000059C",
 			tasks: [{
-				id: 1437,
+				id: "000000000000059D",
 				type: "item",
 				item: "botania:endoflame",
 				count: 4L
 			}],
 			rewards: [{
-				id: 1438,
+				id: "000000000000059E",
 				type: "item",
 				item: "botania:endoflame",
 				count: 4
@@ -250,19 +251,19 @@
 		{
 			x: -0.5d,
 			y: -8.0d,
-			dependencies: [I;1426],
-			id: 1549,
+			dependencies: ["0000000000000592"],
+			id: "000000000000060D",
 			tasks: [{
-				id: 1550,
+				id: "000000000000060E",
 				type: "item",
 				item: "botania:manasteel_ingot"
 			}],
 			rewards: [{
-				id: 1639,
+				id: "0000000000000667",
 				type: "item",
 				item: {
 					id: "silentgems:soul_urn",
-					Count: true,
+					Count: 1b,
 					tag: {
 						BlockEntityTag: {
 							Gem: "tanzanite"
@@ -274,19 +275,19 @@
 		{
 			x: -0.5d,
 			y: -9.5d,
-			dependencies: [I;1549],
-			id: 1552,
+			dependencies: ["000000000000060D"],
+			id: "0000000000000610",
 			tasks: [{
-				id: 1553,
+				id: "0000000000000611",
 				type: "item",
 				item: {
 					id: "botania:magnet_ring",
-					Count: true,
+					Count: 1b,
 					tag: {}
 				}
 			}],
 			rewards: [{
-				id: 1554,
+				id: "0000000000000612",
 				type: "item",
 				item: "botania:floating_solegnolia"
 			}]
@@ -296,13 +297,13 @@
 			y: 1.5d,
 			shape: "diamond",
 			size: 1.5d,
-			id: 1640,
+			id: "0000000000000668",
 			tasks: [{
-				id: 1641,
+				id: "0000000000000669",
 				type: "item",
 				item: {
 					id: "patchouli:guide_book",
-					Count: true,
+					Count: 1b,
 					tag: {
 						"patchouli:book": "naturesaura:book"
 					}
@@ -315,9 +316,9 @@
 			shape: "diamond",
 			description: ["YouTube video links is in the Survival in Chaos book"],
 			size: 1.5d,
-			id: 1642,
+			id: "000000000000066A",
 			tasks: [{
-				id: 1643,
+				id: "000000000000066B",
 				type: "item",
 				item: "mahoutsukai:guidebook"
 			}]
@@ -326,15 +327,15 @@
 			x: 2.5d,
 			y: -6.0d,
 			description: ["The Runic Altar is an important work station where you will make rune and other items."],
-			dependencies: [I;1426],
-			id: 1986,
+			dependencies: ["0000000000000592"],
+			id: "00000000000007C2",
 			tasks: [{
-				id: 1987,
+				id: "00000000000007C3",
 				type: "item",
 				item: "botania:runic_altar"
 			}],
 			rewards: [{
-				id: 2001,
+				id: "00000000000007D1",
 				type: "item",
 				item: "botania:rune_water"
 			}]
@@ -343,22 +344,22 @@
 			x: 2.5d,
 			y: -7.5d,
 			description: ["Place an Alchemy Catyalst under a Mana pool allows you to make some interesting items. Drop the cactus or the rotten flesh into a pool to see what you get back."],
-			dependencies: [I;1426],
-			id: 1988,
+			dependencies: ["0000000000000592"],
+			id: "00000000000007C4",
 			tasks: [{
-				id: 1989,
+				id: "00000000000007C5",
 				type: "item",
 				item: "botania:alchemy_catalyst"
 			}],
 			rewards: [
 				{
-					id: 2002,
+					id: "00000000000007D2",
 					type: "item",
 					item: "minecraft:rotten_flesh",
 					count: 8
 				},
 				{
-					id: 2003,
+					id: "00000000000007D3",
 					type: "item",
 					item: "minecraft:cactus",
 					count: 8
@@ -368,14 +369,14 @@
 		{
 			x: -2.0d,
 			y: -8.0d,
-			dependencies: [I;1549],
-			id: 1990,
+			dependencies: ["000000000000060D"],
+			id: "00000000000007C6",
 			tasks: [{
-				id: 1991,
+				id: "00000000000007C7",
 				type: "item",
 				item: {
 					id: "botania:crafting_halo",
-					Count: true,
+					Count: 1b,
 					tag: {
 						rotationBase: 712.3563f
 					}
@@ -386,19 +387,19 @@
 			x: 4.0d,
 			y: -7.0d,
 			description: ["Creates a trickle of Mana which is stored in Mana containing items in your inventory"],
-			dependencies: [I;1986],
-			id: 1992,
+			dependencies: ["00000000000007C2"],
+			id: "00000000000007C8",
 			tasks: [{
-				id: 1993,
+				id: "00000000000007C9",
 				type: "item",
 				item: "botania:aura_ring"
 			}],
 			rewards: [{
-				id: 1994,
+				id: "00000000000007CA",
 				type: "item",
 				item: {
 					id: "botania:mana_tablet",
-					Count: true,
+					Count: 1b,
 					tag: {}
 				}
 			}]
@@ -406,15 +407,15 @@
 		{
 			x: 4.0d,
 			y: -5.5d,
-			dependencies: [I;1986],
-			id: 1995,
+			dependencies: ["00000000000007C2"],
+			id: "00000000000007CB",
 			tasks: [{
-				id: 1996,
+				id: "00000000000007CC",
 				type: "item",
 				item: "botania:terra_plate"
 			}],
 			rewards: [{
-				id: 2000,
+				id: "00000000000007D0",
 				type: "item",
 				item: "minecraft:lapis_block",
 				count: 4
@@ -424,16 +425,16 @@
 			x: 5.5d,
 			y: -6.5d,
 			description: ["An ingot for making more advanced items."],
-			dependencies: [I;1995],
-			id: 1997,
+			dependencies: ["00000000000007CB"],
+			id: "00000000000007CD",
 			tasks: [{
-				id: 1998,
+				id: "00000000000007CE",
 				type: "item",
 				item: "botania:terrasteel_ingot",
 				count: 4L
 			}],
 			rewards: [{
-				id: 1999,
+				id: "00000000000007CF",
 				type: "item",
 				item: "botania:terrasteel_block"
 			}]

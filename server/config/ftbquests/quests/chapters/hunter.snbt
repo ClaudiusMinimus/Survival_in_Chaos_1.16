@@ -1,11 +1,12 @@
 {
-	id: 60,
+	id: "000000000000003C",
+	group: "",
+	order_index: 2,
 	filename: "hunter",
-	order_index: 3,
 	title: "Hunter",
 	icon: {
 		id: "minecraft:crossbow",
-		Count: true,
+		Count: 1b,
 		tag: {
 			Damage: 0
 		}
@@ -15,9 +16,9 @@
 		{
 			x: 0.0d,
 			y: -3.0d,
-			id: 61,
+			id: "000000000000003D",
 			tasks: [{
-				id: 62,
+				id: "000000000000003E",
 				type: "kill",
 				title: "Novice Skeleton Hunter",
 				icon: "minecraft:skeleton_skull",
@@ -26,17 +27,17 @@
 			}],
 			rewards: [
 				{
-					id: 69,
+					id: "0000000000000045",
 					type: "item",
 					item: "minecraft:chicken_spawn_egg",
 					count: 4
 				},
 				{
-					id: 1384,
+					id: "0000000000000568",
 					type: "item",
 					item: {
 						id: "silentgems:enchantment_token",
-						Count: true,
+						Count: 1b,
 						tag: {
 							TokenEnchantments: [{
 								lvl: 1,
@@ -51,10 +52,10 @@
 			icon: "minecraft:skeleton_skull",
 			x: 1.5d,
 			y: -3.0d,
-			dependencies: [I;61],
-			id: 63,
+			dependencies: ["000000000000003D"],
+			id: "000000000000003F",
 			tasks: [{
-				id: 64,
+				id: "0000000000000040",
 				type: "kill",
 				title: "Apprentice Skeleton Hunter",
 				icon: "minecraft:skeleton_skull",
@@ -63,11 +64,11 @@
 			}],
 			rewards: [
 				{
-					id: 70,
+					id: "0000000000000046",
 					type: "item",
 					item: {
 						id: "silentgems:enchantment_token",
-						Count: true,
+						Count: 1b,
 						tag: {
 							TokenEnchantments: [{
 								lvl: 1,
@@ -78,11 +79,11 @@
 					count: 2
 				},
 				{
-					id: 1383,
+					id: "0000000000000567",
 					type: "item",
 					item: {
 						id: "silentgems:enchantment_token",
-						Count: true,
+						Count: 1b,
 						tag: {
 							TokenEnchantments: [{
 								lvl: 1,
@@ -96,10 +97,10 @@
 		{
 			x: 3.0d,
 			y: -3.0d,
-			dependencies: [I;63],
-			id: 65,
+			dependencies: ["000000000000003F"],
+			id: "0000000000000041",
 			tasks: [{
-				id: 66,
+				id: "0000000000000042",
 				type: "kill",
 				title: "Journeyman Skeleton Hunter",
 				icon: "minecraft:skeleton_skull",
@@ -107,7 +108,7 @@
 				value: 1000L
 			}],
 			rewards: [{
-				id: 71,
+				id: "0000000000000047",
 				type: "item",
 				item: "minecraft:diamond_block",
 				count: 10
@@ -116,10 +117,10 @@
 		{
 			x: 4.5d,
 			y: -3.0d,
-			dependencies: [I;65],
-			id: 67,
+			dependencies: ["0000000000000041"],
+			id: "0000000000000043",
 			tasks: [{
-				id: 68,
+				id: "0000000000000044",
 				type: "kill",
 				title: "Master Skeleton Hunter",
 				icon: "minecraft:skeleton_skull",
@@ -127,11 +128,11 @@
 				value: 10000L
 			}],
 			rewards: [{
-				id: 74,
+				id: "000000000000004A",
 				type: "item",
 				item: {
 					id: "gobber2:gobber2_helmet_nether",
-					Count: true,
+					Count: 1b,
 					tag: {
 						Damage: 0
 					}
@@ -142,9 +143,9 @@
 			title: "Novice Zombie Hunter",
 			x: 0.0d,
 			y: -1.5d,
-			id: 75,
+			id: "000000000000004B",
 			tasks: [{
-				id: 76,
+				id: "000000000000004C",
 				type: "kill",
 				icon: "minecraft:zombie_head",
 				entity: "minecraft:zombie",
@@ -152,17 +153,17 @@
 			}],
 			rewards: [
 				{
-					id: 83,
+					id: "0000000000000053",
 					type: "item",
 					item: "minecraft:pig_spawn_egg",
 					count: 4
 				},
 				{
-					id: 1385,
+					id: "0000000000000569",
 					type: "item",
 					item: {
 						id: "silentgems:enchantment_token",
-						Count: true,
+						Count: 1b,
 						tag: {
 							TokenEnchantments: [{
 								lvl: 1s,
@@ -177,21 +178,21 @@
 			title: "Apprentice Zombie Hunter",
 			x: 1.5d,
 			y: -1.5d,
-			dependencies: [I;75],
-			id: 77,
+			dependencies: ["000000000000004B"],
+			id: "000000000000004D",
 			tasks: [{
-				id: 78,
+				id: "000000000000004E",
 				type: "kill",
 				icon: "minecraft:zombie_head",
 				entity: "minecraft:zombie",
 				value: 100L
 			}],
 			rewards: [{
-				id: 84,
+				id: "0000000000000054",
 				type: "item",
 				item: {
 					id: "silentgems:enchantment_token",
-					Count: true,
+					Count: 1b,
 					tag: {
 						TokenEnchantments: [{
 							lvl: 1,
@@ -205,10 +206,10 @@
 		{
 			x: 3.0d,
 			y: -1.5d,
-			dependencies: [I;77],
-			id: 79,
+			dependencies: ["000000000000004D"],
+			id: "000000000000004F",
 			tasks: [{
-				id: 80,
+				id: "0000000000000050",
 				type: "kill",
 				title: "Journeyman Zombie Hunter",
 				icon: "minecraft:zombie_head",
@@ -216,7 +217,7 @@
 				value: 1000L
 			}],
 			rewards: [{
-				id: 85,
+				id: "0000000000000055",
 				type: "item",
 				item: "minecraft:emerald_block",
 				count: 10
@@ -225,10 +226,10 @@
 		{
 			x: 4.5d,
 			y: -1.5d,
-			dependencies: [I;79],
-			id: 81,
+			dependencies: ["000000000000004F"],
+			id: "0000000000000051",
 			tasks: [{
-				id: 82,
+				id: "0000000000000052",
 				type: "kill",
 				title: "Master Zombie Hunter",
 				icon: "minecraft:zombie_head",
@@ -236,11 +237,11 @@
 				value: 10000L
 			}],
 			rewards: [{
-				id: 86,
+				id: "0000000000000056",
 				type: "item",
 				item: {
 					id: "gobber2:gobber2_chestplate_nether",
-					Count: true,
+					Count: 1b,
 					tag: {
 						Damage: 0
 					}
@@ -250,9 +251,9 @@
 		{
 			x: 0.0d,
 			y: 0.0d,
-			id: 87,
+			id: "0000000000000057",
 			tasks: [{
-				id: 88,
+				id: "0000000000000058",
 				type: "kill",
 				title: "Novice Spider Hunter",
 				icon: "minecraft:spider_eye",
@@ -261,17 +262,17 @@
 			}],
 			rewards: [
 				{
-					id: 530,
+					id: "0000000000000212",
 					type: "item",
 					item: "minecraft:cow_spawn_egg",
 					count: 4
 				},
 				{
-					id: 1386,
+					id: "000000000000056A",
 					type: "item",
 					item: {
 						id: "silentgems:enchantment_token",
-						Count: true,
+						Count: 1b,
 						tag: {
 							TokenEnchantments: [{
 								lvl: 1,
@@ -285,10 +286,10 @@
 		{
 			x: 1.5d,
 			y: 0.0d,
-			dependencies: [I;87],
-			id: 89,
+			dependencies: ["0000000000000057"],
+			id: "0000000000000059",
 			tasks: [{
-				id: 90,
+				id: "000000000000005A",
 				type: "kill",
 				title: "Apprentice Spider Hunter",
 				icon: "minecraft:spider_eye",
@@ -297,22 +298,22 @@
 			}],
 			rewards: [
 				{
-					id: 106,
+					id: "000000000000006A",
 					type: "item",
 					item: {
 						id: "cyclic:charm_antidote",
-						Count: true,
+						Count: 1b,
 						tag: {
 							Damage: 0
 						}
 					}
 				},
 				{
-					id: 1615,
+					id: "000000000000064F",
 					type: "item",
 					item: {
 						id: "silentgems:enchantment_token",
-						Count: true,
+						Count: 1b,
 						tag: {
 							TokenEnchantments: [{
 								lvl: 1s,
@@ -326,10 +327,10 @@
 		{
 			x: 3.0d,
 			y: 0.0d,
-			dependencies: [I;89],
-			id: 91,
+			dependencies: ["0000000000000059"],
+			id: "000000000000005B",
 			tasks: [{
-				id: 92,
+				id: "000000000000005C",
 				type: "kill",
 				title: "Journeyman Spider Hunter",
 				icon: "minecraft:spider_eye",
@@ -337,7 +338,7 @@
 				value: 1000L
 			}],
 			rewards: [{
-				id: 96,
+				id: "0000000000000060",
 				type: "item",
 				item: "gobber2:gobber2_block_nether",
 				count: 5
@@ -346,10 +347,10 @@
 		{
 			x: 4.5d,
 			y: 0.0d,
-			dependencies: [I;91],
-			id: 93,
+			dependencies: ["000000000000005B"],
+			id: "000000000000005D",
 			tasks: [{
-				id: 94,
+				id: "000000000000005E",
 				type: "kill",
 				title: "Master Spider Hunter",
 				icon: "minecraft:spider_eye",
@@ -357,11 +358,11 @@
 				value: 10000L
 			}],
 			rewards: [{
-				id: 95,
+				id: "000000000000005F",
 				type: "item",
 				item: {
 					id: "gobber2:gobber2_leggings_nether",
-					Count: true,
+					Count: 1b,
 					tag: {
 						Damage: 0
 					}
@@ -371,9 +372,9 @@
 		{
 			x: 0.0d,
 			y: 1.5d,
-			id: 97,
+			id: "0000000000000061",
 			tasks: [{
-				id: 98,
+				id: "0000000000000062",
 				type: "kill",
 				title: "Novice Creeper Hunter",
 				icon: "minecraft:creeper_head",
@@ -382,17 +383,17 @@
 			}],
 			rewards: [
 				{
-					id: 531,
+					id: "0000000000000213",
 					type: "item",
 					item: "minecraft:sheep_spawn_egg",
 					count: 4
 				},
 				{
-					id: 1387,
+					id: "000000000000056B",
 					type: "item",
 					item: {
 						id: "silentgems:enchantment_token",
-						Count: true,
+						Count: 1b,
 						tag: {
 							TokenEnchantments: [{
 								lvl: 1s,
@@ -406,10 +407,10 @@
 		{
 			x: 1.5d,
 			y: 1.5d,
-			dependencies: [I;97],
-			id: 99,
+			dependencies: ["0000000000000061"],
+			id: "0000000000000063",
 			tasks: [{
-				id: 100,
+				id: "0000000000000064",
 				type: "kill",
 				title: "Apprentice Creeper Hunter",
 				icon: "minecraft:creeper_head",
@@ -417,7 +418,7 @@
 				value: 100L
 			}],
 			rewards: [{
-				id: 572,
+				id: "000000000000023C",
 				type: "item",
 				item: "gobber2:block_protector"
 			}]
@@ -425,10 +426,10 @@
 		{
 			x: 3.0d,
 			y: 1.5d,
-			dependencies: [I;99],
-			id: 101,
+			dependencies: ["0000000000000063"],
+			id: "0000000000000065",
 			tasks: [{
-				id: 102,
+				id: "0000000000000066",
 				type: "kill",
 				title: "Journeyman Creeper Hunter",
 				icon: "minecraft:creeper_head",
@@ -436,7 +437,7 @@
 				value: 1000L
 			}],
 			rewards: [{
-				id: 573,
+				id: "000000000000023D",
 				type: "item",
 				item: "mysticalagriculture:supremium_furnace"
 			}]
@@ -444,10 +445,10 @@
 		{
 			x: 4.5d,
 			y: 1.5d,
-			dependencies: [I;101],
-			id: 103,
+			dependencies: ["0000000000000065"],
+			id: "0000000000000067",
 			tasks: [{
-				id: 104,
+				id: "0000000000000068",
 				type: "kill",
 				title: "Master Creeper Hunter",
 				icon: "minecraft:creeper_head",
@@ -455,11 +456,11 @@
 				value: 10000L
 			}],
 			rewards: [{
-				id: 105,
+				id: "0000000000000069",
 				type: "item",
 				item: {
 					id: "gobber2:gobber2_boots_end",
-					Count: true,
+					Count: 1b,
 					tag: {
 						Damage: 0
 					}
@@ -469,9 +470,9 @@
 		{
 			x: -1.5d,
 			y: -3.0d,
-			id: 107,
+			id: "000000000000006B",
 			tasks: [{
-				id: 108,
+				id: "000000000000006C",
 				type: "kill",
 				title: "Novice Wither Skeleton Hunter",
 				icon: "minecraft:wither_skeleton_skull",
@@ -480,22 +481,22 @@
 			}],
 			rewards: [
 				{
-					id: 529,
+					id: "0000000000000211",
 					type: "item",
 					item: {
 						id: "cyclic:charm_wither",
-						Count: true,
+						Count: 1b,
 						tag: {
 							Damage: 0
 						}
 					}
 				},
 				{
-					id: 1389,
+					id: "000000000000056D",
 					type: "item",
 					item: {
 						id: "silentgems:enchantment_token",
-						Count: true,
+						Count: 1b,
 						tag: {
 							TokenEnchantments: [{
 								lvl: 1,
@@ -509,10 +510,10 @@
 		{
 			x: -3.0d,
 			y: -3.0d,
-			dependencies: [I;107],
-			id: 109,
+			dependencies: ["000000000000006B"],
+			id: "000000000000006D",
 			tasks: [{
-				id: 110,
+				id: "000000000000006E",
 				type: "kill",
 				title: "Apprentice Wither Skeleton Hunter",
 				icon: "minecraft:wither_skeleton_skull",
@@ -520,11 +521,11 @@
 				value: 100L
 			}],
 			rewards: [{
-				id: 544,
+				id: "0000000000000220",
 				type: "item",
 				item: {
 					id: "xreliquary:mob_charm",
-					Count: true,
+					Count: 1b,
 					tag: {
 						Damage: 0,
 						entity: "minecraft:wither_skeleton"
@@ -535,10 +536,10 @@
 		{
 			x: -4.5d,
 			y: -3.0d,
-			dependencies: [I;109],
-			id: 111,
+			dependencies: ["000000000000006D"],
+			id: "000000000000006F",
 			tasks: [{
-				id: 112,
+				id: "0000000000000070",
 				type: "kill",
 				title: "Journeyman Wither Skeleton Hunter",
 				icon: "minecraft:wither_skeleton_skull",
@@ -546,7 +547,7 @@
 				value: 1000L
 			}],
 			rewards: [{
-				id: 569,
+				id: "0000000000000239",
 				type: "item",
 				item: "minecraft:nether_star",
 				count: 5
@@ -555,10 +556,10 @@
 		{
 			x: -6.0d,
 			y: -3.0d,
-			dependencies: [I;111],
-			id: 113,
+			dependencies: ["000000000000006F"],
+			id: "0000000000000071",
 			tasks: [{
-				id: 114,
+				id: "0000000000000072",
 				type: "kill",
 				title: "Master Wither Skeleton Hunter",
 				icon: "minecraft:wither_skeleton_skull",
@@ -566,11 +567,11 @@
 				value: 10000L
 			}],
 			rewards: [{
-				id: 570,
+				id: "000000000000023A",
 				type: "item",
 				item: {
 					id: "gobber2:gobber2_helmet_end",
-					Count: true,
+					Count: 1b,
 					tag: {
 						Damage: 0
 					}
@@ -580,9 +581,9 @@
 		{
 			x: -1.5d,
 			y: 0.0d,
-			id: 117,
+			id: "0000000000000075",
 			tasks: [{
-				id: 118,
+				id: "0000000000000076",
 				type: "kill",
 				title: "Novice Witch Hunter",
 				icon: "xreliquary:witch_hat",
@@ -591,22 +592,22 @@
 			}],
 			rewards: [
 				{
-					id: 533,
+					id: "0000000000000215",
 					type: "item",
 					item: {
 						id: "cyclic:charm_torch",
-						Count: true,
+						Count: 1b,
 						tag: {
 							Damage: 0
 						}
 					}
 				},
 				{
-					id: 1388,
+					id: "000000000000056C",
 					type: "item",
 					item: {
 						id: "silentgems:enchantment_token",
-						Count: true,
+						Count: 1b,
 						tag: {
 							TokenEnchantments: [{
 								lvl: 1s,
@@ -620,26 +621,26 @@
 		{
 			x: 0.0d,
 			y: 3.0d,
-			id: 119,
+			id: "0000000000000077",
 			tasks: [{
-				id: 120,
+				id: "0000000000000078",
 				type: "kill",
 				entity: "minecraft:slime",
 				value: 10L
 			}],
 			rewards: [
 				{
-					id: 532,
+					id: "0000000000000214",
 					type: "item",
 					item: "minecraft:chicken_spawn_egg",
 					count: 4
 				},
 				{
-					id: 567,
+					id: "0000000000000237",
 					type: "item",
 					item: {
 						id: "mysticalagriculture:soulium_dagger",
-						Count: true,
+						Count: 1b,
 						tag: {
 							Damage: 0
 						}
@@ -650,9 +651,9 @@
 		{
 			x: -1.5d,
 			y: -1.5d,
-			id: 152,
+			id: "0000000000000098",
 			tasks: [{
-				id: 153,
+				id: "0000000000000099",
 				type: "kill",
 				icon: "minecraft:blaze_rod",
 				entity: "minecraft:blaze",
@@ -660,22 +661,22 @@
 			}],
 			rewards: [
 				{
-					id: 534,
+					id: "0000000000000216",
 					type: "item",
 					item: {
 						id: "cyclic:stirrups",
-						Count: true,
+						Count: 1b,
 						tag: {
 							Damage: 0
 						}
 					}
 				},
 				{
-					id: 535,
+					id: "0000000000000217",
 					type: "item",
 					item: {
 						id: "silentgems:chaos_rune",
-						Count: true,
+						Count: 1b,
 						tag: {
 							SGems_BuffRune: "silentgems:fire_resistance"
 						}
@@ -686,17 +687,17 @@
 		{
 			x: -3.0d,
 			y: -1.5d,
-			dependencies: [I;152],
-			id: 154,
+			dependencies: ["0000000000000098"],
+			id: "000000000000009A",
 			tasks: [{
-				id: 155,
+				id: "000000000000009B",
 				type: "kill",
 				icon: "minecraft:blaze_rod",
 				entity: "minecraft:blaze",
 				value: 100L
 			}],
 			rewards: [{
-				id: 545,
+				id: "0000000000000221",
 				type: "item",
 				item: "xreliquary:salamander_eye"
 			}]
@@ -704,17 +705,17 @@
 		{
 			x: -4.5d,
 			y: -1.5d,
-			dependencies: [I;154],
-			id: 156,
+			dependencies: ["000000000000009A"],
+			id: "000000000000009C",
 			tasks: [{
-				id: 157,
+				id: "000000000000009D",
 				type: "kill",
 				icon: "minecraft:blaze_rod",
 				entity: "minecraft:blaze",
 				value: 1000L
 			}],
 			rewards: [{
-				id: 571,
+				id: "000000000000023B",
 				type: "item",
 				item: "refinedstorage:64k_storage_block"
 			}]
@@ -722,21 +723,21 @@
 		{
 			x: -6.0d,
 			y: -1.5d,
-			dependencies: [I;156],
-			id: 158,
+			dependencies: ["000000000000009C"],
+			id: "000000000000009E",
 			tasks: [{
-				id: 159,
+				id: "000000000000009F",
 				type: "kill",
 				icon: "minecraft:blaze_rod",
 				entity: "minecraft:blaze",
 				value: 10000L
 			}],
 			rewards: [{
-				id: 1124,
+				id: "0000000000000464",
 				type: "item",
 				item: {
 					id: "gobber2:gobber2_chestplate_end",
-					Count: true,
+					Count: 1b,
 					tag: {
 						Damage: 0
 					}
@@ -746,9 +747,9 @@
 		{
 			x: -1.5d,
 			y: 1.5d,
-			id: 990,
+			id: "00000000000003DE",
 			tasks: [{
-				id: 991,
+				id: "00000000000003DF",
 				type: "kill",
 				title: "Novice Enderman Hunter",
 				icon: "minecraft:ender_pearl",
@@ -756,7 +757,7 @@
 				value: 10L
 			}],
 			rewards: [{
-				id: 1131,
+				id: "000000000000046B",
 				type: "item",
 				item: "simplefarming:pulled_pork_sandwich",
 				count: 16
@@ -765,10 +766,10 @@
 		{
 			x: -3.0d,
 			y: 0.0d,
-			dependencies: [I;117],
-			id: 992,
+			dependencies: ["0000000000000075"],
+			id: "00000000000003E0",
 			tasks: [{
-				id: 993,
+				id: "00000000000003E1",
 				type: "kill",
 				title: "Apprentice Witch Hunter",
 				icon: "xreliquary:witch_hat",
@@ -776,11 +777,11 @@
 				value: 100L
 			}],
 			rewards: [{
-				id: 1132,
+				id: "000000000000046C",
 				type: "item",
 				item: {
 					id: "silentgems:enchantment_token",
-					Count: true,
+					Count: 1b,
 					tag: {
 						TokenEnchantments: [{
 							lvl: 1,
@@ -793,10 +794,10 @@
 		{
 			x: -4.5d,
 			y: 0.0d,
-			dependencies: [I;992],
-			id: 994,
+			dependencies: ["00000000000003E0"],
+			id: "00000000000003E2",
 			tasks: [{
-				id: 995,
+				id: "00000000000003E3",
 				type: "kill",
 				title: "Journeyman Witch Hunter",
 				icon: "xreliquary:witch_hat",
@@ -804,7 +805,7 @@
 				value: 1000L
 			}],
 			rewards: [{
-				id: 1133,
+				id: "000000000000046D",
 				type: "item",
 				item: "silentgems:super_charging_agent",
 				count: 16
@@ -813,10 +814,10 @@
 		{
 			x: -6.0d,
 			y: 0.0d,
-			dependencies: [I;994],
-			id: 996,
+			dependencies: ["00000000000003E2"],
+			id: "00000000000003E4",
 			tasks: [{
-				id: 997,
+				id: "00000000000003E5",
 				type: "kill",
 				title: "Master Witch Hunter",
 				icon: "xreliquary:witch_hat",
@@ -824,11 +825,11 @@
 				value: 10000L
 			}],
 			rewards: [{
-				id: 1123,
+				id: "0000000000000463",
 				type: "item",
 				item: {
 					id: "gobber2:gobber2_leggings_end",
-					Count: true,
+					Count: 1b,
 					tag: {
 						Damage: 0
 					}
@@ -838,10 +839,10 @@
 		{
 			x: -3.0d,
 			y: 1.5d,
-			dependencies: [I;990],
-			id: 998,
+			dependencies: ["00000000000003DE"],
+			id: "00000000000003E6",
 			tasks: [{
-				id: 999,
+				id: "00000000000003E7",
 				type: "kill",
 				title: "Apprentice Enderman Hunter",
 				icon: "minecraft:ender_pearl",
@@ -849,11 +850,11 @@
 				value: 100L
 			}],
 			rewards: [{
-				id: 1130,
+				id: "000000000000046A",
 				type: "item",
 				item: {
 					id: "cyclic:charm_void",
-					Count: true,
+					Count: 1b,
 					tag: {
 						Damage: 0
 					}
@@ -863,13 +864,13 @@
 		{
 			x: -4.5d,
 			y: 1.5d,
-			dependencies: [I;
-				990,
-				998
+			dependencies: [
+				"00000000000003DE",
+				"00000000000003E6"
 			],
-			id: 1000,
+			id: "00000000000003E8",
 			tasks: [{
-				id: 1001,
+				id: "00000000000003E9",
 				type: "kill",
 				title: "Journeyman Enderman Hunter",
 				icon: "minecraft:ender_pearl",
@@ -877,7 +878,7 @@
 				value: 1000L
 			}],
 			rewards: [{
-				id: 1129,
+				id: "0000000000000469",
 				type: "item",
 				item: "refinedstorage:64k_storage_disk"
 			}]
@@ -885,10 +886,10 @@
 		{
 			x: -6.0d,
 			y: 1.5d,
-			dependencies: [I;1000],
-			id: 1002,
+			dependencies: ["00000000000003E8"],
+			id: "00000000000003EA",
 			tasks: [{
-				id: 1003,
+				id: "00000000000003EB",
 				type: "kill",
 				title: "Master Enderman Hunter",
 				icon: "minecraft:ender_pearl",
@@ -896,11 +897,11 @@
 				value: 10000L
 			}],
 			rewards: [{
-				id: 1122,
+				id: "0000000000000462",
 				type: "item",
 				item: {
 					id: "gobber2:gobber2_boots_end",
-					Count: true,
+					Count: 1b,
 					tag: {
 						Damage: 0
 					}
@@ -910,9 +911,9 @@
 		{
 			x: -8.0d,
 			y: -1.0d,
-			id: 1118,
+			id: "000000000000045E",
 			tasks: [{
-				id: 1119,
+				id: "000000000000045F",
 				type: "kill",
 				title: "Wither Slayer",
 				icon: "minecraft:nether_star",
@@ -920,7 +921,7 @@
 				value: 10L
 			}],
 			rewards: [{
-				id: 1126,
+				id: "0000000000000466",
 				type: "item",
 				item: "gobber2:block_looter"
 			}]
@@ -928,9 +929,9 @@
 		{
 			x: 6.5d,
 			y: -1.0d,
-			id: 1120,
+			id: "0000000000000460",
 			tasks: [{
-				id: 1121,
+				id: "0000000000000461",
 				type: "kill",
 				title: "Dragon Slayer",
 				icon: "minecraft:dragon_head",
@@ -938,7 +939,7 @@
 				value: 10L
 			}],
 			rewards: [{
-				id: 1127,
+				id: "0000000000000467",
 				type: "item",
 				item: "minecraft:diamond_block",
 				count: 10
@@ -948,15 +949,15 @@
 			icon: "minecraft:sea_lantern",
 			x: 6.5d,
 			y: -4.5d,
-			id: 1406,
+			id: "000000000000057E",
 			tasks: [{
-				id: 1407,
+				id: "000000000000057F",
 				type: "kill",
 				entity: "minecraft:elder_guardian",
 				value: 1L
 			}],
 			rewards: [{
-				id: 1411,
+				id: "0000000000000583",
 				type: "item",
 				item: "greater_eye:greater_eye_end",
 				count: 4
@@ -966,16 +967,16 @@
 			icon: "botania:life_essence",
 			x: -8.0d,
 			y: -4.5d,
-			id: 1451,
+			id: "00000000000005AB",
 			tasks: [{
-				id: 1452,
+				id: "00000000000005AC",
 				type: "kill",
 				icon: "botania:life_essence",
 				entity: "botania:doppleganger",
 				value: 1L
 			}],
 			rewards: [{
-				id: 1453,
+				id: "00000000000005AD",
 				type: "item",
 				item: "botania:terrasteel_block",
 				count: 10
