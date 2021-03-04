@@ -122,3 +122,4 @@ modlist.html
 !minecraft/config/gobber-general.toml
 !server/config/quark-common.toml
 !server/server.properties
+minecraft/openloader/.cache
