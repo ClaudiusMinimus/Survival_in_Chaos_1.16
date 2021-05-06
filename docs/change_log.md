@@ -1,5 +1,143 @@
-### Change Log
-## Version 1.19.2
+# Change Log
+
+## Version 0.23.0
+
+- Mods Added: none
+- Mods Updated:
+  - allthemodium-1.4.1-1.16.5-36.1.0
+  - alltheores-1.3.2-1.16.5-36.1.0
+  - AmbientSounds_v3.1.6_mc1.16.5
+  - Apotheosis-1.16.4-4.5.2
+  - appliedenergistics2-8.3.0-beta.2
+  - architectury-1.12.148-forge
+  - AutoRegLib-1.6-47
+  - biggerreactors-1.16.5-0.5.0-beta.1
+  - bluepower-1.16.4-0.5.241-alpha-universal
+  - Bookshelf-1.16.5-10.0.7
+  - Botania-1.16.5-415
+  - BotanyPots-1.16.5-7.0.17
+  - BotanyTrees-1.16.5-3.0.5
+  - branders-spawnermod-1.16.5-1.7.11
+  - buildersaddition-1.16.5-20210421a
+  - buildinggadgets-1.16.5-3.8.0
+  - cc-tweaked-1.16.4-1.95.3
+  - ceramicbucket-2.6.0-1.16.2+
+  - ChineseWorkshop-1.16.3-3.2.1
+  - chiselsandbits-0.3.4-RELEASE
+  - citadel-1.6.3
+  - cloth-config-4.11.19-forge
+  - Clumps-6.0.0.22
+  - collective-1.16.5-2.26
+  - constructionwand-1.16.5-2.2
+  - Controlling-7.0.0.15
+  - CookingForBlockheads_1.16.5-9.3.1
+  - crashutilities-3.10.0
+  - CreativeCore_v2.1.3_mc1.16.5
+  - Cucumber-1.16.4-4.1.9
+  - curios-forge-1.16.5-4.0.5.1
+  - Cyclic-1.16.5-1.2.7
+  - dankstorage-3.16
+  - DarkUtilities-1.16.5-8.0.10
+  - EasySteel-Forge-1.16.5-1.2.20
+  - elevatorid-1.16.5-1.7.13
+  - EnchantmentDescriptions-1.16.5-7.0.8
+  - engineersdecor-1.16.4-1.1.11
+  - engineerstools-1.16.4-1.1.5
+  - envirocore-1.16.5-3.0.8.0
+  - enviromats-1.16.5-2.0.8.0
+  - envirotech-1.16.5-3.0.8.0
+  - extremeSoundMuffler-3.9_Forge-1.16.5
+  - fancymenu_2.0.6-1_MC_1.16.2-1.16.5
+  - FastWorkbench-1.16.4-4.5.1
+  - FluxNetworks-1.16.5-6.1.7.12
+  - forbidden_arcanus-16.2.0-beta-3
+  - FpsReducer-mc1.16.5-1.19
+  - FriendlyFire-1.16.5-7.0.3
+  - ftb-chunks-1605.2.3-build.75
+  - ftb-gui-library-1605.2.1.41-forge
+  - ftb-quests-1605.2.1-build.39-forge
+  - ftb-teams-1604.1.0.16-forge
+  - ftb-ultimine-1605.2.0-build.26-forge
+  - glassential-forge-1.16.5-1.1.6
+  - globalxp-1.16.5-v1.8
+  - Gobber2-Forge-1.16.5-2.3.50
+  - grapple_hooks-1.2.2-33
+  - GreaterEye-Forge-1.16.5-1.1.14
+  - ImmersiveEngineering-1.16.5-4.2.4-134
+  - industrial-foregoing-1.16.5-3.2.11-55cb112
+  - item-filters-1605.2.4-build.30-forge
+  - itemcollectors-1.0.11-mc1.16.5
+  - jei-1.16.5-7.6.4.90
+  - JustEnoughResources-1.16.4-0.12.0.109
+  - Kiwi-1.16.5-3.5.1
+  - konkrete_1.1.6_MC_1.16.2-1.16.5
+  - kotlin_libraries-1.0-6
+  - kubejs-1605.3.7-build.190-forge
+  - LargeFluidTank-16.1.6
+  - Lollipop-1.16.5-3.2.9
+  - mahoutsukai-1.16.5-v1.30.3
+  - mcjtylib-1.16-5.0.19
+  - mcw-trapdoors-1.0.2-mc1.16.5
+  - Mekanism-1.16.5-10.0.21.448
+  - MekanismAdditions-1.16.5-10.0.21.448
+  - MekanismGenerators-1.16.5-10.0.21.448
+  - MekanismTools-1.16.5-10.0.21.448
+  - mining_helmet-1.16.5-2.0.1
+  - MmmMmmMmmMmm-1.16.5-1.2.0
+  - MysticalAgradditions-1.16.4-4.1.5
+  - MysticalAgriculture-1.16.4-4.1.7
+  - NaturesAura-34.2
+  - phosphophyllite-1.16.5-0.5.0-beta.1
+  - PickleTweaks-1.16.4-5.2.2
+  - Placebo-1.16.4-4.4.2
+  - platforms-1.16-1.7.11
+  - potionsmaster-0.2.0-1.16.5-36.0.52
+  - Powah-1.16.5-2.3.16
+  - Quark-r2.4-311
+  - QuarkOddities-1.16.3
+  - rad-1.16-4.1.1
+  - reap-1.16.5-1.0.1
+  - reliquary-1.16.5-1.3.5.1098
+  - repurposed_structures-1.16.5-2.6.6-forge
+  - ResourcefulTools-Forge-1.16.5-1.2.13
+  - rftoolsbase-1.16-2.0.10
+  - rftoolsbuilder-1.16-3.0.16
+  - rftoolscontrol-1.16-4.0.8
+  - rftoolsstorage-1.16-2.0.11
+  - rftoolsutility-1.16-3.0.25
+  - rhino-1.7.13-build.23
+  - rsgauges-1.16.4-1.2.9
+  - saveandloadinventories_1.16.5-1.4
+  - ScalableCatsForce-2.13.5-build-2-with-library
+  - shetiphiancore-1.16-3.8.5
+  - shulkerbox-1.16.5-1.0.3
+  - silent-gear-1.16.5-2.6.23
+  - silent-lib-1.16.3-4.9.6
+  - SilentGems-1.16.3-3.7.15
+  - SilentMechanisms-1.16.3-1.0.1+77
+  - SimpleStorageNetwork-1.16.5-1.3.5
+  - SolarFluxReborn-1.16.3-16.2.5
+  - solcarrot-1.16.3-1.9.10
+  - starterkit_1.16.5-2.4
+  - TheVeggieWay-Forge-1.16.5-2.2.16
+  - Tips-1.16.5-4.0.8
+  - titanium-1.16.5-3.2.8.2
+  - torchmaster-2.3.7
+  - u_team_core-1.16.5-3.2.1.195
+  - ultra_amplified_dimension-1.16.5-9.1.1-forge
+  - useful_backpacks-1.16.5-1.12.0.89
+  - valhelsia_core-16.0.6
+  - valkyrielib-1.16.5-3.0.8.0
+  - worldedit-mod-7.2.5-dist
+  - Xaeros_Minimap_21.8.0_Forge_1.16.5
+  - XaerosWorldMap_1.13.4_Forge_1.16.5
+- Mods Removed:
+  - Falling Tree (reduntant with FTB Ultiminer)
+- Other Changes:
+  - Updated forge to 36.1.16
+
+## Version 0.22.2
+
 - Mods Added: none
 - Mods Updated:
   - AmbientSounds_v3.1.5_mc1.16.5
@@ -100,7 +238,8 @@
   - Updated quests
 
 ## Version 1.19.2 (should have been 0.19.2)
-- Mods Added: 
+
+- Mods Added:
   - moreoverlays-1.18.13-mc1.16.5
 - Mods Updated:
   - allthemodium-1.1.27-1.16.4-35.1.13
@@ -176,14 +315,15 @@
   - Wither-Skeleton-Tweaks-1.16.4-5.3.0
   - Xaeros_Minimap_21.0.0_Forge_1.16.5
   - XaerosWorldMap_1.11.7_Forge_1.16.5
-- Mods Removed: 
+- Mods Removed:
   - Light Level Overlay
 - Other Changes:
   - Minecraft updated to 1.16.5
   - Forge 36.0.1
   - Fixed dupe bug with Blue Power alloy furnace and Silent Gear tools
 
-## Version 0.17.0 
+## Version 0.17.0
+
 - Mods Added: None
 - Mods Updated:
   - alltheores-1.1.15-1.16.4-35.1.13
@@ -237,21 +377,22 @@
   - valkyrielib-1.16.4-3.0.6.1
   - Xaeros_Minimap_20.30.1_Forge_1.16.4
   - XaerosWorldMap_1.11.6_Forge_1.16.4
-- Mods Removed: 
+- Mods Removed:
   - Ender Chests (was redundant since Ender Storage has both chests and tanks)
   - Ender Tanks
 - Other Changes:
   - Quest updates include starting new questline for Rats
   - Forge 35.1.28
 
- ## Version 0.15.1 
-- Mods Added: 
+## Version 0.15.1
+
+- Mods Added:
   - Enviromental Core 1.16.4-3.0.4.1
   - Enviromental Materials 1.16.4-2.0.4.1
   - Enviromental Tech 1.16.4-3.0.4.1
   - Valkyrielib 1.16.4-3.0.4.3
 
-- Mods Updated: 
+- Mods Updated:
   - Allthemodium 1.1.17 1.16.4-35.1.4
   - Ambient Sounds_v3.1.2_mc1.16.4
   - Applied Energistics 2-8.2.0 Alpha.2
@@ -340,12 +481,13 @@
   - Fixed Osmium ore in quest to accept forge tags
   - Added grappling hook recipe images to Survival in Chaos book. This is because the recipes for some are missing in JEI
 
- ## Version 0.13.0 
-- Mods Added: 
+## Version 0.13.0
+
+- Mods Added:
   - Builders Addition 1.16.4-20201130b
   - Code Chicken Lib 1.16.4-3.5.0.398-universal
   - Ender Storage 1.16.4-2.7.0.159-universal
-- Mods Updated: 
+- Mods Updated:
   - AutoRegLib-1.6-47
   - Bigger Reactors 1.16.3-0.2.6-beta
   - Blame 1.7.3
@@ -381,12 +523,15 @@
 - Other Changes:
   - Forge updated to 35.1.7 _fixes end server bug_
   - Added and updated quests
- ## Version 0.12.0 
-#### FYI: Forge has a server bug that is preventing the Ender Dragon from spawning.
-- Mod(s) Added: 
+
+## Version 0.12.0
+
+### FYI: Forge has a server bug that is preventing the Ender Dragon from spawning
+
+- Mod(s) Added:
   - Architectury 1.1.49-forge
   - Mob Catcher 3.1
-- Mods Updated: 
+- Mods Updated:
   - Bigger Reactors 1.16.3-0.2.5-beta
   - Blame 1.7.2
   - Clockout 1.16.4-2.0.0.1
@@ -409,7 +554,9 @@
 - Other Changes:
   - Forge updated to 35.1.0
   - Accidently added Borderless back, so if you don't want it, then disable or remove it :)
- ## Version 0.11.1 
+
+## Version 0.11.1
+
 - Mod(s) Added: None
 - Mods Updated: None
 - Mods Removed: None
@@ -418,7 +565,8 @@
   - Added rewards to the farming quests
   - Updated opening screen menu
 
- ## Version 0.11.0 
+## Version 0.11.0
+
 - Mod(s) Added:
   - Blame-1.16.4-1.5.0
   - Clay+WorldGen-1.16.4-1.2.0

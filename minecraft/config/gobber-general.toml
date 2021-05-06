@@ -257,3 +257,30 @@
 	#Enable/disable Gobber Dragon Armor health perks
 	gobberDragonArmorHealthPerks = true
 
+#Armor Hunger/Saturation Settings
+[armor_health_settings]
+	#Amount of hunger point to restore per interval
+	#Range: 0 ~ 10
+	gobberArmorHunger = 4
+	#Amount of saturation point to restore per interval
+	#Range: 0.0 ~ 10.0
+	gobberArmorSaturation = 0.02
+	#Amount of hunger point to restore per interval
+	#Range: 0 ~ 10
+	gobberNetherArmorHunger = 1
+	#Amount of saturation point to restore per interval
+	#Range: 0.0 ~ 10.0
+	gobberNetherArmorSaturation = 0.05
+	#Amount of hunger point to restore per interval
+	#Range: 0 ~ 10
+	gobberEndArmorHunger = 1
+	#Amount of saturation point to restore per interval
+	#Range: 0.0 ~ 10.0
+	gobberEndArmorSaturation = 0.1
+	#Amount of hunger point to restore per interval
+	#Range: 0 ~ 10
+	gobberDragonArmorHunger = 1
+	#Amount of saturation point to restore per interval
+	#Range: 0.0 ~ 10.0
+	gobberDragonArmorSaturation = 0.15
+

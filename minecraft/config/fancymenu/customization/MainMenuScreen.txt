@@ -46,7 +46,7 @@ customization {
 customization {
   identifier = %id=400322%
   action = setbuttondescription
-  description = The official server will soon be whitelisted.&nTo play, you will need to join our discord&n(see discord button on this page) and apply&nto be whitelisted.
+  description = If you would like to host Suvival in Chaos on your%n%own server and have it listed on the Multiplayer%n%screen, please contact us on our discord.%n%%n%The official server is no longer available.
 }
 
 customization {
@@ -218,13 +218,14 @@ customization {
 customization {
   orientation = top-left
   buttonaction = openlink
-  x = 0
-  width = 160
-  action = addbutton
-  y = 100
   backgroundhovered = config/fancymenu/images/menu/hover/discord.png
   description = Please come join our discord server&ncommunity for fun and support!
   label = 
+  x = 0
+  width = 160
+  actionid = 1f33beaa-7191-433a-8a6b-c5fd44934a5b1617119130985
+  action = addbutton
+  y = 100
   backgroundnormal = config/fancymenu/images/menu/discord.png
   value = https://discord.gg/jXrx4Tu
   height = 20
@@ -233,12 +234,13 @@ customization {
 customization {
   orientation = bottom-left
   shadow = true
-  centered = false
   x = 5
   action = addtext
+  actionid = 5808703d-4f8f-4db4-a175-e7d5d70437dc1617118859292
   y = -13
   scale = 1.0
-  value = Survival in Chaos v.1.16.5-0.22.0
+  alignment = left
+  value = Survival in Chaos v.1.16.5-0.23.0
 }
 
 customization {
@@ -250,6 +252,7 @@ customization {
   hoverlabel = 
   x = 0
   width = 213
+  actionid = 2b91356b-16df-47b6-924b-985f07eb96251617119130992
   action = addbutton
   y = 160
   backgroundnormal = config/fancymenu/images/menu/server.png
